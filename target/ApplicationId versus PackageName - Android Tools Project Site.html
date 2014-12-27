@@ -1,0 +1,256 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><!-- saved from url=(0080)http://tools.android.com/tech-docs/new-build-system/applicationid-vs-packagename -->
+
+<html xmlns="http://www.w3.org/1999/xhtml" itemscope="" itemtype="http://schema.org/WebPage"><head><meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<script async="" src="./../source-others/analytics.js"></script>
+<link rel="shortcut icon" type="image/x-icon" href="http://www.google.com/images/icons/product/sites-16.ico">
+<link rel="apple-touch-icon" href="http://www.gstatic.com/sites/p/fa469b/system/app/images/apple-touch-icon.png" type="image/png">
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var d=window,e="length",h="",k="__duration__",l="function";function m(c){return document.getElementById(c)}d.byId=m;function n(c){return c.replace(/^\s+|\s+$/g,h)}d.trim=n;var p=[],q=0;d.JOT_addListener=function(c,a,b){var f=new String(q++);c={eventName:c,handler:a,compId:b,key:f};p.push(c);return f};d.JOT_removeListenerByKey=function(c){for(var a=0;a<p[e];a++)if(p[a].key==c){p.splice(a,1);break}};d.JOT_removeAllListenersForName=function(c){for(var a=0;a<p[e];a++)p[a].eventName==c&&p.splice(a,1)};
+d.JOT_postEvent=function(c,a,b){var f={eventName:c,eventSrc:a||{},payload:b||{}};if(d.JOT_fullyLoaded)for(a=p[e],b=0;b<a&&b<p[e];b++){var g=p[b];g&&g.eventName==c&&(f.listenerCompId=g.compId||h,(g=typeof g.handler==l?g.handler:d[g.handler])&&g(f))}else d.JOT_delayedEvents.push({eventName:c,eventSrc:a,payload:b})};d.JOT_delayedEvents=[];d.JOT_fullyLoaded=!1;
+d.JOT_formatRelativeToNow=function(c,a){var b=((new Date).getTime()-c)/6E4;if(1440<=b||0>b)return null;var f=0;60<=b&&(b/=60,f=2);2<=b&&f++;return a?d.JOT_siteRelTimeStrs[f].replace(k,Math.floor(b)):d.JOT_userRelTimeStrs[f].replace(k,Math.floor(b))}; })()
+</script>
+<script>
+
+
+var webspace = {"scottyUrl":"/_/upload","isConsumer":false,"canPublishScriptToAnyone":true,"serverFlags":{"cajaBaseUrl":"//www.gstatic.com/caja","cajaDebugMode":false},"sharingUrlPrefix":"/_/sharing","csiReportUri":"http://csi.gstatic.com/csi","sharingPolicy":"OPENED","siteNoticeUrlEnabled":null,"siteNoticeUrlAddress":null,"analyticsAccountId":"UA-19996407-1","baseUri":"","enableUniversalAnalytics":false,"name":"tools","features":{"copySiteProgressUpdates":true,"asyncPermanentDelete":true,"colorsAndFontsFix":true,"docosHideNotificationSettings":true,"driveImageLinkFromOnepick":false,"siteNoticeUrl":true,"asyncPageKeyFix":true,"fileCabinetScreenReaderFix":false,"pdfEmbedSupport":false,"siteMapBottomPaginationButtonsFix":true,"newMyMapsEmbeds":false,"plusBadge":false,"analyticsTrackingForCorp":false,"freebirdFormEmbedDocTypeFix":true,"webspaceUrlScrubOnlyOnBlur":true,"addShortcutToTextBoxDialog":true,"htmlEmbed":true,"newCountDownDialog":true,"pageTreeKeyboardFix":true,"domainAnalyticsInGAOnly":false,"languageSelectDefaultTextSetToDefault":true},"domain":"android.com","adsensePublisherId":null,"gvizVersion":1,"siteTitle":"Android Tools Project Site","signInUrl":"https://www.google.com/a/SelectSession?continue\u003dhttp://sites.google.com/a/android.com/tools/tech-docs/new-build-system/applicationid-vs-packagename\u0026service\u003djotspot","pageSharingId":"jotspot_page","plusPageId":"","onepickBaseUrl":"https://docs.google.com","siteNoticeRevision":null,"termsUrl":"http://sites.google.com/site/sites/system/app/pages/meta/terms?apps\u003d1","enableAnalytics":true,"isPublic":true,"siteNoticeMessage":null,"plusPageUrl":"","homePath":"/","sharingId":"jotspot","isAdsenseEnabled":true,"adsensePromoClickedOrSiteIneligible":true,"isStartPageEnabled":true,"domainAnalyticsAccountId":""};
+
+
+
+webspace.gadgets = {"baseUri":"/system/app/pages/gadgets"};
+
+
+webspace.user = {"uid":"","renderMobile":false,"namespaceUser":false,"sessionIndex":"","primaryEmail":"guest","displayNameOrEmail":"guest","namespace":"","hasAdminAccess":false,"guest_":true,"keyboardShortcuts":true,"hasWriteAccess":false,"domain":"","dasherUser":false,"userName":"guest"};
+
+webspace.page = {"canDeleteWebspace":null,"locale":"zh_CN","state":"","wuid":"wuid:gx:774162ef891d4dfe","pageInheritsPermissions":null,"timeZone":"America/Los_Angeles","properties":{},"type":"text","canChangePath":true,"parentWuid":"wuid:gx:7f79556dd5cace7","revision":3,"title":"ApplicationId versus PackageName","isRtlLocale":false,"bidiEnabled":false,"siteLocale":"en","name":"applicationid-vs-packagename","path":"/tech-docs/new-build-system/applicationid-vs-packagename","isSiteRtlLocale":false,"parentPath":"/tech-docs/new-build-system"};
+webspace.page.breadcrumbs = [{"title":"Technical docs","dir":"ltr","path":"/tech-docs","deleted":false},{"title":"New Build System","dir":"ltr","path":"/tech-docs/new-build-system","deleted":false},{"title":"ApplicationId versus PackageName","dir":"ltr","path":"/tech-docs/new-build-system/applicationid-vs-packagename","deleted":false}];
+
+
+webspace.editorResources = {
+  text: [
+    'http://www.gstatic.com/sites/p/fa469b/system/js/codemirror.js',
+    'http://www.gstatic.com/sites/p/fa469b/system/app/css/codemirror_css.css',
+    'http://www.gstatic.com/sites/p/fa469b/system/js/trog_edit__zh_cn.js',
+    'http://www.gstatic.com/sites/p/fa469b/system/app/css/trogedit.css',
+    '/_/rsrc/1416929664000/system/app/css/editor.css',
+    'http://www.gstatic.com/sites/p/fa469b/system/app/css/codeeditor.css',
+    '/_/rsrc/1416929664000/system/app/css/camelot/editor-jfk.css'
+  ],
+  sitelayout: [
+    'http://www.gstatic.com/sites/p/fa469b/system/app/css/sitelayouteditor.css'
+  ]
+};
+
+var JOT_clearDotPath = 'http://www.gstatic.com/sites/p/fa469b/system/app/images/cleardot.gif';
+
+
+var JOT_userRelTimeStrs = ["1 \u5206\u949f\u524d","__duration__ \u5206\u949f\u4e4b\u524d","1 \u5c0f\u65f6\u524d","__duration__ \u5c0f\u65f6\u524d"];
+
+
+webspace.siteTemplateId = false;
+
+
+webspace.page.currentTemplate = {"title":"\u7f51\u9875","path":"/system/app/pagetemplates/text"};
+
+
+
+var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+</script>
+<script type="text/javascript">
+                window.jstiming.load.tick('scl');
+              </script>
+<meta name="title" content="ApplicationId 与 PackageName - Android 工具项目站点">
+<meta itemprop="name" content="ApplicationId 与 PackageName - Android 工具项目站点">
+<meta property="og:title" content="ApplicationId 与 PackageName - Android 工具项目站点">
+<meta name="description" content="Android tools 项目信息站点">
+<meta itemprop="description" content="Android tools 项目信息站点">
+<meta id="meta-tag-description" property="og:description" content="Android tools 项目信息站点">
+<style type="text/css">
+</style><!--[if IE]>
+          <link rel="stylesheet" type="text/css" href="/system/app/css/camelot/allthemes%2die.css" />
+        <![endif]-->
+<link rel="stylesheet" type="text/css" href="./../source-others/standard-css-iceberg-ltr-ltr.css">
+<link rel="stylesheet" type="text/css" href="./../source-others/overlay.css">
+<link rel="stylesheet" type="text/css" href="./../source-others/allthemes-view.css">
+
+<title>ApplicationId 与 PackageName - Android 工具项目站点</title>
+<meta itemprop="image" content="http://www.google.com/a/cpanel/android.com/images/logo.gif?service=google_default">
+<meta property="og:image" content="http://www.google.com/a/cpanel/android.com/images/logo.gif?service=google_default">
+<script type="text/javascript">
+                window.jstiming.load.tick('cl');
+              </script>
+<script src="./../source-others/ga.js"></script></head>
+<body xmlns="http://www.google.com/ns/jotspot" id="body" class=" en            ">
+<div id="sites-page-toolbar" class="sites-header-divider">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-status" class="sites-status" style="display:none;"><div id="sites-notice" class="sites-notice" role="status" aria-live="assertive"> </div></div>
+</div>
+<div id="sites-chrome-everything-scrollbar">
+<div id="sites-chrome-everything" class="">
+<div id="sites-chrome-page-wrapper" style="direction: ltr">
+<div id="sites-chrome-page-wrapper-inside">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-chrome-header-wrapper" style="">
+<table id="sites-chrome-header" class="sites-layout-hbox" cellspacing="0" style="">
+<tbody><tr class="sites-header-primary-row" id="sites-chrome-userheader">
+<td id="sites-header-title" class="" role="banner"><div class="sites-header-cell-buffer-wrapper"><a href="http://tools.android.com/" id="sites-chrome-userheader-logo"><img id="logo-img-id" src="./../source-others/logo.gif" alt="Android Tools 项目站点" class="sites-logo  sites-domain-logo"></a><h2><a href="http://tools.android.com/" dir="ltr" id="sites-chrome-userheader-title">Android Tools 项目站点</a></h2></div></td><td class="sites-layout-searchbox "><div class="sites-header-cell-buffer-wrapper"><form id="sites-searchbox-form" action="http://tools.android.com/system/app/pages/search" role="search"><input type="hidden" id="sites-searchbox-scope" name="scope" value="search-site"><input type="text" id="jot-ui-searchInput" name="q" size="20" value="" aria-label="Search this site"><div id="sites-searchbox-button-set" class="goog-inline-block"><div role="button" id="sites-searchbox-search-button" class="goog-inline-block jfk-button jfk-button-standard" tabindex="0" style="-webkit-user-select: none;">搜索此网站</div></div></form></div></td>
+</tr>
+<tr class="sites-header-secondary-row" id="sites-chrome-horizontal-nav">
+<td colspan="2" id="sites-chrome-header-horizontal-nav-container" role="navigation">
+<div class="sites-header-nav"><ul class="sites-header-nav-container-boxes"></ul><div style="clear: both;"></div></div>
+</td>
+</tr>
+</tbody></table> 
+</div> 
+<div id="sites-chrome-main-wrapper">
+<div id="sites-chrome-main-wrapper-inside">
+<table id="sites-chrome-main" class="sites-layout-hbox" cellspacing="0" cellpadding="{scmCellpadding}" border="0">
+<tbody><tr>
+<td id="sites-chrome-sidebar-left" class="sites-layout-sidebar-left initial" style="width:150px">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_2bd" class="sites-embed" role="navigation"><div class="sites-embed-content sites-sidebar-nav"><ul role="navigation" jotid="navList"><li class="nav-first "><div dir="ltr" style="padding-left: 5px;"><a href="http://tools.android.com/overview" jotid="wuid:gx:44ff8c8722cc5d9b" class="sites-navigation-link">项目概述</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://tools.android.com/screenshots" jotid="wuid:gx:6914b706d692f646" class="sites-navigation-link">屏幕截图</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://tools.android.com/release" jotid="wuid:gx:7ac5d78c9458ca81" class="sites-navigation-link">发布状态</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://tools.android.com/roadmap" jotid="wuid:gx:60ea3587cace173b" class="sites-navigation-link">路线图</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://tools.android.com/download" jotid="wuid:gx:5b9a06a7bd768d08" class="sites-navigation-link">下载</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://tools.android.com/preview-channel" jotid="wuid:gx:65c33e76aa1e249e" class="sites-navigation-link">预览通道</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://tools.android.com/recent" jotid="wuid:gx:2d257f949510e1ed" class="sites-navigation-link">最近更新</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://tools.android.com/tech-docs" jotid="wuid:gx:68695c8c797f5a75" class="sites-navigation-link">技术文档</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://tools.android.com/tech-docs/new-build-system" jotid="wuid:gx:7f79556dd5cace7" class="sites-navigation-link">新构建系统</a></div></li></ul></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_09830101249604128" class="sites-embed" role="navigation"><div class="sites-embed-content sites-sidebar-nav"><ul role="navigation" jotid="navList"><li class="nav-first "><div dir="ltr" style="padding-left: 5px;"><a href="http://tools.android.com/knownissues" jotid="wuid:gx:2a2ed1d61165c57f" class="sites-navigation-link">已知问题</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://tools.android.com/tips" jotid="wuid:gx:11629b864408db4c" class="sites-navigation-link">提示</a></div></li></ul></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_42875732108950615" class="sites-embed" role="navigation"><div class="sites-embed-content sites-sidebar-nav"><ul role="navigation" jotid="navList"><li class="nav-first "><div dir="ltr" style="padding-left: 5px;"><a href="http://tools.android.com/build" jotid="wuid:gx:138a85800bd6b1df" class="sites-navigation-link">构建概况</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://tools.android.com/contributing" jotid="wuid:gx:1f3267453e2dafcc" class="sites-navigation-link">贡献</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://tools.android.com/feedback" jotid="wuid:gx:5b9bc58701d69f2" class="sites-navigation-link">反馈</a></div></li></ul></div></div>
+</td>
+<td id="sites-canvas-wrapper">
+<div id="sites-canvas" role="main">
+<div id="goog-ws-editor-toolbar-container"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="">
+<a dir="ltr" href="http://tools.android.com/tech-docs">技术文档</a>&gt;<a dir="ltr" href="http://tools.android.com/tech-docs/new-build-system">新构建系统</a>&gt;
+  </div>
+<h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="" align="left">
+<span id="sites-page-title" dir="ltr">ApplicationId 与 PackageName</span>
+</h3>
+<div id="sites-canvas-main" class="sites-canvas-main">
+<div id="sites-canvas-main-content">
+<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr">所有的 Android 应用程序都有一个包名。包名是设备上的这个应用程序的唯一标识，也是在谷歌Play商店上的唯一标识。这意味着，一旦你已发布的程序使用了这个包名， <b>你就永远都无法改变它</b>；否则会导致你的应用程序被当作是一个全新的应用程序，你之前的应用程序的用户将不会看到作为更新的安装包。<div><br></div><div>在此前Android Gradle 构建系统中，您的应用程序的包名由你的manifest文件的根元素里的package属性决定：</div><div><div><br></div><div>AndroidManifest.xml:</div><div></div></div><div class="sites-codeblock sites-codesnippet-block"><div><div><code><?xml version="1.0" encoding="UTF-8"?></code></div><div><code>&lt;manifest xmlns:android="http://schemas.android.com/apk/res/android"</code></div><div><code>&nbsp; &nbsp; </code><b><code>package="com.example.my.app"</code></b></div><div><code>&nbsp; &nbsp; android:versionCode="1"</code></div><div><code>&nbsp; &nbsp; android:versionName="1.0" &gt;</code></div></div><div></div></div><div><br></div><div>然而，这里所定义的包也有第二个目的：它被用来命名你的资源类的包（以及解析任何相关的Activity的类名）。在上面的示例中，生成的 R 类将会是<code>com.example.my.app.R</code>，因此如果您其他包里面的代码需要引用这些资源，就需要导入<span style="line-height:21.3333320617676px;font-size:10pt;background-color:transparent">com.example.my.app.R</span><span style="line-height:1.6;font-size:10pt;background-color:transparent">。</span></div><div><br></div>使用新的 Android Gradle 构建系统，你可以轻松构建多个不同<b>版本</b>的应用程序；例如，您可以构建一个“free”版本和“pro”版本的应用程序 （通过使用flavors），并且这些不同版本的程序在 Google Play 商店上应该有不同的包，这样他们可以被单独安装和购买，或者是同时安装两个，等等。同样，您还可以同时创建“debug”、“alpha”和“beta”版本的应用程序 （使用build types），而这些版本的程序同样可以使用唯一的包名。<div><br></div><div>同时，您要在代码中导入的 R 类必须在这段时间内保持不变 ；在您正在构建您的应用程序的不同版本时您的.java 源文件不应该被更改。</div><div><br></div><div>因此，我们<b>解耦</b>了包名称的两种用法：</div><div><ul><li>最终的方案是，在您生成的.apk 的manifest 中，并且用于在你的设备和 Google Play 商店来标识你的应用的包，叫做“application id”。</li><li>用于在源代码中来引用您的R类的，并且是解析任何相关的Activity/Service 注册的包，继续被称为“package”。</li></ul><div>你可以在你 gradle 文件中，指定application id，如下所示：</div><div><br></div><div>app/build.gradle:</div><div><div></div></div><div class="sites-codeblock sites-codesnippet-block"><div><div><code>apply plugin: 'com.android.application'</code></div><div><br></div><div><code>android {</code></div><div><code>&nbsp; &nbsp; compileSdkVersion 19</code></div><div><code>&nbsp; &nbsp; buildToolsVersion "19.1"</code></div><div><br></div><div><code>&nbsp; &nbsp; defaultConfig {</code></div><div><code>&nbsp; &nbsp; &nbsp; &nbsp; </code><b><code>applicationId "com.example.my.app"</code></b></div><div><code>&nbsp; &nbsp; &nbsp; &nbsp; minSdkVersion 15</code></div><div><code>&nbsp; &nbsp; &nbsp; &nbsp; targetSdkVersion 19</code></div><div><code>&nbsp; &nbsp; &nbsp; &nbsp; versionCode 1</code></div><div><code>&nbsp; &nbsp; &nbsp; &nbsp; versionName "1.0"</code></div><div><code>&nbsp; &nbsp; }</code></div></div><div><code>&nbsp; &nbsp; ...</code></div><div></div></div><br><div>像以前一样，你需要在 Manifest 文件中指定用于代码的包，就如上面的Andr​​oidManifest.xml示例一样。</div><div><br></div><div><b>这里说到了最关键的部分：</b><span style="line-height:1.6;font-size:10pt;background-color:transparent">当你像上面那样做时，这两个包是互相独立的。你能够完全自由地重构您的代码——更改用于Activity和Service的内部包，更新你的Manifest里的包，和重构您的导入语句。这都不会影响到你的程序的最终id，这个最终的id总是为你的Gradle文件中指定的applicationId的值。</span></div><div><span style="line-height:1.6;font-size:10pt;background-color:transparent"><br></span></div><div><span style="line-height:1.6;font-size:10pt;background-color:transparent">你可以通过使用以下的 Gradle DSL 方法，为不同的flavors和构建类型改变您的应用程序的 applicationId：</span></div><div><span style="line-height:1.6;font-size:10pt;background-color:transparent"><br></span></div><div><span style="line-height:1.6;font-size:10pt;background-color:transparent">app/build.gradle:</span></div><div><span style="background-color:transparent"><div></div></span></div><div class="sites-codeblock sites-codesnippet-block"><div><span style="background-color:transparent"><div><code>&nbsp; &nbsp; productFlavors {</code></div><div><code>&nbsp; &nbsp; &nbsp; &nbsp; pro {</code></div><div><span style="line-height:1.6;font-size:10pt;background-color:transparent"><code>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </code><b><code>applicationId = "com.example.my.pkg.pro"</code></b></span></div><div><code>&nbsp; &nbsp; &nbsp; &nbsp; }</code></div><div><code>&nbsp; &nbsp; &nbsp; &nbsp; free {</code></div><div><span style="line-height:1.6;font-size:10pt;background-color:transparent"><code>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </code><b><code>applicationId = "</code></b></span><b><span style="line-height:21.3333320617676px;font-size:10pt;background-color:transparent"><code>com.example.my.pkg</code></span><span style="line-height:1.6;font-size:10pt;background-color:transparent"><code>.free"</code></span></b></div><div><code>&nbsp; &nbsp; &nbsp; &nbsp; }</code></div><div><code>&nbsp; &nbsp; }</code></div><div><br></div><div><div><code>&nbsp; &nbsp; buildTypes {</code></div><div><code>&nbsp; &nbsp; &nbsp; &nbsp; debug {</code></div><div><code>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </code><b><code>applicationIdSuffix ".debug"</code></b></div><div><span style="line-height:1.6;font-size:10pt;background-color:transparent"><code>&nbsp; &nbsp; &nbsp; &nbsp; }</code></span></div></div></span></div><div><span style="line-height:1.6;font-size:10pt;background-color:transparent"><code>&nbsp; &nbsp; }</code></span></div><div><span style="line-height:1.6;font-size:10pt;background-color:transparent"><code>&nbsp; &nbsp; ....</code></span></div><div></div></div><span style="line-height:1.6;font-size:10pt;background-color:transparent"><div><span style="line-height:1.6;font-size:10pt;background-color:transparent"><br></span></div>（在 Android Studio 中，您也可以在项目结构对话框中图形化地进行这些配置。）</span></div><div><span style="line-height:1.6;font-size:10pt;background-color:transparent"><br></span></div><div>注意： 出于兼容性原因，如果您<b>没有</b>在您的 build.gradle 文件中定义 applicationId，这个applicationId 将默认为 AndroidManifest.xml 中所指定的相同的值。在这种情况下，这两个显然未解耦，并且如果你试图重构您的代码也将会意外地更改您的应用程序的 id ！在 Android Studio 中，新建的项目始终会指定这两个值。</div><div><br></div><div>注 2： 包名称必须始终在默认 AndroidManifest.xml 文件中指定。如果您有多个manifest （例如一个 flavor 的特定的manifest或一个 buildType 的特定的manifest），该包名是可选的，但如果它被指定了，它必须和主manifest中指定的包完全相同。</div></div></td></tr></tbody></table>
+</div> 
+</div> 
+<div id="sites-canvas-bottom-panel">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-subpages"> </div>
+<div id="sites-attachments-container">
+</div>
+<a xmlns="http://www.w3.org/1999/xhtml" name="page-comments"></a>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-comments"><div class="sites-comment-docos-wrapper"><div class="sites-comment-docos"><div class="sites-comment-docos-background"></div><div class="sites-comment-docos-header"><div class="sites-comment-docos-header-title">评论</div></div><div id="sites-comment-docos-pane" class="sites-comment-docos-pane"></div></div></div></div>
+</div>
+</div> 
+</td> 
+</tr>
+</tbody></table> 
+</div> 
+</div> 
+<div id="sites-chrome-footer-wrapper">
+<div id="sites-chrome-footer-wrapper-inside">
+<div id="sites-chrome-footer">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-subfooter"><div class="sites-subfooter-content"><br></div></div>
+</div>
+</div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-adminfooter-container">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-adminfooter" role="navigation"><p><a class="sites-system-link" href="https://www.google.com/a/UniversalLogin?service=jotspot&amp;continue=http://sites.google.com/a/android.com/tools/tech-docs/new-build-system/applicationid-vs-packagename">登录</a><span aria-hidden="true">|</span><a class="sites-system-link" href="http://tools.android.com/system/app/pages/recentChanges">最近的网站活动</a><span aria-hidden="true">|</span><a class="sites-system-link" href="http://tools.android.com/system/app/pages/reportAbuse" target="_blank">举报滥用行为</a><span aria-hidden="true">|</span><a class="sites-system-link" href="javascript:;" onclick="window.open(webspace.printUrl)">打印页面</a><span aria-hidden="true">|</span><span class="sites-system-link">由</span> <b class="powered-by"><a href="http://sites.google.com/">Google 协作平台强力驱动</a></b></p></div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-onebar-footer">
+</div>
+
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('sjl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="./../source-others/jot_min_view__en.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('jl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+    
+        sites.core.Analytics.createTracker();
+        sites.core.Analytics.trackPageview();
+      
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+                    sites.Searchbox.initialize(
+                        'sites-searchbox-search-button',
+                        {"object":[]}['object'],
+                        'search-site',
+                        {"label":"Configure search options...","url":"/system/app/pages/admin/settings"});
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+      gsites.HoverPopupMenu.createSiteDropdownMenus('sites-header-nav-dropdown', false);
+    </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("2bd", "Project Info", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_2bd');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("09830101249604128", "Navigation", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_09830101249604128');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("42875732108950615", "Contrib info", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_42875732108950615');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+              new sites.CommentPane('//docs.google.com/comments/d/AAHRpnXsyQG0kYJNjrkqEttKAS8ZaOvN3Muc9zSIiXXKyWxktTCwEz5sr4CEbi7iL9xGLvRqwFPntUdaI0DasBVY70lD_YEaaTwDgBNHN6H87OP06j1Io2OHzvmO7TRNtzzF7OzCl2N4h/api/js?anon=true', true, true,
+                  false, false);
+            </script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+                    window.onload = function() {
+                      if (false) {
+                        JOT_setMobilePreview();
+                      }
+                      var loadTimer = window.jstiming.load;
+                      loadTimer.tick("ol");
+                      loadTimer["name"] = "load," + webspace.page.type + ",user_page";
+                      window.jstiming.report(loadTimer, {}, 'http://csi.gstatic.com/csi');
+                    }
+                  </script>
+
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        JOT_insertAnalyticsCode(false,
+            false);
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    var maestroRunner = new gsites.pages.view.SitesMaestroRunner(
+        webspace, "en");
+    maestroRunner.initListeners();
+    maestroRunner.installEditRender();
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+        JOT_insertTranslateCode('zh_CN', 'en');
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+  //<![CDATA[
+    // Decorate any fastUI buttons on the page with a class of 'goog-button'.
+    if (webspace.user.hasWriteAccess) {
+      JOT_decorateButtons();
+    }
+
+    // Fires delayed events.
+    (function() {
+      JOT_fullyLoaded = true;
+      var delayedEvents = JOT_delayedEvents;
+      for (var x = 0; x < delayedEvents.length; x++) {
+        var event = delayedEvents[x];
+        JOT_postEvent(event.eventName, event.eventSrc, event.payload);
+      }
+      JOT_delayedEvents = null;
+      JOT_postEvent('pageLoaded');
+    })();
+ //]]>
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    JOT_postEvent('decorateGvizCharts');
+  </script>
+<script type="text/javascript">
+          JOT_setupNoticeManager();
+        </script>
+<script type="text/javascript">
+          JOT_postEvent('renderPlus', null, 'sites-chrome-main');
+        </script>
+<div id="server-timer-div" style="display:none"> </div>
+<script type="text/javascript">
+          window.jstiming.load.tick('render');
+          JOT_postEvent('usercontentrendered', this);
+        </script>
+
+
+</body></html>

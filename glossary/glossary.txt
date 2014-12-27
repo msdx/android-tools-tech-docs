@@ -1,0 +1,16 @@
+Android Studio	Android Studio
+Studio	Studio
+android	android
+Android Lint	Android Lint
+Lint	Lint
+flavor	flavor
+Built-in	内置的
+in the same way	同样的
+repositories	仓库
+Build Types	Build Types
+ProGuard	ProGuard
+Library	Library
+compatible	兼容的
+Testing Android Library	Testing Android Library
+as is the case 	如
+as opposed to	而不是	as opposed to 和...相反;而不是

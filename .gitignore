@@ -1,0 +1,11 @@
+.svn
+#生成的记忆库
+android-tools-tech-docs-level1.tmx
+android-tools-tech-docs-level2.tmx
+android-tools-tech-docs-omegat.tmx
+#最后的翻译位置
+last_entry.properties
+#备份的原因
+*.bak
+#项目翻译状态
+project_stats.txt
