@@ -902,6 +902,54 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;b0&gt;&lt;f1&gt;minSdkVersion&lt;/f1&gt;&lt;/b0&gt;: 14</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T043627Z" creationid="msdx" creationdate="20141227T043627Z">
+        <seg>&lt;b0&gt;&lt;f1&gt;minSdkVersion&lt;/f1&gt;&lt;/b0&gt;: 14</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;b0&gt;&lt;f1&gt;minSdkVersion&lt;/f1&gt;&lt;/b0&gt;: 8</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T043626Z" creationid="msdx" creationdate="20141227T043626Z">
+        <seg>&lt;b0&gt;&lt;f1&gt;minSdkVersion&lt;/f1&gt;&lt;/b0&gt;: 8</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;b0&gt;&lt;f1&gt;packageName&lt;/f1&gt;&lt;/b0&gt;: com.example.flavor1</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T043625Z" creationid="msdx" creationdate="20141227T043625Z">
+        <seg>&lt;b0&gt;&lt;f1&gt;packageName&lt;/f1&gt;&lt;/b0&gt;: com.example.flavor1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;b0&gt;&lt;f1&gt;packageName&lt;/f1&gt;&lt;/b0&gt;: com.example.flavor2</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T043627Z" creationid="msdx" creationdate="20141227T043627Z">
+        <seg>&lt;b0&gt;&lt;f1&gt;packageName&lt;/f1&gt;&lt;/b0&gt;: com.example.flavor2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;b0&gt;&lt;f1&gt;versionCode&lt;/f1&gt;&lt;/b0&gt;: 10</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T043628Z" creationid="msdx" creationdate="20141227T043628Z">
+        <seg>&lt;b0&gt;&lt;f1&gt;versionCode&lt;/f1&gt;&lt;/b0&gt;: 10</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;b0&gt;&lt;f1&gt;versionCode&lt;/f1&gt;&lt;/b0&gt;: 20</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T043626Z" creationid="msdx" creationdate="20141227T043626Z">
+        <seg>&lt;b0&gt;&lt;f1&gt;versionCode&lt;/f1&gt;&lt;/b0&gt;: 20</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;b0&gt;Deprecation Warning&lt;/b0&gt;&lt;s1&gt;: the current variant API contains some methods that have moved under its outputs.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141201T134240Z" creationid="msdx" creationdate="20141201T134240Z">
@@ -1646,6 +1694,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;b1&gt;android.sourceSets.&lt;b2&gt;androidTest&lt;/b2&gt;Flavor1&lt;/b1&gt;&lt;br3&gt;&lt;/s0&gt;&lt;s4&gt;Location &lt;f5&gt;src/androidTestFlavor1/&lt;/f5&gt;&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T050350Z" creationid="msdx" creationdate="20141227T050350Z">
+        <seg>&lt;s0&gt;&lt;b1&gt;android.sourceSets.&lt;b2&gt;androidTest&lt;/b2&gt;Flavor1&lt;/b1&gt;&lt;br3&gt;&lt;/s0&gt;&lt;s4&gt;位于 &lt;f5&gt;src/androidTestFlavor1/&lt;/f5&gt;&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;b1&gt;android.sourceSets.&lt;b2&gt;androidTest&lt;/b2&gt;Flavor2&lt;/b1&gt;&lt;br3&gt;&lt;/s0&gt;&lt;s4&gt;Location &lt;f5&gt;src/androidTestFlavor2/&lt;/f5&gt;&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T050357Z" creationid="msdx" creationdate="20141227T050357Z">
+        <seg>&lt;s0&gt;&lt;b1&gt;android.sourceSets.&lt;b2&gt;androidTest&lt;/b2&gt;Flavor2&lt;/b1&gt;&lt;br3&gt;&lt;/s0&gt;&lt;s4&gt;位于 &lt;f5&gt;src/androidTestFlavor2/&lt;/f5&gt;&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;b1&gt;android.sourceSets.flavor2&lt;/b1&gt;&lt;br2&gt;&lt;/s0&gt;&lt;s3&gt;Location &lt;f4&gt;src/flavor2/&lt;/f4&gt;&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T050343Z" creationid="msdx" creationdate="20141227T050343Z">
+        <seg>&lt;s0&gt;&lt;b1&gt;android.sourceSets.flavor2&lt;/b1&gt;&lt;br2&gt;&lt;/s0&gt;&lt;s3&gt;位于 &lt;f4&gt;src/flavor2/&lt;/f4&gt;&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;&lt;b1&gt;assemble&lt;/b1&gt;&lt;br2&gt;&lt;/s0&gt;&lt;s3&gt;The task to assemble the output(s) of the project&lt;/s3&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141208T065457Z" creationid="msdx" creationdate="20141208T065457Z">
@@ -1722,6 +1794,46 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141217T145458Z" creationid="msdx" creationdate="20141217T145458Z">
         <seg>&lt;s0&gt;&lt;f1&gt; build/reports/&lt;/f1&gt;&lt;/s0&gt;&lt;s2&gt;androidTest&lt;/s2&gt;&lt;s3&gt;&lt;f4&gt;s&lt;/f4&gt;&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;f1&gt;&lt;b2&gt;android.sourceSets.flavor1&lt;/b2&gt;&lt;/f1&gt;&lt;br3&gt;&lt;/s0&gt;&lt;s4&gt;Location &lt;f5&gt;src/flavor1/&lt;/f5&gt;&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T050334Z" creationid="msdx" creationdate="20141227T050334Z">
+        <seg>&lt;s0&gt;&lt;f1&gt;&lt;b2&gt;android.sourceSets.flavor1&lt;/b2&gt;&lt;/f1&gt;&lt;br3&gt;&lt;/s0&gt;&lt;s4&gt;位于 &lt;f5&gt;src/flavor1/&lt;/f5&gt;&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;f1&gt;&lt;b2&gt;android.sourceSets.flavor1Debug&lt;/b2&gt;&lt;/f1&gt;&lt;br3&gt;&lt;/s0&gt;&lt;s4&gt;Location &lt;f5&gt;src/flavor1Debug/&lt;/f5&gt;&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T053939Z" creationid="msdx" creationdate="20141227T053939Z">
+        <seg>&lt;s0&gt;&lt;f1&gt;&lt;b2&gt;android.sourceSets.flavor1Debug&lt;/b2&gt;&lt;/f1&gt;&lt;br3&gt;&lt;/s0&gt;&lt;s4&gt;位于 &lt;f5&gt;src/flavor1Debug/&lt;/f5&gt;&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;f1&gt;&lt;b2&gt;android.sourceSets.flavor1Release&lt;/b2&gt;&lt;/f1&gt;&lt;br3&gt;&lt;/s0&gt;&lt;s4&gt;Location &lt;f5&gt;src/flavor1Release/&lt;/f5&gt;&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T053950Z" creationid="msdx" creationdate="20141227T053950Z">
+        <seg>&lt;s0&gt;&lt;f1&gt;&lt;b2&gt;android.sourceSets.flavor1Release&lt;/b2&gt;&lt;/f1&gt;&lt;br3&gt;&lt;/s0&gt;&lt;s4&gt;位于 &lt;f5&gt;src/flavor1Release/&lt;/f5&gt;&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;f1&gt;&lt;b2&gt;android.sourceSets.flavor2Debug&lt;/b2&gt;&lt;/f1&gt;&lt;br3&gt;&lt;/s0&gt;&lt;s4&gt;Location &lt;f5&gt;src/flavor2Debug/&lt;/f5&gt;&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T053959Z" creationid="msdx" creationdate="20141227T053959Z">
+        <seg>&lt;s0&gt;&lt;f1&gt;&lt;b2&gt;android.sourceSets.flavor2Debug&lt;/b2&gt;&lt;/f1&gt;&lt;br3&gt;&lt;/s0&gt;&lt;s4&gt;位于 &lt;f5&gt;src/flavor2Debug/&lt;/f5&gt;&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;f1&gt;&lt;b2&gt;android.sourceSets.flavor2Release&lt;/b2&gt;&lt;/f1&gt;&lt;br3&gt;&lt;/s0&gt;&lt;s4&gt;Location &lt;f5&gt;src/flavor2Release/&lt;/f5&gt;&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T054009Z" creationid="msdx" creationdate="20141227T054009Z">
+        <seg>&lt;s0&gt;&lt;f1&gt;&lt;b2&gt;android.sourceSets.flavor2Release&lt;/b2&gt;&lt;/f1&gt;&lt;br3&gt;&lt;/s0&gt;&lt;s4&gt;位于 &lt;f5&gt;src/flavor2Release/&lt;/f5&gt;&lt;/s4&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -2166,6 +2278,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Additional sourcesets are also created for each variants:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T053928Z" creationid="msdx" creationdate="20141227T053928Z">
+        <seg>每一个variant也会创建额外的sourceSets：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Additionally, for each &lt;i0&gt;Build Type&lt;/i0&gt;, a new &lt;f1&gt;assemble&lt;BuildTypeName&gt;&lt;/f1&gt; task is created.&lt;br2&gt;&lt;br3&gt;The &lt;f4&gt;&lt;b5&gt;assembleDebug&lt;/b5&gt;&lt;/f4&gt; and &lt;f6&gt;&lt;b7&gt;assembleRelease&lt;/b7&gt;&lt;/f6&gt; tasks have already been mentioned, and this is where they come from.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141212T150738Z" creationid="msdx" creationdate="20141212T150738Z">
@@ -2194,6 +2314,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141201T143137Z" creationid="msdx" creationdate="20141201T143137Z">
         <seg>所有的 Android 应用程序都有一个包名。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All resources (Android res and assets) are used using overlay priority where the &lt;i0&gt;Build Type&lt;/i0&gt; overrides the &lt;i1&gt;Product Flavor&lt;/i1&gt;, which overrides the &lt;f2&gt;&lt;b3&gt;main&lt;/b3&gt;&lt;/f2&gt; &lt;i4&gt;sourceSet&lt;/i4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T053049Z" creationid="msdx" creationdate="20141227T051747Z">
+        <seg>所有的资源（Android res 和 assets）使用的覆盖优先级为&lt;i0&gt;Build Type&lt;/i0&gt; 覆盖 &lt;i1&gt;Product Flavor&lt;/i1&gt;，并最终覆盖 &lt;f2&gt;&lt;b3&gt;main&lt;/b3&gt;&lt;/f2&gt; &lt;i4&gt;sourceSet&lt;/i4&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All source code (&lt;f0&gt;src/*/java&lt;/f0&gt;) are used together as multiple folders generating a single output.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T051012Z" creationid="msdx" creationdate="20141227T051012Z">
+        <seg>多个文件夹里的所有源代码 （&lt;f0&gt;src / * / java&lt;/f0&gt;) 都会一起用于生成一个输出。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2448,8 +2584,8 @@
       <tuv lang="EN-US">
         <seg>As we have seen before, each &lt;i0&gt;Build Type&lt;/i0&gt; generates a new APK.&lt;br1&gt;&lt;br2&gt;&lt;i3&gt;Product Flavors&lt;/i3&gt; do the same: the output of the project becomes all possible combinations of &lt;i4&gt;Build Types&lt;/i4&gt; and, if applicable, &lt;i5&gt;Product Flavors&lt;/i5&gt;.&lt;br6&gt;&lt;br7&gt;Each (&lt;i8&gt;Build Type&lt;/i8&gt;, &lt;i9&gt;Product Flavor&lt;/i9&gt;) combination is called a &lt;i10&gt;Build Variant&lt;/i10&gt;.&lt;br11&gt;&lt;br12&gt;For instance, with the default &lt;b13&gt;&lt;f14&gt;debug&lt;/f14&gt;&lt;/b13&gt; and &lt;b15&gt;&lt;f16&gt;release&lt;/f16&gt;&lt;/b15&gt; &lt;i17&gt;Build Types&lt;/i17&gt;, the above example generates four &lt;i18&gt;Build Variants&lt;/i18&gt;:&lt;br19&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T041025Z" creationid="msdx" creationdate="20141227T041025Z">
-        <seg>As we have seen before, each &lt;i0&gt;Build Type&lt;/i0&gt; generates a new APK.&lt;br1&gt;&lt;br2&gt;&lt;i3&gt;Product Flavors&lt;/i3&gt; do the same: the output of the project becomes all possible combinations of &lt;i4&gt;Build Types&lt;/i4&gt; and, if applicable, &lt;i5&gt;Product Flavors&lt;/i5&gt;.&lt;br6&gt;&lt;br7&gt;Each (&lt;i8&gt;Build Type&lt;/i8&gt;, &lt;i9&gt;Product Flavor&lt;/i9&gt;) combination is called a &lt;i10&gt;Build Variant&lt;/i10&gt;.&lt;br11&gt;&lt;br12&gt;For instance, with the default &lt;b13&gt;&lt;f14&gt;debug&lt;/f14&gt;&lt;/b13&gt; and &lt;b15&gt;&lt;f16&gt;release&lt;/f16&gt;&lt;/b15&gt; &lt;i17&gt;Build Types&lt;/i17&gt;, the above example generates four &lt;i18&gt;Build Variants&lt;/i18&gt;:&lt;br19&gt;</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T042618Z" creationid="msdx" creationdate="20141227T041025Z">
+        <seg>正如我们之前所看到的，每一个&lt;i0&gt;Build Type&lt;/i0&gt; 都会生成一个新的 APK。&lt;br1&gt;&lt;br2&gt;&lt;i3&gt;Product Flavors&lt;/i3&gt; 也一样：项目的输出变成 &lt;i4&gt;Build Types&lt;/i4&gt; 和&lt;i5&gt;Product Flavors&lt;/i5&gt;（如果有定义）的所有可能的组合。&lt;br6&gt;&lt;br7&gt;每一个 （&lt;i8&gt;Build Type&lt;/i8&gt;，&lt;i9&gt;Product Flavor&lt;/i9&gt;）组合都称为一个 &lt;i10&gt;Build Variant&lt;/i10&gt;。&lt;br11&gt;&lt;br12&gt;例如，通过和默认的 &lt;b13&gt;&lt;f14&gt;debug&lt;/f14&gt;&lt;/b13&gt; 和 &lt;b15&gt;&lt;f16&gt;release&lt;/f16&gt;&lt;/b15&gt; &lt;i17&gt;Build Types&lt;/i17&gt;的组合，上面的例子会生成四个 &lt;i18&gt;Build Variants&lt;/i18&gt;:&lt;br19&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -2634,6 +2770,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141215T151140Z" creationid="msdx" creationdate="20141215T151045Z">
         <seg>构建一个测试应用程序已经集成到应用程序项目中了。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Building and Tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T054218Z" creationid="msdx" creationdate="20141227T054218Z">
+        <seg>Building 和 Tasks</seg>
       </tuv>
     </tu>
     <tu>
@@ -2950,10 +3094,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each &lt;i0&gt;Build Variant&lt;/i0&gt; generates its own R class (or other generated source code) from the resources.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T053152Z" creationid="msdx" creationdate="20141227T053152Z">
+        <seg>每一个&lt;i0&gt;Build Variant&lt;/i0&gt;都根据资源生成其自己的R类 （或其他生成的源代码）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each aar packaging contains a single variant.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141215T143338Z" creationid="msdx" creationdate="20141215T143319Z">
         <seg>每一个 aar 包都是包含一个单一的variant。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each flavors is configured with a closure:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T043142Z" creationid="msdx" creationdate="20141227T043142Z">
+        <seg>每个flavor都通过一个闭包进行配置：</seg>
       </tuv>
     </tu>
     <tu>
@@ -3046,10 +3206,50 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Finally, like &lt;i0&gt;Build Types&lt;/i0&gt;, &lt;i1&gt;Product Flavors&lt;/i1&gt; can have their own dependencies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T053316Z" creationid="msdx" creationdate="20141227T053316Z">
+        <seg>最后，像&lt;i0&gt;Build Types&lt;/i0&gt;一样，&lt;i1&gt;Product Flavors&lt;/i1&gt;可以有它们自己的依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Finally, the plugin creates install/uninstall tasks for all build types (&lt;f0&gt;&lt;b1&gt;debug&lt;/b1&gt;&lt;/f0&gt;, &lt;b2&gt;&lt;f3&gt;release&lt;/f3&gt;&lt;/b2&gt;, &lt;b4&gt;&lt;f5&gt;test&lt;/f5&gt;&lt;/b4&gt;), as long as they can be installed (which requires signing).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141208T073428Z" creationid="msdx" creationdate="20141208T073428Z">
         <seg>最后，该插件为所有构建类型 （&lt;f0&gt;&lt;b1&gt;debug&lt;/b1&gt;&lt;/f0&gt;、&lt;b2&gt;&lt;f3&gt;release&lt;/f3&gt;&lt;/b2&gt;、&lt;b4&gt;&lt;f5&gt;test&lt;/f5&gt;&lt;/b4&gt;）创建了omstal/uninstall 任务，只要他们可以被安装（需要签名）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Flavor1 - debug</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T042619Z" creationid="msdx" creationdate="20141227T042619Z">
+        <seg>Flavor1 - debug</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Flavor1 - release</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T042619Z" creationid="msdx" creationdate="20141227T042619Z">
+        <seg>Flavor1 - release</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Flavor2 - debug</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T042619Z" creationid="msdx" creationdate="20141227T042619Z">
+        <seg>Flavor2 - debug</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Flavor2 - release</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T042620Z" creationid="msdx" creationdate="20141227T042620Z">
+        <seg>Flavor2 - release</seg>
       </tuv>
     </tu>
     <tu>
@@ -3130,6 +3330,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141208T082121Z" creationid="msdx" creationdate="20141208T082121Z">
         <seg>例如 defaultConfig { ...} 实例调用 getVersionName() 时将自动使用 defaultConfig.getVersionName() 的 getter 方法，而不是自定义的方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For instance, if the flavors are used to generate a ads-based app and a paid app, one of the flavors could have a dependency on an Ads SDK, while the other does not.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T053741Z" creationid="msdx" creationdate="20141227T053529Z">
+        <seg>例如，如果flavor用于生成广告版的应用程序和付费版的应用程序，其中一个flavor可能要依赖广告的 SDK，而另一个不需要。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For instance, the &lt;i1&gt;Build Type&lt;/i1&gt;'s &lt;b2&gt;&lt;f3&gt;packageNameSuffix&lt;/f3&gt;&lt;/b2&gt; is appended to the &lt;i4&gt;Product Flavor&lt;/i4&gt;'s &lt;b5&gt;&lt;f6&gt;packageName&lt;/f6&gt;&lt;/b5&gt;.&lt;br7&gt;&lt;br8&gt;There are cases where a setting is settable on both the &lt;i9&gt;Build Type&lt;/i9&gt; and the &lt;i10&gt;Product Flavor&lt;/i10&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T044041Z" creationid="msdx" creationdate="20141227T044041Z">
+        <seg>例如， &lt;i1&gt;Build Type&lt;/i1&gt;的 &lt;b2&gt;&lt;f3&gt;packageNameSuffix&lt;/f3&gt;&lt;/b2&gt; 将会追加到 &lt;i4&gt;Product Flavor&lt;/i4&gt;的 &lt;b5&gt;&lt;f6&gt;packageName&lt;/f6&gt;&lt;/b5&gt;后面。&lt;br7&gt;&lt;br8&gt;也有一些情况是，一个设置可以同时在 &lt;i9&gt;Build Type&lt;/i9&gt; 和 &lt;i10&gt;Product Flavor&lt;/i10&gt;中设置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3710,6 +3926,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In the example above, the configurations end up being:&lt;br9&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T043624Z" creationid="msdx" creationdate="20141227T043624Z">
+        <seg>在上面的示例中，这个配置最终会是： &lt;br9&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In this case it runs lint in a special mode which only looks for fatal errors (which is faster) and aborts the export if any fatal errors are found.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T152211Z" creationid="msdx" creationdate="20141127T123730Z">
@@ -3722,6 +3946,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T124040Z" creationid="msdx" creationdate="20141127T124040Z">
         <seg>在这种情况下，所有适用于给定文件的文件范围检查都会运行，并且会为任何已发现的问题加上编辑器的标记。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In this case, it’s is on a case by case basis.&lt;br11&gt;&lt;br12&gt;For instance, &lt;b13&gt;&lt;f14&gt;signingConfig&lt;/f14&gt;&lt;/b13&gt; is one of these properties.&lt;br15&gt;This enables either having all release packages share the same S&lt;i16&gt;igningConfig&lt;/i16&gt;, by setting &lt;f17&gt;&lt;b18&gt;android.buildTypes.release.signingConfig&lt;/b18&gt;&lt;/f17&gt;, or have each release package use their own S&lt;i19&gt;igningConfig&lt;/i19&gt; by setting each &lt;f20&gt;&lt;b21&gt;android.productFlavors.*.signingConfig&lt;/b21&gt;&lt;/f20&gt; objects separately.&lt;br22&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T050410Z" creationid="msdx" creationdate="20141227T044106Z">
+        <seg>在这种情况下，就因情况而异了。&lt;br11&gt;&lt;br12&gt;例如， &lt;b13&gt;&lt;f14&gt;signingConfig&lt;/f14&gt;&lt;/b13&gt; 就是一个这样的属性。&lt;br15&gt;它既可以通过设置 &lt;f17&gt;&lt;b18&gt;android.buildTypes.release.signingConfig&lt;/b18&gt;&lt;/f17&gt;使所有的relase包都共享相同的&lt;i16&gt;SigningConfig&lt;/i16&gt;，也可以通过单独地设置每一个 &lt;f20&gt;&lt;b21&gt;android.productFlavors.*.signingConfig&lt;/b21&gt;&lt;/f20&gt; 对象来让每一个release包使用它们自己的&lt;i19&gt;SigningConfig&lt;/i19&gt;。&lt;br22&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In this particular case, the file &lt;f0&gt;src/flavor1/AndroidManifest.xml&lt;/f0&gt; would probably need to include the internet permission.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T053851Z" creationid="msdx" creationdate="20141227T053851Z">
+        <seg>在这种特殊的情况下，&lt;f0&gt;src/flavor1/AndroidManifest.xml&lt;/f0&gt;文件可能需要包含访问网络的权限。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4030,6 +4270,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Manifests are all merged together into a single manifest.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T051058Z" creationid="msdx" creationdate="20141227T051058Z">
+        <seg>所有manifest会被合并为一个manifest。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Manual severity edits in the options dialog are also recorded in the &lt;c5&gt;lint.xml&lt;/c5&gt; file along with suppressed errors, so others in your team will get the same severity designations you edit for the project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T152917Z" creationid="msdx" creationdate="20141127T152917Z">
@@ -4166,6 +4414,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note that the &lt;f0&gt;&lt;b1&gt;android.productFlavors.*&lt;/b1&gt;&lt;/f0&gt; objects are of type &lt;i2&gt;ProductFlavor&lt;/i2&gt; which is the same type as the &lt;f3&gt;&lt;b4&gt;android.defaultConfig&lt;/b4&gt;&lt;/f3&gt; object.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T043416Z" creationid="msdx" creationdate="20141227T043150Z">
+        <seg>请注意， &lt;f0&gt; &lt;b1&gt;android.productFlavors.*&lt;/b1&gt;&lt;/f0&gt;对象的类型是&lt;i2&gt;ProductFlavor&lt;/i2&gt; ，和&lt;f3&gt;&lt;b4&gt;android.defaultConfig&lt;/b4&gt;&lt;/f3&gt;对象的类型一样。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note that this publishing configuration name references the full variant name.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141215T135340Z" creationid="msdx" creationdate="20141215T135244Z">
@@ -4274,6 +4530,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141213T072102Z" creationid="msdx" creationdate="20141213T072102Z">
         <seg>注意： 如果您将这些文件加入版本控制，您可能不希望这些文件中有你的密码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Nothing is shared between variants.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T053228Z" creationid="msdx" creationdate="20141227T053228Z">
+        <seg>variant之间不共享任何内容。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4422,6 +4686,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Product Flavor Configuration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T043126Z" creationid="msdx" creationdate="20141227T043126Z">
+        <seg>Product Flavor 配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Product flavors</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141218T141902Z" creationid="msdx" creationdate="20141218T141902Z">
@@ -4442,6 +4714,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T024147Z" creationid="msdx" creationdate="20141125T024147Z">
         <seg>项目概述</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Projects with no flavors still have &lt;i0&gt;Build Variants&lt;/i0&gt;, but the single &lt;f1&gt;&lt;b2&gt;default&lt;/b2&gt;&lt;/f1&gt; flavor/config is used, nameless, making the list of variants similar to the list of &lt;i3&gt;Build Types&lt;/i3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T043102Z" creationid="msdx" creationdate="20141227T042621Z">
+        <seg>即使项目没有定义 flavor，也仍然会有 &lt;i0&gt;Build Variants&lt;/i0&gt;，但是是使用 &lt;f1&gt;&lt;b2&gt;默认的&lt;/b2&gt;&lt;/f1&gt; flavor或配置。它没有名字，所以使 variants和列表看起来和 &lt;i3&gt;Build Types&lt;/i3&gt;的列表一样。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4702,6 +4982,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Similar to &lt;i0&gt;Build Types&lt;/i0&gt;, &lt;i1&gt;Product Flavors&lt;/i1&gt; also contribute code and resources through their own &lt;i2&gt;sourceSets&lt;/i2&gt;.&lt;br3&gt;&lt;br4&gt;The above example creates four &lt;i5&gt;sourceSets&lt;/i5&gt;:&lt;br6&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T050513Z" creationid="msdx" creationdate="20141227T045551Z">
+        <seg>和 &lt;i0&gt;Build Types&lt;/i0&gt; 一样， &lt;i1&gt;Product Flavors&lt;/i1&gt; 也会通过它们自己的 &lt;i2&gt;sourceSets&lt;/i2&gt;提供源代码和资源。&lt;br3&gt;&lt;br4&gt;上面的例子中创建了四个 &lt;i5&gt;sourceSets&lt;/i5&gt;：&lt;br6&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Similarly to looping on variants to set the versionCode, you can loop on a variant's outputs and set its versionCodeOverride.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141201T134832Z" creationid="msdx" creationdate="20141201T134832Z">
@@ -4746,6 +5034,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141205T065238Z" creationid="msdx" creationdate="20141204T141452Z">
         <seg>某些功能可能需要更高版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sourcesets and Dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T045548Z" creationid="msdx" creationdate="20141227T045548Z">
+        <seg>Sourcesets 和 Dependencies</seg>
       </tuv>
     </tu>
     <tu>
@@ -5486,6 +5782,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>These have higher priority than the build type sourcesets, and allow customization at the variant level.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T054208Z" creationid="msdx" creationdate="20141227T054010Z">
+        <seg>这些都有比构建类型的sourcesets更高的优先级，并且允许在variant的层次上进行自定义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>These live respectively in:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141204T151301Z" creationid="msdx" creationdate="20141204T151301Z">
@@ -5554,6 +5858,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141208T065341Z" creationid="msdx" creationdate="20141208T064142Z">
         <seg>&lt;b0&gt;jar&lt;/b0&gt;任务本身会直接或间接地依赖其他任务： 例如，&lt;b1&gt;&lt;f2&gt;classes&lt;/f2&gt;&lt;/b1&gt;任务用于编译 Java 代码。&lt;br3&gt;&lt;s4&gt;&lt;b5&gt;&lt;f6&gt;testClasses&lt;/f6&gt;&lt;/b5&gt;任务用于编译测试，但它很少会被调用，因为&lt;/s4&gt;&lt;b7&gt;test&lt;/b7&gt;&lt;s8&gt;任务依赖于它 （以及&lt;/s8&gt;&lt;b9&gt;&lt;f10&gt;classes&lt;/f10&gt;&lt;/b9&gt;&lt;s11&gt;任务）。&lt;/s11&gt;&lt;br12&gt;&lt;br13&gt;一般情况下，你将可能永远只调用&lt;b14&gt;assemble&lt;/b14&gt;或&lt;b15&gt;check&lt;/b15&gt;，而无视其他任务。 &lt;br16&gt;&lt;br17&gt;&lt;a18&gt;在这里&lt;/a18&gt;，你可以看到Java 插件的所有任务和对它们的描述。&lt;br19&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This allows &lt;i0&gt;Product Flavors&lt;/i0&gt; to have different components and/or permissions, similarly to &lt;i1&gt;Build Types&lt;/i1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T052450Z" creationid="msdx" creationdate="20141227T051105Z">
+        <seg>这使得&lt;i0&gt;Product Flavors&lt;/i0&gt;类似于&lt;i1&gt;Build Types&lt;/i1&gt;，可以有不同的组件或权限。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5886,6 +6198,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This means they share the same properties.&lt;br5&gt;&lt;br6&gt;&lt;f7&gt;&lt;b8&gt;defaultConfig&lt;/b8&gt;&lt;/f7&gt; provides the base configuration for all flavors and each flavor can override any value.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T043600Z" creationid="msdx" creationdate="20141227T043421Z">
+        <seg>这意味着它们共享相同的属性。&lt;br5&gt;&lt;br6&gt;&lt;f7&gt;&lt;b8&gt;defaultConfig&lt;/b8&gt;&lt;/f7&gt;提供所有flavor的基本配置，并且每个flavor都可以重写配置里的任何值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This moves &lt;f7&gt;&lt;b8&gt;src/&lt;/b8&gt;&lt;/f7&gt;&lt;b9&gt;androidTest&lt;/b9&gt;&lt;f10&gt;&lt;b11&gt;/*&lt;/b11&gt;&lt;/f10&gt; to &lt;f12&gt;&lt;b13&gt;tests/*&lt;/b13&gt;&lt;/f12&gt;&lt;br14&gt;This is Android specific and will not work on Java &lt;i15&gt;sourceSets&lt;/i15&gt;.&lt;br16&gt;&lt;br17&gt;The ‘migrated’ sample shows this.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141207T054514Z" creationid="msdx" creationdate="20141207T054039Z">
@@ -5986,6 +6306,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T142516Z" creationid="msdx" creationdate="20141127T142516Z">
         <seg>它将打开一个 Lint 窗口，其中包含各种错误。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Those &lt;i0&gt;sourceSets&lt;/i0&gt; are used to build the APK, alongside &lt;f1&gt;&lt;b2&gt;android.sourceSets.main&lt;/b2&gt;&lt;/f1&gt; and the &lt;i3&gt;Build Type sourceSet&lt;/i3&gt;.&lt;br4&gt;&lt;br5&gt;The following rules are used when dealing with all the sourcesets used to build a single APK:&lt;br6&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T050829Z" creationid="msdx" creationdate="20141227T050829Z">
+        <seg>这些&lt;i0&gt;sourceSets&lt;/i0&gt;用于与&lt;f1&gt;&lt;b2&gt;android.sourceSets.main&lt;/b2&gt;&lt;/f1&gt;和&lt;i3&gt;Build Tupe sourset&lt;/i3&gt;一起构建 apk。 &lt;br4&gt;&lt;br5&gt;当处理所有的 sourcesets 来生成单个的 APK 时，下面的规则将会被用到：&lt;br6&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -6198,6 +6526,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Usually, the &lt;i0&gt;Build Type&lt;/i0&gt; configuration is an overlay over the other configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T043750Z" creationid="msdx" creationdate="20141227T043657Z">
+        <seg>通常情况下，&lt;i0&gt;Build Type&lt;/i0&gt;的配置将覆盖其他的配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Variant API &amp; Version Code support.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141201T134116Z" creationid="msdx" creationdate="20141201T134116Z">
@@ -6250,6 +6586,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T150415Z" creationid="msdx" creationdate="20141125T150301Z">
         <seg>我们可能要定义一些额外的方便的属性，使比如选择在ViewFlipper 显示的子view等等变得简单</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We previously saw that each &lt;i0&gt;Build Type&lt;/i0&gt; creates its own &lt;f1&gt;assemble&lt;name&gt;&lt;/f1&gt; task, but that &lt;i2&gt;Build Variants&lt;/i2&gt; are a combination of &lt;i3&gt;Build Type&lt;/i3&gt; and &lt;i4&gt;Product Flavor&lt;/i4&gt;.&lt;br5&gt;&lt;br6&gt;When &lt;i7&gt;Product Flavors&lt;/i7&gt; are used, more assemble-type tasks are created.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T054224Z" creationid="msdx" creationdate="20141227T054224Z">
+        <seg>We previously saw that each &lt;i0&gt;Build Type&lt;/i0&gt; creates its own &lt;f1&gt;assemble&lt;name&gt;&lt;/f1&gt; task, but that &lt;i2&gt;Build Variants&lt;/i2&gt; are a combination of &lt;i3&gt;Build Type&lt;/i3&gt; and &lt;i4&gt;Product Flavor&lt;/i4&gt;.&lt;br5&gt;&lt;br6&gt;When &lt;i7&gt;Product Flavors&lt;/i7&gt; are used, more assemble-type tasks are created.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7182,6 +7526,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>flavor1</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T043625Z" creationid="msdx" creationdate="20141227T043625Z">
+        <seg>flavor1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>flavor1 {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141213T073246Z" creationid="msdx" creationdate="20141213T073246Z">
@@ -7190,10 +7542,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>flavor1Compile "..."</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T053742Z" creationid="msdx" creationdate="20141227T053742Z">
+        <seg>flavor1Compile "..."</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>flavor1Compile project(path: ':lib1', configuration: 'flavor1Release')</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141215T144207Z" creationid="msdx" creationdate="20141215T144207Z">
         <seg>flavor1Compile project(path: ':lib1', configuration: 'flavor1Release')</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>flavor2</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T043626Z" creationid="msdx" creationdate="20141227T043626Z">
+        <seg>flavor2</seg>
       </tuv>
     </tu>
     <tu>
@@ -8606,10 +8974,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>minSdkVersion 14</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T043146Z" creationid="msdx" creationdate="20141227T043146Z">
+        <seg>minSdkVersion 14</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>minSdkVersion 15</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141202T140121Z" creationid="msdx" creationdate="20141202T140121Z">
         <seg>minSdkVersion 15</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>minSdkVersion 8</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T043143Z" creationid="msdx" creationdate="20141227T043143Z">
+        <seg>minSdkVersion 8</seg>
       </tuv>
     </tu>
     <tu>
@@ -8658,6 +9042,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141202T070247Z" creationid="msdx" creationdate="20141202T070247Z">
         <seg>package="com.example.my.app"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>packageName "com.example.flavor1"</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T043145Z" creationid="msdx" creationdate="20141227T043145Z">
+        <seg>packageName "com.example.flavor1"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>packageName "com.example.flavor2"</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T043146Z" creationid="msdx" creationdate="20141227T043146Z">
+        <seg>packageName "com.example.flavor2"</seg>
       </tuv>
     </tu>
     <tu>
@@ -9286,10 +9686,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>versionCode 10</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T043144Z" creationid="msdx" creationdate="20141227T043144Z">
+        <seg>versionCode 10</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>versionCode 12</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141208T080902Z" creationid="msdx" creationdate="20141208T080902Z">
         <seg>versionCode 12</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>versionCode 20</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T043145Z" creationid="msdx" creationdate="20141227T043145Z">
+        <seg>versionCode 20</seg>
       </tuv>
     </tu>
     <tu>

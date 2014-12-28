@@ -9,3 +9,5 @@ last_entry.properties
 *.bak
 #项目翻译状态
 project_stats.txt
+#已翻译的文章
+target/
