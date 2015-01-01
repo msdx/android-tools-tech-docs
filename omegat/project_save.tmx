@@ -6,6 +6,14 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="EN-US">
+        <seg>#1 allows directly building a single variant.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141228T125036Z" creationid="msdx" creationdate="20141228T124808Z">
+        <seg>#1 允许直接构建一个单一的variant</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>$ lint --check MissingPrefix /src/astrid/</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T060443Z" creationid="msdx" creationdate="20141127T060443Z">
@@ -974,6 +982,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;b0&gt;androidTest&lt;/b0&gt;Flavor1Debug</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T122143Z" creationid="msdx" creationdate="20150101T122143Z">
+        <seg>&lt;b0&gt;androidTest&lt;/b0&gt;Flavor1Debug</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;b0&gt;androidTest&lt;/b0&gt;Flavor2Debug</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T122144Z" creationid="msdx" creationdate="20150101T122144Z">
+        <seg>&lt;b0&gt;androidTest&lt;/b0&gt;Flavor2Debug</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;b0&gt;compatibleScreens:&lt;/b0&gt; indicates a list of compatible screens.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141201T133533Z" creationid="msdx" creationdate="20141201T133533Z">
@@ -1632,8 +1656,8 @@
       <tuv lang="EN-US">
         <seg>&lt;s0&gt;7 &lt;/s0&gt;Advanced Build Customization</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141203T012834Z" creationid="msdx" creationdate="20141203T012834Z">
-        <seg>&lt;s0&gt;7 &lt;/s0&gt;高级构建自定义</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T151534Z" creationid="msdx" creationdate="20141203T012834Z">
+        <seg>&lt;s0&gt;7 &lt;/s0&gt;高级构建定制</seg>
       </tuv>
     </tu>
     <tu>
@@ -1702,10 +1726,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;b1&gt;android.sourceSets.&lt;b2&gt;androidTest&lt;/b2&gt;Flavor1&lt;/b1&gt;&lt;br3&gt;&lt;/s0&gt;&lt;s4&gt;Location &lt;f5&gt;src/androidTestFlavor1/&lt;/f5&gt;&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T115439Z" creationid="msdx" creationdate="20150101T115428Z">
+        <seg>&lt;s0&gt;&lt;b1&gt;android.sourceSets.&lt;b2&gt;androidTest&lt;/b2&gt;Flavor1&lt;/b1&gt;&lt;br3&gt;&lt;/s0&gt;&lt;s4&gt;位于 &lt;f5&gt;src/androidTestFlavor1/&lt;/f5&gt;&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;&lt;b1&gt;android.sourceSets.&lt;b2&gt;androidTest&lt;/b2&gt;Flavor2&lt;/b1&gt;&lt;br3&gt;&lt;/s0&gt;&lt;s4&gt;Location &lt;f5&gt;src/androidTestFlavor2/&lt;/f5&gt;&lt;/s4&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T050357Z" creationid="msdx" creationdate="20141227T050357Z">
         <seg>&lt;s0&gt;&lt;b1&gt;android.sourceSets.&lt;b2&gt;androidTest&lt;/b2&gt;Flavor2&lt;/b1&gt;&lt;br3&gt;&lt;/s0&gt;&lt;s4&gt;位于 &lt;f5&gt;src/androidTestFlavor2/&lt;/f5&gt;&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;b1&gt;android.sourceSets.&lt;b2&gt;androidTest&lt;/b2&gt;Flavor2&lt;/b1&gt;&lt;br3&gt;&lt;/s0&gt;&lt;s4&gt;Location &lt;f5&gt;src/androidTestFlavor2/&lt;/f5&gt;&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T115442Z" creationid="msdx" creationdate="20150101T115442Z">
+        <seg>&lt;s0&gt;&lt;b1&gt;android.sourceSets.&lt;b2&gt;androidTest&lt;/b2&gt;Flavor2&lt;/b1&gt;&lt;br3&gt;&lt;/s0&gt;&lt;s4&gt;位于 &lt;f5&gt;src/androidTestFlavor2/&lt;/f5&gt;&lt;/s4&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1798,6 +1838,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;f1&gt;&lt;b2&gt;android.sourceSets.armPaidapp&lt;/b2&gt;&lt;/f1&gt;&lt;br3&gt;&lt;/s0&gt;&lt;s4&gt;Location &lt;f5&gt;src/armPaidapp/&lt;/f5&gt;&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T131951Z" creationid="msdx" creationdate="20150101T131951Z">
+        <seg>&lt;s0&gt;&lt;f1&gt;&lt;b2&gt;android.sourceSets.armPaidapp&lt;/b2&gt;&lt;/f1&gt;&lt;br3&gt;&lt;/s0&gt;&lt;s4&gt;位于 &lt;f5&gt;src/armPaidapp/&lt;/f5&gt;&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;&lt;f1&gt;&lt;b2&gt;android.sourceSets.flavor1&lt;/b2&gt;&lt;/f1&gt;&lt;br3&gt;&lt;/s0&gt;&lt;s4&gt;Location &lt;f5&gt;src/flavor1/&lt;/f5&gt;&lt;/s4&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T050334Z" creationid="msdx" creationdate="20141227T050334Z">
@@ -1834,6 +1882,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T054009Z" creationid="msdx" creationdate="20141227T054009Z">
         <seg>&lt;s0&gt;&lt;f1&gt;&lt;b2&gt;android.sourceSets.flavor2Release&lt;/b2&gt;&lt;/f1&gt;&lt;br3&gt;&lt;/s0&gt;&lt;s4&gt;位于 &lt;f5&gt;src/flavor2Release/&lt;/f5&gt;&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;f1&gt;&lt;b2&gt;android.sourceSets.x86Freeapp&lt;/b2&gt;&lt;/f1&gt;&lt;br3&gt;&lt;/s0&gt;&lt;s4&gt;Location &lt;f5&gt;src/x86Freeapp/&lt;/f5&gt;&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T131946Z" creationid="msdx" creationdate="20150101T131946Z">
+        <seg>&lt;s0&gt;&lt;f1&gt;&lt;b2&gt;android.sourceSets.x86Freeapp&lt;/b2&gt;&lt;/f1&gt;&lt;br3&gt;&lt;/s0&gt;&lt;s4&gt;位于 &lt;f5&gt;src/x86Freeapp/&lt;/f5&gt;&lt;/s4&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -2050,6 +2106,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141217T131520Z" creationid="msdx" creationdate="20141217T131520Z">
         <seg>&lt;s0&gt;androidTest&lt;/s0&gt;&lt;s1&gt;Compile 'com.google.guava:guava:11.0.2'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;androidTest&lt;/s0&gt;&lt;s1&gt;Flavor1Compile "..."&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T115507Z" creationid="msdx" creationdate="20150101T115507Z">
+        <seg>&lt;s0&gt;androidTest&lt;/s0&gt;&lt;s1&gt;Flavor1Compile "..."&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;flavorDimension&lt;/s0&gt;&lt;s1&gt; "abi"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T125422Z" creationid="msdx" creationdate="20150101T125422Z">
+        <seg>&lt;s0&gt;flavorDimension&lt;/s0&gt;&lt;s1&gt; "abi"&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -2298,6 +2370,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141201T132433Z" creationid="msdx" creationdate="20141201T132433Z">
         <seg>此外，它会被认为是一个单一的variant，并且同一个测试程序将会被用来测试每​​个多APK。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Advanced Build Customization</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T151524Z" creationid="msdx" creationdate="20150101T151524Z">
+        <seg>高级构建定制</seg>
       </tuv>
     </tu>
     <tu>
@@ -2662,6 +2742,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Basic Java projects have a finite set of tasks that all work together to create an output.&lt;br0&gt;The &lt;f1&gt;&lt;b2&gt;classes&lt;/b2&gt;&lt;/f1&gt; task is the one that compile the Java source code.&lt;br3&gt;It’s easy to access from &lt;i4&gt;build.gradle&lt;/i4&gt; by simply using &lt;b5&gt;classes&lt;/b5&gt; in a script.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T151835Z" creationid="msdx" creationdate="20150101T151835Z">
+        <seg>Basic Java projects have a finite set of tasks that all work together to create an output.&lt;br0&gt;The &lt;f1&gt;&lt;b2&gt;classes&lt;/b2&gt;&lt;/f1&gt; task is the one that compile the Java source code.&lt;br3&gt;It’s easy to access from &lt;i4&gt;build.gradle&lt;/i4&gt; by simply using &lt;b5&gt;classes&lt;/b5&gt; in a script.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Basic Project</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141204T141454Z" creationid="msdx" creationdate="20141204T141454Z">
@@ -2762,6 +2850,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141205T062326Z" creationid="msdx" creationdate="20141204T140801Z">
         <seg>构建文件基于 Groovy ，并允许通过 DSL来混合声明性元素，以及使用代码来处理 DSL 元素以提供自定义逻辑。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Build options</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T151544Z" creationid="msdx" creationdate="20150101T151544Z">
+        <seg>构建选项</seg>
       </tuv>
     </tu>
     <tu>
@@ -2934,6 +3030,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Creating different APKs split on each filter requires being able to use more than one dimension of &lt;i1&gt;Product Flavors&lt;/i1&gt;.&lt;br2&gt;&lt;br3&gt;Consider the example of a game that has a demo and a paid version and wants to use the ABI filter in the multi-apk support.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T123825Z" creationid="msdx" creationdate="20150101T123338Z">
+        <seg>创建不同 APK并能在每个过滤器中区分，需要能够使用多维的&lt;i1&gt;Product Flavors&lt;/i1&gt;。&lt;br2&gt;&lt;br3&gt;以一个游戏为例，假如需要有深圳版本，付费版本，并且想要在多版本支持中使用ABI过滤器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Creating new &lt;i0&gt;Build Types&lt;/i0&gt; is as easy as using a new element under the &lt;f1&gt;&lt;b2&gt;buildTypes&lt;/b2&gt;&lt;/f1&gt; container, either to call &lt;f3&gt;&lt;b4&gt;initWith()&lt;/b4&gt;&lt;/f3&gt; or to configure it with a closure.&lt;br5&gt;&lt;br6&gt;The possible properties and their default values are:&lt;br7&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141212T122938Z" creationid="msdx" creationdate="20141212T122835Z">
@@ -2958,6 +3062,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Customizing either path, will only change the root folder and still create sub folders per-flavor and aggregated results/reports.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T122947Z" creationid="msdx" creationdate="20150101T122729Z">
+        <seg>自定义上面的任一路径，将只更改根文件夹，并且仍然会创建每一个flavor的子文件夹和聚合后的结果及报告。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Default is false.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141201T134058Z" creationid="msdx" creationdate="20141201T134058Z">
@@ -2978,6 +3090,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141208T082353Z" creationid="msdx" creationdate="20141208T082353Z">
         <seg>DSL 对象中的默认值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Default value is “1.6”.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T151700Z" creationid="msdx" creationdate="20150101T151700Z">
+        <seg>默认值为“1.6”。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3110,6 +3230,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each defined &lt;i2&gt;Product Flavor&lt;/i2&gt; is assigned to a dimension.&lt;br3&gt;&lt;br4&gt;From the following dimensioned &lt;i5&gt;Product Flavors&lt;/i5&gt; [freeapp, paidapp] and [x86, arm, mips] and the [debug, release] &lt;i6&gt;Build Types&lt;/i6&gt;, the following build variants will be created:&lt;br7&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T130433Z" creationid="msdx" creationdate="20150101T125519Z">
+        <seg>每个定义的&lt;i2&gt;Product Flavor&lt;/i2&gt;被分配到一个维度。&lt;br3&gt;&lt;br4&gt;通过以下维度的 &lt;i5&gt;Product Flavors&lt;/i5&gt; [freeapp, paidapp] 和 [x86, arm, mips]，以及&lt;i6&gt;Build Types&lt;/i6&gt;的 [debug, release] 的组合，将创建以下的build variant： &lt;br7&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each flavors is configured with a closure:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T043142Z" creationid="msdx" creationdate="20141227T043142Z">
@@ -3206,6 +3334,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Finally the HTML report generation supports aggregation by flavor.&lt;br0&gt;The location of the test results and reports is as follows, first for the per flavor version, and then for the aggregated one:&lt;br1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T122714Z" creationid="msdx" creationdate="20150101T122357Z">
+        <seg>最后，HTML 报告支持通过 flavor 合并生成。&lt;br0&gt;测试结果和报告的位置如下，首先为每个flavor版本，然后是聚合之后的版本： &lt;br1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Finally, like &lt;i0&gt;Build Types&lt;/i0&gt;, &lt;i1&gt;Product Flavors&lt;/i1&gt; can have their own dependencies.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T053316Z" creationid="msdx" creationdate="20141227T053316Z">
@@ -3250,6 +3386,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T042620Z" creationid="msdx" creationdate="20141227T042620Z">
         <seg>Flavor2 - release</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Flavors are assigned to a specific dimension&lt;br9&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T125416Z" creationid="msdx" creationdate="20150101T125416Z">
+        <seg>把 Flavor 分配到指定的维度中&lt;br9&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3326,6 +3470,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For instance &lt;f0&gt;&lt;b1&gt;assembleFlavor1Debug&lt;/b1&gt;&lt;/f0&gt;.&lt;br2&gt;&lt;br3&gt;#2 allows building all APKs for a given Build Type.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141228T125345Z" creationid="msdx" creationdate="20141228T125006Z">
+        <seg>例如&lt;f0&gt;&lt;b1&gt;assembleFlavor1Debug&lt;/b1&gt;&lt;/f0&gt;。&lt;br2&gt;&lt;br3&gt;#2 允许构建指定的一个Build Type 的所有APK。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For instance instance defaultConfig { ...} calling getVersionName() will automatically use the getter of defaultConfig.getVersionName() instead of the custom method.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141208T082121Z" creationid="msdx" creationdate="20141208T082121Z">
@@ -3362,6 +3514,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141208T072309Z" creationid="msdx" creationdate="20141208T072309Z">
         <seg>例如： &lt;br3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For instance:&lt;br7&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T122142Z" creationid="msdx" creationdate="20150101T122142Z">
+        <seg>例如：&lt;br7&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For instance &lt;b4&gt;assembleDebug&lt;/b4&gt; will build both &lt;f5&gt;Flavor1Debug&lt;/f5&gt; and &lt;f6&gt;Flavor2Debug&lt;/f6&gt; variants.&lt;br7&gt;&lt;br8&gt;#3 allows building all APKs for a given flavor.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141228T125434Z" creationid="msdx" creationdate="20141228T125339Z">
+        <seg>例如&lt;b4&gt;assembleDebug&lt;/b4&gt;将会构建&lt;f5&gt;Flavor1Debug&lt;/f5&gt;和&lt;f6&gt;Flavor2Debug&lt;/f6&gt; 两个variant。&lt;br7&gt;&lt;br8&gt;#3 允许构建一个指定的flavor的所有APK。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For instance &lt;b9&gt;assembleFlavor1&lt;/b9&gt; will build both &lt;f10&gt;Flavor1Debug&lt;/f10&gt; and &lt;f11&gt;Flavor1Release&lt;/f11&gt; variants.&lt;br12&gt;&lt;br13&gt;The task &lt;b14&gt;assemble&lt;/b14&gt; will build all possible variants.&lt;br15&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141228T125553Z" creationid="msdx" creationdate="20141228T125427Z">
+        <seg>例如&lt;b9&gt;assembleFlavor1&lt;/b9&gt;将会构建&lt;f10&gt;Flavor1Debug&lt;/f10&gt;和&lt;f11&gt;Flavor1Release&lt;/f11&gt;的两个variant。&lt;br12&gt;&lt;br13&gt;&lt;b14&gt;assemble&lt;/b14&gt; 任务将构建所有可能组合的variant。&lt;br15&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3886,6 +4062,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In some case, one may want to create several versions of the same apps based on more than one criteria.&lt;br0&gt;For instance, multi-apk support in Google Play supports 4 different filters.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T123337Z" creationid="msdx" creationdate="20150101T123001Z">
+        <seg>在某些情况下，人们可能想要基于多个标准创建同一个应用程序的多个版本。 &lt;br0&gt;比如，在Google Play中的多 apk 支持，能支持4个不同的过滤器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In that case, the two are obviously not decoupled, and attempting to refactor your code can accidentally change the id of your application as well!</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141202T141542Z" creationid="msdx" creationdate="20141202T141439Z">
@@ -4094,6 +4278,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Java Compilation options</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T151552Z" creationid="msdx" creationdate="20150101T151552Z">
+        <seg>Java 编译选项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Java project tasks</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141208T063945Z" creationid="msdx" creationdate="20141208T063945Z">
@@ -4278,6 +4470,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Manipulating tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T151834Z" creationid="msdx" creationdate="20150101T151834Z">
+        <seg>操作任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Manual severity edits in the options dialog are also recorded in the &lt;c5&gt;lint.xml&lt;/c5&gt; file along with suppressed errors, so others in your team will get the same severity designations you edit for the project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T152917Z" creationid="msdx" creationdate="20141127T152917Z">
@@ -4330,6 +4530,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141214T121724Z" creationid="msdx" creationdate="20141214T121724Z">
         <seg>多项目设置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Multi-flavor variants</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T122957Z" creationid="msdx" creationdate="20150101T122957Z">
+        <seg>Multi-flavor variants</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Multi-flavors projects also have additional sourcesets, similar to the variant sourcesets but without the build type:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T131731Z" creationid="msdx" creationdate="20150101T131639Z">
+        <seg>Multi-flavors项目也有额外的 sourcesets，类似于 variant 的 sourcesets，但是没有构建类型：</seg>
       </tuv>
     </tu>
     <tu>
@@ -4562,6 +4778,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141128T124842Z" creationid="msdx" creationdate="20141128T124842Z">
         <seg>OnClick</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>One from the abi dimension</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T130937Z" creationid="msdx" creationdate="20150101T130839Z">
+        <seg>abi 维度中的一个对象</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>One from the version dimension</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T130947Z" creationid="msdx" creationdate="20150101T130910Z">
+        <seg>version维度中的一个对象</seg>
       </tuv>
     </tu>
     <tu>
@@ -4894,6 +5126,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Running the tests can be done through the main &lt;f0&gt;&lt;b1&gt;deviceCheck&lt;/b1&gt;&lt;/f0&gt; anchor task, or the main &lt;b2&gt;androidTest&lt;/b2&gt; tasks which acts as an anchor task when flavors are used.&lt;br3&gt;&lt;br4&gt;Each flavor has its own task to run tests: &lt;s5&gt;androidTest&lt;/s5&gt;&lt;f6&gt;&lt;VariantName&gt;&lt;/f6&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T122050Z" creationid="msdx" creationdate="20150101T115509Z">
+        <seg>这些测试可以通过main &lt;f0&gt;&lt;b1&gt;deviceCheck&lt;/b1&gt;&lt;/f0&gt;锚任务或main &lt;b2&gt;androidTest&lt;/b2&gt;任务（当使用flavors时会被作为锚任务）来完成执行。&lt;br3&gt;&lt;br4&gt;每一个flavor都有自己的任务来运行测试： &lt;s5&gt;androidTest&lt;/s5&gt;&lt;f6&gt;&lt;VariantName&gt;&lt;/f6&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>SDK with Build Tools 19.0.0.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141205T062508Z" creationid="msdx" creationdate="20141204T141446Z">
@@ -4998,6 +5238,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Similarly, test APK building tasks and install/uninstall tasks are per variant:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T122351Z" creationid="msdx" creationdate="20150101T122155Z">
+        <seg>同样，每一个variant也都有对应的测试 APK 构建任务和install/uninstall的任务：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Similarly, those can have their own dependencies:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T115507Z" creationid="msdx" creationdate="20150101T115507Z">
+        <seg>同样，它们也可以有其自己的依赖项：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Similarly, you may also build both "debug" and "alpha" and "beta" versions of your app (using build types) and these can also similarly contribute to unique package names.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141202T133447Z" creationid="msdx" creationdate="20141202T133300Z">
@@ -5018,6 +5274,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141217T145807Z" creationid="msdx" creationdate="20141217T145228Z">
         <seg>单个项目的报告 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>So in this case:&lt;/s1&gt;&lt;br2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T131543Z" creationid="msdx" creationdate="20150101T131543Z">
+        <seg>所以在这种情况下：&lt;/s1&gt;&lt;br2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -5190,6 +5454,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Testing multi-flavors project is very similar to simpler projects.&lt;br0&gt;&lt;br1&gt;The &lt;b2&gt;androidTest&lt;/b2&gt; sourceset is used for common tests across all flavors, while each flavor can also have its own tests.&lt;br3&gt;&lt;br4&gt;As mentioned above, &lt;i5&gt;sourceSets&lt;/i5&gt; to test each flavor are created:&lt;br6&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T115358Z" creationid="msdx" creationdate="20150101T115358Z">
+        <seg>测试multi-flavors项目与测试简单的项目非常相似。&lt;br0&gt;&lt;br1&gt;&lt;b2&gt;androidTest&lt;/b2&gt; sourceset 是所有flavors的共用的测试，而每一个flavor 也都可以有自己的测试。&lt;br3&gt;&lt;br4&gt;正如上所述， 用于测试每一个flavor的&lt;i5&gt;sourceSets&lt;/i5&gt;会被创建：&lt;br6&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>That allows you to view and edit the layout "in context".</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T040124Z" creationid="msdx" creationdate="20141125T040045Z">
@@ -5210,6 +5482,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141215T133743Z" creationid="msdx" creationdate="20141128T142710Z">
         <seg>“aar”包是 Android Library项目的二进制发行包。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;b0&gt;&lt;f1&gt;android.flavorDimensions&lt;/f1&gt;&lt;/b0&gt; array defines the possible dimensions, as well as the order.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T125510Z" creationid="msdx" creationdate="20150101T125423Z">
+        <seg>&lt;b0&gt; &lt;f1&gt;android.flavorDimensions&lt;/f1&gt;&lt;/b0&gt;数组定义了可能的维度以及顺序。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5494,6 +5774,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The order of the dimension as defined by &lt;b0&gt;&lt;f1&gt;android.flavorDimensions &lt;/f1&gt;&lt;/b0&gt;is very important.&lt;br2&gt;&lt;br3&gt;Each variant is configured by several &lt;i4&gt;Product Flavor&lt;/i4&gt; objects:&lt;br5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T130837Z" creationid="msdx" creationdate="20150101T130439Z">
+        <seg>由&lt;b0&gt;&lt;f1&gt;android.flavorDimensions&lt;/f1&gt;&lt;/b0&gt;定义的维度顺序是非常重要的。&lt;br2&gt;&lt;br3&gt;每一个variant都通过几个&lt;i4&gt;Product Flavor&lt;/i4&gt;对象来配置：&lt;br5&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The order of the dimension drives which flavor override the other, which is important for resources when a value in a flavor replaces a value defined in a lower priority flavor.&lt;br0&gt;&lt;s1&gt;The flavor dimension is defined with higher priority first.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T131525Z" creationid="msdx" creationdate="20150101T130948Z">
+        <seg>维度的顺序决定了哪一个flavor将覆盖其他的flavor，这对于资源来说非常重要，因为一个flavor的值会替换定义在低优先级的flavor中的值。&lt;br0&gt;&lt;s1&gt;flavor 维度首先被定义为具有较高的优先级。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The package name uniquely identifies the app on the device; it is also unique in the Google Play store.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141202T015312Z" creationid="msdx" creationdate="20141201T154832Z">
@@ -5734,6 +6030,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>These allow customization at the flavor-combination level.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T151122Z" creationid="msdx" creationdate="20150101T132046Z">
+        <seg>上面这些都允许在flavor-combination的级别上进行自定义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>These are attributes which are used when the layout is rendered in the tool, but have no impact on the runtime.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T132823Z" creationid="msdx" creationdate="20141125T055404Z">
@@ -5746,6 +6050,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141201T134408Z" creationid="msdx" creationdate="20141201T134400Z">
         <seg>它们是：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These are:&lt;br8&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141228T124625Z" creationid="msdx" creationdate="20141228T124612Z">
+        <seg>它们是： &lt;br8&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -5846,6 +6158,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>They have higher priority than the basic flavor sourcesets, but lower priority than the build type sourcesets.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T151430Z" creationid="msdx" creationdate="20150101T151123Z">
+        <seg>它们有着比基本的 sourcesets更高的优先级，但低于构建类型的sourcesets的优先级。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>They will be completely removed in 1.0&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141201T134403Z" creationid="msdx" creationdate="20141201T134355Z">
@@ -5858,6 +6178,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141208T065341Z" creationid="msdx" creationdate="20141208T064142Z">
         <seg>&lt;b0&gt;jar&lt;/b0&gt;任务本身会直接或间接地依赖其他任务： 例如，&lt;b1&gt;&lt;f2&gt;classes&lt;/f2&gt;&lt;/b1&gt;任务用于编译 Java 代码。&lt;br3&gt;&lt;s4&gt;&lt;b5&gt;&lt;f6&gt;testClasses&lt;/f6&gt;&lt;/b5&gt;任务用于编译测试，但它很少会被调用，因为&lt;/s4&gt;&lt;b7&gt;test&lt;/b7&gt;&lt;s8&gt;任务依赖于它 （以及&lt;/s8&gt;&lt;b9&gt;&lt;f10&gt;classes&lt;/f10&gt;&lt;/b9&gt;&lt;s11&gt;任务）。&lt;/s11&gt;&lt;br12&gt;&lt;br13&gt;一般情况下，你将可能永远只调用&lt;b14&gt;assemble&lt;/b14&gt;或&lt;b15&gt;check&lt;/b15&gt;，而无视其他任务。 &lt;br16&gt;&lt;br17&gt;&lt;a18&gt;在这里&lt;/a18&gt;，你可以看到Java 插件的所有任务和对它们的描述。&lt;br19&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This affect all tasks compiling Java source code.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T151758Z" creationid="msdx" creationdate="20150101T151718Z">
+        <seg>这个配置会影响所有编译 Java 源代码的任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This affects all tasks using &lt;f0&gt;aapt&lt;/f0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T151754Z" creationid="msdx" creationdate="20150101T151754Z">
+        <seg>这个配置会影响所有使用&lt;f0&gt;aapt&lt;/f0&gt;的任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This affects all tasks using dex.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T151821Z" creationid="msdx" creationdate="20150101T151821Z">
+        <seg>这个配置会影响所有使用dex 的任务。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6592,8 +6936,8 @@
       <tuv lang="EN-US">
         <seg>We previously saw that each &lt;i0&gt;Build Type&lt;/i0&gt; creates its own &lt;f1&gt;assemble&lt;name&gt;&lt;/f1&gt; task, but that &lt;i2&gt;Build Variants&lt;/i2&gt; are a combination of &lt;i3&gt;Build Type&lt;/i3&gt; and &lt;i4&gt;Product Flavor&lt;/i4&gt;.&lt;br5&gt;&lt;br6&gt;When &lt;i7&gt;Product Flavors&lt;/i7&gt; are used, more assemble-type tasks are created.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T054224Z" creationid="msdx" creationdate="20141227T054224Z">
-        <seg>We previously saw that each &lt;i0&gt;Build Type&lt;/i0&gt; creates its own &lt;f1&gt;assemble&lt;name&gt;&lt;/f1&gt; task, but that &lt;i2&gt;Build Variants&lt;/i2&gt; are a combination of &lt;i3&gt;Build Type&lt;/i3&gt; and &lt;i4&gt;Product Flavor&lt;/i4&gt;.&lt;br5&gt;&lt;br6&gt;When &lt;i7&gt;Product Flavors&lt;/i7&gt; are used, more assemble-type tasks are created.</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141228T124618Z" creationid="msdx" creationdate="20141227T054224Z">
+        <seg>我们在之前已经看到，每个&lt;i0&gt;Build Type&lt;/i0&gt;都会创建自己的&lt;f1&gt;assemble&lt;name&gt;&lt;/f1&gt;任务，但&lt;i2&gt;Build Variants&lt;/i2&gt;是&lt;i3&gt;Build Type&lt;/i3&gt;和&lt;i4&gt;Product Flavor&lt;/i4&gt;的一种组合。&lt;br5&gt;&lt;br6&gt;当使用&lt;i7&gt;Product Flavor&lt;/i7&gt; 时，会创建更多的assemble类型的任务。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6650,6 +6994,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141204T134258Z" creationid="msdx" creationdate="20141204T134258Z">
         <seg>为什么是 Gradle ？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With 3 ABIs and two versions of the application, 6 APKs needs to be generated (not counting the variants introduced by the different &lt;i4&gt;Build Types&lt;/i4&gt;).&lt;br5&gt;However, the code of the paid version is the same for all three ABIs, so creating simply 6 flavors is not the way to go.&lt;br6&gt;Instead, there are two dimensions of flavors, and variants should automatically build all possible combinations.&lt;br7&gt;&lt;br8&gt;This feature is implemented using Flavor Dimensions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T125045Z" creationid="msdx" creationdate="20150101T123826Z">
+        <seg>这个应用程序带有三个ABI和两种版本，就需要生成6个APK（不计算由不同的&lt;i4&gt;Build Types&lt;/i4&gt;引入的variants）。&lt;br5&gt;然而，对这三种ABI来说付费版本的代码是相同的，因此创建6个flavors来实现并不是一个好办法。&lt;br6&gt;相反，使用两个维度的flavor，并且variant应该自动构建所有可能的组合。&lt;br7&gt;&lt;br8&gt;这个功能是使用Flavor Dimensions来实现的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6790,6 +7142,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>aapt options</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T151720Z" creationid="msdx" creationdate="20150101T151720Z">
+        <seg>aapt 选项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>aaptOptions {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T151721Z" creationid="msdx" creationdate="20150101T151721Z">
+        <seg>aaptOptions {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>abi &gt; version &gt; defaultConfig</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T131638Z" creationid="msdx" creationdate="20150101T131638Z">
+        <seg>abi &gt; version &gt; defaultConfig</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>abi {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141201T133806Z" creationid="msdx" creationdate="20141201T133806Z">
@@ -6866,6 +7242,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141201T134902Z" creationid="msdx" creationdate="20141201T134902Z">
         <seg>android.applicationVariants.all { variant -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.defaultConfig</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T130838Z" creationid="msdx" creationdate="20150101T130838Z">
+        <seg>android.defaultConfig</seg>
       </tuv>
     </tu>
     <tu>
@@ -7142,6 +7526,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>arm-freeapp-debug</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T130434Z" creationid="msdx" creationdate="20150101T130434Z">
+        <seg>arm-freeapp-debug</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>arm-freeapp-release</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T130435Z" creationid="msdx" creationdate="20150101T130435Z">
+        <seg>arm-freeapp-release</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>arm-paidapp-debug</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T130436Z" creationid="msdx" creationdate="20150101T130436Z">
+        <seg>arm-paidapp-debug</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>arm-paidapp-release</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T130436Z" creationid="msdx" creationdate="20150101T130436Z">
+        <seg>arm-paidapp-release</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>as long as no other task match ‘aR’&lt;br0&gt;&lt;br1&gt;The check anchor tasks have their own dependencies:&lt;br2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141208T072428Z" creationid="msdx" creationdate="20141208T072414Z">
@@ -7158,10 +7574,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>assemble&lt;Build Type Name&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141228T124731Z" creationid="msdx" creationdate="20141228T124723Z">
+        <seg>assemble&lt;Build Type 名称&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>assemble&lt;Product Flavor Name&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141228T124734Z" creationid="msdx" creationdate="20141228T124734Z">
+        <seg>assemble&lt;Product Flavor 名称&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>assemble&lt;Variant Name&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141228T124726Z" creationid="msdx" creationdate="20141228T124642Z">
+        <seg>assemble&lt;Variant 名称&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>assembleDebug</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141208T070959Z" creationid="msdx" creationdate="20141208T070959Z">
         <seg>assembleDebug</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>assembleFlavor1Test</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T122352Z" creationid="msdx" creationdate="20150101T122352Z">
+        <seg>assembleFlavor1Test</seg>
       </tuv>
     </tu>
     <tu>
@@ -7194,6 +7642,38 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141217T140837Z" creationid="msdx" creationdate="20141217T140837Z">
         <seg>build/androidTest-results</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>build/androidTest-results/all/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T122715Z" creationid="msdx" creationdate="20150101T122715Z">
+        <seg>build/androidTest-results/all/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>build/androidTest-results/flavors/&lt;FlavorName&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T122715Z" creationid="msdx" creationdate="20150101T122715Z">
+        <seg>build/androidTest-results/flavors/&lt;FlavorName&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>build/reports/androidTests/all/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T122716Z" creationid="msdx" creationdate="20150101T122716Z">
+        <seg>build/reports/androidTests/all/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>build/reports/androidTests/flavors&lt;FlavorName&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T122715Z" creationid="msdx" creationdate="20150101T122715Z">
+        <seg>build/reports/androidTests/flavors&lt;FlavorName&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7350,6 +7830,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>compileOptions {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T151643Z" creationid="msdx" creationdate="20150101T151643Z">
+        <seg>compileOptions {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>compileSdkVersion 15</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141214T133548Z" creationid="msdx" creationdate="20141214T133548Z">
@@ -7462,6 +7950,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>dex options</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T151800Z" creationid="msdx" creationdate="20150101T151800Z">
+        <seg>dex 选项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dexOptions {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T151800Z" creationid="msdx" creationdate="20150101T151800Z">
+        <seg>dexOptions {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>disable 'TypographyFractions','TypographyQuotes'</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141217T153732Z" creationid="msdx" creationdate="20141217T153732Z">
@@ -7490,6 +7994,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141218T135807Z" creationid="msdx" creationdate="20141218T135807Z">
         <seg>error 'Wakelock', 'TextViewEdits'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>etc...</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T131956Z" creationid="msdx" creationdate="20150101T131956Z">
+        <seg>等等......</seg>
       </tuv>
     </tu>
     <tu>
@@ -7582,6 +8094,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>flavorDimension "version"</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T125421Z" creationid="msdx" creationdate="20150101T125421Z">
+        <seg>flavorDimension "version"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>flavorDimensions "abi", "version"</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T125420Z" creationid="msdx" creationdate="20150101T125420Z">
+        <seg>flavorDimensions "abi", "version"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>foo {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141213T070422Z" creationid="msdx" creationdate="20141213T070422Z">
@@ -7594,6 +8122,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141202T141156Z" creationid="msdx" creationdate="20141202T141156Z">
         <seg>free {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>freeapp {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T125421Z" creationid="msdx" creationdate="20150101T125421Z">
+        <seg>freeapp {</seg>
       </tuv>
     </tu>
     <tu>
@@ -8766,6 +9302,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>ignoreAssetsPattern "!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir&gt;_*:!CVS:!thumbs.db:!picasa.ini:!*~"</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T151731Z" creationid="msdx" creationdate="20150101T151731Z">
+        <seg>ignoreAssetsPattern "!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir&gt;_*:!CVS:!thumbs.db:!picasa.ini:!*~"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>ignoreWarnings true</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141217T153223Z" creationid="msdx" creationdate="20141217T153223Z">
@@ -8794,6 +9338,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141201T133808Z" creationid="msdx" creationdate="20141201T133808Z">
         <seg>include 'x86', 'armeabi-v7a', 'mips'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>incremental false</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T151801Z" creationid="msdx" creationdate="20150101T151801Z">
+        <seg>incremental false</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>installFlavor1Debug</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T122353Z" creationid="msdx" creationdate="20150101T122353Z">
+        <seg>installFlavor1Debug</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>installFlavor1Test</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T122353Z" creationid="msdx" creationdate="20150101T122353Z">
+        <seg>installFlavor1Test</seg>
       </tuv>
     </tu>
     <tu>
@@ -8882,6 +9450,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141209T141956Z" creationid="msdx" creationdate="20141209T141956Z">
         <seg>jnidebug {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>jumboMode = false</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T151802Z" creationid="msdx" creationdate="20150101T151802Z">
+        <seg>jumboMode = false</seg>
       </tuv>
     </tu>
     <tu>
@@ -9006,10 +9582,50 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>mips-freeapp-debug</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T130435Z" creationid="msdx" creationdate="20150101T130435Z">
+        <seg>mips-freeapp-debug</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>mips-freeapp-release</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T130435Z" creationid="msdx" creationdate="20150101T130435Z">
+        <seg>mips-freeapp-release</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>mips-paidapp-debug</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T130437Z" creationid="msdx" creationdate="20150101T130437Z">
+        <seg>mips-paidapp-debug</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>mips-paidapp-release</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T130437Z" creationid="msdx" creationdate="20150101T130437Z">
+        <seg>mips-paidapp-release</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>myConfig {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141213T070419Z" creationid="msdx" creationdate="20141213T070419Z">
         <seg>myConfig {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>noCompress 'foo', 'bar'</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T151721Z" creationid="msdx" creationdate="20150101T151721Z">
+        <seg>noCompress 'foo', 'bar'</seg>
       </tuv>
     </tu>
     <tu>
@@ -9074,6 +9690,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141128T063724Z" creationid="msdx" creationdate="20141128T061423Z">
         <seg>发布于  &lt;s0&gt;Sep 29, 2011, 2:35 PM&lt;/s0&gt; 作者：Tor Norbye</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>preDexLibraries = false</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T151801Z" creationid="msdx" creationdate="20150101T151801Z">
+        <seg>preDexLibraries = false</seg>
       </tuv>
     </tu>
     <tu>
@@ -9302,6 +9926,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>sourceCompatibility = "1.6"</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T151643Z" creationid="msdx" creationdate="20150101T151643Z">
+        <seg>sourceCompatibility = "1.6"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>sourceSets {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141205T140058Z" creationid="msdx" creationdate="20141205T140058Z">
@@ -9410,6 +10042,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T035428Z" creationid="msdx" creationdate="20141126T035428Z">
         <seg>switch (view.getId()) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>targetCompatibility = "1.6"</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T151644Z" creationid="msdx" creationdate="20150101T151644Z">
+        <seg>targetCompatibility = "1.6"</seg>
       </tuv>
     </tu>
     <tu>
@@ -9638,6 +10278,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>uninstallFlavor1Debug</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T122356Z" creationid="msdx" creationdate="20150101T122356Z">
+        <seg>uninstallFlavor1Debug</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>universalApk true</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141201T133810Z" creationid="msdx" creationdate="20141201T133810Z">
@@ -9754,6 +10402,46 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141217T153506Z" creationid="msdx" creationdate="20141217T153506Z">
         <seg>warningsAsErrors true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>x86 {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T125422Z" creationid="msdx" creationdate="20150101T125422Z">
+        <seg>x86 {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>x86-freeapp-debug</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T130434Z" creationid="msdx" creationdate="20150101T130434Z">
+        <seg>x86-freeapp-debug</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>x86-freeapp-release</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T130434Z" creationid="msdx" creationdate="20150101T130434Z">
+        <seg>x86-freeapp-release</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>x86-paidapp-debug</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T130435Z" creationid="msdx" creationdate="20150101T130435Z">
+        <seg>x86-paidapp-debug</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>x86-paidapp-release</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T130436Z" creationid="msdx" creationdate="20150101T130436Z">
+        <seg>x86-paidapp-release</seg>
       </tuv>
     </tu>
     <tu>

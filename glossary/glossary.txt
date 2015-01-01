@@ -15,3 +15,4 @@ Testing Android Library	Testing Android Library
 as is the case 	如
 as opposed to	而不是	as opposed to 和...相反;而不是
 on a case by case basis	因情况而异
+criteria	标准	标准，准则
