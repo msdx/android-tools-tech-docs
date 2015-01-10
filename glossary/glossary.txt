@@ -17,3 +17,9 @@ as opposed to	而不是	as opposed to 和...相反;而不是
 on a case by case basis	因情况而异
 criteria	标准	标准，准则
 AIDL	AIDL
+Implicit declarations	隐含声明
+potentially	可能	adv. 潜在地;可能地;<古>强有力地;权威地
+in case	以防	免得;以防;也许
+function properly	正常运行
+as long as 	主要
+in irrespective of	不论
