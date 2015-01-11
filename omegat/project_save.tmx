@@ -782,10 +782,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;/activity-alias&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T085409Z" creationid="msdx" creationdate="20150111T085409Z">
+        <seg>&lt;/activity-alias&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;/activity&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150106T134719Z" creationid="msdx" creationdate="20150106T134719Z">
         <seg>&lt;/activity&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;/application&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T080344Z" creationid="msdx" creationdate="20150111T080344Z">
+        <seg>&lt;/application&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -802,6 +818,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150106T160942Z" creationid="msdx" creationdate="20150106T160942Z">
         <seg>&lt;/manifest&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;/permission&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T085903Z" creationid="msdx" creationdate="20150111T085903Z">
+        <seg>&lt;/permission&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -966,10 +990,58 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;activity android:name="${applicationId}.Main" /&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T082306Z" creationid="msdx" creationdate="20150111T082306Z">
+        <seg>&lt;activity android:name="${applicationId}.Main" /&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;activity android:name=".Main" /&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T080343Z" creationid="msdx" creationdate="20150111T080343Z">
+        <seg>&lt;activity android:name=".Main" /&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;activity android:name="com.example.app1.Main" /&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T080359Z" creationid="msdx" creationdate="20150111T080359Z">
+        <seg>&lt;activity android:name="com.example.app1.Main" /&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;activity android:name=”com.example.app1.Main”&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T082206Z" creationid="msdx" creationdate="20150111T082206Z">
+        <seg>&lt;activity android:name=”com.example.app1.Main”&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;activity-alias</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T085403Z" creationid="msdx" creationdate="20150111T085403Z">
+        <seg>&lt;activity-alias</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;application</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150106T160940Z" creationid="msdx" creationdate="20150106T160940Z">
         <seg>&lt;application</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;application&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T080339Z" creationid="msdx" creationdate="20150111T080339Z">
+        <seg>&lt;application&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1406,6 +1478,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;manifest</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T075523Z" creationid="msdx" creationdate="20150111T075523Z">
+        <seg>&lt;manifest</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;manifest xmlns:android="http://schemas.android.com/apk/res/android"</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141202T070247Z" creationid="msdx" creationdate="20141202T070247Z">
@@ -1414,10 +1494,58 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;meta-data</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T085404Z" creationid="msdx" creationdate="20150111T085404Z">
+        <seg>&lt;meta-data</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;permission</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150106T170535Z" creationid="msdx" creationdate="20150106T170535Z">
         <seg>&lt;permission</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;permission android:name="permissionFive"</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T090117Z" creationid="msdx" creationdate="20150111T090117Z">
+        <seg>&lt;permission android:name="permissionFive"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;permission android:name="permissionFour"</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T090110Z" creationid="msdx" creationdate="20150111T090110Z">
+        <seg>&lt;permission android:name="permissionFour"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;permission android:name="permissionOne"</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T090055Z" creationid="msdx" creationdate="20150111T090055Z">
+        <seg>&lt;permission android:name="permissionOne"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;permission android:name="permissionThree"</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T090109Z" creationid="msdx" creationdate="20150111T090109Z">
+        <seg>&lt;permission android:name="permissionThree"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;permission android:name="permissionTwo"</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T090056Z" creationid="msdx" creationdate="20150111T090056Z">
+        <seg>&lt;permission android:name="permissionTwo"</seg>
       </tuv>
     </tu>
     <tu>
@@ -1776,8 +1904,8 @@
       <tuv lang="EN-US">
         <seg>&lt;s0&gt;3.9.5 &lt;/s0&gt;Package name smart substitution</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20150104T123457Z" creationid="msdx" creationdate="20150104T123457Z">
-        <seg>&lt;s0&gt;3.9.5 &lt;/s0&gt;智能替换包名称</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T075112Z" creationid="msdx" creationdate="20150104T123457Z">
+        <seg>&lt;s0&gt;3.9.5 &lt;/s0&gt;包名称智能替换</seg>
       </tuv>
     </tu>
     <tu>
@@ -1856,8 +1984,8 @@
       <tuv lang="EN-US">
         <seg>&lt;s0&gt;4.3 &lt;/s0&gt;Enforcing an attribute value</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20150104T123745Z" creationid="msdx" creationdate="20150104T123639Z">
-        <seg>&lt;s0&gt;4.3 &lt;/s0&gt;强制更新一个属性值</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T083245Z" creationid="msdx" creationdate="20150104T123639Z">
+        <seg>&lt;s0&gt;4.3 &lt;/s0&gt;强制更新属性值</seg>
       </tuv>
     </tu>
     <tu>
@@ -1976,8 +2104,8 @@
       <tuv lang="EN-US">
         <seg>&lt;s0&gt;5.4 &lt;/s0&gt;Selector examples</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20150104T123912Z" creationid="msdx" creationdate="20150104T123912Z">
-        <seg>&lt;s0&gt;5.4 &lt;/s0&gt;选择器的例子</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T085801Z" creationid="msdx" creationdate="20150104T123912Z">
+        <seg>&lt;s0&gt;5.4 &lt;/s0&gt;选择器示例</seg>
       </tuv>
     </tu>
     <tu>
@@ -2462,6 +2590,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;s1&gt; &lt;/s1&gt;tools:replace=”theme”&lt;/s0&gt;&lt;s2&gt;/&gt;&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T082740Z" creationid="msdx" creationdate="20150111T082740Z">
+        <seg>&lt;s0&gt;&lt;s1&gt; &lt;/s1&gt;tools:replace=”theme”&lt;/s0&gt;&lt;s2&gt;/&gt;&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;A number of attributes can have default values (defined in the &lt;/s0&gt;&lt;a1&gt;&lt;s2&gt;online&lt;/s2&gt;&lt;/a1&gt;&lt;s3&gt; docs as defaults).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150105T140148Z" creationid="msdx" creationdate="20150105T140148Z">
@@ -2582,6 +2718,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;and a &lt;/s0&gt;&lt;s1&gt;higher priority declaration&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T083851Z" creationid="msdx" creationdate="20150111T083736Z">
+        <seg>&lt;s0&gt;与一个 &lt;/s0&gt;&lt;s1&gt;较高优先级的声明&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;android {&lt;/s0&gt;&lt;br1&gt;&lt;s2&gt;    buildTypes {&lt;/s2&gt;&lt;br3&gt;&lt;s4&gt;        release {&lt;/s4&gt;&lt;br5&gt;&lt;s6&gt;            minifyEnabled true&lt;/s6&gt;&lt;br7&gt;&lt;s8&gt;            proguardFile getDefaultProguardFile('proguard-android.txt')&lt;/s8&gt;&lt;br9&gt;&lt;s10&gt;        }&lt;/s10&gt;&lt;br11&gt;&lt;s12&gt;    }&lt;/s12&gt;&lt;br13&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141213T073245Z" creationid="msdx" creationdate="20141213T073245Z">
@@ -2642,6 +2786,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141208T080908Z" creationid="msdx" creationdate="20141208T080908Z">
         <seg>&lt;s0&gt;minSdkVersion 16&lt;br1&gt;&lt;/s0&gt;&lt;s2&gt;    &lt;/s2&gt;&lt;s3&gt;    &lt;/s3&gt;&lt;s4&gt;targetSdkVersion 16&lt;br5&gt;&lt;/s4&gt;&lt;s6&gt;    &lt;/s6&gt;&lt;s7&gt;}&lt;/s7&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;package="com.example.app1"&lt;/s0&gt;&lt;s1&gt;&gt;&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T080339Z" creationid="msdx" creationdate="20150111T080339Z">
+        <seg>&lt;s0&gt;package="com.example.app1"&lt;/s0&gt;&lt;s1&gt;&gt;&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;so, a &lt;/s0&gt;&lt;s1&gt;higher priority declaration&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T083817Z" creationid="msdx" creationdate="20150111T083711Z">
+        <seg>&lt;s0&gt;所以，一个&lt;/s0&gt;&lt;s1&gt;较高优先级的声明&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -2966,6 +3126,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A “blame” type of output can be obtained to qualify each element and attribute resulting in the merged XML with some indication of where the element/attribute originated from.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T055336Z" creationid="msdx" creationdate="20150111T055336Z">
+        <seg>通过元素或属性所在的一些指示，可以获取一个“blame”类型的输出，以限制合并的XML中产生的每一个元素和属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>AAR Format</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141128T142627Z" creationid="msdx" creationdate="20141128T142627Z">
@@ -3182,6 +3350,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>All Elements removal</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T085519Z" creationid="msdx" creationdate="20150111T085519Z">
+        <seg>移除所有元素</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>All markers belong to the Android tools namespace, therefore you must declare the namespace in any AndroidManifest.xml containing at least one marker :</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150106T160935Z" creationid="msdx" creationdate="20150106T160935Z">
@@ -3250,6 +3426,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T142447Z" creationid="msdx" creationdate="20141127T142447Z">
         <seg>或者您可以在项目上右击，在 Android Tools 子菜单中，有一个“运行 Lint”的功能。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Always</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T061147Z" creationid="msdx" creationdate="20150111T060652Z">
+        <seg>总是合并</seg>
       </tuv>
     </tu>
     <tu>
@@ -3558,6 +3742,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Attribute local names</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T082430Z" creationid="msdx" creationdate="20150111T082430Z">
+        <seg>属性的本地名称</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Attribute set on the root element of a layout that &lt;include&gt;'ed by another layout.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T035723Z" creationid="msdx" creationdate="20141125T035723Z">
@@ -3578,6 +3770,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T040349Z" creationid="msdx" creationdate="20141125T040224Z">
         <seg>这个属性在布局的根元素上设置，用于配置在 Action Bar中显示的菜单。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Attributes are not merged, only children are merged according to their respective merging policy.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T060649Z" creationid="msdx" creationdate="20150111T060649Z">
+        <seg>属性不会被合并，只有子元素会根据它们各自的合并政策进行合并。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Attributes markers examples</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T082613Z" creationid="msdx" creationdate="20150111T082525Z">
+        <seg>属性标记示例</seg>
       </tuv>
     </tu>
     <tu>
@@ -3682,6 +3890,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T012333Z" creationid="msdx" creationdate="20141126T012151Z">
         <seg>在ADT 14 之前，所有这样的字段都是final的，所以导致所有的库被使用的时候，主项目必须编译他们的所有资源和相关 Java 代码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Blame</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T054809Z" creationid="msdx" creationdate="20150111T054809Z">
+        <seg>Blame</seg>
       </tuv>
     </tu>
     <tu>
@@ -4254,10 +4470,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each element can also have a key associated or not.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T060314Z" creationid="msdx" creationdate="20150111T060141Z">
+        <seg>每个元素也可以拥有或不拥有一个与它关联的键。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each element in a manifest file can be identified by its element type (e.g. activity, intent-filter) and an optional key value.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150105T152555Z" creationid="msdx" creationdate="20150104T163131Z">
         <seg>在一个清单文件中的每个元素都可以根据它的元素类型（比如activity，intent-filter）和一个可选的键值（key value）来识别。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each element type has a specific default merging policy attached to it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T055540Z" creationid="msdx" creationdate="20150111T055540Z">
+        <seg>每个元素类型都有一特定的默认合并策略附属于它。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4290,6 +4522,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150104T163951Z" creationid="msdx" creationdate="20150104T163951Z">
         <seg>每一个合并的activity都有一个默认的行为，这一点将在随后进行描述。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each of the attribute described below can have a partial class name that is either starting with a dot or do not contain any dots.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T080338Z" creationid="msdx" creationdate="20150111T075114Z">
+        <seg>下面描述的每个属性都可以有一个局部的类名称，这个类名称是以一个点或不包含任何点开头的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4358,10 +4598,50 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Element Removal</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T085114Z" creationid="msdx" creationdate="20150111T085114Z">
+        <seg>移除元素</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Element markers examples</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T085043Z" creationid="msdx" creationdate="20150111T085043Z">
+        <seg>元素标记示例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Element substitution</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T085654Z" creationid="msdx" creationdate="20150111T085654Z">
+        <seg>元素替换</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Elements and Attributes merging process</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150105T140104Z" creationid="msdx" creationdate="20150105T140104Z">
         <seg>元素和属性的合并过程</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Elements are always kept “as is” and added to the common parent in the resulting merged file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T060942Z" creationid="msdx" creationdate="20150111T060942Z">
+        <seg>始终保持元素的“原样”，并添加到生成的合并文件里的共同的父元素中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Enforcing an attribute value</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T083243Z" creationid="msdx" creationdate="20150111T083207Z">
+        <seg>强制更新属性值</seg>
       </tuv>
     </tu>
     <tu>
@@ -4686,6 +4966,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example most elements types like activity or application have a default merging policy where all attributes and children are merged (assuming no conflict) into the resulting element.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T055720Z" creationid="msdx" creationdate="20150111T055720Z">
+        <seg>例如，大部分的元素类型，像activity或application都有一个默认合并策略，这个策略是所有属性和子元素都会被合并（假设没有冲突）到所生产的元素当中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, &lt;/s0&gt;&lt;c1&gt;values/strings.xml&lt;/c1&gt;&lt;s2&gt; can have this root element:&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T032306Z" creationid="msdx" creationdate="20141125T032306Z">
@@ -4750,6 +5038,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For instance :</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T054542Z" creationid="msdx" creationdate="20150111T054542Z">
+        <seg>举个例子：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For instance &lt;f0&gt;&lt;b1&gt;assembleFlavor1Debug&lt;/b1&gt;&lt;/f0&gt;.&lt;br2&gt;&lt;br3&gt;#2 allows building all APKs for a given Build Type.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141228T125345Z" creationid="msdx" creationdate="20141228T125006Z">
@@ -4762,6 +5058,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141208T082121Z" creationid="msdx" creationdate="20141208T082121Z">
         <seg>例如 defaultConfig { ...} 实例调用 getVersionName() 时将自动使用 defaultConfig.getVersionName() 的 getter 方法，而不是自定义的方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For instance, application have no key, there can only be one &lt;application&gt; elements per AndroidManifest.xml.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T060352Z" creationid="msdx" creationdate="20150111T060159Z">
+        <seg>例如，application没有键，在每一个 AndroidManifest.xml 中只能有一个 &lt;application&gt;元素。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5094,6 +5398,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here we have 3 libraries merging into a main manifest file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T085859Z" creationid="msdx" creationdate="20150111T085847Z">
+        <seg>这里，我们有三个库要合并进一个主清单文件中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here's another example; we have a FrameLayout with multiple children, and at designtime we only want to see one of them, let's say the second child: We can use the tools:visibility attribute:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T150020Z" creationid="msdx" creationdate="20141125T144952Z">
@@ -5110,10 +5422,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Higher Priority declaration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T082738Z" creationid="msdx" creationdate="20150111T082738Z">
+        <seg>更高级别的声明</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Higher priority declaration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T054556Z" creationid="msdx" creationdate="20150111T054556Z">
+        <seg>更高优先级的声明</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Hopefully this will make it much more obvious what's going on, and make it a lot less painful to update any code which depended on constants in library project resources.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141128T065455Z" creationid="msdx" creationdate="20141128T063442Z">
         <seg>希望这将使这个问题更明显是怎么回事，并减少对依赖于库项目资源里的常量的代码的痛苦修改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However other elements like the top level manifest will have a default merging policy of merging children only which mean that no attributes of the manifest element of a lower priority AndroidManifest.xml is eligible for merging.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T060100Z" creationid="msdx" creationdate="20150111T060100Z">
+        <seg>不过，其他元素，如顶级的manifest，默认合并策略是只合并子元素。这意味着较低优先级的 AndroidManifest.xml 的manifest 元素的属性都没有资格能够合并进去。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5254,6 +5590,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the user wants to remove some attributes and override others while conserving another set of original attributes, just add all markers side by side.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T084400Z" creationid="msdx" creationdate="20150111T084004Z">
+        <seg>如果用户想要删除某些属性且重写其他属性同时保存另一组的原始属性，只需依次添加所有标记。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the value remains null, then it is replaced at build time by the actual default from column 3, but the DSL element does not contain this default value so you can't query against it.&lt;br0&gt;&lt;s1&gt;This is to prevent parsing the manifest of the application unless it’s really needed. &lt;/s1&gt;&lt;br2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141208T094255Z" creationid="msdx" creationdate="20141208T093043Z">
@@ -5282,6 +5626,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T032720Z" creationid="msdx" creationdate="20141127T032720Z">
         <seg>如果在你的path上已经配置了 SDK 的&lt;c0&gt;tools/&lt;/c0&gt; 目录，您可以使用“&lt;c1&gt;lint&lt;/c1&gt;”来调用它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you need the injected value as the expanded attribute value use ${applicationId} placeholder, for example :</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T082252Z" creationid="msdx" creationdate="20150111T082252Z">
+        <seg>如果你需要让注入的值作为扩充的属性值，可以使用 ${applicationId} 占位符，例如：</seg>
       </tuv>
     </tu>
     <tu>
@@ -5386,6 +5738,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150105T140106Z" creationid="msdx" creationdate="20150105T140106Z">
         <seg>隐式声明</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Implicitly, all declared attributes are virtually annotated with a “strict” merging policy so if two elements eligible for merging each have the same attribute with a different value, this is a conflict that need to be explicitly addressed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T083637Z" creationid="msdx" creationdate="20150111T083637Z">
+        <seg>毫无疑问，所有声明属性几乎都带有“strict”的合并策略，所以如果两个要合并的元素都有一个同样名称的属性但值却不同，就是一个需要明确解决的冲突。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5806,6 +6166,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Key</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T061036Z" creationid="msdx" creationdate="20150111T061036Z">
+        <seg>键</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Known Issues</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T024407Z" creationid="msdx" creationdate="20141125T024407Z">
@@ -5894,6 +6262,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>List of element merging policy and key</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T061021Z" creationid="msdx" creationdate="20150111T061021Z">
+        <seg>元素合并策略和键的列表</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>List of package dependent attributes that can use this smart substitution facility :</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T082420Z" creationid="msdx" creationdate="20150111T082420Z">
+        <seg>下面是可以使用这种智能替换的能力包独立属性的列表：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>List&lt;ProductFlavor&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150102T040630Z" creationid="msdx" creationdate="20150102T040630Z">
@@ -5938,6 +6322,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150110T164606Z" creationid="msdx" creationdate="20150110T164606Z">
         <seg>MERGED from flavorlib:lib2:unspecified:3:5</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Main Manifest</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T085851Z" creationid="msdx" creationdate="20150111T085851Z">
+        <seg>主清单</seg>
       </tuv>
     </tu>
     <tu>
@@ -6070,6 +6462,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Merge</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T060400Z" creationid="msdx" creationdate="20150111T060400Z">
+        <seg>合并</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Merge Children Only</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T060618Z" creationid="msdx" creationdate="20150111T060618Z">
+        <seg>只合并子元素</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>MergeAssets</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150102T040353Z" creationid="msdx" creationdate="20150102T040353Z">
@@ -6082,6 +6490,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150102T040346Z" creationid="msdx" creationdate="20150102T040346Z">
         <seg>MergeResources</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Merging Policies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T055347Z" creationid="msdx" creationdate="20150111T055347Z">
+        <seg>合并策略</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Merging Policy</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T061029Z" creationid="msdx" creationdate="20150111T061029Z">
+        <seg>合并策略</seg>
       </tuv>
     </tu>
     <tu>
@@ -6118,6 +6542,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Mixed operations</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T084002Z" creationid="msdx" creationdate="20150111T084002Z">
+        <seg>混合操作</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>More general information about multi-project setup &lt;a0&gt;here&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141214T123356Z" creationid="msdx" creationdate="20141214T123356Z">
@@ -6146,6 +6578,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150105T144554Z" creationid="msdx" creationdate="20150105T144303Z">
         <seg>大多数有默认值的属性，如果在低优先级的属性中已经定义了值，那么默认值将被manifest合并工具忽略；定义的值会被合并，因为在默认值 和一个设置的值之间，并没有冲突。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Most keyed elements use the android:name attribute to express their key value, others</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T061710Z" creationid="msdx" creationdate="20150111T060316Z">
+        <seg> 大部分带键的元素都使用“ android:name 属性”来表示它们的键值，或其他内容等</seg>
       </tuv>
     </tu>
     <tu>
@@ -6238,10 +6678,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Node Type</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T061023Z" creationid="msdx" creationdate="20150111T061023Z">
+        <seg>节点类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>NodeRecord</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150110T163944Z" creationid="msdx" creationdate="20150110T163944Z">
         <seg>节点记录</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Non conflicting attributes are merged and children are merged according to their respective merging policy.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T060656Z" creationid="msdx" creationdate="20150111T060610Z">
+        <seg>没有冲突的属性会被合并，子元素也会依据它们各自的合并策略进行合并。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6274,6 +6730,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T151559Z" creationid="msdx" creationdate="20141125T151543Z">
         <seg>需要注意的是设计时属性仅支持布局文件本身。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that if the lower priority declaration contained android:windowSoftInputMode or any attribute that is not explicitly tagged for removal or replacement, a build error need to be generated.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T085030Z" creationid="msdx" creationdate="20150111T084557Z">
+        <seg>需要注意的是，如果低优先级的声明中包含 android:windowSoftInputMode或者未明确标记为删除或替换的任何属性，将生成一个构建错误。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6534,6 +6998,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Override an attribute coming from a library</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T082932Z" creationid="msdx" creationdate="20150111T082623Z">
+        <seg>重写来自库的属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>P.S.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T035420Z" creationid="msdx" creationdate="20141126T035420Z">
@@ -6546,6 +7018,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141208T080709Z" creationid="msdx" creationdate="20141208T080652Z">
         <seg>用于测试应用程序的包名</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Package name smart substitution</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T075116Z" creationid="msdx" creationdate="20150111T074558Z">
+        <seg>包名称智能替换</seg>
       </tuv>
     </tu>
     <tu>
@@ -6830,6 +7310,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Remove an attribute coming from the library.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T082925Z" creationid="msdx" creationdate="20150111T082925Z">
+        <seg>删除来自库的属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Remove the annotated element from the resulting XML.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150106T162119Z" creationid="msdx" creationdate="20150106T162119Z">
@@ -7046,6 +7534,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Selector examples</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T085758Z" creationid="msdx" creationdate="20150111T085719Z">
+        <seg>选择器示例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Several declaration with the same key are allowed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T061409Z" creationid="msdx" creationdate="20150111T061149Z">
+        <seg>允许相同的键有多个声明。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Severity: Error</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141128T124923Z" creationid="msdx" creationdate="20141128T124923Z">
@@ -7154,6 +7658,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T131543Z" creationid="msdx" creationdate="20150101T131543Z">
         <seg>所以在这种情况下：&lt;/s1&gt;&lt;br2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Some attributes are package dependent attributes which means the attribute supports smart substitution of partially fully qualified class names with package settings as provided by the manifest node's package attribute.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T075520Z" creationid="msdx" creationdate="20150111T074607Z">
+        <seg>有些属性是包依赖属性，意思就是说这些属性支持通过由清单节点中的package属性提供的包设置，对部分完全限定的类名称的智能替换。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8694,6 +9206,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is independent of any package setting in the build.gradle for if for example, you build.gradle contains :</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T081731Z" creationid="msdx" creationdate="20150111T080401Z">
+        <seg>这是独立于build.gradle里的任何包设置的（译者注，关于package和applicationId可以看一下我的系列博客中的另一篇文章的介绍）。例如，你build.gradle 包含以下内容：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is one of the reason the manifest is generated automatically.&lt;br4&gt;&lt;br5&gt;Additionally, the &lt;i6&gt;sourceSet&lt;/i6&gt; can be configured to have its own dependencies.&lt;br7&gt;By default, the application and its own dependencies are added to the test app classpath, but this can be extended with &lt;br8&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141217T131519Z" creationid="msdx" creationdate="20141216T151455Z">
@@ -9102,6 +9622,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To remove all elements of a certain type from any library, declare in the higher priority document</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T085625Z" creationid="msdx" creationdate="20150111T085606Z">
+        <seg>如果要作任何一个库的一个特定类型的所有元素，需要在更高优先级的文件中声明</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To remove an element from any library, declare in the higher priority document</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T085402Z" creationid="msdx" creationdate="20150111T085319Z">
+        <seg>如果要删除任何一个库的某个元素，需要在更高优先级的文件中声明</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To run Lint on a project, select the project in the package explorer and click on the Lint toolbar action (see image on the right).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T142330Z" creationid="msdx" creationdate="20141127T142108Z">
@@ -9238,6 +9774,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Using the package name to select the library.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T085817Z" creationid="msdx" creationdate="20150111T085817Z">
+        <seg>使用包名称来选择库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using tools:remove=”x, y, z” will remove the x, y, z attributes declaration from the resulting XML.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T083039Z" creationid="msdx" creationdate="20150111T083039Z">
+        <seg>使用 tools:remove="x, y, z" 将会在产生的XML中删除 x，y，z 属性的声明。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using tools:replace=”x, y, z” will override x,y,z attributes from the imported library’s activity XML declarations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T082728Z" creationid="msdx" creationdate="20150111T082728Z">
+        <seg>使用 tools:replace="x, y, z" 将会重写从外部库的activity 的XML声明中导入的 x，y，z 属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Usually, the &lt;i0&gt;Build Type&lt;/i0&gt; configuration is an overlay over the other configuration.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T043750Z" creationid="msdx" creationdate="20141227T043657Z">
@@ -9328,8 +9888,8 @@
       <tuv lang="EN-US">
         <seg>When a build error happens, the log for the particular node failing should be displayed followed by a descriptive error message for the user.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20150110T165003Z" creationid="msdx" creationdate="20150110T165003Z">
-        <seg>When a build error happens, the log for the particular node failing should be displayed followed by a descriptive error message for the user.</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T054540Z" creationid="msdx" creationdate="20150110T165003Z">
+        <seg>当发生构建错误时，则应显示特定节点失败的日志，并在后面有一段向用户描述的错误消息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9662,6 +10222,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>action</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T061040Z" creationid="msdx" creationdate="20150111T061040Z">
+        <seg>action</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>action-type</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150110T164512Z" creationid="msdx" creationdate="20150110T164512Z">
@@ -9694,6 +10262,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>activity</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T061058Z" creationid="msdx" creationdate="20150111T061058Z">
+        <seg>activity</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>activity-alias</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T082459Z" creationid="msdx" creationdate="20150111T082459Z">
+        <seg>activity-alias</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>added | rejected | implied</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150110T164517Z" creationid="msdx" creationdate="20150110T164517Z">
@@ -9718,10 +10302,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>always</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T061137Z" creationid="msdx" creationdate="20150111T061137Z">
+        <seg>总是合并</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>and 2.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141218T141513Z" creationid="msdx" creationdate="20141218T140936Z">
         <seg>和2 两种情况</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>and library 2</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T090105Z" creationid="msdx" creationdate="20150111T090105Z">
+        <seg>和库2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>and library 3</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T090116Z" creationid="msdx" creationdate="20150111T090116Z">
+        <seg>及库3</seg>
       </tuv>
     </tu>
     <tu>
@@ -9806,10 +10414,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>android:exported=”true”/&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T082907Z" creationid="msdx" creationdate="20150111T082813Z">
+        <seg>android:exported="true"/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android:exported=”true”&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T082839Z" creationid="msdx" creationdate="20150111T082745Z">
+        <seg>android:exported="true" &gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>android:fastScrollAlwaysVisible="true"</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T130436Z" creationid="msdx" creationdate="20141125T130436Z">
         <seg>android:fastScrollAlwaysVisible="true"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android:hardwareAccelerated=”true”</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T083051Z" creationid="msdx" creationdate="20150111T083051Z">
+        <seg>android:hardwareAccelerated="true"</seg>
       </tuv>
     </tu>
     <tu>
@@ -9942,6 +10574,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>android:name attribute</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T061648Z" creationid="msdx" creationdate="20150111T061057Z">
+        <seg>android:name 属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>android:name&lt;s0&gt; &lt;/s0&gt;&lt;s1&gt; &lt;/s1&gt;ADDED from ManifestMerger2Test0_main.xml:63:13</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150110T164645Z" creationid="msdx" creationdate="20150110T164645Z">
@@ -9958,6 +10598,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>android:name="permissionFour"</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T090119Z" creationid="msdx" creationdate="20150111T090119Z">
+        <seg>android:name="permissionFour"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>android:name="permissionOne"</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150106T170535Z" creationid="msdx" creationdate="20150106T170535Z">
@@ -9966,10 +10614,66 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>android:name="permissionThree"</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T085905Z" creationid="msdx" creationdate="20150111T085905Z">
+        <seg>android:name="permissionThree"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android:name="permissionTwo"</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T090119Z" creationid="msdx" creationdate="20150111T090119Z">
+        <seg>android:name="permissionTwo"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android:name=”cage”</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T085638Z" creationid="msdx" creationdate="20150111T085638Z">
+        <seg>android:name="cage"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>android:name=”com.foo.bar.ActivityOne”</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20150106T155944Z" creationid="msdx" creationdate="20150106T155944Z">
-        <seg>android:name=”com.foo.bar.ActivityOne”</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T082818Z" creationid="msdx" creationdate="20150106T155944Z">
+        <seg>android:name="com.foo.bar.ActivityOne"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android:name=”foo.bar.alias”</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T085650Z" creationid="msdx" creationdate="20150111T085650Z">
+        <seg>android:name="foo.bar.alias"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android:name=”foo.bar.alias”&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T085416Z" creationid="msdx" creationdate="20150111T085403Z">
+        <seg>android:name="foo.bar.alias"&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android:name=”zoo”</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T085422Z" creationid="msdx" creationdate="20150111T085404Z">
+        <seg>android:name="zoo"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android:name=”zoo”/&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T085705Z" creationid="msdx" creationdate="20150111T085705Z">
+        <seg>android:name="zoo"/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -9982,10 +10686,66 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>android:protectionLevel="normal" &gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T090120Z" creationid="msdx" creationdate="20150111T090120Z">
+        <seg>android:protectionLevel="normal" &gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android:protectionLevel="normal"&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T090110Z" creationid="msdx" creationdate="20150111T090110Z">
+        <seg>android:protectionLevel="normal"&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android:protectionLevel="signature"</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T085905Z" creationid="msdx" creationdate="20150111T085905Z">
+        <seg>android:protectionLevel="signature"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android:protectionLevel="signature" &gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T090118Z" creationid="msdx" creationdate="20150111T090118Z">
+        <seg>android:protectionLevel="signature" &gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android:protectionLevel="signature"&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T090056Z" creationid="msdx" creationdate="20150111T090056Z">
+        <seg>android:protectionLevel="signature"&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>android:screenOrientation=”landscape/&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150106T160006Z" creationid="msdx" creationdate="20150106T160006Z">
         <seg>android:screenOrientation=”landscape/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android:screenOrientation=”landscape”</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T083118Z" creationid="msdx" creationdate="20150111T083118Z">
+        <seg>android:screenOrientation="landscape"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android:screenOrientation=”portrait”</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T082851Z" creationid="msdx" creationdate="20150111T054557Z">
+        <seg>android:screenOrientation="portrait"</seg>
       </tuv>
     </tu>
     <tu>
@@ -10022,10 +10782,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>android:theme=”@newdogtheme”</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T083852Z" creationid="msdx" creationdate="20150111T083852Z">
+        <seg>android:theme=”@newdogtheme”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android:theme=”@newdogtheme”/&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T083712Z" creationid="msdx" creationdate="20150111T083712Z">
+        <seg>android:theme=”@newdogtheme”/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android:theme=”@olddogtheme”</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T082824Z" creationid="msdx" creationdate="20150111T082745Z">
+        <seg>android:theme="@olddogtheme"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android:theme=”@olddogtheme”/&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T083715Z" creationid="msdx" creationdate="20150111T083715Z">
+        <seg>android:theme=”@olddogtheme”/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>android:theme=”@theme1”</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20150106T160144Z" creationid="msdx" creationdate="20150106T160144Z">
-        <seg>android:theme=”@theme1”</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T082901Z" creationid="msdx" creationdate="20150106T160144Z">
+        <seg>android:theme="@theme1"</seg>
       </tuv>
     </tu>
     <tu>
@@ -10046,6 +10838,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>android:value=”@string/bear”/&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T085508Z" creationid="msdx" creationdate="20150111T085508Z">
+        <seg>android:value="@string/bear"/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android:value=”@string/iron”/&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T085644Z" creationid="msdx" creationdate="20150111T085644Z">
+        <seg>android:value="@string/iron"/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>android:versionCode="1"</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141202T070248Z" creationid="msdx" creationdate="20141202T070248Z">
@@ -10058,6 +10866,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141202T070249Z" creationid="msdx" creationdate="20141202T070249Z">
         <seg>android:versionName="1.0" &gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android:windowSoftInputMode=”stateUnchanged”</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T082832Z" creationid="msdx" creationdate="20150111T082745Z">
+        <seg>android:windowSoftInputMode="stateUnchanged"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android:windowSoftInputMode=”stateUnchanged”/&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T084508Z" creationid="msdx" creationdate="20150111T084508Z">
+        <seg>android:windowSoftInputMode="stateUnchanged" /&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -10190,6 +11014,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>are strictly equivalent and will fail to merge correctly until a tools:replace=”theme” is added.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T083956Z" creationid="msdx" creationdate="20150111T083956Z">
+        <seg>是完全等价的，并且都将不能正确地合并，除非添加一个 tools:replace="theme" 的属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>arm</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150104T133336Z" creationid="msdx" creationdate="20150104T133336Z">
@@ -10298,6 +11130,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141204T152131Z" creationid="msdx" creationdate="20141204T152131Z">
         <seg>assets/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>attribute name first and if not present attribute glEsVersion</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T074443Z" creationid="msdx" creationdate="20150111T061640Z">
+        <seg>首先是属性名称，如果不存在，则接着是 glEsVersion 属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>attribute screenSize</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T061726Z" creationid="msdx" creationdate="20150111T061610Z">
+        <seg>属性 screenSize</seg>
       </tuv>
     </tu>
     <tu>
@@ -10434,6 +11282,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T012759Z" creationid="msdx" creationdate="20141126T012759Z">
         <seg>case R.id.button3:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>category</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T061108Z" creationid="msdx" creationdate="20150111T061108Z">
+        <seg>category</seg>
       </tuv>
     </tu>
     <tu>
@@ -10594,6 +11450,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141128T133050Z" creationid="msdx" creationdate="20141128T133050Z">
         <seg>context to invoke when the view is clicked.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>custom elements</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T074520Z" creationid="msdx" creationdate="20150111T074520Z">
+        <seg>自定义元素</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>data</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T061111Z" creationid="msdx" creationdate="20150111T061111Z">
+        <seg>data</seg>
       </tuv>
     </tu>
     <tu>
@@ -10886,6 +11758,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>for example :</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T084435Z" creationid="msdx" creationdate="20150111T084429Z">
+        <seg>例如：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>formatted for machine capable parsing</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150110T161827Z" creationid="msdx" creationdate="20150110T161705Z">
@@ -10994,6 +11874,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141208T063246Z" creationid="msdx" creationdate="20141208T063246Z">
         <seg>gradle tasks --all</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>grant-uri-permission</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T061117Z" creationid="msdx" creationdate="20150111T061117Z">
+        <seg>grant-uri-permission</seg>
       </tuv>
     </tu>
     <tu>
@@ -12382,6 +13270,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>https://www.google.com/a/UniversalLogin?service=jotspot&amp;continue=http://sites.google.com/a/android.com/tools/tech-docs/new-build-system/user-guide/manifest-merger</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T090122Z" creationid="msdx" creationdate="20150111T090122Z">
+        <seg>https://www.google.com/a/UniversalLogin?service=jotspot&amp;continue=http://sites.google.com/a/android.com/tools/tech-docs/new-build-system/user-guide/manifest-merger</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>https://www.google.com/a/UniversalLogin?service=jotspot&amp;continue=http://sites.google.com/a/android.com/tools/tech-docs/tools-attributes</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T041900Z" creationid="msdx" creationdate="20141125T041900Z">
@@ -12510,6 +13406,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>instrumentation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T061120Z" creationid="msdx" creationdate="20150111T061120Z">
+        <seg>instrumentation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>int getVersionCode() // returns either the versionCode override from the output or the versionCode from the variant itself</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141201T134700Z" creationid="msdx" creationdate="20141201T134458Z">
@@ -12522,6 +13426,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T012756Z" creationid="msdx" creationdate="20141126T012756Z">
         <seg>int id = view.getId();</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>intent-filter</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T061121Z" creationid="msdx" creationdate="20150111T061121Z">
+        <seg>intent-filter</seg>
       </tuv>
     </tu>
     <tu>
@@ -12750,6 +13662,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>manifest</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T061411Z" creationid="msdx" creationdate="20150111T061411Z">
+        <seg>manifest</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>manifest merger action</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150106T161408Z" creationid="msdx" creationdate="20150106T161408Z">
@@ -12774,6 +13694,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>merge</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T061055Z" creationid="msdx" creationdate="20150111T061055Z">
+        <seg>合并</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>merge children only</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T061422Z" creationid="msdx" creationdate="20150111T061422Z">
+        <seg>只合并子元素</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>mergeAssets</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150102T040351Z" creationid="msdx" creationdate="20150102T040351Z">
@@ -12786,6 +13722,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150102T040345Z" creationid="msdx" creationdate="20150102T040345Z">
         <seg>mergeResources</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>merged with :</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T085451Z" creationid="msdx" creationdate="20150111T085451Z">
+        <seg>与下面进行合并</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>merged with:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T085710Z" creationid="msdx" creationdate="20150111T085710Z">
+        <seg>与下面进行合并</seg>
       </tuv>
     </tu>
     <tu>
@@ -12826,6 +13778,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150110T163347Z" creationid="msdx" creationdate="20150110T163329Z">
         <seg>消息=文件:行号:列号 严重性:\n描述</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>meta-data</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T061424Z" creationid="msdx" creationdate="20150111T061424Z">
+        <seg>meta-data</seg>
       </tuv>
     </tu>
     <tu>
@@ -12930,6 +13890,38 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150102T035919Z" creationid="msdx" creationdate="20150102T035919Z">
         <seg>name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>name, backupAgent</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T082520Z" creationid="msdx" creationdate="20150111T082520Z">
+        <seg>name, backupAgent</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>name, parentActivityName</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T082520Z" creationid="msdx" creationdate="20150111T082458Z">
+        <seg>name, parentActivityName</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>name, targetActivity</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T082515Z" creationid="msdx" creationdate="20150111T082515Z">
+        <seg>name, targetActivity</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>no key</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T061103Z" creationid="msdx" creationdate="20150111T061103Z">
+        <seg>没有键</seg>
       </tuv>
     </tu>
     <tu>
@@ -13070,10 +14062,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>package="com.example.lib1"&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T090055Z" creationid="msdx" creationdate="20150111T090055Z">
+        <seg>package="com.example.lib1"&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>package="com.example.lib1"&gt; &lt;s0&gt;&lt;s1&gt;    &lt;/s1&gt;    &lt;/s0&gt;&lt;uses-sdk android:minSdkVersion="4" /&gt; &lt;s2&gt;    &lt;/s2&gt;&lt;/manifest&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150107T160639Z" creationid="msdx" creationdate="20150107T160639Z">
         <seg>package="com.example.lib1"&gt; &lt;s0&gt;&lt;s1&gt;    &lt;/s1&gt;    &lt;/s0&gt;&lt;uses-sdk android:minSdkVersion="4" /&gt; &lt;s2&gt;    &lt;/s2&gt;&lt;/manifest&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>package="com.example.lib2"&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T090109Z" creationid="msdx" creationdate="20150111T090109Z">
+        <seg>package="com.example.lib2"&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>package="com.example.main" &gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T090118Z" creationid="msdx" creationdate="20150111T090118Z">
+        <seg>package="com.example.main" &gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>package="com.example.main"&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T085902Z" creationid="msdx" creationdate="20150111T085902Z">
+        <seg>package="com.example.main"&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -13122,6 +14146,38 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141209T141956Z" creationid="msdx" creationdate="20141209T141956Z">
         <seg>packageNameSuffix ".jnidebug"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>path-permission</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T061425Z" creationid="msdx" creationdate="20150111T061425Z">
+        <seg>path-permission</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>permission</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T061428Z" creationid="msdx" creationdate="20150111T061428Z">
+        <seg>permission</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>permission-group</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T061427Z" creationid="msdx" creationdate="20150111T061427Z">
+        <seg>permission-group</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>permission-tree</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T061429Z" creationid="msdx" creationdate="20150111T061429Z">
+        <seg>permission-tree</seg>
       </tuv>
     </tu>
     <tu>
@@ -13246,6 +14302,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>provider</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T061430Z" creationid="msdx" creationdate="20150111T061430Z">
+        <seg>provider</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>providerAndroidTest</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150102T042838Z" creationid="msdx" creationdate="20150102T042838Z">
@@ -13266,6 +14330,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141217T153049Z" creationid="msdx" creationdate="20141217T153049Z">
         <seg>quiet true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>receiver</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T061432Z" creationid="msdx" creationdate="20150111T061432Z">
+        <seg>receiver</seg>
       </tuv>
     </tu>
     <tu>
@@ -13398,10 +14470,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>screen</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T061433Z" creationid="msdx" creationdate="20150111T061433Z">
+        <seg>screen</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>search-site</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T024050Z" creationid="msdx" creationdate="20141125T024050Z">
         <seg>search-site</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>service</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T061613Z" creationid="msdx" creationdate="20150111T061613Z">
+        <seg>service</seg>
       </tuv>
     </tu>
     <tu>
@@ -13566,6 +14654,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>sub-element actions and categories android:name attribute.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T061347Z" creationid="msdx" creationdate="20150111T061138Z">
+        <seg>子元素的action和categories android: name attribute。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>subfolder name for the variant.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150102T040225Z" creationid="msdx" creationdate="20150102T040111Z">
@@ -13578,6 +14674,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141128T124804Z" creationid="msdx" creationdate="20141128T124804Z">
         <seg>如 ListAdapter。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>supports-gl-texture</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T061614Z" creationid="msdx" creationdate="20150111T061614Z">
+        <seg>supports-gl-texture</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>supports-screen</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T061615Z" creationid="msdx" creationdate="20150111T061615Z">
+        <seg>supports-screen</seg>
       </tuv>
     </tu>
     <tu>
@@ -13766,6 +14878,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>the resulting expansion will still be</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T082205Z" creationid="msdx" creationdate="20150111T082205Z">
+        <seg>扩充的结果仍然是</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>then you end up with an inefficient &lt;c0&gt;if/else&lt;/c0&gt; chain where each &lt;c1&gt;if&lt;/c1&gt; check repeats the view.getId() call.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T035658Z" creationid="msdx" creationdate="20141126T035658Z">
@@ -13878,6 +14998,46 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>tools:node="removeAll"</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T085903Z" creationid="msdx" creationdate="20150111T085903Z">
+        <seg>tools:node="removeAll"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>tools:node="replace"&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T085906Z" creationid="msdx" creationdate="20150111T085906Z">
+        <seg>tools:node="replace"&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>tools:node=”removeAll”/&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T085631Z" creationid="msdx" creationdate="20150111T085631Z">
+        <seg>tools:node="removeAll" /&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>tools:node=”remove”/&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T085428Z" creationid="msdx" creationdate="20150111T085405Z">
+        <seg>tools:node="remove"/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>tools:node=”replace”&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T085700Z" creationid="msdx" creationdate="20150111T085700Z">
+        <seg>tools:node="replace"&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>tools:overrideLibrary marker</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150106T170543Z" creationid="msdx" creationdate="20150106T170543Z">
@@ -13894,10 +15054,50 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>tools:remove=”android:exported, android:screenOrientation”</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T084451Z" creationid="msdx" creationdate="20150111T084436Z">
+        <seg>tools:remove="android:exported, android:screenOrientation"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>tools:remove=”android:theme,android:screenOrientation”/&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T083108Z" creationid="msdx" creationdate="20150111T083108Z">
+        <seg>tools:remove="android:theme,android:screenOrientation" /&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>tools:replace=”android:theme”/&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T084458Z" creationid="msdx" creationdate="20150111T084438Z">
+        <seg>tools:replace="android:theme"/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>tools:selector="com.example.lib1"&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150106T170537Z" creationid="msdx" creationdate="20150106T170537Z">
         <seg>tools:selector="com.example.lib1"&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>tools:selector="com.example.lib3"&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T085904Z" creationid="msdx" creationdate="20150111T085904Z">
+        <seg>tools:selector="com.example.lib3"&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>tools:strict=”theme”/&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T083853Z" creationid="msdx" creationdate="20150111T083853Z">
+        <seg>tools:strict=”theme”/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -13946,6 +15146,46 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141201T133810Z" creationid="msdx" creationdate="20141201T133810Z">
         <seg>universalApk true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>uses-configuration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T061616Z" creationid="msdx" creationdate="20150111T061616Z">
+        <seg>uses-configuration</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>uses-feature</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T061617Z" creationid="msdx" creationdate="20150111T061617Z">
+        <seg>uses-feature</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>uses-library</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T074444Z" creationid="msdx" creationdate="20150111T074444Z">
+        <seg>uses-library</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>uses-permission</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T074445Z" creationid="msdx" creationdate="20150111T074445Z">
+        <seg>uses-permission</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>uses-sdk</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T074516Z" creationid="msdx" creationdate="20150111T074516Z">
+        <seg>uses-sdk</seg>
       </tuv>
     </tu>
     <tu>
@@ -14070,10 +15310,66 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>will be expanded into :</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T081206Z" creationid="msdx" creationdate="20150111T080354Z">
+        <seg>将被扩充成：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>will result in :</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T082756Z" creationid="msdx" creationdate="20150111T082756Z">
+        <seg>将产生：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>will result in both the log file and the output (exact format for human and machine and IDE readable to be determined).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T054750Z" creationid="msdx" creationdate="20150111T054750Z">
+        <seg>会同时产生日志文件和输出结果（能让人类，计算机以及IDE都能识别的确切格式还未确定）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>will substitute the placeholder in the following declaration :</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150106T135308Z" creationid="msdx" creationdate="20150106T135308Z">
         <seg>它将替换下面声明中的占位符：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>will yield :</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T085511Z" creationid="msdx" creationdate="20150111T085511Z">
+        <seg>将产生：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>will yield:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T085714Z" creationid="msdx" creationdate="20150111T085714Z">
+        <seg>将产生：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>with a lower priority declaration :</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T054617Z" creationid="msdx" creationdate="20150111T054610Z">
+        <seg>和一个较低优先级的声明：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>with library 1</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T090108Z" creationid="msdx" creationdate="20150111T090054Z">
+        <seg>与库1</seg>
       </tuv>
     </tu>
     <tu>
