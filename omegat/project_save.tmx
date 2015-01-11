@@ -246,6 +246,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>./../source-others/export-eclipse.png</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T142807Z" creationid="msdx" creationdate="20150111T142807Z">
+        <seg>./../source-others/export-eclipse.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>./../source-others/gradle-export.png</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T142816Z" creationid="msdx" creationdate="20150111T142816Z">
+        <seg>./../source-others/gradle-export.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>./../source-others/lint-fix.png</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T145015Z" creationid="msdx" creationdate="20141127T145015Z">
@@ -1314,6 +1330,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141201T134052Z" creationid="msdx" creationdate="20141201T134052Z">
         <seg>&lt;b0&gt;universalApk&lt;/b0&gt;：指示是否打包一个通用版本（包含所有的ABI）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;b1&gt;NOTE: Make sure you are using the latest possible version of Eclipse &lt;/b1&gt;since we have fixed issues related to export recently.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T142806Z" creationid="msdx" creationdate="20150111T142806Z">
+        <seg>&lt;b1&gt;注： 请确保您正在使用尽可能最新版本的 Eclipse，&lt;/b1&gt;这是由于最近我们有修复一些和导出相关的问题。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3128,8 +3152,8 @@
       <tuv lang="EN-US">
         <seg>A wizard will open and guide you through the rest of the import process.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T141254Z" creationid="msdx" creationdate="20150111T141254Z">
-        <seg>A wizard will open and guide you through the rest of the import process.</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T142310Z" creationid="msdx" creationdate="20150111T141254Z">
+        <seg>将会打开一个向导，并通过剩下的导入过程指导你。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4126,6 +4150,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Choose the Gradle option:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T142814Z" creationid="msdx" creationdate="20150111T142814Z">
+        <seg>选择 Gradle 选项：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Click to enlarge</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141205T012147Z" creationid="msdx" creationdate="20141205T012147Z">
@@ -4718,6 +4750,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Exporting from Eclipse</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T142530Z" creationid="msdx" creationdate="20150111T142530Z">
+        <seg>从 Eclipse 中导出</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Exporting the Eclipse project from Eclipse as a Gradle project. &lt;s0&gt;This mechanism is not as flexible (or frequently updated) as the direct Gradle import, but it has two usages:&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T134545Z" creationid="msdx" creationdate="20150111T134317Z">
@@ -4974,6 +5014,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For additional information, see the build system &lt;a1&gt;overview page&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T143124Z" creationid="msdx" creationdate="20150111T143124Z">
+        <seg>其他信息，请参阅该构建系统的&lt;a1&gt;概述页&lt;/a1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For custom placeholders replacements, use the following DSL to configure the placeholders values :</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150106T135205Z" creationid="msdx" creationdate="20150106T134801Z">
@@ -4994,6 +5042,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T032306Z" creationid="msdx" creationdate="20141125T032306Z">
         <seg>例如， &lt;/s0&gt; &lt;c1&gt;values/strings.xml&lt;/c1&gt; &lt;s2&gt;可以有此根元素：&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, it may note files that were not migrated, it may note missing components in your SDK install, and so on.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T142526Z" creationid="msdx" creationdate="20150111T142526Z">
+        <seg>例如，它可能会注意到未迁移的文件，注意到你安装的SDK中缺少的组件，等等。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5170,6 +5226,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141228T125553Z" creationid="msdx" creationdate="20141228T125427Z">
         <seg>例如&lt;b9&gt;assembleFlavor1&lt;/b9&gt;将会构建&lt;f10&gt;Flavor1Debug&lt;/f10&gt;和&lt;f11&gt;Flavor1Release&lt;/f11&gt;的两个variant。&lt;br12&gt;&lt;br13&gt;&lt;b14&gt;assemble&lt;/b14&gt; 任务将构建所有可能组合的variant。&lt;br15&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For more information on customizing your build once you have the basics set up, see the new build system &lt;a0&gt;user guide&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T143110Z" creationid="msdx" creationdate="20150111T142851Z">
+        <seg>在你有了基本的设置之后，有关如何自定义你的构建的详细信息，请参阅这个新的构建系统的 &lt;a0&gt;用户指南&lt;/a0&gt; 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7046,6 +7110,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Open the project in Eclipse, and from there, &lt;b0&gt;export&lt;/b0&gt; the project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T142648Z" creationid="msdx" creationdate="20150111T142648Z">
+        <seg>在 Eclipse 中打开项目，然后从那里，&lt;b0&gt;导出（export）&lt;/b0&gt; 该项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Options</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T151354Z" creationid="msdx" creationdate="20141127T151354Z">
@@ -7186,6 +7258,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141213T073016Z" creationid="msdx" creationdate="20141213T072930Z">
         <seg>ProGuard 是通过 Gradle plugin for ProGuard version 4.10来进行支持的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Proceed through the wizard.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T142824Z" creationid="msdx" creationdate="20150111T142824Z">
+        <seg>继续执行向导。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10070,6 +10150,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When the project import has finished, it will open up a file called "import-summary.txt" which lists all the steps taken during import and suggestions for next steps.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T142438Z" creationid="msdx" creationdate="20150111T142438Z">
+        <seg>当项目导入已完成时，它会打开一个名字为“import-summary.txt”的文件，里面列出了在导入的过程中采取的所有步骤，并且有下一步的建议。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When you are done, you can import the build.gradle file into Android Studio.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T142839Z" creationid="msdx" creationdate="20150111T142839Z">
+        <seg>当你完成后时，您可以将 build.gradle 文件导入到 Android Studio中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When&lt;/c16&gt;&lt;br17&gt;&lt;c18&gt;referencing these attributes you *must* include the namespace prefix,&lt;/c18&gt;&lt;br19&gt;&lt;c20&gt;or your attribute will be interpreted by aapt as just a custom&lt;/c20&gt;&lt;br21&gt;&lt;c22&gt;attribute.&lt;/c22&gt;&lt;br23&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T065345Z" creationid="msdx" creationdate="20141127T065345Z">
@@ -12406,6 +12502,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>http://tools.android.com/tech-docs/new-build-system/migrating-from-eclipse-projects/export-eclipse.png?attredirects=0</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T142807Z" creationid="msdx" creationdate="20150111T142807Z">
+        <seg>http://tools.android.com/tech-docs/new-build-system/migrating-from-eclipse-projects/export-eclipse.png?attredirects=0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://tools.android.com/tech-docs/new-build-system/migrating-from-eclipse-projects/gradle-export.png?attredirects=0</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T142815Z" creationid="msdx" creationdate="20150111T142815Z">
+        <seg>http://tools.android.com/tech-docs/new-build-system/migrating-from-eclipse-projects/gradle-export.png?attredirects=0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>http://tools.android.com/tech-docs/new-build-system/user-guide</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141201T013302Z" creationid="msdx" creationdate="20141201T013302Z">
@@ -13370,6 +13482,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141205T012217Z" creationid="msdx" creationdate="20141205T012217Z">
         <seg>https://www.google.com/a/UniversalLogin?service=jotspot&amp;continue=http://sites.google.com/a/android.com/tools/tech-docs/new-build-system/build-workflow</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://www.google.com/a/UniversalLogin?service=jotspot&amp;continue=http://sites.google.com/a/android.com/tools/tech-docs/new-build-system/migrating-from-eclipse-projects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T143124Z" creationid="msdx" creationdate="20150111T143124Z">
+        <seg>https://www.google.com/a/UniversalLogin?service=jotspot&amp;continue=http://sites.google.com/a/android.com/tools/tech-docs/new-build-system/migrating-from-eclipse-projects</seg>
       </tuv>
     </tu>
     <tu>
