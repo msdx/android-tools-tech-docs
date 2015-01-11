@@ -3126,6 +3126,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A wizard will open and guide you through the rest of the import process.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T141254Z" creationid="msdx" creationdate="20150111T141254Z">
+        <seg>A wizard will open and guide you through the rest of the import process.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A “blame” type of output can be obtained to qualify each element and attribute resulting in the merged XML with some indication of where the element/attribute originated from.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T055336Z" creationid="msdx" creationdate="20150111T055336Z">
@@ -4710,6 +4718,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Exporting the Eclipse project from Eclipse as a Gradle project. &lt;s0&gt;This mechanism is not as flexible (or frequently updated) as the direct Gradle import, but it has two usages:&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T134545Z" creationid="msdx" creationdate="20150111T134317Z">
+        <seg>在Eclipse中把一个Eclipse 项目导出为一个 Gradle 项目。&lt;s0&gt;这种机制不是像直接的Gradle 导入那样灵活 （或频繁更新），但它有两种用途：&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Feedback</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T024438Z" creationid="msdx" creationdate="20141125T024438Z">
@@ -5686,6 +5702,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If your project is doing a lot of Eclipse-specific directory mappings (with path variables, linked resources etc) it's possible that the Android Studio importer can not resolve the paths properly; in that case, try the Eclipse exporter (but please also file a bug so we can fix the importer).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T135453Z" creationid="msdx" creationdate="20150111T135453Z">
+        <seg>如果你的项目有很多Eclipse所特定的目录映射（通过path变量，链接资源等），有可能Android Studio 的导入无法正确地解析路径；在这种情况下，尝试在Eclipse导出（但也请提交一个bug，以便我们可以修复导入）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If your switch statement looks like this:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T035426Z" creationid="msdx" creationdate="20141126T035426Z">
@@ -5754,6 +5778,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141215T144402Z" creationid="msdx" creationdate="20141215T144402Z">
         <seg>重要说明：&lt;/b0&gt;注意已发布的配置是一个完整的variant，包括生成类型，并且需要像以上那样被引用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Importing Directly into Android Studio</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T135504Z" creationid="msdx" creationdate="20150111T135504Z">
+        <seg>直接导入到Android Studio</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Importing the Eclipse project directly into Studio.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T133739Z" creationid="msdx" creationdate="20150111T133739Z">
+        <seg>直接把Eclipse项目导入到Studio中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6090,6 +6130,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141213T070355Z" creationid="msdx" creationdate="20141213T070355Z">
         <seg>你也可以创建其他配置，或者自定义某个默认的内置配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It will detect many source libraries (such as ActionBarSherlock) and binary libraries (e.g. guava.jar), and will replace these with maven dependencies instead, which means you no longer have to maintain the libraries manually</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T133847Z" creationid="msdx" creationdate="20150111T133847Z">
+        <seg>它会检测许多源码库 （如 ActionBarSherlock） 和二进制库 （例如 guava.jar），并将把这些替换为 maven 依赖，这意味着您不再需要手动维护这些库了</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It will let you keep your Gradle project using the same file structure as Eclipse ADT projects (in other words, it does not move files around; everything is kept in place, and a special build.gradle file tells Gradle to look for sources in the old directory structure rather than the new one).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T135031Z" creationid="msdx" creationdate="20150111T134610Z">
+        <seg>它可以让你的Gradle项目使用和Eclipse ADT 项目相同的文件结构（换句话说，它不会移动文件，一切文件都在原来的位置，然后通过一个特殊的build.gradle文件来告诉 Gradle 在旧的目录结构而不是新的结构中来查找源代码）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It will rewrite the project using the new canonical Android Gradle project structure, which supports instrumentation tests in the same project as the tested code, flavor and build type specific resources, etc</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T134304Z" creationid="msdx" creationdate="20150111T134304Z">
+        <seg>它将把项目改为使用新规范的 Android Gradle 项目结构，这种新的项目结构支持instrumentation 测试作为测试代码在同一个项目里进行测试，以及flavor和构建类型的特定的资源，等等</seg>
       </tuv>
     </tu>
     <tu>
@@ -6530,6 +6594,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150110T163254Z" creationid="msdx" creationdate="20150110T163254Z">
         <seg>消息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Migrating From Eclipse Projects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T133622Z" creationid="msdx" creationdate="20150111T133622Z">
+        <seg>Eclipse 项目迁移</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Migrating From Eclipse Projects - Android Tools Project Site</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T133613Z" creationid="msdx" creationdate="20150111T133613Z">
+        <seg>Eclipse 项目迁移 - Android Tools 项目站点</seg>
       </tuv>
     </tu>
     <tu>
@@ -9270,6 +9350,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is the preferred approach, and has numerous advantages:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T133750Z" creationid="msdx" creationdate="20150111T133750Z">
+        <seg>这是首选的方法，并且具有许多优点：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is typically in UI code and the performance impact is negligible.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T035056Z" creationid="msdx" creationdate="20141126T035056Z">
@@ -9290,6 +9378,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T130015Z" creationid="msdx" creationdate="20141125T130015Z">
         <seg>这一点很有用，比如如果你想在编辑布局的时候把&lt;i0&gt; &lt;/i0&gt;样品数据放到文本框中，但又不些这些属性影响到你的运行的应用中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is useful if you want to continue working with both Studio and Eclipse on the same codebase.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T135132Z" creationid="msdx" creationdate="20150111T135132Z">
+        <seg>如果你想让同一个代码库能继续同时在Studio和Eclipse中使用，这将会很有用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9614,10 +9710,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To import into Android Studio, select File &gt; Import, and then select the directory containing your Eclipse ADT project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T141120Z" creationid="msdx" creationdate="20150111T140817Z">
+        <seg>要导入到Android Studio中，请选择 文件 &gt; 导入，然后选择包含您的Eclipse ADT项目的目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To keep build files simple to read and understand, the goal is to let developers modify the build by tweak these objects through the DSL, rather than diving deep in the inputs and options of the tasks and changing them.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150102T051505Z" creationid="msdx" creationdate="20150102T051505Z">
         <seg>为了保持构建文件易于阅读和理解，目的是要让开发人员通过DSL进行稍微调整就可以修改构建，而不是要深入任务的选项和输入并且去修改它们。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To migrate an Eclipse project to an Android Studio project, you have two options:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T133723Z" creationid="msdx" creationdate="20150111T133723Z">
+        <seg>要将一个 Eclipse 项目迁移到 Android Studio 项目，您有两种选择：</seg>
       </tuv>
     </tu>
     <tu>
@@ -12050,6 +12162,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T123653Z" creationid="msdx" creationdate="20141126T123653Z">
         <seg>http://tools.android.com/_/rsrc/1321373723841/tips/lint/lint-html-small.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://tools.android.com/_/rsrc/1378579914481/tech-docs/new-build-system/migrating-from-eclipse-projects/export-eclipse.png</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T133614Z" creationid="msdx" creationdate="20150111T133614Z">
+        <seg>http://tools.android.com/_/rsrc/1378579914481/tech-docs/new-build-system/migrating-from-eclipse-projects/export-eclipse.png</seg>
       </tuv>
     </tu>
     <tu>
