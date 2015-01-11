@@ -6678,6 +6678,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Migrating from IntelliJ Projects - Android Tools Project Site</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T143307Z" creationid="msdx" creationdate="20150111T143307Z">
+        <seg>Migrating from IntelliJ Projects - Android Tools Project Site</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Missing translations (and unused translations)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T134316Z" creationid="msdx" creationdate="20141126T134316Z">
