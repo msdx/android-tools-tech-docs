@@ -3126,6 +3126,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A sample gradle file is given below.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150112T123742Z" creationid="msdx" creationdate="20150112T123742Z">
+        <seg>下面给出一个示例 gradle 文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A single project can have different flavors which change the generated application.&lt;br0&gt;&lt;br1&gt;This new concept is designed to help when the differences are very minimum.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141218T142620Z" creationid="msdx" creationdate="20141218T142620Z">
@@ -4230,6 +4238,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Create a basic "build.gradle" file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T170720Z" creationid="msdx" creationdate="20150111T170720Z">
+        <seg>创建一个基本的“build.gradle”文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Creates a new &lt;i0&gt;BuildType&lt;/i0&gt; called &lt;f1&gt;&lt;b2&gt;jnidebug&lt;/b2&gt;&lt;/f1&gt; and configure it to be a copy of the &lt;f3&gt;&lt;b4&gt;debug&lt;/b4&gt;&lt;/f3&gt; build type.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141212T155117Z" creationid="msdx" creationdate="20141212T121935Z">
@@ -5030,6 +5046,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For each library, look up the corresponding AAR library dependency name (provided the library in question has been updated as a android library artifact), and add these to the dependency section.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150112T125741Z" creationid="msdx" creationdate="20150112T124943Z">
+        <seg>对于每个库，会查找相应的AAR库的依赖名称（前提是，所讨论的库已经被作为一个android 库归档文件被更新），然后把它们添加到依赖的部分中去。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example most elements types like activity or application have a default merging policy where all attributes and children are merged (assuming no conflict) into the resulting element.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T055720Z" creationid="msdx" creationdate="20150111T055720Z">
@@ -5250,6 +5274,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T063742Z" creationid="msdx" creationdate="20141125T041853Z">
         <seg>详细信息，请参阅&lt;/s0&gt;&lt;a1&gt;设计时布局属性&lt;/a1&gt;&lt;s2&gt;。&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For now, to migrate your IntelliJ project to an Android Gradle project (which can then be imported into IntelliJ and supported directly in IntelliJ), follow the following steps:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T170709Z" creationid="msdx" creationdate="20150111T170709Z">
+        <seg>现在，将您的 IntelliJ 项目迁移到 Android Gradle 项目 （它可以导入到 IntelliJ 然后在 IntelliJ中直接支持），需要遵循以下步骤：</seg>
       </tuv>
     </tu>
     <tu>
@@ -5638,6 +5670,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Identify which library projects you are using (such as ActionBarSherlock).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150112T123801Z" creationid="msdx" creationdate="20150112T123801Z">
+        <seg>确定您正在使用哪一个库项目（如 ActionBarSherlock）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If a property is not set through the DSL, some default value will be used.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141208T082143Z" creationid="msdx" creationdate="20141208T082143Z">
@@ -5866,6 +5906,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141202T141608Z" creationid="msdx" creationdate="20141202T141608Z">
         <seg>在 Android Studio 中，新建的项目始终会指定这两个值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In Gradle you no longer need to add in these libraries as source code projects; you can simply refer to them as dependencies, and the build system will handle the rest; downloading, merging in resources and manifest entries, etc.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150112T124936Z" creationid="msdx" creationdate="20150112T124739Z">
+        <seg>在 Gradle 中你不再需要把这些库作为源代码项目加进去；你可以把它们简单地用依赖来引用，并且构建系统将处理接下来的部分；进行下载，合并资源和清单项，等等。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6678,10 +6726,18 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Migrating from IntelliJ Projects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T143955Z" creationid="msdx" creationdate="20150111T143955Z">
+        <seg>IntelliJ 项目迁移</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Migrating from IntelliJ Projects - Android Tools Project Site</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T143307Z" creationid="msdx" creationdate="20150111T143307Z">
-        <seg>Migrating from IntelliJ Projects - Android Tools Project Site</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T143943Z" creationid="msdx" creationdate="20150111T143307Z">
+        <seg>IntelliJ 项目迁移 - Android Tools 项目站点</seg>
       </tuv>
     </tu>
     <tu>
@@ -9782,6 +9838,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To find the right declaration statements for your libraries, you might find the following useful: &lt;a0&gt;http://gradleplease.appspot.com/&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150112T125901Z" creationid="msdx" creationdate="20150112T125901Z">
+        <seg>To find the right declaration statements for your libraries, you might find the following useful: &lt;a0&gt;http://gradleplease.appspot.com/&lt;/a0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To generate an HTML report, just add &lt;c0&gt;--html &lt;i1&gt;filename&lt;/i1&gt;&lt;/c0&gt; as an argument:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T074438Z" creationid="msdx" creationdate="20141127T074345Z">
@@ -9882,6 +9946,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141217T140300Z" creationid="msdx" creationdate="20141217T140300Z">
         <seg>卸载这两个应用程序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Unlike the default Gradle file created by Android Studio when you create a new project, the following gradle file will point the source code directories to the existing folders (e.g. &lt;c0&gt;res/&lt;/c0&gt;, &lt;c1&gt;src/&lt;/c1&gt;) instead of the default new directory structure used for Gradle projects (&lt;c2&gt;src/main/java/&lt;/c2&gt;, &lt;c3&gt;src/main/res/&lt;/c3&gt;, etc).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150112T123726Z" creationid="msdx" creationdate="20150111T170726Z">
+        <seg>与你在创建一个新项目时由 Android Studio 所创建的默认 Gradle 文件文件，下面的 gradle 文件将把源代码目录指向现有文件夹 （例如&lt;c0&gt;res/&lt;/c0&gt;， &lt;c1&gt;src/&lt;/c1&gt;） 而不是用 Gradle 项目的默认新目录结构 （&lt;c2&gt;src/main/java/&lt;/c2&gt;， &lt;c3&gt;src/main/res/&lt;/c3&gt;等）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10066,6 +10138,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T150415Z" creationid="msdx" creationdate="20141125T150301Z">
         <seg>我们可能要定义一些额外的方便的属性，使比如选择在ViewFlipper 显示的子view等等变得简单</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We might provide an automatic migration option in Android Studio in the future.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T170554Z" creationid="msdx" creationdate="20150111T170554Z">
+        <seg>在未来，我们可能会在Android Studio 中提供自动迁移的选项。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12214,6 +12294,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>http://gradleplease.appspot.com/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150112T125741Z" creationid="msdx" creationdate="20150112T125741Z">
+        <seg>http://gradleplease.appspot.com/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>http://schemas.android.com/tools</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150106T160936Z" creationid="msdx" creationdate="20150106T160936Z">
@@ -13426,6 +13514,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150102T033104Z" creationid="msdx" creationdate="20150102T033104Z">
         <seg>http://www.gradle.org/docs/current/javadoc/org/gradle/api/DomainObjectCollection.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://www.gradle.org/downloads</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150112T130120Z" creationid="msdx" creationdate="20150112T130120Z">
+        <seg>http://www.gradle.org/downloads</seg>
       </tuv>
     </tu>
     <tu>
