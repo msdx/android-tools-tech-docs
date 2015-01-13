@@ -6544,16 +6544,16 @@
       <tuv lang="EN-US">
         <seg>Manifest Merger</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20150102T054507Z" creationid="msdx" creationdate="20150102T054507Z">
-        <seg>Manifest Merger</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T010234Z" creationid="msdx" creationdate="20150102T054507Z">
+        <seg>清单合并</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Manifest Merger - Android Tools Project Site</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20150105T150635Z" creationid="msdx" creationdate="20150102T054501Z">
-        <seg>清单合并工具 - Android 工具项目站点</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T010239Z" creationid="msdx" creationdate="20150102T054501Z">
+        <seg>清单合并 - Android 工具项目站点</seg>
       </tuv>
     </tu>
     <tu>
@@ -8058,6 +8058,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141217T144055Z" creationid="msdx" creationdate="20141217T144055Z">
         <seg>测试报告</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Test your build by running &lt;c0&gt;gradle assembleDebug&lt;/c0&gt; in your project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T011745Z" creationid="msdx" creationdate="20150113T011745Z">
+        <seg>Test your build by running &lt;c0&gt;gradle assembleDebug&lt;/c0&gt; in your project.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9840,8 +9848,8 @@
       <tuv lang="EN-US">
         <seg>To find the right declaration statements for your libraries, you might find the following useful: &lt;a0&gt;http://gradleplease.appspot.com/&lt;/a0&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20150112T125901Z" creationid="msdx" creationdate="20150112T125901Z">
-        <seg>To find the right declaration statements for your libraries, you might find the following useful: &lt;a0&gt;http://gradleplease.appspot.com/&lt;/a0&gt;</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T011742Z" creationid="msdx" creationdate="20150112T125901Z">
+        <seg>为找到关于库的合适的声明语句，你可能会发现以下博客对你有用：&lt;a0&gt;http://gradleplease.appspot.com/&lt;/a0&gt;</seg>
       </tuv>
     </tu>
     <tu>
