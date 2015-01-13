@@ -422,6 +422,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>./Migrating Gradle Projects to version 1.0.0 - Android Tools Project Site_files/standard-css-iceberg-ltr-ltr.css</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T024701Z" creationid="msdx" creationdate="20150113T024701Z">
+        <seg>./Migrating Gradle Projects to version 1.0.0 - Android Tools Project Site_files/standard-css-iceberg-ltr-ltr.css</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>./Tools Attributes - Android Tools Project Site_files/allthemes-view.css</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T024017Z" creationid="msdx" creationdate="20141125T024017Z">
@@ -6810,6 +6818,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T133613Z" creationid="msdx" creationdate="20150111T133613Z">
         <seg>Eclipse 项目迁移 - Android Tools 项目站点</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Migrating Gradle Projects to version 1.0.0 - Android Tools Project Site</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T024659Z" creationid="msdx" creationdate="20150113T024624Z">
+        <seg>迁移 Gradle 项目到 1.0.0 版本 - Android Tools 项目站点</seg>
       </tuv>
     </tu>
     <tu>
@@ -13706,6 +13722,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150112T130120Z" creationid="msdx" creationdate="20150112T130120Z">
         <seg>http://www.gradle.org/downloads</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://www.gstatic.com/sites/p/87315d/system/app/images/apple-touch-icon.png</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T024543Z" creationid="msdx" creationdate="20150113T024543Z">
+        <seg>http://www.gstatic.com/sites/p/87315d/system/app/images/apple-touch-icon.png</seg>
       </tuv>
     </tu>
     <tu>

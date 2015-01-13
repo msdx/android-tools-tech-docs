@@ -1,0 +1,258 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0070)http://tools.android.com/tech-docs/new-build-system/migrating-to-1-0-0 -->
+<html xmlns="http://www.w3.org/1999/xhtml" itemscope="" itemtype="http://schema.org/WebPage"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<script async="" src="./Migrating Gradle Projects to version 1.0.0 - Android Tools Project Site_files/analytics.js"></script><script type="text/javascript">/* Copyright 2008 Google. */ (function() { var b=window,e="chrome",g="tick",h="wtsrt_",l="tbsd_",m="tbnd_",n="start",p="_wtsrt",q="_tbnd",r="CSI/";(function(){function k(a){this.t={};this.tick=function(a,d,c){this.t[a]=[void 0!=c?c:(new Date).getTime(),d];if(void 0==c)try{b.console.timeStamp(r+a)}catch(f){}};this[g](n,null,a)}var a;b.performance&&(a=b.performance.timing);var t=a?new k(a.responseStart):new k;b.jstiming={Timer:k,load:t};if(a){var d=a.navigationStart,f=a.responseStart;0<d&&f>=d&&(b.jstiming.srt=f-d)}if(a){var c=b.jstiming.load;0<d&&f>=d&&(c[g](p,void 0,d),c[g](h,p,f),c[g](l,h))}try{a=null,b[e]&&b[e].csi&&(a=Math.floor(b[e].csi().pageT),
+c&&0<d&&(c[g](q,void 0,b[e].csi().startE),c[g](m,q,d))),null==a&&b.gtbExternal&&(a=b.gtbExternal.pageT()),null==a&&b.external&&(a=b.external.pageT,c&&0<d&&(c[g](q,void 0,b.external.startE),c[g](m,q,d))),a&&(b.jstiming.pt=a)}catch(u){}})(); })()
+</script>
+<link rel="shortcut icon" type="image/x-icon" href="http://www.google.com/images/icons/product/sites-16.ico">
+<link rel="apple-touch-icon" href="http://www.gstatic.com/sites/p/87315d/system/app/images/apple-touch-icon.png" type="image/png">
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var d=window,e="length",h="",k="__duration__",l="function";function m(c){return document.getElementById(c)}d.byId=m;function n(c){return c.replace(/^\s+|\s+$/g,h)}d.trim=n;var p=[],q=0;d.JOT_addListener=function(c,a,b){var f=new String(q++);c={eventName:c,handler:a,compId:b,key:f};p.push(c);return f};d.JOT_removeListenerByKey=function(c){for(var a=0;a<p[e];a++)if(p[a].key==c){p.splice(a,1);break}};d.JOT_removeAllListenersForName=function(c){for(var a=0;a<p[e];a++)p[a].eventName==c&&p.splice(a,1)};
+d.JOT_postEvent=function(c,a,b){var f={eventName:c,eventSrc:a||{},payload:b||{}};if(d.JOT_fullyLoaded)for(a=p[e],b=0;b<a&&b<p[e];b++){var g=p[b];g&&g.eventName==c&&(f.listenerCompId=g.compId||h,(g=typeof g.handler==l?g.handler:d[g.handler])&&g(f))}else d.JOT_delayedEvents.push({eventName:c,eventSrc:a,payload:b})};d.JOT_delayedEvents=[];d.JOT_fullyLoaded=!1;
+d.JOT_formatRelativeToNow=function(c,a){var b=((new Date).getTime()-c)/6E4;if(1440<=b||0>b)return null;var f=0;60<=b&&(b/=60,f=2);2<=b&&f++;return a?d.JOT_siteRelTimeStrs[f].replace(k,Math.floor(b)):d.JOT_userRelTimeStrs[f].replace(k,Math.floor(b))}; })()
+</script>
+<script>
+
+
+var webspace = {"scottyUrl":"/_/upload","isConsumer":false,"canPublishScriptToAnyone":true,"serverFlags":{"cajaBaseUrl":"//www.gstatic.com/caja","cajaDebugMode":false},"sharingUrlPrefix":"/_/sharing","csiReportUri":"http://csi.gstatic.com/csi","sharingPolicy":"OPENED","siteNoticeUrlEnabled":null,"siteNoticeUrlAddress":null,"analyticsAccountId":"UA-19996407-1","baseUri":"","enableUniversalAnalytics":false,"name":"tools","features":{"copySiteProgressUpdates":true,"asyncPermanentDelete":true,"colorsAndFontsFix":true,"docosHideNotificationSettings":true,"driveImageLinkFromOnepick":true,"siteNoticeUrl":true,"asyncPageKeyFix":true,"fileCabinetScreenReaderFix":true,"pdfEmbedSupport":false,"siteMapBottomPaginationButtonsFix":true,"newMyMapsEmbeds":true,"plusBadge":false,"analyticsTrackingForCorp":false,"freebirdFormEmbedDocTypeFix":true,"webspaceUrlScrubOnlyOnBlur":true,"addShortcutToTextBoxDialog":true,"htmlEmbed":true,"newCountDownDialog":true,"pageTreeKeyboardFix":true,"domainAnalyticsInGAOnly":false,"languageSelectDefaultTextSetToDefault":true},"domain":"android.com","adsensePublisherId":null,"gvizVersion":1,"siteTitle":"Android Tools Project Site","signInUrl":"https://www.google.com/a/SelectSession?continue\u003dhttp://sites.google.com/a/android.com/tools/tech-docs/new-build-system/migrating-to-1-0-0\u0026service\u003djotspot","pageSharingId":"jotspot_page","plusPageId":"","onepickBaseUrl":"https://docs.google.com","siteNoticeRevision":null,"termsUrl":"http://sites.google.com/site/sites/system/app/pages/meta/terms?apps\u003d1","enableAnalytics":true,"isPublic":true,"siteNoticeMessage":null,"plusPageUrl":"","homePath":"/","sharingId":"jotspot","isAdsenseEnabled":true,"adsensePromoClickedOrSiteIneligible":true,"isStartPageEnabled":true,"domainAnalyticsAccountId":""};
+
+
+
+webspace.gadgets = {"baseUri":"/system/app/pages/gadgets"};
+
+
+webspace.user = {"uid":"","renderMobile":false,"namespaceUser":false,"sessionIndex":"","primaryEmail":"guest","displayNameOrEmail":"guest","namespace":"","hasAdminAccess":false,"guest_":true,"keyboardShortcuts":true,"hasWriteAccess":false,"domain":"","dasherUser":false,"userName":"guest"};
+
+webspace.page = {"canDeleteWebspace":null,"locale":"zh_CN","state":"","wuid":"wuid:gx:504216bdcdce7f17","pageInheritsPermissions":null,"timeZone":"America/Los_Angeles","properties":{},"type":"text","canChangePath":true,"parentWuid":"wuid:gx:7f79556dd5cace7","revision":5,"title":"Migrating Gradle Projects to version 1.0.0","isRtlLocale":false,"bidiEnabled":false,"siteLocale":"en","name":"migrating-to-1-0-0","path":"/tech-docs/new-build-system/migrating-to-1-0-0","isSiteRtlLocale":false,"parentPath":"/tech-docs/new-build-system"};
+webspace.page.breadcrumbs = [{"title":"Technical docs","dir":"ltr","path":"/tech-docs","deleted":false},{"title":"New Build System","dir":"ltr","path":"/tech-docs/new-build-system","deleted":false},{"title":"Migrating Gradle Projects to version 1.0.0","dir":"ltr","path":"/tech-docs/new-build-system/migrating-to-1-0-0","deleted":false}];
+
+
+webspace.editorResources = {
+  text: [
+    'http://www.gstatic.com/sites/p/87315d/system/js/codemirror.js',
+    'http://www.gstatic.com/sites/p/87315d/system/app/css/codemirror_css.css',
+    'http://www.gstatic.com/sites/p/87315d/system/js/trog_edit__zh_cn.js',
+    'http://www.gstatic.com/sites/p/87315d/system/app/css/trogedit.css',
+    '/_/rsrc/1418253394000/system/app/css/editor.css',
+    'http://www.gstatic.com/sites/p/87315d/system/app/css/codeeditor.css',
+    '/_/rsrc/1418253394000/system/app/css/camelot/editor-jfk.css'
+  ],
+  sitelayout: [
+    'http://www.gstatic.com/sites/p/87315d/system/app/css/sitelayouteditor.css'
+  ]
+};
+
+var JOT_clearDotPath = 'http://www.gstatic.com/sites/p/87315d/system/app/images/cleardot.gif';
+
+
+var JOT_userRelTimeStrs = ["1 \u5206\u949f\u524d","__duration__ \u5206\u949f\u4e4b\u524d","1 \u5c0f\u65f6\u524d","__duration__ \u5c0f\u65f6\u524d"];
+
+
+webspace.siteTemplateId = false;
+
+
+webspace.page.currentTemplate = {"title":"\u7f51\u9875","path":"/system/app/pagetemplates/text"};
+
+
+
+var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+</script>
+<script type="text/javascript">
+                window.jstiming.load.tick('scl');
+              </script>
+<meta name="title" content="Migrating Gradle Projects to version 1.0.0 - Android Tools Project Site">
+<meta itemprop="name" content="Migrating Gradle Projects to version 1.0.0 - Android Tools Project Site">
+<meta property="og:title" content="Migrating Gradle Projects to version 1.0.0 - Android Tools Project Site">
+<meta name="description" content="Android tools project information site">
+<meta itemprop="description" content="Android tools project information site">
+<meta id="meta-tag-description" property="og:description" content="Android tools project information site">
+<style type="text/css">
+</style>
+<link rel="stylesheet" type="text/css" href="./Migrating Gradle Projects to version 1.0.0 - Android Tools Project Site_files/standard-css-iceberg-ltr-ltr.css">
+<link rel="stylesheet" type="text/css" href="./Migrating Gradle Projects to version 1.0.0 - Android Tools Project Site_files/overlay.css">
+<link rel="stylesheet" type="text/css" href="./Migrating Gradle Projects to version 1.0.0 - Android Tools Project Site_files/allthemes-view.css">
+<!--[if IE]>
+          <link rel="stylesheet" type="text/css" href="/system/app/css/camelot/allthemes%2die.css" />
+        <![endif]-->
+<title>Migrating Gradle Projects to version 1.0.0 - Android Tools Project Site</title>
+<meta itemprop="image" content="http://www.google.com/a/cpanel/android.com/images/logo.gif?service=google_default">
+<meta property="og:image" content="http://www.google.com/a/cpanel/android.com/images/logo.gif?service=google_default">
+<script type="text/javascript">
+                window.jstiming.load.tick('cl');
+              </script>
+<script src="./Migrating Gradle Projects to version 1.0.0 - Android Tools Project Site_files/ga.js"></script><script src="./Migrating Gradle Projects to version 1.0.0 - Android Tools Project Site_files/element.js"></script><link type="text/css" rel="stylesheet" charset="UTF-8" href="https://translate.googleapis.com/translate_static/css/translateelement.css"><script type="text/javascript" charset="UTF-8" src="https://translate.googleapis.com/translate_static/js/element/main_zh-CN.js"></script></head>
+<body xmlns="http://www.google.com/ns/jotspot" id="body" class=" en            " style="zoom: 1;">
+<div id="sites-page-toolbar" class="sites-header-divider">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-status" class="sites-status" style="display:none;"><div id="sites-notice" class="sites-notice" role="status" aria-live="assertive"> </div></div>
+</div>
+<div id="sites-chrome-everything-scrollbar">
+<div id="sites-chrome-everything" class="">
+<div id="sites-chrome-page-wrapper" style="direction: ltr">
+<div id="sites-chrome-page-wrapper-inside">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-chrome-header-wrapper" style="">
+<table id="sites-chrome-header" class="sites-layout-hbox" cellspacing="0" style="">
+<tbody><tr class="sites-header-primary-row" id="sites-chrome-userheader">
+<td id="sites-header-title" class="" role="banner"><div class="sites-header-cell-buffer-wrapper"><a href="http://tools.android.com/" id="sites-chrome-userheader-logo"><img id="logo-img-id" src="./Migrating Gradle Projects to version 1.0.0 - Android Tools Project Site_files/logo.gif" alt="Android Tools Project Site" class="sites-logo  sites-domain-logo"></a><h2><a href="http://tools.android.com/" dir="ltr" id="sites-chrome-userheader-title">Android Tools Project Site</a></h2></div></td><td class="sites-layout-searchbox "><div class="sites-header-cell-buffer-wrapper"><form id="sites-searchbox-form" action="http://tools.android.com/system/app/pages/search" role="search"><input type="hidden" id="sites-searchbox-scope" name="scope" value="search-site"><input type="text" id="jot-ui-searchInput" name="q" size="20" value="" aria-label="Search this site"><div id="sites-searchbox-button-set" class="goog-inline-block"><div role="button" id="sites-searchbox-search-button" class="goog-inline-block jfk-button jfk-button-standard" tabindex="0" style="-webkit-user-select: none;">Search this site</div></div></form></div></td>
+</tr>
+<tr class="sites-header-secondary-row" id="sites-chrome-horizontal-nav">
+<td colspan="2" id="sites-chrome-header-horizontal-nav-container" role="navigation">
+<div class="sites-header-nav"><ul class="sites-header-nav-container-boxes"></ul><div style="clear: both;"></div></div>
+</td>
+</tr>
+</tbody></table> 
+</div> 
+<div id="sites-chrome-main-wrapper">
+<div id="sites-chrome-main-wrapper-inside">
+<table id="sites-chrome-main" class="sites-layout-hbox" cellspacing="0" cellpadding="{scmCellpadding}" border="0">
+<tbody><tr>
+<td id="sites-chrome-sidebar-left" class="sites-layout-sidebar-left initial" style="width:150px">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_2bd" class="sites-embed" role="navigation"><div class="sites-embed-content sites-sidebar-nav"><ul role="navigation" jotid="navList"><li class="nav-first "><div dir="ltr" style="padding-left: 5px;"><a href="http://tools.android.com/overview" jotid="wuid:gx:44ff8c8722cc5d9b" class="sites-navigation-link">Projects Overview</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://tools.android.com/screenshots" jotid="wuid:gx:6914b706d692f646" class="sites-navigation-link">Screenshots</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://tools.android.com/release" jotid="wuid:gx:7ac5d78c9458ca81" class="sites-navigation-link">Release Status</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://tools.android.com/roadmap" jotid="wuid:gx:60ea3587cace173b" class="sites-navigation-link">Roadmap</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://tools.android.com/download" jotid="wuid:gx:5b9a06a7bd768d08" class="sites-navigation-link">Download</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://tools.android.com/preview-channel" jotid="wuid:gx:65c33e76aa1e249e" class="sites-navigation-link">Preview Channel</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://tools.android.com/recent" jotid="wuid:gx:2d257f949510e1ed" class="sites-navigation-link">Recent Changes</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://tools.android.com/tech-docs" jotid="wuid:gx:68695c8c797f5a75" class="sites-navigation-link">Technical docs</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://tools.android.com/tech-docs/new-build-system" jotid="wuid:gx:7f79556dd5cace7" class="sites-navigation-link">New Build System</a></div></li></ul></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_09830101249604128" class="sites-embed" role="navigation"><div class="sites-embed-content sites-sidebar-nav"><ul role="navigation" jotid="navList"><li class="nav-first "><div dir="ltr" style="padding-left: 5px;"><a href="http://tools.android.com/knownissues" jotid="wuid:gx:2a2ed1d61165c57f" class="sites-navigation-link">Known Issues</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://tools.android.com/tips" jotid="wuid:gx:11629b864408db4c" class="sites-navigation-link">Tips</a></div></li></ul></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_42875732108950615" class="sites-embed" role="navigation"><div class="sites-embed-content sites-sidebar-nav"><ul role="navigation" jotid="navList"><li class="nav-first "><div dir="ltr" style="padding-left: 5px;"><a href="http://tools.android.com/build" jotid="wuid:gx:138a85800bd6b1df" class="sites-navigation-link">Build Overview</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://tools.android.com/contributing" jotid="wuid:gx:1f3267453e2dafcc" class="sites-navigation-link">Contributing</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://tools.android.com/feedback" jotid="wuid:gx:5b9bc58701d69f2" class="sites-navigation-link">Feedback</a></div></li></ul></div></div>
+</td>
+<td id="sites-canvas-wrapper">
+<div id="sites-canvas" role="main">
+<div id="goog-ws-editor-toolbar-container"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="">
+<a dir="ltr" href="http://tools.android.com/tech-docs">Technical docs</a>‎ &gt; ‎<a dir="ltr" href="http://tools.android.com/tech-docs/new-build-system">New Build System</a>‎ &gt; ‎
+  </div>
+<h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="" align="left">
+<span id="sites-page-title" dir="ltr">Migrating Gradle Projects to version 1.0.0</span>
+</h3>
+<div id="sites-canvas-main" class="sites-canvas-main">
+<div id="sites-canvas-main-content">
+<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><div style="font-size:13.3333330154419px;line-height:21.3333320617676px">The Android Gradle plugin has been in rapid development, and as features evolved the APIs and the build file description language went through several incompatible changes. If you are trying to load a project that was built with an older version of the Gradle plugin, it may not build correctly with 1.0.0.</div><div style="font-size:13.3333330154419px;line-height:21.3333320617676px"><br></div><div style="font-size:13.3333330154419px;line-height:21.3333320617676px">This document describes the most common changes to help you migrate to 1.0.0. From version 1.0.0 and going forward, we will strive much harder to not make incompatible changes, and if we do, we plan to write IDE support to help migrate the projects automatically.</div><h2><a name="TOC-Update-Plugin-and-Gradle-Version-Numbers"></a>Update Plugin and Gradle Version Numbers</h2><div style="font-size:13.3333330154419px;line-height:21.3333320617676px">The build system knows which specific version of the Gradle plugin to use, and the version of Gradle to use, because they are listed explicitly in your project files. When you use Android Studio 1.0 and you open an older project, it will offer to automatically find and update these version numbers. You can also make these edits manually.</div><div style="font-size:13.3333330154419px;line-height:21.3333320617676px"><br></div><div style="font-size:13.3333330154419px;line-height:21.3333320617676px">The Android Gradle plugin version is typically listed in the top level&nbsp;<code>build.gradle</code>&nbsp;file in the project, and can be updated as follows:</div><div style="font-size:13.3333330154419px;line-height:21.3333320617676px"><div><br></div><div></div><div class="sites-codeblock sites-codesnippet-block"><div><span style="line-height:1.6;font-size:10pt;background-color:transparent"><code>&nbsp; &nbsp; &nbsp;dependencies {</code></span></div><div><code>- &nbsp; &nbsp; &nbsp; &nbsp;classpath 'com.android.tools.build:gradle:0.8.+'</code></div><div><code>+ &nbsp; &nbsp; &nbsp; &nbsp;classpath 'com.android.tools.build:gradle:<b>1.0.0</b>'</code></div><div><span style="line-height:1.6;font-size:10pt;background-color:transparent"><code>&nbsp; &nbsp; &nbsp;}</code></span></div><div></div></div><br></div><div style="font-size:13.3333330154419px;line-height:21.3333320617676px">The version of Gradle to use for your project should also be updated to 2.2.1 or later. You can do that by editing the file&nbsp;<code>gradle/wrapper/gradle-wrapper.properties</code>:</div><div style="font-size:13.3333330154419px;line-height:21.3333320617676px"><div></div></div><div class="sites-codeblock sites-codesnippet-block" style="font-size:13.3333330154419px"><div><div><span style="line-height:1.6;font-size:10pt;background-color:transparent"><code>&nbsp;zipStorePath=wrapper/dists</code></span></div><div><code>-distributionUrl=http\://services.gradle.org/distributions/gradle-1.11-all.zip</code></div><div><code>+distributionUrl=http\://services.gradle.org/distributions/<b>gradle-2.2.1-all.zip</b></code></div></div><div></div></div><div style="font-size:13.3333330154419px;line-height:21.3333320617676px"><br></div><span style="font-size:13.3333330154419px;line-height:21.3333320617676px">Again, Android Studio should offer to perform this edit automatically when you open up an older project:</span><h2><a name="TOC-Migrating-from-0.9.x-to-1.0.0"></a>Migrating from 0.9.<i>x</i>&nbsp;to 1.0.0</h2><h3><a name="TOC-runProguard"></a>runProguard</h3><div style="font-size:13.3333330154419px;line-height:21.3333320617676px">The most common issue that affects users is the&nbsp;<code>runProguard</code>&nbsp;property changing names to&nbsp;<code>minifyEnabled</code>. If you run into the build error</div><div style="font-size:13.3333330154419px;line-height:21.3333320617676px"><span style="line-height:1.6;font-size:10pt;background-color:transparent">&nbsp; &nbsp; Gradle DSL method not found: 'runProguard()'</span></div><div style="font-size:13.3333330154419px;line-height:21.3333320617676px"><span style="line-height:1.6;font-size:10pt;background-color:transparent">then this is the cause of your build error.</span></div><div style="font-size:13.3333330154419px;line-height:21.3333320617676px"><span style="line-height:1.6;font-size:10pt;background-color:transparent"><br></span></div><div style="font-size:13.3333330154419px;line-height:21.3333320617676px">This crops up a lot because that property was inserted into all projects created by Android Studio prior to version 0.14.0.</div><div style="font-size:13.3333330154419px;line-height:21.3333320617676px"><br></div><div style="font-size:13.3333330154419px;line-height:21.3333320617676px">To update your project, edit your build.gradle file as follows:</div><div style="font-size:13.3333330154419px;line-height:21.3333320617676px"><div></div></div><div class="sites-codeblock sites-codesnippet-block" style="font-size:13.3333330154419px"><div><code>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;}</code></div><div><code>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;release {</code></div><div><code>- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>runProguard</b>&nbsp;true</code></div><div><code>+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>minifyEnabled</b>&nbsp;true</code></div><div><span style="line-height:1.6;font-size:10pt;background-color:transparent"><code>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'</code></span></div></div><p style="font-size:13.3333330154419px;line-height:21.3333320617676px">There are some additional other properties that were renamed as well, in both build types and product flavors.</p><h2 style="font-size:13.3333330154419px;line-height:21.3333320617676px"><a name="TOC-ApplicationId-in-Library-Projects"></a><span style="font-size:1.4em;line-height:1.6;background-color:transparent">ApplicationId in Library Projects</span></h2><p style="font-size:13.3333330154419px;line-height:21.3333320617676px">You cannot use applicationId to customize the package of a <b>library</b>&nbsp;project. The package name has to be fixed in library projects (and specified as packageName in the manifest). The Gradle plugin did not enforce this restriction earlier.</p><h3><a name="TOC-1"></a><div style="font-size:13.3333330154419px;line-height:21.3333320617676px"></div></h3><h3><a name="TOC-Renamed-Properties-in-BuildTypes"></a>Renamed Properties in BuildTypes</h3><div style="font-size:13.3333330154419px;line-height:21.3333320617676px"><code>runProguard =&gt; minifyEnabled</code></div><div style="font-size:13.3333330154419px;line-height:21.3333320617676px"><span style="line-height:1.6;font-size:10pt;background-color:transparent"><code>zipAlign =&gt; zipAlignEnabled</code></span></div><div style="font-size:13.3333330154419px;line-height:21.3333320617676px"><div><code>jniDebugBuild =&gt; jniDebuggable</code></div><div><code>renderscriptDebug =&gt; renderscriptDebuggable</code></div><h3><a name="TOC-Renamed-Properties-in-ProductFlavors"></a>Renamed Properties in ProductFlavors</h3><div><code>flavorGroups =&gt; flavorDimensions</code></div><div><code>packageName =&gt; applicationId</code></div><div><code>testPackageName =&gt; testApplicationId</code></div><div><code>renderscriptSupportMode =&gt; renderscriptSupportModeEnabled</code></div><div><code>ProductFlavor.renderscriptNdkMode =&gt; renderscriptNdkModeEnabled</code></div></div><h3><a name="TOC-Other-Name-changes"></a>Other Name changes</h3><div style="font-size:13.3333330154419px;line-height:21.3333320617676px"><code>InstrumentTest</code> was renamed to <code>androidTest</code>.</div><h2><a name="TOC-Migrating-From-0.8.x-to-0.9.x"></a>Migrating From 0.8.x to 0.9.x</h2><div style="font-size:13.3333330154419px;line-height:21.3333320617676px"><br></div><span style="font-size:13.3333330154419px;line-height:21.3333320617676px">Version 0.9 of the Gradle plugin for Android made a few incompatible changes that require changes to your project. This page documents how to update your project. Note that this is not a complete list of changes in the 0.9 version of the plugin; it simply covers the changes that require updates to your source files. For a full list of changes, see the&nbsp;</span><a href="http://tools.android.com/tech-docs/new-build-system/user-guide" style="font-size:13.3333330154419px;line-height:21.3333320617676px">user guide</a><span style="font-size:13.3333330154419px;line-height:21.3333320617676px">.</span><div style="font-size:13.3333330154419px;line-height:21.3333320617676px"><span style="font-size:1.4em;line-height:1.6;background-color:transparent"><br></span></div><div style="font-size:13.3333330154419px;line-height:21.3333320617676px"><span style="font-size:1.4em;line-height:1.6;background-color:transparent">Instrumentation Tests</span></div><div style="font-size:13.3333330154419px;line-height:21.3333320617676px">If you have instrumentation tests (or other types of tests) in your project, note that we changed the name and folder from instrumentation tests to android tests to reflect the fact that this facility is not just for instrumentation tests but for plain JUnit tests (running on a device) and eventually also UI automator tests.</div><div style="font-size:13.3333330154419px;line-height:21.3333320617676px"><br></div><div style="font-size:13.3333330154419px;line-height:21.3333320617676px">To update your project</div><div style="font-size:13.3333330154419px;line-height:21.3333320617676px"><ul><li>Rename your&nbsp;<font face="courier new, monospace">instrumentTest</font>&nbsp;folders to&nbsp;<font face="courier new, monospace">androidTest</font>, e.g.&nbsp;<font face="courier new, monospace">git mv app/src/instrumentTest app/src/androidTest</font><font face="arial, sans-serif">.<br>Alternatively you can tell gradle to keep using the old folder by&nbsp;<a href="http://tools.android.com/tech-docs/new-build-system/user-guide#TOC-Project-Structure" target="_blank">relocating your sourcesets</a>.</font></li><li>Update any test dependencies from&nbsp;instrumentTestCompile to&nbsp;androidTestCompile:<br><font face="courier new, monospace"><span style="line-height:1.6;font-size:10pt;background-color:transparent">dependencies {<br></span><span style="line-height:1.6;font-size:10pt;background-color:transparent">- &nbsp; &nbsp;instrumentTestCompile 'com.jayway.android.robotium:robotium-solo:4.3.1'<br></span><span style="line-height:1.6;font-size:10pt;background-color:transparent">+ &nbsp; &nbsp;androidTestCompile 'com.jayway.android.robotium:robotium-solo:4.3.1'<br><span style="line-height:1.6;font-size:10pt;background-color:transparent">}</span></span>&nbsp;</font></li></ul></div><h3><a name="TOC-Libraries"></a>Libraries</h3><div style="font-size:13.3333330154419px;line-height:21.3333320617676px">The DSL for the library projects is now the same as for the application projects. This means you can create more build types, and create flavors.</div><div style="font-size:13.3333330154419px;line-height:21.3333320617676px"><ul><li><font color="#404040"><span style="line-height:18px"><font face="Roboto, arial, sans-serif">You can create/configure more build types, in the&nbsp;</font><font face="courier new, monospace">buildTypes { ... }</font><font face="Roboto, arial, sans-serif">&nbsp;container.</font></span></font></li><li><font color="#404040"><span style="line-height:18px"><font face="Roboto, arial, sans-serif">You can create product flavors using the&nbsp;</font><font face="courier new, monospace">productFlavors { ... }</font><font face="Roboto, arial, sans-serif">&nbsp;container.</font></span></font></li><li><font color="#404040"><span style="line-height:18px"><font face="Roboto, arial, sans-serif">You can create signingConfigs using the&nbsp;</font><font face="courier new, monospace">signingConfigs { ... }</font><font face="Roboto, arial, sans-serif">&nbsp;container.</font></span></font></li></ul><div><font color="#404040" face="Roboto, arial, sans-serif"><span style="line-height:18px">For example if you have in your library:</span></font></div></div><div style="font-size:13.3333330154419px;line-height:21.3333320617676px"><font color="#404040" face="Roboto, arial, sans-serif"><span style="line-height:18px"><br></span></font></div><blockquote style="font-size:13.3333330154419px;line-height:21.3333320617676px;margin:0px 0px 0px 40px;border:none;padding:0px"><div><font color="#404040" face="courier new, monospace"><span style="line-height:18px;font-style:normal">android {</span></font></div><div><font color="#404040" face="courier new, monospace"><span style="line-height:18px;font-style:normal">&nbsp; &nbsp; debug {</span></font></div><div><font color="#404040" face="courier new, monospace"><span style="line-height:18px;font-style:normal">&nbsp; &nbsp; }</span></font></div><div><font color="#404040" face="courier new, monospace"><span style="line-height:18px;font-style:normal">&nbsp; &nbsp; release {</span></font></div><div><font color="#404040" face="courier new, monospace"><span style="line-height:18px;font-style:normal">&nbsp; &nbsp; }</span></font></div></blockquote><blockquote style="font-size:13.3333330154419px;line-height:21.3333320617676px;margin:0px 0px 0px 40px;border:none;padding:0px"><div><font color="#404040" face="courier new, monospace"><span style="line-height:18px;font-style:normal">&nbsp; &nbsp; debugSigningConfig {</span></font></div><div><font color="#404040" face="courier new, monospace"><span style="line-height:18px;font-style:normal">&nbsp; &nbsp; }</span></font></div></blockquote><blockquote style="font-size:13.3333330154419px;line-height:21.3333320617676px;margin:0px 0px 0px 40px;border:none;padding:0px"><font color="#404040" face="courier new, monospace"><span style="line-height:18px;font-style:normal">}</span></font></blockquote><div style="font-size:13.3333330154419px;line-height:21.3333320617676px"><font color="#404040" face="Roboto, arial, sans-serif"><span style="line-height:18px"><br></span></font></div><div style="font-size:13.3333330154419px;line-height:21.3333320617676px"><font color="#404040" face="Roboto, arial, sans-serif"><span style="line-height:18px">You would replace it with:</span></font></div><div style="font-size:13.3333330154419px;line-height:21.3333320617676px"><font color="#404040" face="Roboto, arial, sans-serif"><span style="line-height:18px"><br></span></font></div><blockquote style="font-size:13.3333330154419px;line-height:21.3333320617676px;margin:0px 0px 0px 40px;border:none;padding:0px"><div><font color="#404040" face="courier new, monospace"><span style="line-height:18px;font-style:normal">android {</span></font></div><div><font color="#404040" face="courier new, monospace"><span style="line-height:18px;font-style:normal">&nbsp; &nbsp; buildTypes {</span></font></div><div><font color="#404040" face="courier new, monospace"><span style="line-height:18px;font-style:normal">&nbsp; &nbsp; &nbsp; &nbsp; debug {</span></font></div><div><font color="#404040" face="courier new, monospace"><span style="line-height:18px;font-style:normal">&nbsp; &nbsp; &nbsp; &nbsp; }</span></font></div><div><font color="#404040" face="courier new, monospace"><span style="line-height:18px;font-style:normal">&nbsp; &nbsp; &nbsp; &nbsp; release {</span></font></div><div><font color="#404040" face="courier new, monospace"><span style="line-height:18px;font-style:normal">&nbsp; &nbsp; &nbsp; &nbsp; }</span></font></div><div><font color="#404040" face="courier new, monospace"><span style="line-height:18px;font-style:normal">&nbsp; &nbsp; }</span></font></div></blockquote><blockquote style="font-size:13.3333330154419px;line-height:21.3333320617676px;margin:0px 0px 0px 40px;border:none;padding:0px"><font color="#404040" face="courier new, monospace"><span style="line-height:18px;font-style:normal">&nbsp; &nbsp; signingConfigs {</span></font></blockquote><blockquote style="font-size:13.3333330154419px;line-height:21.3333320617676px;margin:0px 0px 0px 40px;border:none;padding:0px"><div><font color="#404040" face="courier new, monospace"><span style="line-height:18px;font-style:normal">&nbsp; &nbsp; &nbsp; &nbsp; debug {</span></font></div><div><font color="#404040" face="courier new, monospace"><span style="line-height:18px;font-style:normal">&nbsp; &nbsp; &nbsp; &nbsp; }</span></font></div></blockquote><blockquote style="font-size:13.3333330154419px;line-height:21.3333320617676px;margin:0px 0px 0px 40px;border:none;padding:0px"><font color="#404040" face="courier new, monospace"><span style="line-height:18px;font-style:normal">&nbsp; &nbsp; }</span></font></blockquote><blockquote style="font-size:13.3333330154419px;line-height:21.3333320617676px;margin:0px 0px 0px 40px;border:none;padding:0px"><font color="#404040" face="courier new, monospace"><span style="line-height:18px;font-style:normal">}</span></font></blockquote></div></td></tr></tbody></table>
+</div> 
+</div> 
+<div id="sites-canvas-bottom-panel">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-subpages"> </div>
+<div id="sites-attachments-container">
+</div>
+<a xmlns="http://www.w3.org/1999/xhtml" name="page-comments"></a>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-comments"><div class="sites-comment-docos-wrapper"><div class="sites-comment-docos"><div class="sites-comment-docos-background"></div><div class="sites-comment-docos-header"><div class="sites-comment-docos-header-title">评论</div></div><div id="sites-comment-docos-pane" class="sites-comment-docos-pane"></div></div></div></div>
+</div>
+</div> 
+</td> 
+</tr>
+</tbody></table> 
+</div> 
+</div> 
+<div id="sites-chrome-footer-wrapper">
+<div id="sites-chrome-footer-wrapper-inside">
+<div id="sites-chrome-footer">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-subfooter"><div class="sites-subfooter-content"><br></div></div>
+</div>
+</div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-adminfooter-container">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-adminfooter" role="navigation"><p><a class="sites-system-link" href="https://www.google.com/a/UniversalLogin?service=jotspot&continue=http://sites.google.com/a/android.com/tools/tech-docs/new-build-system/migrating-to-1-0-0">登录</a><span aria-hidden="true">|</span><a class="sites-system-link" href="http://tools.android.com/system/app/pages/recentChanges">最近的网站活动</a><span aria-hidden="true">|</span><a class="sites-system-link" href="http://tools.android.com/system/app/pages/reportAbuse" target="_blank">举报滥用行为</a><span aria-hidden="true">|</span><a class="sites-system-link" href="javascript:;" onclick="window.open(webspace.printUrl)">打印页面</a><span aria-hidden="true">|</span><span class="sites-system-link">由</span> <b class="powered-by"><a href="http://sites.google.com/">Google 协作平台强力驱动</a></b></p></div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-onebar-footer">
+</div>
+
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('sjl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="./Migrating Gradle Projects to version 1.0.0 - Android Tools Project Site_files/jot_min_view__en.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('jl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+    
+        sites.core.Analytics.createTracker();
+        sites.core.Analytics.trackPageview();
+      
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+                    sites.Searchbox.initialize(
+                        'sites-searchbox-search-button',
+                        {"object":[]}['object'],
+                        'search-site',
+                        {"label":"Configure search options...","url":"/system/app/pages/admin/settings"});
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+      gsites.HoverPopupMenu.createSiteDropdownMenus('sites-header-nav-dropdown', false);
+    </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("2bd", "Project Info", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_2bd');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("09830101249604128", "Navigation", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_09830101249604128');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("42875732108950615", "Contrib info", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_42875732108950615');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+              new sites.CommentPane('//docs.google.com/comments/d/AAHRpnXsyQG0kYJNjrkqEttKAS8ZaL7GwdJxHIDDvH4t1W6_kD0h9RDV1h-FJOclGvgwogpHMR_5iKg6z1j8xlmudyYw-2MetkHdZvPnicBQyLoFkjtb2591PSTLqWrencJB5SOWl8bxb/api/js?anon=true', true, true,
+                  false, false);
+            </script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+                    window.onload = function() {
+                      if (false) {
+                        JOT_setMobilePreview();
+                      }
+                      var loadTimer = window.jstiming.load;
+                      loadTimer.tick("ol");
+                      loadTimer["name"] = "load," + webspace.page.type + ",user_page";
+                      window.jstiming.report(loadTimer, {}, 'http://csi.gstatic.com/csi');
+                    }
+                  </script>
+
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        JOT_insertAnalyticsCode(false,
+            false);
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    var maestroRunner = new gsites.pages.view.SitesMaestroRunner(
+        webspace, "en");
+    maestroRunner.initListeners();
+    maestroRunner.installEditRender();
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+        JOT_insertTranslateCode('zh_CN', 'en');
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+  //<![CDATA[
+    // Decorate any fastUI buttons on the page with a class of 'goog-button'.
+    if (webspace.user.hasWriteAccess) {
+      JOT_decorateButtons();
+    }
+
+    // Fires delayed events.
+    (function() {
+      JOT_fullyLoaded = true;
+      var delayedEvents = JOT_delayedEvents;
+      for (var x = 0; x < delayedEvents.length; x++) {
+        var event = delayedEvents[x];
+        JOT_postEvent(event.eventName, event.eventSrc, event.payload);
+      }
+      JOT_delayedEvents = null;
+      JOT_postEvent('pageLoaded');
+    })();
+ //]]>
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    JOT_postEvent('decorateGvizCharts');
+  </script>
+<script type="text/javascript">
+          JOT_setupNoticeManager();
+        </script>
+<script type="text/javascript">
+          JOT_postEvent('renderPlus', null, 'sites-chrome-main');
+        </script>
+<div id="server-timer-div" style="display:none"> </div>
+<script type="text/javascript">
+          window.jstiming.load.tick('render');
+          JOT_postEvent('usercontentrendered', this);
+        </script>
+
+
+</body></html>
