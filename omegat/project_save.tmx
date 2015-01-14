@@ -62,6 +62,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(5533k)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T142036Z" creationid="msdx" creationdate="20150114T142036Z">
+        <seg>(5533k)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(&lt;b0&gt;NOTE: These may change over time.&lt;/b0&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T030759Z" creationid="msdx" creationdate="20141125T030021Z">
@@ -122,6 +130,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141217T141517Z" creationid="msdx" creationdate="20141217T141517Z">
         <seg>（这类似于 jUnit 定期运行的结果保存在 build/text-result 下面）&lt;br0&gt;&lt;br1&gt;它可以通过以下方式来配置 &lt;br2&gt;配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(http://tools.android.com/tech-docs/new-build-system/using-the-new-build-system#TOC-Working-with-and-Customizing-SourceSets)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T152354Z" creationid="msdx" creationdate="20150114T152354Z">
+        <seg>(http://tools.android.com/tech-docs/new-build-system/using-the-new-build-system#TOC-Working-with-and-Customizing-SourceSets)</seg>
       </tuv>
     </tu>
     <tu>
@@ -838,6 +854,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>0.2</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T152327Z" creationid="msdx" creationdate="20150114T152327Z">
+        <seg>0.2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>0.3</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T152736Z" creationid="msdx" creationdate="20150114T152736Z">
+        <seg>0.3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>14</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150104T133337Z" creationid="msdx" creationdate="20150104T133337Z">
@@ -1030,10 +1062,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;a0&gt;Apk Splits&lt;/a0&gt; (new in 0.13)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T140606Z" creationid="msdx" creationdate="20150114T140606Z">
+        <seg>&lt;a0&gt;Apk Splits&lt;/a0&gt; (new in 0.13)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;a0&gt;Layout Editor Lint Feedback&lt;/a0&gt; and &lt;a1&gt;Lint On Save&lt;/a1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T075024Z" creationid="msdx" creationdate="20141127T074930Z">
         <seg>&lt;a0&gt;布局编辑器 Lint 反馈（Layout Editor Lint Feedback）&lt;/a0&gt; 和 &lt;a1&gt;Lint 保存（Lint On Save）&lt;/a1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a0&gt;Manifest Merger&lt;/a0&gt; (new in 0.10)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T140603Z" creationid="msdx" creationdate="20150114T140603Z">
+        <seg>&lt;a0&gt;清单合并&lt;/a0&gt;(于0.10 中新增）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1050,6 +1098,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141128T061308Z" creationid="msdx" creationdate="20141128T061308Z">
         <seg>&lt;a0&gt;最近更新&lt;/a0&gt;&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a0&gt;Resource Shrinking&lt;/a0&gt; (automatic unused resource removal)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T141254Z" creationid="msdx" creationdate="20150114T141254Z">
+        <seg>&lt;a0&gt;资源缩减&lt;/a0&gt;（自动清除没有用到的资源）</seg>
       </tuv>
     </tu>
     <tu>
@@ -1226,6 +1282,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T074736Z" creationid="msdx" creationdate="20141127T074736Z">
         <seg>&lt;b0&gt;&lt;f1&gt;注&lt;/f1&gt;： 此文档是在 lint 首次发布时编写的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;b0&gt;&lt;f1&gt;Will not be compatible with 1.5.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T152817Z" creationid="msdx" creationdate="20150114T152817Z">
+        <seg>&lt;b0&gt;&lt;f1&gt;不会与 1.5 兼容。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2774,6 +2838,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;Contribute patches through the standard AOSP workflow, and talk to use on &lt;/s0&gt;&lt;a1&gt;adt-dev&lt;/a1&gt;&lt;s2&gt;.&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T142019Z" creationid="msdx" creationdate="20150114T142019Z">
+        <seg>&lt;s0&gt;可以通过标准的AOSP工作流贡献补丁，或使用&lt;/s0&gt;&lt;a1&gt;adt-dev&lt;/a1&gt;&lt;s2&gt;进行交流。&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;Different versions of the same application&lt;br1&gt;&lt;/s0&gt;&lt;s2&gt;For instance, a free/demo version vs the “pro” paid application.&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141218T140636Z" creationid="msdx" creationdate="20141218T140408Z">
@@ -3414,6 +3486,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>API to manipulate Build Variants.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T154228Z" creationid="msdx" creationdate="20150114T154228Z">
+        <seg>用来处理 Build Variants 的API。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Ability to configure issue severities</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T151932Z" creationid="msdx" creationdate="20141127T100948Z">
@@ -3466,6 +3546,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141128T124759Z" creationid="msdx" creationdate="20141128T124713Z">
         <seg>AdapterViews， 如列表视图，必须使用 Java 代码中的数据来配置 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Added support for customized sourceset.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T152354Z" creationid="msdx" creationdate="20150114T152354Z">
+        <seg>添加了对自定义 sourceset 的支持。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Added support for dependency per configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T152734Z" creationid="msdx" creationdate="20150114T152424Z">
+        <seg>添加了对每个配置中的依赖的支持。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3654,6 +3750,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An update will be required.&lt;/f1&gt;&lt;/b0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T152857Z" creationid="msdx" creationdate="20150114T152857Z">
+        <seg>否则将需要进行更新。&lt;/f1&gt; &lt;/b0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>And bug reports.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T142311Z" creationid="msdx" creationdate="20150114T142311Z">
+        <seg>以及 bug 报告。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>And from the XML source editor, invoke the Quick Fix (Ctrl-1 or Command-1) and pick the quick fix associated with the warning.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T143927Z" creationid="msdx" creationdate="20141127T143927Z">
@@ -3730,6 +3842,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150105T152514Z" creationid="msdx" creationdate="20150104T162239Z">
         <seg>Android 清单文件合并</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Android Platform Tools 16.0.2+</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T152908Z" creationid="msdx" creationdate="20150114T152908Z">
+        <seg>Android Platform Tools 16.0.2+</seg>
       </tuv>
     </tu>
     <tu>
@@ -4126,6 +4246,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Build System Concepts</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T151547Z" creationid="msdx" creationdate="20150114T151547Z">
+        <seg>构建系统的概念</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Build Tasks</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141207T054521Z" creationid="msdx" creationdate="20141207T054521Z">
@@ -4454,6 +4582,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Current limitations of version 0.9.x</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T143346Z" creationid="msdx" creationdate="20150114T143346Z">
+        <seg>当前0.9.x版本的限制</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Currently only overriding existing attributes is supported.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T150105Z" creationid="msdx" creationdate="20141125T150031Z">
@@ -4478,6 +4614,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Default Java compile target set to 1.6.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T154240Z" creationid="msdx" creationdate="20150114T154240Z">
+        <seg>默认 Java 编译目标设置为 1.6。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Default implicit mode for attribute, generate an error when trying the merge lower priority attribute declaration with a different value.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150106T170327Z" creationid="msdx" creationdate="20150106T162704Z">
@@ -4490,6 +4634,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141201T134058Z" creationid="msdx" creationdate="20141201T134058Z">
         <seg>默认值为 false。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Default sourceset for tests now src/instrumentTest (instrumentTest&lt;Name&gt; for flavors)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T153620Z" creationid="msdx" creationdate="20150114T153620Z">
+        <seg>默认用于测试的 sourceset 现在是 src/instrumentTest（用于flavors的instrumentTest&lt;Name&gt;）</seg>
       </tuv>
     </tu>
     <tu>
@@ -5142,6 +5294,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Fix generation of R classes in case libraries share same package name as the app project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T154356Z" creationid="msdx" creationdate="20150114T154356Z">
+        <seg>修复当库项目和应用程序项目包名称相同的情况下 R 类的生成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fixed support for dependency on local jar files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T152458Z" creationid="msdx" creationdate="20150114T152458Z">
+        <seg>修正了对本地 jar 文件的依赖的支持。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fixed support for windows.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T152343Z" creationid="msdx" creationdate="20150114T152343Z">
+        <seg>修正了对 windows 的支持。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fixes:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T154234Z" creationid="msdx" creationdate="20150114T154234Z">
+        <seg>修补的问题：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Flavor1 - debug</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T042619Z" creationid="msdx" creationdate="20141227T042619Z">
@@ -5446,6 +5630,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For instructions on how to build, debug and test the Gradle plugin, see &lt;a0&gt;Building the Android Gradle Plugin&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T141826Z" creationid="msdx" creationdate="20150114T141826Z">
+        <seg>有关如何构建、 调试和测试 Gradle 插件的说明，请参见&lt;a0&gt;构建 Android Gradle 插件&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For more information on customizing your build once you have the basics set up, see the new build system &lt;a0&gt;user guide&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T024257Z" creationid="msdx" creationdate="20150113T024128Z">
@@ -5566,6 +5758,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Go to &lt;a0&gt;source.android.com&lt;/a0&gt; to see how to get the source code.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T141736Z" creationid="msdx" creationdate="20150114T141736Z">
+        <seg>可以访问 &lt;a0&gt;source.android.com&lt;/a0&gt; 查看如何获取源代码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Goals of the new Build System</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141203T013630Z" creationid="msdx" creationdate="20141203T013630Z">
@@ -5590,10 +5790,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Google I/O 2013: The New Android SDK Build System</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T142159Z" creationid="msdx" creationdate="20150114T142159Z">
+        <seg>2013谷歌 I/O 大会： 新的 Android SDK 构建系统</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle 1.10 or 1.11 or 1.12 with the plugin 0.11.1</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141205T062443Z" creationid="msdx" creationdate="20141204T141404Z">
         <seg>Gradle 版本需要 1.10，1.11或 1.12。插件版本需要 0.11.1 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle 1.3+ (tested on 1.3/1.4).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T152811Z" creationid="msdx" creationdate="20150114T152811Z">
+        <seg>Gradle 1.3+ （在 1.3或1.4 上测试过）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6158,6 +6374,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Improved DSL:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T153949Z" creationid="msdx" creationdate="20150114T153949Z">
+        <seg>DSL 的改进：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In Android Studio, newly created projects always specify both.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141202T141608Z" creationid="msdx" creationdate="20141202T141608Z">
@@ -6414,6 +6638,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Instrumentation tests now:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T153636Z" creationid="msdx" creationdate="20150114T153636Z">
+        <seg>Instrumentation 测试现在是：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Internally both plugins share most of the same code and they are both provided by the same &lt;f2&gt;com.android.tools.build.gradle&lt;/f2&gt; jar.&lt;br3&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141214T133546Z" creationid="msdx" creationdate="20141214T133442Z">
@@ -6662,6 +6894,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Library projects only expose their release variants.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T151037Z" creationid="msdx" creationdate="20150114T151037Z">
+        <seg>库项目只能发布它们的release variants。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Limitations</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T150036Z" creationid="msdx" creationdate="20141125T145914Z">
@@ -6862,6 +7102,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Manifest merger is very limited.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T151010Z" creationid="msdx" creationdate="20150114T151010Z">
+        <seg>清单合并非常有限。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Manifests are all merged together into a single manifest.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T051058Z" creationid="msdx" creationdate="20141227T051058Z">
@@ -7030,6 +7278,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Migrating from &lt;a0&gt;Eclipse Projects&lt;/a0&gt; or &lt;a1&gt;IntelliJ Projects&lt;/a1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T140655Z" creationid="msdx" creationdate="20150114T140655Z">
+        <seg>从 &lt;a0&gt;Eclipse Projects&lt;/a0&gt; 或 &lt;a1&gt;IntelliJ Projects&lt;/a1&gt; 进行迁移</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Migrating from IntelliJ Projects</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T143955Z" creationid="msdx" creationdate="20150111T143955Z">
@@ -7042,6 +7298,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T143943Z" creationid="msdx" creationdate="20150111T143307Z">
         <seg>IntelliJ 项目迁移 - Android Tools 项目站点</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Migrating to version 1.0.0 from older Gradle projects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T140720Z" creationid="msdx" creationdate="20150114T140720Z">
+        <seg>从旧的 Gradle 项目迁移到 1.0.0 版本</seg>
       </tuv>
     </tu>
     <tu>
@@ -7150,6 +7414,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>NDK Integration is very basic, limited and not documented.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T152326Z" creationid="msdx" creationdate="20150114T145500Z">
+        <seg>NDK 集成非常基础，有限，且无文档参考。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>NOTE 2: The package name must always be specified in the default AndroidManifest.xml file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141202T141639Z" creationid="msdx" creationdate="20141202T141639Z">
@@ -7184,8 +7456,40 @@
       <tuv lang="EN-US">
         <seg>New Build System - Android Tools Project Site</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T015242Z" creationid="msdx" creationdate="20150114T015242Z">
-        <seg>New Build System - Android Tools Project Site</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T020019Z" creationid="msdx" creationdate="20150114T015242Z">
+        <seg>新构建系统-Android 工具项目站点</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>New Features:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T152910Z" creationid="msdx" creationdate="20150114T152910Z">
+        <seg>新功能：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>New plugin 'android-reporting' to aggregate android test results across projects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T153927Z" creationid="msdx" creationdate="20150114T153927Z">
+        <seg>新插件“androdi-reporting”可以把整个项目的android 测试结果进行聚合。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>New samples "migrated" and "flavorlib"</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T152541Z" creationid="msdx" creationdate="20150114T152541Z">
+        <seg>新的例子“migrated”和“flavorlib”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>No code coverage support</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T151001Z" creationid="msdx" creationdate="20150114T150949Z">
+        <seg>没有代码覆盖支持</seg>
       </tuv>
     </tu>
     <tu>
@@ -7430,6 +7734,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Nov 19, 2014, 12:42 PM</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T140519Z" creationid="msdx" creationdate="20150114T140519Z">
+        <seg>Nov 19, 2014, 12:42 PM</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Now we know that the language used for strings in the default values folder is Spanish rather than English.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T032345Z" creationid="msdx" creationdate="20141125T032345Z">
@@ -7450,6 +7762,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150102T042637Z" creationid="msdx" creationdate="20150102T042637Z">
         <seg>如果不是库项目可以为null。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Older docs, needs updating.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T151503Z" creationid="msdx" creationdate="20150114T151503Z">
+        <seg>较旧的文档，需要更新。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7570,6 +7890,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T035420Z" creationid="msdx" creationdate="20141126T035420Z">
         <seg>P.S.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PNG crunch is now done incrementally and in parallel.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T153408Z" creationid="msdx" creationdate="20150114T153408Z">
+        <seg>PNG crunch（译者注：这个我以前没见过，不知道怎么翻译，所以保留）现在是以增量及并行方式进行。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7942,6 +8270,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Renderscript support.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T152926Z" creationid="msdx" creationdate="20150114T152926Z">
+        <seg>Renderscript 支持。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>RenderscriptCompile</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150102T040312Z" creationid="msdx" creationdate="20150102T040312Z">
@@ -7978,6 +8314,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T041354Z" creationid="msdx" creationdate="20141125T041354Z">
         <seg>需要 Studio 0.8.0 或更高版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Resources/Assets merging mechanism</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T140625Z" creationid="msdx" creationdate="20150114T140625Z">
+        <seg>Resources/Assets 合并机制</seg>
       </tuv>
     </tu>
     <tu>
@@ -8110,10 +8454,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See 'flavorlib' sample.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T153937Z" creationid="msdx" creationdate="20150114T153937Z">
+        <seg>请参见 “flavorlib” 示例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See 'migrated' sample.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T154206Z" creationid="msdx" creationdate="20150114T154206Z">
+        <seg>请参见 “migrated”示例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See 'multires' sample.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T152945Z" creationid="msdx" creationdate="20150114T152945Z">
+        <seg>请参见 “multires”示例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a0&gt;this document&lt;/a0&gt; for a full list of the current checks performed by lint.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T032234Z" creationid="msdx" creationdate="20141127T032234Z">
         <seg>请参阅&lt;a0&gt;此文档&lt;/a0&gt;以了解当前 lint 检查的问题的完整列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See samples</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T150946Z" creationid="msdx" creationdate="20150114T150946Z">
+        <seg>参照例子</seg>
       </tuv>
     </tu>
     <tu>
@@ -8138,6 +8514,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T085758Z" creationid="msdx" creationdate="20150111T085719Z">
         <seg>选择器示例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Send feedback, lots of it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T150256Z" creationid="msdx" creationdate="20150114T142215Z">
+        <seg>发送反馈，多多益善。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8390,6 +8774,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Support for asset folders in Library Projects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T153436Z" creationid="msdx" creationdate="20150114T153436Z">
+        <seg>支持库项目中的asset文件夹。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Support for multi asset folders.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T153423Z" creationid="msdx" creationdate="20150114T153423Z">
+        <seg>支持多asset文件夹。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Support for multi resource folders.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T152933Z" creationid="msdx" creationdate="20150114T152933Z">
+        <seg>支持多资源文件夹。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Support for versionName suffix provided by the BuildType.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T153446Z" creationid="msdx" creationdate="20150114T153446Z">
+        <seg>支持由 BuildType 提供的 versionName 后缀。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Suppressing Errors</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T144335Z" creationid="msdx" creationdate="20141127T143938Z">
@@ -8414,10 +8830,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>System requirements:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T152740Z" creationid="msdx" creationdate="20150114T152740Z">
+        <seg>系统要求：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Task getAssemble()</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141201T134448Z" creationid="msdx" creationdate="20141201T134448Z">
         <seg>Task getAssemble()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tech Docs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T140610Z" creationid="msdx" creationdate="20150114T140610Z">
+        <seg>技术文档</seg>
       </tuv>
     </tu>
     <tu>
@@ -8474,6 +8906,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T115358Z" creationid="msdx" creationdate="20150101T115358Z">
         <seg>测试multi-flavors项目与测试简单的项目非常相似。&lt;br0&gt;&lt;br1&gt;&lt;b2&gt;androidTest&lt;/b2&gt; sourceset 是所有flavors的共用的测试，而每一个flavor 也都可以有自己的测试。&lt;br3&gt;&lt;br4&gt;正如上所述， 用于测试每一个flavor的&lt;i5&gt;sourceSets&lt;/i5&gt;会被创建：&lt;br6&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Thanks!</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T143211Z" creationid="msdx" creationdate="20150114T141500Z">
+        <seg>非常感谢!</seg>
       </tuv>
     </tu>
     <tu>
@@ -9870,6 +10310,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is developed entirely in AOSP.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T141653Z" creationid="msdx" creationdate="20150114T141335Z">
+        <seg>本项目完全在 AOSP（Android Open-Source Project） 下开发。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is done through the &lt;f0&gt;&lt;b1&gt;signingConfigs&lt;/b1&gt;&lt;/f0&gt; DSL container:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141213T070418Z" creationid="msdx" creationdate="20141213T070418Z">
@@ -10622,6 +11070,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Version compatibility with Android Studio</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T140737Z" creationid="msdx" creationdate="20150114T140737Z">
+        <seg>与 Android Studio 的版本兼容</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Very flexible.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141204T141037Z" creationid="msdx" creationdate="20141204T141037Z">
@@ -10634,6 +11090,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141215T142417Z" creationid="msdx" creationdate="20141215T142417Z">
         <seg>我们正计划在正常的项目对项目（project-to-project）的依赖（如上面的例子）时也可以这样做，但现在因为 Gradle 的限制（我们也在努力修复这些问题)，还无法做到。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We are working on a new build system to replace both the build system inside ADT and Ant.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T140517Z" creationid="msdx" creationdate="20150114T020023Z">
+        <seg>我们正在研究新的编译系统，以取代里面 ADT 里的构建系统以及 Ant。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10682,6 +11146,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141213T072305Z" creationid="msdx" creationdate="20141213T072305Z">
         <seg>我们会在以后更新本指南补充更详细的信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>What can you do?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T142208Z" creationid="msdx" creationdate="20150114T142208Z">
+        <seg>你可以做什么？</seg>
       </tuv>
     </tu>
     <tu>
@@ -10854,6 +11326,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Xavier Ducrohet,</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T142045Z" creationid="msdx" creationdate="20150114T142045Z">
+        <seg>Xavier Ducrohet,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You also need to make sure that Gradle is using version 1.7 or later of the JDK.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150102T053455Z" creationid="msdx" creationdate="20150102T053455Z">
@@ -10914,6 +11394,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T170701Z" creationid="msdx" creationdate="20150113T170701Z">
         <seg>你可以通过编辑&lt;c0&gt;gradle/wrapper/gradle-wrapper.properties&lt;/c0&gt;文件来完成：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can download a small bundle containing a few different (mostly empty) projects that show some of the build features: &lt;a0&gt;here&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T151514Z" creationid="msdx" creationdate="20150114T151447Z">
+        <seg>你可以下载一个小的捆绑包，它包含了几个不同的 （大部分是空的） 项目，那些项目演示了一些构建特性：&lt;a0&gt;见这里&lt;/a0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -11054,6 +11542,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>aar format</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T140615Z" creationid="msdx" creationdate="20150114T140615Z">
+        <seg>aar 格式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>abi &gt; version &gt; defaultConfig</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T131638Z" creationid="msdx" creationdate="20150101T131638Z">
@@ -11066,6 +11562,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141201T133806Z" creationid="msdx" creationdate="20141201T133806Z">
         <seg>abi {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ability to relocate a full sourceSet.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T154154Z" creationid="msdx" creationdate="20150114T154154Z">
+        <seg>可以重新设置一个完整的 sourceSet 的能力。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12038,6 +12542,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>break the build if any test fails.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T153755Z" creationid="msdx" creationdate="20150114T153755Z">
+        <seg>如果任何测试失败，则会中断整个构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>break;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T012758Z" creationid="msdx" creationdate="20141126T012758Z">
@@ -12726,6 +13238,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>generate an HTML report for each flavor/project, but also aggregated.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T153838Z" creationid="msdx" creationdate="20150114T153838Z">
+        <seg>为每一个flavor或项目生成一个 HTML 报告，但同时也会进行聚合。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>generateBuildConfig</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150102T040441Z" creationid="msdx" creationdate="20150102T040441Z">
@@ -12810,6 +13330,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141208T063246Z" creationid="msdx" creationdate="20141208T063246Z">
         <seg>gradle tasks --all</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>gradle-samples-0.14.4.zip</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T142035Z" creationid="msdx" creationdate="20150114T142035Z">
+        <seg>gradle-samples-0.14.4.zip</seg>
       </tuv>
     </tu>
     <tu>
@@ -12902,6 +13430,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>http://docs.google.com/viewer?a=v&amp;pid=sites&amp;srcid=YW5kcm9pZC5jb218dG9vbHN8Z3g6N2ZhYWU1MjgwNDQ2OWUzNw</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T142034Z" creationid="msdx" creationdate="20150114T142034Z">
+        <seg>http://docs.google.com/viewer?a=v&amp;pid=sites&amp;srcid=YW5kcm9pZC5jb218dG9vbHN8Z3g6N2ZhYWU1MjgwNDQ2OWUzNw</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>http://gradle.org/docs/current/dsl/org.gradle.api.artifacts.dsl.DependencyHandler.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141214T120225Z" creationid="msdx" creationdate="20141214T120225Z">
@@ -12942,6 +13478,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>http://groups.google.com/group/adt-dev</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T141828Z" creationid="msdx" creationdate="20150114T141828Z">
+        <seg>http://groups.google.com/group/adt-dev</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>http://schemas.android.com/tools</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150106T160936Z" creationid="msdx" creationdate="20150106T160936Z">
@@ -12954,6 +13498,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T041902Z" creationid="msdx" creationdate="20141125T041902Z">
         <seg>http://sites.google.com/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://source.android.com/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T141321Z" creationid="msdx" creationdate="20150114T141321Z">
+        <seg>http://source.android.com/</seg>
       </tuv>
     </tu>
     <tu>
@@ -13026,6 +13578,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T024427Z" creationid="msdx" creationdate="20141125T024427Z">
         <seg>http://tools.android.com/build</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://tools.android.com/build/gradleplugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T141736Z" creationid="msdx" creationdate="20150114T141736Z">
+        <seg>http://tools.android.com/build/gradleplugin</seg>
       </tuv>
     </tu>
     <tu>
@@ -13190,6 +13750,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>http://tools.android.com/system/app/pages/admin/revisions?wuid=wuid:gx:7faae52804469e37</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T142047Z" creationid="msdx" creationdate="20150114T142047Z">
+        <seg>http://tools.android.com/system/app/pages/admin/revisions?wuid=wuid:gx:7faae52804469e37</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>http://tools.android.com/system/app/pages/recentChanges</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T041901Z" creationid="msdx" creationdate="20141125T041901Z">
@@ -13222,6 +13790,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>http://tools.android.com/tech-docs/new-build-system/aar-format</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T140611Z" creationid="msdx" creationdate="20150114T140611Z">
+        <seg>http://tools.android.com/tech-docs/new-build-system/aar-format</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>http://tools.android.com/tech-docs/new-build-system/applicationid-vs-packagename</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141208T080614Z" creationid="msdx" creationdate="20141208T080614Z">
@@ -13230,10 +13806,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>http://tools.android.com/tech-docs/new-build-system/build-system-concepts</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T151516Z" creationid="msdx" creationdate="20150114T151516Z">
+        <seg>http://tools.android.com/tech-docs/new-build-system/build-system-concepts</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://tools.android.com/tech-docs/new-build-system/build-workflow</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T140720Z" creationid="msdx" creationdate="20150114T140720Z">
+        <seg>http://tools.android.com/tech-docs/new-build-system/build-workflow</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>http://tools.android.com/tech-docs/new-build-system/build-workflow/Android%20Build%20Process.png?attredirects=0</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141205T012144Z" creationid="msdx" creationdate="20141205T012144Z">
         <seg>http://tools.android.com/tech-docs/new-build-system/build-workflow/Android%20Build%20Process.png?attredirects=0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://tools.android.com/tech-docs/new-build-system/gradle-samples-0.14.4.zip?attredirects=0&amp;d=1</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T141310Z" creationid="msdx" creationdate="20150114T141310Z">
+        <seg>http://tools.android.com/tech-docs/new-build-system/gradle-samples-0.14.4.zip?attredirects=0&amp;d=1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://tools.android.com/tech-docs/new-build-system/gradle-samples-0.3.zip?attredirects=0&amp;d=1</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T142505Z" creationid="msdx" creationdate="20150114T142505Z">
+        <seg>http://tools.android.com/tech-docs/new-build-system/gradle-samples-0.3.zip?attredirects=0&amp;d=1</seg>
       </tuv>
     </tu>
     <tu>
@@ -13258,6 +13866,46 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T142815Z" creationid="msdx" creationdate="20150111T142815Z">
         <seg>http://tools.android.com/tech-docs/new-build-system/migrating-from-eclipse-projects/gradle-export.png?attredirects=0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://tools.android.com/tech-docs/new-build-system/migrating-from-intellij-projects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T140626Z" creationid="msdx" creationdate="20150114T140626Z">
+        <seg>http://tools.android.com/tech-docs/new-build-system/migrating-from-intellij-projects</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://tools.android.com/tech-docs/new-build-system/migrating-to-1-0-0</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T140656Z" creationid="msdx" creationdate="20150114T140656Z">
+        <seg>http://tools.android.com/tech-docs/new-build-system/migrating-to-1-0-0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://tools.android.com/tech-docs/new-build-system/resource-merging</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T140616Z" creationid="msdx" creationdate="20150114T140616Z">
+        <seg>http://tools.android.com/tech-docs/new-build-system/resource-merging</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://tools.android.com/tech-docs/new-build-system/resource-shrinking</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T140738Z" creationid="msdx" creationdate="20150114T140738Z">
+        <seg>http://tools.android.com/tech-docs/new-build-system/resource-shrinking</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://tools.android.com/tech-docs/new-build-system/tips</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T140607Z" creationid="msdx" creationdate="20150114T140607Z">
+        <seg>http://tools.android.com/tech-docs/new-build-system/tips</seg>
       </tuv>
     </tu>
     <tu>
@@ -13678,6 +14326,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>http://tools.android.com/tech-docs/new-build-system/user-guide/apk-splits</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T140604Z" creationid="msdx" creationdate="20150114T140604Z">
+        <seg>http://tools.android.com/tech-docs/new-build-system/user-guide/apk-splits</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>http://tools.android.com/tech-docs/new-build-system/user-guide/apk-splits#TOC-ABIs-Splits</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141201T013409Z" creationid="msdx" creationdate="20141201T013409Z">
@@ -13706,6 +14362,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141201T013445Z" creationid="msdx" creationdate="20141201T013445Z">
         <seg>http://tools.android.com/tech-docs/new-build-system/user-guide/apk-splits#TOC-Variant-API-Version-Code-support.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://tools.android.com/tech-docs/new-build-system/user-guide/manifest-merger</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T140545Z" creationid="msdx" creationdate="20150114T140545Z">
+        <seg>http://tools.android.com/tech-docs/new-build-system/user-guide/manifest-merger</seg>
       </tuv>
     </tu>
     <tu>
@@ -14006,6 +14670,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>http://tools.android.com/tech-docs/new-build-system/version-compatibility</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T140721Z" creationid="msdx" creationdate="20150114T140721Z">
+        <seg>http://tools.android.com/tech-docs/new-build-system/version-compatibility</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>http://tools.android.com/tech-docs/tools-attributes</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T152217Z" creationid="msdx" creationdate="20141125T152217Z">
@@ -14226,6 +14898,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141128T063444Z" creationid="msdx" creationdate="20141128T063444Z">
         <seg>https://www.google.com/a/UniversalLogin?service=jotspot&amp;continue=http://sites.google.com/a/android.com/tools/recent/switchstatementconversion</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://www.google.com/a/UniversalLogin?service=jotspot&amp;continue=http://sites.google.com/a/android.com/tools/tech-docs/new-build-system</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T141305Z" creationid="msdx" creationdate="20150114T141305Z">
+        <seg>https://www.google.com/a/UniversalLogin?service=jotspot&amp;continue=http://sites.google.com/a/android.com/tools/tech-docs/new-build-system</seg>
       </tuv>
     </tu>
     <tu>
@@ -15502,6 +16182,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>replaced android.target with android.compileSdkVersion to make it less confusing with targetSdkVersion</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T154046Z" creationid="msdx" creationdate="20150114T154046Z">
+        <seg>把androdi.target 替换为 android.compileSdkVersion，以避免 targetSdkVersion 混淆</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>reportDir = "$project.buildDir/foo/report"</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141217T145714Z" creationid="msdx" creationdate="20141217T145714Z">
@@ -15582,6 +16270,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>run on all connected devices in parallel.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T153711Z" creationid="msdx" creationdate="20150114T153711Z">
+        <seg>在所有连接的设备上并行运行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>runProguard</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T170924Z" creationid="msdx" creationdate="20150113T170924Z">
@@ -15658,6 +16354,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141218T132923Z" creationid="msdx" creationdate="20141218T132923Z">
         <seg>showAll true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>signing information now a SigningConfig object reusable across BuildType and ProductFlavor</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T154130Z" creationid="msdx" creationdate="20150114T154130Z">
+        <seg>签名信息现在是一个 SigningConfig 对象，并且可以跨 BuildType 和 ProductFlavor 进行复用</seg>
       </tuv>
     </tu>
     <tu>
@@ -15762,6 +16466,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141205T140100Z" creationid="msdx" creationdate="20141205T140100Z">
         <seg>srcDir 'src/resources'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>started from "deviceCheck" instead of "check"</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T153656Z" creationid="msdx" creationdate="20150114T153656Z">
+        <seg>由“deviceCheck”开始，而不是“check”</seg>
       </tuv>
     </tu>
     <tu>
@@ -16734,6 +17446,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>ċ</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T142033Z" creationid="msdx" creationdate="20150114T142033Z">
+        <seg>ċ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Č</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T153025Z" creationid="msdx" creationdate="20141127T153025Z">
@@ -16802,6 +17522,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T041906Z" creationid="msdx" creationdate="20141125T041906Z">
         <seg>提供更好的翻译建议</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>文件</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T142032Z" creationid="msdx" creationdate="20150114T142032Z">
+        <seg>文件</seg>
       </tuv>
     </tu>
     <tu>
