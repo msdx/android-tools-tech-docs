@@ -7182,6 +7182,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>New Build System - Android Tools Project Site</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T015242Z" creationid="msdx" creationdate="20150114T015242Z">
+        <seg>New Build System - Android Tools Project Site</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>No lower priority declaration will be merged in irrespective of potential conflicts.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150106T170335Z" creationid="msdx" creationdate="20150106T162254Z">
