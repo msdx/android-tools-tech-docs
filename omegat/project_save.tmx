@@ -158,6 +158,46 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>+            &lt;b0&gt;minifyEnabled&lt;/b0&gt; true</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T011726Z" creationid="msdx" creationdate="20150114T011726Z">
+        <seg>+            &lt;b0&gt;minifyEnabled&lt;/b0&gt; true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>+        classpath 'com.android.tools.build:gradle:&lt;b0&gt;1.0.0&lt;/b0&gt;'</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T170609Z" creationid="msdx" creationdate="20150113T170609Z">
+        <seg>+        classpath 'com.android.tools.build:gradle:&lt;b0&gt;1.0.0&lt;/b0&gt;'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>+distributionUrl=http\://services.gradle.org/distributions/&lt;b0&gt;gradle-2.2.1-all.zip&lt;/b0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T170704Z" creationid="msdx" creationdate="20150113T170704Z">
+        <seg>+distributionUrl=http\://services.gradle.org/distributions/&lt;b0&gt;gradle-2.2.1-all.zip&lt;/b0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>-            &lt;b0&gt;runProguard&lt;/b0&gt; true</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T011726Z" creationid="msdx" creationdate="20150114T011726Z">
+        <seg>-            &lt;b0&gt;runProguard&lt;/b0&gt; true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>-        classpath 'com.android.tools.build:gradle:0.8.+'</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T170608Z" creationid="msdx" creationdate="20150113T170608Z">
+        <seg>-        classpath 'com.android.tools.build:gradle:0.8.+'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>-------</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141128T124843Z" creationid="msdx" creationdate="20141128T124843Z">
@@ -178,6 +218,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141208T082357Z" creationid="msdx" creationdate="20141208T082357Z">
         <seg>-1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>-distributionUrl=http\://services.gradle.org/distributions/gradle-1.11-all.zip</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T170703Z" creationid="msdx" creationdate="20150113T170703Z">
+        <seg>-distributionUrl=http\://services.gradle.org/distributions/gradle-1.11-all.zip</seg>
       </tuv>
     </tu>
     <tu>
@@ -1438,6 +1486,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c0&gt;InstrumentTest&lt;/c0&gt; was renamed to &lt;c1&gt;androidTest&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T012139Z" creationid="msdx" creationdate="20150114T012139Z">
+        <seg>&lt;c0&gt;InstrumentTest&lt;/c0&gt; was renamed to &lt;c1&gt;androidTest&lt;/c1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c0&gt;    &lt;GridLayout &lt;/c0&gt;&lt;s1&gt;&lt;c2&gt;&lt;b3&gt;tools:targetApi="ICE_CREAM_SANDWICH"&lt;/b3&gt; &gt;&lt;/c2&gt;&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T031616Z" creationid="msdx" creationdate="20141125T031616Z">
@@ -1522,6 +1578,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141208T072459Z" creationid="msdx" creationdate="20141208T072459Z">
         <seg>&lt;f0&gt;&lt;b1&gt;connectedUiAutomatorTest&lt;/b1&gt;&lt;/f0&gt; （暂未实现）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;f0&gt;You can create product flavors using the &lt;/f0&gt;&lt;f1&gt;productFlavors { ... }&lt;/f1&gt;&lt;f2&gt; container.&lt;/f2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T014926Z" creationid="msdx" creationdate="20150114T014454Z">
+        <seg>&lt;f0&gt;您可以通过&lt;/f0&gt;&lt;f1&gt;productFlavors { ... }&lt;/f1&gt;&lt;f2&gt;容器创建 product flavors。&lt;/f2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;f0&gt;You can create signingConfigs using the &lt;/f0&gt;&lt;f1&gt;signingConfigs { ... }&lt;/f1&gt;&lt;f2&gt; container.&lt;/f2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T014946Z" creationid="msdx" creationdate="20150114T014806Z">
+        <seg>&lt;f0&gt;你可以通过&lt;/f0&gt;&lt;f1&gt;signingConfigs { ... }&lt;/f1&gt;&lt;f2&gt;容器创建 signingConfigs。&lt;/f2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;f0&gt;You can create/configure more build types, in the &lt;/f0&gt;&lt;f1&gt;buildTypes { ... }&lt;/f1&gt;&lt;f2&gt; container.&lt;/f2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T014535Z" creationid="msdx" creationdate="20150114T014421Z">
+        <seg>&lt;f0&gt;你可以在&lt;/f0&gt;&lt;f1&gt;buildTypes { ... }&lt;/f1&gt;&lt;f2&gt;容器里创建或配置更多的构建类型。&lt;/f2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -2790,6 +2870,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;Version 0.9 of the Gradle plugin for Android made a few incompatible changes that require changes to your project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T012444Z" creationid="msdx" creationdate="20150114T012410Z">
+        <seg>&lt;s0&gt;Gradle 的 Android 插件（Gradle plugin for Android）的 0.9 版本统做了一些不兼容的更改，这些修改需要您的项目也进行更新。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;You can also use designtime attributes to &lt;b1&gt;unset&lt;/b1&gt; an attribute while in the tools.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T144553Z" creationid="msdx" creationdate="20141125T144553Z">
@@ -3438,6 +3526,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Again, Android Studio should offer to perform this edit automatically when you open up an older project:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T170827Z" creationid="msdx" creationdate="20150113T170827Z">
+        <seg>再说，当你打开一个旧项目时Android Studio应该有提供自动执行此编辑：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>AidlCompile</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150102T040253Z" creationid="msdx" creationdate="20150102T040253Z">
@@ -3706,6 +3802,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141201T135640Z" creationid="msdx" creationdate="20141129T003846Z">
         <seg>Apk Splits - Android 工具项目站点</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ApplicationId in Library Projects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T011853Z" creationid="msdx" creationdate="20150114T011853Z">
+        <seg>类库项目中的 ApplicationId</seg>
       </tuv>
     </tu>
     <tu>
@@ -5094,6 +5198,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For a full list of changes, see the &lt;/s0&gt;&lt;a1&gt;user guide&lt;/a1&gt;&lt;s2&gt;.&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T012635Z" creationid="msdx" creationdate="20150114T012635Z">
+        <seg>有关这些修改的完整的列表，请参见&lt;/s0&gt;&lt;s2&gt;.&lt;/s2&gt; &lt;a1&gt;用户指南&lt;/a1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For additional information, see the build system &lt;a1&gt;overview page&lt;/a1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T024310Z" creationid="msdx" creationdate="20150113T024310Z">
@@ -5122,6 +5234,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150112T125741Z" creationid="msdx" creationdate="20150112T124943Z">
         <seg>对于每个库，会查找相应的AAR库的依赖名称（前提是，所讨论的库已经被作为一个android 库归档文件被更新），然后把它们添加到依赖的部分中去。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example if you have in your library:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T015030Z" creationid="msdx" creationdate="20150114T014841Z">
+        <seg>例如，如果在你的库项目中有如下的配置：</seg>
       </tuv>
     </tu>
     <tu>
@@ -5414,6 +5534,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>From version 1.0.0 and going forward, we will strive much harder to not make incompatible changes, and if we do, we plan to write IDE support to help migrate the projects automatically.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T170134Z" creationid="msdx" creationdate="20150113T165936Z">
+        <seg>从1.0.0 及以后的版本起，我们将尽力不进行不兼容的更改。如果我们做到了，我们将打算编写 IDE 支持，以帮助自动迁移项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>General Tasks</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141207T054621Z" creationid="msdx" creationdate="20141207T054621Z">
@@ -5466,6 +5594,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141205T062443Z" creationid="msdx" creationdate="20141204T141404Z">
         <seg>Gradle 版本需要 1.10，1.11或 1.12。插件版本需要 0.11.1 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle DSL method not found: 'runProguard()'</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T171031Z" creationid="msdx" creationdate="20150113T171031Z">
+        <seg>Gradle DSL method not found: 'runProguard()'</seg>
       </tuv>
     </tu>
     <tu>
@@ -5814,10 +5950,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you are trying to load a project that was built with an older version of the Gradle plugin, it may not build correctly with 1.0.0.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T165915Z" creationid="msdx" creationdate="20150113T165915Z">
+        <seg>如果你正在试图加载用旧版本的 Gradle 插件构建的项目，它可能无法通过 1.0.0 版本正确构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you are using both flavors and splits for multi-apks, you should still use &lt;f0&gt;VariantOutput.setVersionCodeOverride(int)&lt;/f0&gt; but you should compute the versionCode from both the split info (&lt;f1&gt;densityFilter&lt;/f1&gt; and &lt;f2&gt;abiFilter&lt;/f2&gt;) and the variant info.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141201T135625Z" creationid="msdx" creationdate="20141201T134912Z">
         <seg>如果你 flavors 和 splits两个都用了，用于输出多apk，你还是应该使用 &lt;f0&gt;VariantOutput.setVersionCodeOverride(int)&lt;/f0&gt;，但你应该计算split信息(&lt;f1&gt;densityFilter&lt;/f1&gt; 和 &lt;f2&gt;abiFilter&lt;/f2&gt;) 和variant 信息里的versionCode。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you have instrumentation tests (or other types of tests) in your project, note that we changed the name and folder from instrumentation tests to android tests to reflect the fact that this facility is not just for instrumentation tests but for plain JUnit tests (running on a device) and eventually also UI automator tests.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T013816Z" creationid="msdx" creationdate="20150114T012644Z">
+        <seg>如果您在您的项目中已经有了instrumentation 测试 （或其他类型的测试），请注意我们把名称和文件夹从 instrumentation 测试改为了 android 测试，以反映出一个事实。这个事实是，这种功能不只是instrumentation测试，也包含着普通的 JUnit 测试（在一个设备上运行）和最终的 UI automator测试。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5850,6 +6002,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T082252Z" creationid="msdx" creationdate="20150111T082252Z">
         <seg>如果你需要让注入的值作为扩充的属性值，可以使用 ${applicationId} 占位符，例如：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you run into the build error</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T011446Z" creationid="msdx" creationdate="20150113T171029Z">
+        <seg>如果您遇到以下这种构建错误</seg>
       </tuv>
     </tu>
     <tu>
@@ -6238,6 +6398,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Instrumentation Tests</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T012639Z" creationid="msdx" creationdate="20150114T012639Z">
+        <seg>Instrumentation Tests</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Instrumentation test runner</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141208T080853Z" creationid="msdx" creationdate="20141208T080853Z">
@@ -6458,6 +6626,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T135600Z" creationid="msdx" creationdate="20141126T134853Z">
         <seg>布局性能问题（老的&lt;c0&gt;layoutopt&lt;/c0&gt;工具会用于查找所有这样的问题，和除此之外更多的问题）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Libraries</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T014321Z" creationid="msdx" creationdate="20150114T014310Z">
+        <seg>库项目</seg>
       </tuv>
     </tu>
     <tu>
@@ -6806,6 +6982,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Migrating From 0.8.x to 0.9.x</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T012150Z" creationid="msdx" creationdate="20150114T012150Z">
+        <seg>从 0.8.x 迁移到 0.9.x</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Migrating From Eclipse Projects</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T133622Z" creationid="msdx" creationdate="20150111T133622Z">
@@ -6822,10 +7006,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Migrating Gradle Projects to version 1.0.0</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T165635Z" creationid="msdx" creationdate="20150113T165635Z">
+        <seg>迁移 Gradle 项目到1.0.0 版本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Migrating Gradle Projects to version 1.0.0 - Android Tools Project Site</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T024659Z" creationid="msdx" creationdate="20150113T024624Z">
         <seg>迁移 Gradle 项目到 1.0.0 版本 - Android Tools 项目站点</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Migrating from 0.9.&lt;i0&gt;x&lt;/i0&gt; to 1.0.0</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T170838Z" creationid="msdx" creationdate="20150113T170838Z">
+        <seg>从 0.9.&lt;i0&gt;x&lt;/i0&gt; 迁移到 1.0.0</seg>
       </tuv>
     </tu>
     <tu>
@@ -7066,6 +7266,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T043416Z" creationid="msdx" creationdate="20141227T043150Z">
         <seg>请注意， &lt;f0&gt; &lt;b1&gt;android.productFlavors.*&lt;/b1&gt;&lt;/f0&gt;对象的类型是&lt;i2&gt;ProductFlavor&lt;/i2&gt; ，和&lt;f3&gt;&lt;b4&gt;android.defaultConfig&lt;/b4&gt;&lt;/f3&gt;对象的类型一样。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that this is not a complete list of changes in the 0.9 version of the plugin; it simply covers the changes that require updates to your source files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T012618Z" creationid="msdx" creationdate="20150114T012618Z">
+        <seg>请注意这不是这个插件的 0.9 版本中的所作更改的完整列表；它只是涵盖需要了你的源文件需要进行更新的那些更改。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7318,6 +7526,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Other Name changes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T012135Z" creationid="msdx" creationdate="20150114T012135Z">
+        <seg>其他名称更改</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Other elements like “application” do not require a key since there can be only one.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150104T163411Z" creationid="msdx" creationdate="20150104T163411Z">
@@ -7510,6 +7726,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>ProductFlavor.renderscriptNdkMode =&gt; renderscriptNdkModeEnabled</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T012126Z" creationid="msdx" creationdate="20150114T012126Z">
+        <seg>ProductFlavor.renderscriptNdkMode =&gt; renderscriptNdkModeEnabled</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Project Structure</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141204T151013Z" creationid="msdx" creationdate="20141204T151013Z">
@@ -7682,6 +7906,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150106T170317Z" creationid="msdx" creationdate="20150106T163003Z">
         <seg>当合并时，从任何较低优先级的声明中删除 x、 y、 z 属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Rename your &lt;f0&gt;instrumentTest&lt;/f0&gt; folders to &lt;f1&gt;androidTest&lt;/f1&gt;, e.g. &lt;f2&gt;git mv app/src/instrumentTest app/src/androidTest&lt;/f2&gt;&lt;f3&gt;.&lt;br4&gt;Alternatively you can tell gradle to keep using the old folder by &lt;a5&gt;relocating your sourcesets&lt;/a5&gt;.&lt;/f3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T014135Z" creationid="msdx" creationdate="20150114T014135Z">
+        <seg>将您的 &lt;f0&gt;instrumentTest&lt;/f0&gt; 文件夹重命名为 &lt;f1&gt;androidTest&lt;/f1&gt;，例如&lt;f2&gt;git mv app/src/instrumentTest app/src/androidTest&lt;/f2&gt;&lt;f3&gt;。&lt;br4&gt;或者，你也可以通过重新设置你的 sourcesets 告诉 gradle 继续使用旧的文件夹&lt;/a5&gt;。&lt;/f3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Renamed Properties in BuildTypes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T012115Z" creationid="msdx" creationdate="20150114T012115Z">
+        <seg>在 BuildTypes 中重命名的属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Renamed Properties in ProductFlavors</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T012123Z" creationid="msdx" creationdate="20150114T012123Z">
+        <seg>在 ProductFlavors 中重命名的属性</seg>
       </tuv>
     </tu>
     <tu>
@@ -8302,6 +8550,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Android Gradle plugin has been in rapid development, and as features evolved the APIs and the build file description language went through several incompatible changes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T165845Z" creationid="msdx" creationdate="20150113T165845Z">
+        <seg>Android 的 Gradle 插件有了迅猛的发展，作为进化的特征，API 和构建文件的描述语言也经过了一些不兼容的更改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Android Gradle plugin version is typically listed in the top level &lt;c0&gt;build.gradle&lt;/c0&gt; file in the project, and can be updated as follows:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T170607Z" creationid="msdx" creationdate="20150113T170607Z">
+        <seg>Android Gradle 插件版本通常是在项目中顶级的&lt;c0&gt;build.gradle&lt;/c0&gt;文件内列出，并可以更新为如下内容：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Android plugin provides a broad DSL to customize most things directly from the build system.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141208T080509Z" creationid="msdx" creationdate="20141208T075325Z">
@@ -8342,10 +8606,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The DSL for the library projects is now the same as for the application projects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T014347Z" creationid="msdx" creationdate="20150114T014317Z">
+        <seg>用于库项目的 DSL 现在应用程序项目是一样的了。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Eclipse integration has since been improved significantly.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T074801Z" creationid="msdx" creationdate="20141127T074801Z">
         <seg>Eclipse 集成已经有了显著的提高。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Gradle plugin did not enforce this restriction earlier.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T012041Z" creationid="msdx" creationdate="20150114T012041Z">
+        <seg>在早些时候，Gradle 插件并不强制这个约束条件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8458,6 +8738,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141205T135326Z" creationid="msdx" creationdate="20141204T151224Z">
         <seg>基本项目开始于两个名为“source sets”的组件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The build system knows which specific version of the Gradle plugin to use, and the version of Gradle to use, because they are listed explicitly in your project files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T170231Z" creationid="msdx" creationdate="20150113T170231Z">
+        <seg>构建系统知道要使用哪一个版本的 Gradle 插件，以及哪一个版本的 Gradle 。因为它们都在您的项目文件中显式列出。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8670,6 +8958,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The most common issue that affects users is the &lt;c0&gt;runProguard&lt;/c0&gt; property changing names to &lt;c1&gt;minifyEnabled&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T171015Z" creationid="msdx" creationdate="20150113T171015Z">
+        <seg>对用户产生影响的最常见的问题是&lt;c0&gt;runProguard&lt;/c0&gt;属性名称改为了&lt;c1&gt;minifyEnabled&lt;/c1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The most simple Java-only project has the following &lt;i0&gt;build.gradle&lt;/i0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141205T065655Z" creationid="msdx" creationdate="20141204T142017Z">
@@ -8730,6 +9026,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150102T040222Z" creationid="msdx" creationdate="20150102T040222Z">
         <seg>variant的输出。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The package name has to be fixed in library projects (and specified as packageName in the manifest).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T012017Z" creationid="msdx" creationdate="20150114T012017Z">
+        <seg>这个包名称必须在库项目里是固定的（并且在清单中以packageName指定）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9054,6 +9358,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The version of Gradle to use for your project should also be updated to 2.2.1 or later.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T170650Z" creationid="msdx" creationdate="20150113T170650Z">
+        <seg>你的项目所用的 Gradle 版本还应该更新为2.2.1或更新的版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The “id” for each type of error is shown in brackets after the error message, such as “MissingTranslation” above.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T055719Z" creationid="msdx" creationdate="20141127T034733Z">
@@ -9098,6 +9410,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141205T065843Z" creationid="msdx" creationdate="20141204T142344Z">
         <seg>在这个 Android 构建文件中，有3个主要部分： &lt;br0&gt;&lt;br1&gt;&lt;f2&gt;&lt;b3&gt;buildscript { ... }&lt;/b3&gt;&lt;/f2&gt;配置了驱动构建的代码。 &lt;br4&gt;在上面的这种情况中，它声明了使用 Maven 中央库，并且对一个Maven 文件有一个类路径依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are some additional other properties that were renamed as well, in both build types and product flavors.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T011843Z" creationid="msdx" creationdate="20150114T011843Z">
+        <seg>在构建类型（build types）和product flavors中，还有其他一些属性也被重命名了。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9454,6 +9774,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This crops up a lot because that property was inserted into all projects created by Android Studio prior to version 0.14.0.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T011712Z" creationid="msdx" creationdate="20150114T011623Z">
+        <seg>会突然出现很多这样的问题，是因为那个属性在 0.14.0 版本之前会被插入到由 Android Studio 创建的所有项目中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This defines which folder is actually a Gradle project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141214T123101Z" creationid="msdx" creationdate="20141214T123101Z">
@@ -9466,6 +9794,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141208T073307Z" creationid="msdx" creationdate="20141208T072504Z">
         <seg>这个任务依赖于当其他插件实现了测试扩展点时创建的任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This document describes the most common changes to help you migrate to 1.0.0.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T165949Z" creationid="msdx" creationdate="20150113T165931Z">
+        <seg>本文档描述了大部分常见的变动，以帮助您迁移到 1.0.0。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9750,6 +10086,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This means you can create more build types, and create flavors.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T014429Z" creationid="msdx" creationdate="20150114T014408Z">
+        <seg>这意味着您可以创建更多的构建类型，和创建flavors。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This moves &lt;f7&gt;&lt;b8&gt;src/&lt;/b8&gt;&lt;/f7&gt;&lt;b9&gt;androidTest&lt;/b9&gt;&lt;f10&gt;&lt;b11&gt;/*&lt;/b11&gt;&lt;/f10&gt; to &lt;f12&gt;&lt;b13&gt;tests/*&lt;/b13&gt;&lt;/f12&gt;&lt;br14&gt;This is Android specific and will not work on Java &lt;i15&gt;sourceSets&lt;/i15&gt;.&lt;br16&gt;&lt;br17&gt;The ‘migrated’ sample shows this.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141207T054514Z" creationid="msdx" creationdate="20141207T054039Z">
@@ -9770,6 +10114,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141205T070943Z" creationid="msdx" creationdate="20141204T143742Z">
         <seg>这个新的属性可以设置为一个 int 值 (表示api 级别），或者是和以前的&lt;b2&gt;&lt;f3&gt;target&lt;/f3&gt;&lt;/b2&gt;的值一样，设置为字符串。&lt;br4&gt;&lt;br5&gt;&lt;b6&gt;重要提示：&lt;/b6&gt;你应该只配置使用这个&lt;f7&gt;&lt;b8&gt;android&lt;/b8&gt;&lt;/f7&gt;插件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This page documents how to update your project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T012436Z" creationid="msdx" creationdate="20150114T012436Z">
+        <seg>这一页文档介绍了如何更新您的项目。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10038,6 +10390,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To update your project</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T013833Z" creationid="msdx" creationdate="20150114T013833Z">
+        <seg>如果要更新您的项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To update your project, edit your build.gradle file as follows:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T011723Z" creationid="msdx" creationdate="20150114T011723Z">
+        <seg>如果要升级您的项目，请编辑您的 build.gradle 文件，如下所示：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To use designtime attributes, first make sure you have the tools namespace defined in your layout:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T130041Z" creationid="msdx" creationdate="20141125T063617Z">
@@ -10090,6 +10458,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T134857Z" creationid="msdx" creationdate="20141126T134857Z">
         <seg>未使用的资源</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Update Plugin and Gradle Version Numbers</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T170136Z" creationid="msdx" creationdate="20150113T170136Z">
+        <seg>更新插件和 Gradle 版本号</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Update any test dependencies from instrumentTestCompile to androidTestCompile:&lt;br0&gt;&lt;f1&gt;&lt;s2&gt;dependencies {&lt;br3&gt;&lt;/s2&gt;&lt;s4&gt;-    instrumentTestCompile 'com.jayway.android.robotium:robotium-solo:4.3.1'&lt;br5&gt;&lt;/s4&gt;&lt;s6&gt;+    androidTestCompile 'com.jayway.android.robotium:robotium-solo:4.3.1'&lt;br7&gt;&lt;s8&gt;}&lt;/s8&gt;&lt;/s6&gt; &lt;/f1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T014256Z" creationid="msdx" creationdate="20150114T014256Z">
+        <seg>把所有的测试依赖从 instrumentTestCompile 更新为 androidTestCompile ：&lt;br0&gt;&lt;f1&gt;&lt;s2&gt;dependencies {&lt;br3&gt;&lt;/s2&gt;&lt;s4&gt;-    instrumentTestCompile 'com.jayway.android.robotium:robotium-solo:4.3.1'&lt;br5&gt;&lt;/s4&gt;&lt;s6&gt;+    androidTestCompile 'com.jayway.android.robotium:robotium-solo:4.3.1'&lt;br7&gt;&lt;s8&gt;}&lt;/s8&gt;&lt;/s6&gt; &lt;/f1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -10382,6 +10766,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When you use Android Studio 1.0 and you open an older project, it will offer to automatically find and update these version numbers.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T170454Z" creationid="msdx" creationdate="20150113T170454Z">
+        <seg>当您使用 Android Studio 1.0 并打开一个旧的项目时，它将主动提出自动查找和更新这些版本号。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When&lt;/c16&gt;&lt;br17&gt;&lt;c18&gt;referencing these attributes you *must* include the namespace prefix,&lt;/c18&gt;&lt;br19&gt;&lt;c20&gt;or your attribute will be interpreted by aapt as just a custom&lt;/c20&gt;&lt;br21&gt;&lt;c22&gt;attribute.&lt;/c22&gt;&lt;br23&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T065345Z" creationid="msdx" creationdate="20141127T065345Z">
@@ -10470,6 +10862,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can also make these edits manually.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T170526Z" creationid="msdx" creationdate="20150113T170526Z">
+        <seg>您也可以对这些版本号进行手动编辑。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can also point to a random directory, which (if it is not an Android project) will be searched recursively and all projects under that directory will be checked.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T034547Z" creationid="msdx" creationdate="20141127T034547Z">
@@ -10498,6 +10898,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141215T135221Z" creationid="msdx" creationdate="20141215T135221Z">
         <seg>您可以控制要发布哪一个variant</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can do that by editing the file &lt;c0&gt;gradle/wrapper/gradle-wrapper.properties&lt;/c0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T170701Z" creationid="msdx" creationdate="20150113T170701Z">
+        <seg>你可以通过编辑&lt;c0&gt;gradle/wrapper/gradle-wrapper.properties&lt;/c0&gt;文件来完成：</seg>
       </tuv>
     </tu>
     <tu>
@@ -10542,6 +10950,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You cannot use applicationId to customize the package of a &lt;b0&gt;library&lt;/b0&gt; project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T011919Z" creationid="msdx" creationdate="20150114T011919Z">
+        <seg>你不能使用 applicationId 来自定义一个&lt;b0&gt;库&lt;/b0&gt;项目的包名。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You cannot use them anywhere else -- in menu XML files, in string resource definitions, etc.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T151920Z" creationid="msdx" creationdate="20141125T151607Z">
@@ -10570,6 +10986,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141217T152852Z" creationid="msdx" creationdate="20141217T152403Z">
         <seg>通常，您只需要指定其中的几个 ；以下列出了所有可用的选项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You would replace it with:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T015042Z" creationid="msdx" creationdate="20150114T015042Z">
+        <seg>你将要把它替换为：</seg>
       </tuv>
     </tu>
     <tu>
@@ -11966,6 +12390,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>debugSigningConfig {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T014950Z" creationid="msdx" creationdate="20150114T014950Z">
+        <seg>debugSigningConfig {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>debuggable</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141212T123039Z" creationid="msdx" creationdate="20141212T123039Z">
@@ -12234,6 +12666,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T125420Z" creationid="msdx" creationdate="20150101T125420Z">
         <seg>flavorDimensions "abi", "version"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>flavorGroups =&gt; flavorDimensions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T012124Z" creationid="msdx" creationdate="20150114T012124Z">
+        <seg>flavorGroups =&gt; flavorDimensions</seg>
       </tuv>
     </tu>
     <tu>
@@ -13766,6 +14206,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>https://translate.googleapis.com/translate_static/css/translateelement.css</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T052407Z" creationid="msdx" creationdate="20150113T052407Z">
+        <seg>https://translate.googleapis.com/translate_static/css/translateelement.css</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>https://www.google.com/a/UniversalLogin?service=jotspot&amp;continue=http://sites.google.com/a/android.com/tools/recent/switchstatementconversion</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141128T063444Z" creationid="msdx" creationdate="20141128T063444Z">
@@ -13810,6 +14258,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T024311Z" creationid="msdx" creationdate="20150113T024311Z">
         <seg>https://www.google.com/a/UniversalLogin?service=jotspot&amp;continue=http://sites.google.com/a/android.com/tools/tech-docs/new-build-system/migrating-from-intellij-projects</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://www.google.com/a/UniversalLogin?service=jotspot&amp;continue=http://sites.google.com/a/android.com/tools/tech-docs/new-build-system/migrating-to-1-0-0</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T015045Z" creationid="msdx" creationdate="20150114T015045Z">
+        <seg>https://www.google.com/a/UniversalLogin?service=jotspot&amp;continue=http://sites.google.com/a/android.com/tools/tech-docs/new-build-system/migrating-to-1-0-0</seg>
       </tuv>
     </tu>
     <tu>
@@ -14098,6 +14554,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141204T152134Z" creationid="msdx" creationdate="20141204T152134Z">
         <seg>jni/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>jniDebugBuild =&gt; jniDebuggable</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T012117Z" creationid="msdx" creationdate="20150114T012117Z">
+        <seg>jniDebugBuild =&gt; jniDebuggable</seg>
       </tuv>
     </tu>
     <tu>
@@ -14726,6 +15190,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>packageName =&gt; applicationId</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T012125Z" creationid="msdx" creationdate="20150114T012125Z">
+        <seg>packageName =&gt; applicationId</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>packageNameSuffix ".jnidebug"</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141209T141956Z" creationid="msdx" creationdate="20141209T141956Z">
@@ -14878,6 +15350,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T011730Z" creationid="msdx" creationdate="20150114T011730Z">
+        <seg>proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>project.ext.versionCodes.get(output.getFilter(OutputFile.ABI)) * 1000000 + android.defaultConfig.versionCode</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141201T134906Z" creationid="msdx" creationdate="20141201T134906Z">
@@ -14950,6 +15430,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>release {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T011725Z" creationid="msdx" creationdate="20150114T011725Z">
+        <seg>release {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>release.setRoot('build-types/release')</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T024127Z" creationid="msdx" creationdate="20150113T024127Z">
@@ -14974,6 +15462,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>renderscriptDebug =&gt; renderscriptDebuggable</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T012118Z" creationid="msdx" creationdate="20150114T012118Z">
+        <seg>renderscriptDebug =&gt; renderscriptDebuggable</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>renderscriptDebuggable</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141212T123041Z" creationid="msdx" creationdate="20141212T123041Z">
@@ -14986,6 +15482,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141212T123042Z" creationid="msdx" creationdate="20141212T123042Z">
         <seg>renderscriptOptimLevel</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>renderscriptSupportMode =&gt; renderscriptSupportModeEnabled</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T012126Z" creationid="msdx" creationdate="20150114T012126Z">
+        <seg>renderscriptSupportMode =&gt; renderscriptSupportModeEnabled</seg>
       </tuv>
     </tu>
     <tu>
@@ -15066,6 +15570,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141204T152132Z" creationid="msdx" creationdate="20141204T152132Z">
         <seg>rs/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>runProguard</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T170924Z" creationid="msdx" creationdate="20150113T170924Z">
+        <seg>runProguard</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>runProguard =&gt; minifyEnabled</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T012116Z" creationid="msdx" creationdate="20150114T012116Z">
+        <seg>runProguard =&gt; minifyEnabled</seg>
       </tuv>
     </tu>
     <tu>
@@ -15454,6 +15974,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>testPackageName =&gt; testApplicationId</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T012125Z" creationid="msdx" creationdate="20150114T012125Z">
+        <seg>testPackageName =&gt; testApplicationId</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>testVariant</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150102T041728Z" creationid="msdx" creationdate="20150102T041728Z">
@@ -15490,6 +16018,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T082205Z" creationid="msdx" creationdate="20150111T082205Z">
         <seg>扩充的结果仍然是</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>then this is the cause of your build error.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T011440Z" creationid="msdx" creationdate="20150113T171101Z">
+        <seg>那么这就是你构建错误的原因。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16102,10 +16638,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>zipAlign =&gt; zipAlignEnabled</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T012116Z" creationid="msdx" creationdate="20150114T012116Z">
+        <seg>zipAlign =&gt; zipAlignEnabled</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>zipAlignEnabled</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141212T123045Z" creationid="msdx" creationdate="20141212T123045Z">
         <seg>zipAlignEnabled</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>zipStorePath=wrapper/dists</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T170702Z" creationid="msdx" creationdate="20150113T170702Z">
+        <seg>zipStorePath=wrapper/dists</seg>
       </tuv>
     </tu>
     <tu>
