@@ -870,6 +870,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>0.4</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T055620Z" creationid="msdx" creationdate="20150115T055620Z">
+        <seg>0.4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>14</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150104T133337Z" creationid="msdx" creationdate="20150104T133337Z">
@@ -3478,10 +3486,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>API for 3rd party Device Providers and Test Servers to run and deploy tests.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T055731Z" creationid="msdx" creationdate="20150115T055731Z">
+        <seg>用于第三方设备供应商及测试服务器运行和部署测试的 API。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>API for Android specific task types.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150102T042952Z" creationid="msdx" creationdate="20150102T042952Z">
         <seg>Android 的特定任务类型的 API。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>API is @Beta</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T055747Z" creationid="msdx" creationdate="20150115T055747Z">
+        <seg>API 是 @Beta 版的</seg>
       </tuv>
     </tu>
     <tu>
@@ -3850,6 +3874,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T152908Z" creationid="msdx" creationdate="20150114T152908Z">
         <seg>Android Platform Tools 16.0.2+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Android SDK with the Build Tools component version 17.0.0 or above</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T055654Z" creationid="msdx" creationdate="20150115T055654Z">
+        <seg>Android SDK 的Build Tools 组件版本 17.0.0 或以上</seg>
       </tuv>
     </tu>
     <tu>
@@ -5814,6 +5846,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle 1.6</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T055624Z" creationid="msdx" creationdate="20150115T055624Z">
+        <seg>Gradle 1.6</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle DSL method not found: 'runProguard()'</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T171031Z" creationid="msdx" creationdate="20150113T171031Z">
@@ -7462,6 +7502,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>New Features</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T055656Z" creationid="msdx" creationdate="20150115T055656Z">
+        <seg>新功能</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>New Features:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T152910Z" creationid="msdx" creationdate="20150114T152910Z">
@@ -8774,6 +8822,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Support for ProGuard 4.9</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T055757Z" creationid="msdx" creationdate="20150115T055757Z">
+        <seg>支持 ProGuard 4.9</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Support for asset folders in Library Projects.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T153436Z" creationid="msdx" creationdate="20150114T153436Z">
@@ -8826,6 +8882,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141128T061152Z" creationid="msdx" creationdate="20141128T061000Z">
         <seg>switch 语句转换 -  Android Tools 项目网站</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>System requirements</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T055622Z" creationid="msdx" creationdate="20150115T055622Z">
+        <seg>系统要求</seg>
       </tuv>
     </tu>
     <tu>
@@ -11638,6 +11702,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>add proguard config files with BuiltType.proguardFile or ProductFlavor.proguardFile</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T055908Z" creationid="msdx" creationdate="20150115T055818Z">
+        <seg>通过 BuiltType.proguardFile 或 ProductFlavor.proguardFile 添加混淆配置文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>added | rejected | implied</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150110T164517Z" creationid="msdx" creationdate="20150110T164517Z">
@@ -13058,6 +13130,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141201T132939Z" creationid="msdx" creationdate="20141201T132939Z">
         <seg>enable true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>enable with BuildType.runProguard</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T055837Z" creationid="msdx" creationdate="20150115T055814Z">
+        <seg>通过 BuildType.runProguard 来启用</seg>
       </tuv>
     </tu>
     <tu>
