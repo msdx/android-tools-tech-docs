@@ -1654,6 +1654,54 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;f0&gt;&lt;s1&gt;&lt;f2&gt;IDE Model is changed and is not compatible with earlier version!&lt;/f2&gt;&lt;b3&gt;&lt;f4&gt; Version 0.2.0+ of Studio is&lt;/f4&gt;&lt;/b3&gt;&lt;/s1&gt;&lt;/f0&gt;&lt;s5&gt;&lt;b6&gt;&lt;f7&gt; required.&lt;/f7&gt;&lt;/b6&gt;&lt;/s5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T140325Z" creationid="msdx" creationdate="20150115T140325Z">
+        <seg>&lt;f0&gt;&lt;s1&gt;&lt;f2&gt;修改了IDE Model 并且不与早期版本兼容！&lt;s5&gt;&lt;b6&gt;&lt;f7&gt;要求为&lt;/f7&gt;&lt;/b6&gt;&lt;/s5&gt;&lt;/f2&gt;&lt;b3&gt;&lt;f4&gt; Android Studio 0.2.0 及以上版本。&lt;/f4&gt;&lt;/b3&gt;&lt;/s1&gt;&lt;/f0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;f0&gt;&lt;s1&gt;Better error reporting for cmd line tools, especially &lt;/s1&gt;&lt;/f0&gt;&lt;s2&gt;if run in parallel in spawned threads&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T142825Z" creationid="msdx" creationdate="20150115T142825Z">
+        <seg>&lt;f0&gt;&lt;s1&gt;针对命令行工具有更好的错误输出，特别是&lt;/s1&gt; &lt;/f0&gt;&lt;s2&gt;在衍生线程并行运行的情况&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;f0&gt;&lt;s1&gt;Fixed IDE model to contain the output file even if it's customized &lt;/s1&gt;&lt;/f0&gt;&lt;s2&gt;through the DSL.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T141006Z" creationid="msdx" creationdate="20150115T141006Z">
+        <seg>&lt;f0&gt;&lt;s1&gt;修复 IDE 模型以包含输出文件，即使它&lt;/s1&gt;&lt;/f0&gt;&lt;s2&gt;已经通过 DSL自定义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;f0&gt;&lt;s1&gt;Fixed dependency for tests of library project to properly include all the dependencies &lt;/s1&gt;&lt;/f0&gt;&lt;s2&gt;of the library itself.&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T142435Z" creationid="msdx" creationdate="20150115T142435Z">
+        <seg>&lt;f0&gt;&lt;s1&gt;修复了库项目的测试的依赖以正确地包含库项目自己的所有依赖&lt;/s1&gt;&lt;/f0&gt;&lt;s2&gt;。&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;f0&gt;&lt;s1&gt;Fixed dependency resolution so that we resolved the combination of (default config, &lt;/s1&gt;&lt;/f0&gt;&lt;s2&gt;build types, flavor(s)) together instead of separately.&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T142307Z" creationid="msdx" creationdate="20150115T142307Z">
+        <seg>&lt;f0&gt;&lt;s1&gt;修复了依赖解析，以为了我们能够把默认配置， &lt;/s1&gt; &lt;/f0&gt;&lt;s2&gt;构建类型，flavor(s)的组合一起解析，而不是单独解析。&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;f0&gt;&lt;s1&gt;Fixed issue where all pngs would be processed in parallel with no limit &lt;/s1&gt;&lt;/f0&gt;&lt;s2&gt;on the number of thread used, leading to failure to run aapt.&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T134126Z" creationid="msdx" creationdate="20150115T134126Z">
+        <seg>&lt;f0&gt;&lt;s1&gt;修复所有的png会以不限制线程数量的并行进行处理，&lt;/s1&gt; &lt;/f0&gt;&lt;s2&gt;导致无法运行 aapt 的的问题。&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;f0&gt;You can create product flavors using the &lt;/f0&gt;&lt;f1&gt;productFlavors { ... }&lt;/f1&gt;&lt;f2&gt; container.&lt;/f2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T014926Z" creationid="msdx" creationdate="20150114T014454Z">
@@ -2974,6 +3022,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;access to the variants container don't force creating the task.&lt;br1&gt;&lt;/s0&gt;&lt;s2&gt;This means &lt;/s2&gt;&lt;s3&gt;&lt;f4&gt;android.[application|Library|Test]Variants&lt;/f4&gt;&lt;/s3&gt;&lt;s5&gt; will be empty &lt;/s5&gt;&lt;s6&gt;&lt;f7&gt;during the evaluation phase.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T143325Z" creationid="msdx" creationdate="20150115T143325Z">
+        <seg>&lt;s0&gt;访问variants容器不会强制创建该任务。&lt;br1&gt;&lt;/s0&gt;&lt;s2&gt;这意味着在脚本解析阶段（还没开始运行任务）&lt;/s2&gt; &lt;s3&gt; &lt;f4&gt;android.[application|Library|Test]Variants&lt;/f4&gt;&lt;/s3&gt;&lt;s5&gt;将会是空的&lt;/s5&gt;&lt;s6&gt;&lt;f7&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;and a &lt;/s0&gt;&lt;s1&gt;higher priority declaration&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T083851Z" creationid="msdx" creationdate="20150111T083736Z">
@@ -3018,6 +3074,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T115507Z" creationid="msdx" creationdate="20150101T115507Z">
         <seg>&lt;s0&gt;androidTest&lt;/s0&gt;&lt;s1&gt;Flavor1Compile "..."&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;default proguard files accessible through android.getDefaultProguardFile(name) with name &lt;/s0&gt;&lt;s1&gt;being 'proguard-android.txt' or 'proguard-android-optimize.txt'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T130640Z" creationid="msdx" creationdate="20150115T130640Z">
+        <seg>&lt;s0&gt;默认的混淆文件可以通过 android.getDefaultProguardFile(name) 进行访问，这个name&lt;/s0&gt;&lt;s1&gt;是“proguard-android.txt”或“proguard-android-optimize.txt”&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3574,6 +3638,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Added flavor names to the TestServer API.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T134238Z" creationid="msdx" creationdate="20150115T134238Z">
+        <seg>向 TestServer API添加了flavor名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Added more logging on failure to merge manifests.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T134212Z" creationid="msdx" creationdate="20150115T134212Z">
+        <seg>对于合并清单失败的情况，添加了更多日志打印。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Added support for customized sourceset.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T152354Z" creationid="msdx" creationdate="20150114T152354Z">
@@ -3730,6 +3810,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150105T133135Z" creationid="msdx" creationdate="20150104T164524Z">
         <seg>此外，在节点或一个指定的属性上的每个默认合并的activity都可能会被including工具的指定标记所覆盖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Also fixed the DSL to get/set the output file on the &lt;/s2&gt;&lt;s3&gt;variant object so that it's not necessary to use variant.packageApplication &lt;/s3&gt;&lt;s4&gt;or variant.zipAlign&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T141156Z" creationid="msdx" creationdate="20150115T141156Z">
+        <seg>还修复了 DSL 在variant 对象上get/set 输出文件，&lt;/s2&gt;&lt;s3&gt;因此没有必要去使用 variant.packageApplication &lt;/s3&gt;&lt;s4&gt;或 variant.zipAlign 了&lt;/s4&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -5046,6 +5134,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Enable compatibility with 1.8 (though note that we later released 0.6.0 to handle additional 1.8 issues discovered after 0.5.7 was released.)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T160013Z" creationid="msdx" creationdate="20150115T160013Z">
+        <seg>启用对 1.8 的兼容 （虽然你们会注意到，在0.5.7发布之后，我们随后发布了 0.6.0 以处理额外发现的 1.8 的问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Enable support for Gradle 1.7</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T143846Z" creationid="msdx" creationdate="20150115T143846Z">
+        <seg>启用对 Gradle 1.7 的支持</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Enforcing an attribute value</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T083243Z" creationid="msdx" creationdate="20150111T083207Z">
@@ -5318,10 +5422,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>First lint integration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T155715Z" creationid="msdx" creationdate="20150115T155715Z">
+        <seg>首次 lint 集成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>First, Gradle is meant to have the tasks be only configured for input/output location and possible optional flags.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150102T043938Z" creationid="msdx" creationdate="20150102T043938Z">
         <seg>首先，Gradle 想要让任务只能配置输入或输出的位置和可能使用的可选标志。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fix a crashing bug in PrepareDependenciesTask</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T143031Z" creationid="msdx" creationdate="20150115T143031Z">
+        <seg>修复在 PrepareDependenciesTask 中崩溃的bug</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fix an issue due to windows path in merged resource files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T143009Z" creationid="msdx" creationdate="20150115T143009Z">
+        <seg>修复在合并的资源文件中由于有windows 路径而产生的一个问题。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5334,6 +5462,110 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Fix incremental issues in the resource merger.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T143755Z" creationid="msdx" creationdate="20150115T143755Z">
+        <seg>修复资源合并中的增量问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fix issue in the dependency checker.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T142637Z" creationid="msdx" creationdate="20150115T142637Z">
+        <seg>修复依赖检查器的问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fix issue preventing to use Build Tools 18.0.1</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T143136Z" creationid="msdx" creationdate="20150115T143136Z">
+        <seg>修复一个问题，以防止使用10.8.1版本的构建工具</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fixed DSL to add getSourceSets on the "android" extension.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T131225Z" creationid="msdx" creationdate="20150115T131225Z">
+        <seg>修复 DSL ，添加了“android”范围内的getSourceSets。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fixed [application|library|test]Variants API (always returned empty on 0.4)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T132417Z" creationid="msdx" creationdate="20150115T132417Z">
+        <seg>修复 [application|library|test]Variants API （在0.4版本总是返回空）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fixed case where two dependencies have the same leaf name.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T142540Z" creationid="msdx" creationdate="20150115T142540Z">
+        <seg>修复当两个依赖有同样的leaf名称的情况。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fixed cases where Android Libraries have local Jars dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T130852Z" creationid="msdx" creationdate="20150115T130852Z">
+        <seg>修复在Android 库有本地 Jar 依赖项的情况下的问题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fixed ignoreAsset support in aaptOptions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T134149Z" creationid="msdx" creationdate="20150115T134149Z">
+        <seg>修复对在aaptOptions中ignoreAsset的支持</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fixed incremental compilation issue with declare-styleable</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T143104Z" creationid="msdx" creationdate="20150115T143104Z">
+        <seg>修复declare-styleable 的增量编译问题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fixed incremental support for resource merging.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T133608Z" creationid="msdx" creationdate="20150115T133608Z">
+        <seg>修复资源合并的增量支持。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fixed issue in Proguard where it would complain about duplicate Manifests.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T133509Z" creationid="msdx" creationdate="20150115T133509Z">
+        <seg>修复在混淆中总是提示Manifest重复的问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fixed issue where Proguard rules file cannot be applied on flavors.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T142614Z" creationid="msdx" creationdate="20150115T142614Z">
+        <seg>修复混淆规则文件不能被应用到flavors上面的问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fixed renaming of package through DSL to ensure resources are compiled in the new namespace</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T130953Z" creationid="msdx" creationdate="20150115T130953Z">
+        <seg>修复通过 DSL重命名包名的问题，确保资源在新的命名空间中被编译</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Fixed support for dependency on local jar files.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T152458Z" creationid="msdx" creationdate="20150114T152458Z">
@@ -5342,10 +5574,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Fixed support for subfolders in assets/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T130826Z" creationid="msdx" creationdate="20150115T130826Z">
+        <seg>修复对 assets/ 的子文件夹的支持</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Fixed support for windows.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T152343Z" creationid="msdx" creationdate="20150114T152343Z">
         <seg>修正了对 windows 的支持。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fixes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T131257Z" creationid="msdx" creationdate="20150115T131257Z">
+        <seg>修复的问题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fixes and other changes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T130724Z" creationid="msdx" creationdate="20150115T130724Z">
+        <seg>修复BUG及其它更改</seg>
       </tuv>
     </tu>
     <tu>
@@ -6374,6 +6630,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Implemented Gradle 1.6 custom model for IDE Tooling support</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T130704Z" creationid="msdx" creationdate="20150115T130704Z">
+        <seg>IDE Tooling支持实现了 Gradle 1.6 自定义模型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Implicit declarations</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150105T140106Z" creationid="msdx" creationdate="20150105T140106Z">
@@ -6418,6 +6682,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T153949Z" creationid="msdx" creationdate="20150114T153949Z">
         <seg>DSL 的改进：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Improved IDE support, including loading project with broken dependencies and anchor task to generate Java code</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T155559Z" creationid="msdx" creationdate="20150115T155559Z">
+        <seg>提升 IDE 支持，其中包括加载包含错误依赖的项目，以及用于生成 Java 代码的锚任务</seg>
       </tuv>
     </tu>
     <tu>
@@ -6934,6 +7206,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Library projects must be added to the compile scope.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T132325Z" creationid="msdx" creationdate="20150115T132325Z">
+        <seg>库项目必须被添加到编译范围。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Library projects only expose their release variants.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T151037Z" creationid="msdx" creationdate="20150114T151037Z">
@@ -7350,6 +7630,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Misc bug fixes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T143829Z" creationid="msdx" creationdate="20150115T143829Z">
+        <seg>其它 bug 修复。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Missing translations (and unused translations)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T134316Z" creationid="msdx" creationdate="20141126T134316Z">
@@ -7514,6 +7802,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T152910Z" creationid="msdx" creationdate="20150114T152910Z">
         <seg>新功能：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>New hook tasks: preBuild and prebuild&lt;VariantName&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T155702Z" creationid="msdx" creationdate="20150115T155702Z">
+        <seg>新的hook任务： preBuild和prebuild&lt;VariantName&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7790,6 +8086,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Now properly supported at build to allow package-only dependencies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T132038Z" creationid="msdx" creationdate="20150115T132024Z">
+        <seg>现在能够正确地支持在构建中允许package-only的依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Now we know that the language used for strings in the default values folder is Spanish rather than English.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T032345Z" creationid="msdx" creationdate="20141125T032345Z">
@@ -7862,10 +8166,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Only Jar dependencies can be package-only.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T132119Z" creationid="msdx" creationdate="20150115T132119Z">
+        <seg>只有Jar 依赖可以是 package-only。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Only merge attributes from the lower priority declaration.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150106T165646Z" creationid="msdx" creationdate="20150106T161857Z">
         <seg>只合并优先权的声明中的属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Only package a library's own resources in its aar.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T143440Z" creationid="msdx" creationdate="20150115T143440Z">
+        <seg>库项目只打包它自己的资源到 aar 中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8118,6 +8438,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Proguard support for libraries. Note the current DSL property 'proguardFiles' for library now sets the proguard rule file used when proguarding the library code. The new property 'consumerProguardFiles' is used to package a rule file inside an aar.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T155507Z" creationid="msdx" creationdate="20150115T155507Z">
+        <seg>支持对库项目的混淆。注意，库项目当前的 DSL 属性 “proguardFiles”现在是在混淆库项目的代码时设置混淆规则文件用。新的属性 “consumerProguardFiles” 则是用于把一个规则文件打包时 aar 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Project Structure</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141204T151013Z" creationid="msdx" creationdate="20141204T151013Z">
@@ -8238,6 +8566,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Release notes:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T160047Z" creationid="msdx" creationdate="20150115T160047Z">
+        <seg>发布说明：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Remote artifacts</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141214T115935Z" creationid="msdx" creationdate="20141214T115829Z">
@@ -8302,6 +8638,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Renamed 'package' scope to 'apk'</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T131656Z" creationid="msdx" creationdate="20150115T131656Z">
+        <seg>“package”范围更名为“apk”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Renamed Properties in BuildTypes</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T012115Z" creationid="msdx" creationdate="20150114T012115Z">
@@ -8314,6 +8658,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T012123Z" creationid="msdx" creationdate="20150114T012123Z">
         <seg>在 ProductFlavors 中重命名的属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Renamed deviceCheck into connectedCheck</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T130800Z" creationid="msdx" creationdate="20150115T130800Z">
+        <seg>deviceCheck 重命名为 connectedCheck</seg>
       </tuv>
     </tu>
     <tu>
@@ -8474,6 +8826,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141201T134102Z" creationid="msdx" creationdate="20141201T134102Z">
         <seg>示例： &lt;f0&gt;ndkSanAngeles&lt;/f0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Samples are at the bottom of this page.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T143927Z" creationid="msdx" creationdate="20150115T143927Z">
+        <seg>示例均在页底。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10374,6 +10734,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is a work in progress and therefore the lint task is not added to the check task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T155754Z" creationid="msdx" creationdate="20150115T155754Z">
+        <seg>这项工作还在进行中，因此这个lint 任务没有被加入到check任务中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is developed entirely in AOSP.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T141653Z" creationid="msdx" creationdate="20150114T141335Z">
@@ -10934,6 +11302,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To use it, use &lt;/f7&gt;&lt;f8&gt;.all&lt;/f8&gt;&lt;f9&gt; instead of &lt;/f9&gt;&lt;f10&gt;.each&lt;/f10&gt;&lt;/s6&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T143358Z" creationid="msdx" creationdate="20150115T143358Z">
+        <seg>若要使用它，请使用 &lt;/f7&gt;&lt;f8&gt;.all&lt;/f8&gt;&lt;f9&gt; 而不是 &lt;/f9&gt;&lt;f10&gt;.each&lt;/f10&gt;&lt;/s6&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tools Attributes</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T030716Z" creationid="msdx" creationdate="20141125T024453Z">
@@ -11218,6 +11594,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T142208Z" creationid="msdx" creationdate="20150114T142208Z">
         <seg>你可以做什么？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>What's new in 0.5.0</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T135001Z" creationid="msdx" creationdate="20150115T135001Z">
+        <seg>0.5.0 中有什么新功能</seg>
       </tuv>
     </tu>
     <tu>
@@ -11554,6 +11938,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T015042Z" creationid="msdx" creationdate="20150114T015042Z">
         <seg>你将要把它替换为：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>YouTube video player</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T133524Z" creationid="msdx" creationdate="20150115T133524Z">
+        <seg>YouTube 视频播放器</seg>
       </tuv>
     </tu>
     <tu>
@@ -12830,6 +13222,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>clean older R classes when the app package name has changed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T134935Z" creationid="msdx" creationdate="20150115T134935Z">
+        <seg>当应用程序的包名称已经被更改时清理旧的R类。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>column-number</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150110T163515Z" creationid="msdx" creationdate="20150110T163515Z">
@@ -13126,6 +13526,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>enable crunching for all png files, not just .9.png</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T134356Z" creationid="msdx" creationdate="20150115T134319Z">
+        <seg>为所有 png 文件，而不仅仅是.9.png 启用资源缩减</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>enable true</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141201T132939Z" creationid="msdx" creationdate="20141201T132939Z">
@@ -13194,6 +13602,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150110T163430Z" creationid="msdx" creationdate="20150110T163430Z">
         <seg>file</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>fix crash when doing incremental aidl compilation due to broken method name (ah the joy of Groovy...)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T134848Z" creationid="msdx" creationdate="20150115T134848Z">
+        <seg>修复当进行增量aidl编译时由于方法名称出错（Groovy 搞的......）导致的崩溃问题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>fix dealing with non resource files in res/ and assets/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T134446Z" creationid="msdx" creationdate="20150115T134446Z">
+        <seg>修复res/和assets/中无资源文件的处理。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17154,6 +17578,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141201T134902Z" creationid="msdx" creationdate="20141201T134902Z">
         <seg>variant.outputs.each { output -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>variants are 'debugApk', 'releaseApk', 'flavor1Apk', etc...</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T131837Z" creationid="msdx" creationdate="20150115T131837Z">
+        <seg>变种版本（variants）为“debugApk”、“releaseApk”、“flavor1Apk”等......</seg>
       </tuv>
     </tu>
     <tu>
