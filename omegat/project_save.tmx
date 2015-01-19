@@ -4606,6 +4606,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Compiling projects with AIDL files was broken</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150119T003150Z" creationid="msdx" creationdate="20150119T003150Z">
+        <seg>解决编译带 AIDL 文件的项目的问题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Configures the default &lt;f0&gt;&lt;b1&gt;debug&lt;/b1&gt;&lt;/f0&gt; &lt;i2&gt;Build Type&lt;/i2&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141212T121556Z" creationid="msdx" creationdate="20141212T121556Z">
@@ -4738,6 +4746,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T154240Z" creationid="msdx" creationdate="20150114T154240Z">
         <seg>默认 Java 编译目标设置为 1.6。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Default encoding for compiling Java code is UTF-8</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150119T002618Z" creationid="msdx" creationdate="20150119T002618Z">
+        <seg>编译 Java 代码的默认编码为 UTF-8</seg>
       </tuv>
     </tu>
     <tu>
@@ -5158,6 +5174,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Error message shown when using an unsupported version of Gradle now explains how to update the Gradle wrapper</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150119T004709Z" creationid="msdx" creationdate="20150119T004709Z">
+        <seg>现在，当使用一个不支持的Gradle版本时所显示的错误信息将会说明怎么去升级 Gradle wrapper</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Error, Warning, Info</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150110T163533Z" creationid="msdx" creationdate="20150110T163533Z">
@@ -5486,10 +5510,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Fixed ClassNotFoundException:MergingException introduced in 0.6.2</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150119T005323Z" creationid="msdx" creationdate="20150119T005221Z">
+        <seg>修复 ClassNotFoundException：在0.6.2版本引入的MergingException</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Fixed DSL to add getSourceSets on the "android" extension.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T131225Z" creationid="msdx" creationdate="20150115T131225Z">
         <seg>修复 DSL ，添加了“android”范围内的getSourceSets。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fixed Gradle 1.8-specific bugs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150119T002702Z" creationid="msdx" creationdate="20150119T002702Z">
+        <seg>修复了 Gradle 1.8 特定的一些 bug</seg>
       </tuv>
     </tu>
     <tu>
@@ -5558,6 +5598,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Fixed issue with "lint" task when executing task "check"</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150119T003236Z" creationid="msdx" creationdate="20150119T003236Z">
+        <seg>修复当执行“check”任务时，有关“lint”任务的问题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Fixed renaming of package through DSL to ensure resources are compiled in the new namespace</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T130953Z" creationid="msdx" creationdate="20150115T130953Z">
@@ -5608,8 +5656,8 @@
       <tuv lang="EN-US">
         <seg>Fixes:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T154234Z" creationid="msdx" creationdate="20150114T154234Z">
-        <seg>修补的问题：</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150119T005636Z" creationid="msdx" creationdate="20150114T154234Z">
+        <seg>修复的问题：</seg>
       </tuv>
     </tu>
     <tu>
@@ -6106,6 +6154,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T055624Z" creationid="msdx" creationdate="20150115T055624Z">
         <seg>Gradle 1.6</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle 1.8 is now the minimum supported version</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150119T002523Z" creationid="msdx" creationdate="20150119T002523Z">
+        <seg>Gradle 1.8 现在是支持的最低版本</seg>
       </tuv>
     </tu>
     <tu>
@@ -6670,6 +6726,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Importing projects with missing dependencies was broken</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150119T003136Z" creationid="msdx" creationdate="20150119T003136Z">
+        <seg>解决导入依赖不全的项目的问题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Importing the Eclipse project directly into Studio.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T133739Z" creationid="msdx" creationdate="20150111T133739Z">
@@ -6954,6 +7018,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T153636Z" creationid="msdx" creationdate="20150114T153636Z">
         <seg>Instrumentation 测试现在是：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Internal changes to improve integration with Android Studio</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150119T005024Z" creationid="msdx" creationdate="20150119T005024Z">
+        <seg>提供与 Android Studio 的集成的一些内部改变</seg>
       </tuv>
     </tu>
     <tu>
@@ -7254,6 +7326,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Lint now picks up the SDK home from sdk.dir in local.properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150119T004619Z" creationid="msdx" creationdate="20150119T004619Z">
+        <seg>Lint 现在可以从local.properties里的 sdk.dir 配置的SDK主目录获取</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Lint support</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141217T151654Z" creationid="msdx" creationdate="20141217T151654Z">
@@ -7506,6 +7586,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150102T040346Z" creationid="msdx" creationdate="20150102T040346Z">
         <seg>MergeResources</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Merged resource files no longer place their source markers into the R file as comments</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150119T004808Z" creationid="msdx" creationdate="20150119T004808Z">
+        <seg>合并资源文件时将不再把它们的源文件的标记作为注释合并到 R 文件</seg>
       </tuv>
     </tu>
     <tu>
@@ -8454,6 +8542,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Project path can contain '--' (two dashes)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150119T004858Z" creationid="msdx" creationdate="20150119T004858Z">
+        <seg>项目路径可以包含 “--”（两个英文的破折号）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Projects Overview</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T024147Z" creationid="msdx" creationdate="20141125T024147Z">
@@ -8930,6 +9026,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T150256Z" creationid="msdx" creationdate="20150114T142215Z">
         <seg>发送反馈，多多益善。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Setting the encoding to use for compiling Java code is as simple as:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150119T002938Z" creationid="msdx" creationdate="20150119T002938Z">
+        <seg>设置要用于编译 Java 代码的编码很简单，如下：</seg>
       </tuv>
     </tu>
     <tu>
@@ -11426,6 +11530,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T054451Z" creationid="msdx" creationdate="20141125T032359Z">
         <seg>使用： Lint, Studio （以在非英语资源文件中禁用拼写检查）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Users can now specify the encoding to use to compile Java code</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150119T002637Z" creationid="msdx" creationdate="20150119T002637Z">
+        <seg>现在，用户可以指定用来编译 Java 代码的编码</seg>
       </tuv>
     </tu>
     <tu>
