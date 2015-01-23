@@ -8806,6 +8806,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Requires Gradle 1.9</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150123T015634Z" creationid="Administrator" creationdate="20150123T015534Z">
+        <seg>需要 Gradle 1.9</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Requires Studio 0.8.0 or later.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T041354Z" creationid="msdx" creationdate="20141125T041354Z">
