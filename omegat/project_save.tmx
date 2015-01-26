@@ -1286,6 +1286,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;b0&gt;&lt;f1&gt;BREAKING CHANGES&lt;/f1&gt;&lt;/b0&gt;&lt;f2&gt;:&lt;/f2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T133259Z" creationid="Administrator" creationdate="20150126T133259Z">
+        <seg>&lt;b0&gt;&lt;f1&gt;重大更改&lt;/f1&gt;&lt;/b0&gt;&lt;f2&gt;：&lt;/f2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;b0&gt;&lt;f1&gt;NOTE&lt;/f1&gt;: This document was written when lint was first released.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T074736Z" creationid="msdx" creationdate="20141127T074736Z">
@@ -1710,6 +1718,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;f0&gt;&lt;s1&gt;Variants of libraries can now be published, though by&lt;/s1&gt;&lt;/f0&gt;&lt;s2&gt; default only the default variant is published.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T145231Z" creationid="Administrator" creationdate="20150126T145231Z">
+        <seg>&lt;f0&gt;&lt;s1&gt;现在可以发布库的变种版本（variant），尽管默认情况下&lt;/s1&gt;&lt;/f0&gt;&lt;s2&gt;只有默认的variant 被发布。。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;f0&gt;Add &lt;/f0&gt;&lt;f1&gt;jniLibs&lt;/f1&gt;&lt;f2&gt; folder to source sets for prebuilt .so files.&lt;/f2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150123T060141Z" creationid="Administrator" creationdate="20150123T060141Z">
@@ -1722,6 +1738,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150123T055913Z" creationid="Administrator" creationdate="20150123T055913Z">
         <seg>&lt;f0&gt;在库项目中添加了&lt;/f0&gt;&lt;f1&gt;packagingOptions&lt;/f1&gt;&lt;f2&gt;支持。&lt;/f2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;f0&gt;Both the default folder names and the &lt;/f0&gt;&lt;f1&gt;android.sourcesets&lt;/f1&gt;&lt;f2&gt; object have been renamed.&lt;/f2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T144844Z" creationid="Administrator" creationdate="20150126T144844Z">
+        <seg>&lt;f0&gt;默认的文件夹名称和&lt;/f0&gt;&lt;f1&gt;android.sourcesets&lt;/f1&gt;&lt;f2&gt;对象都被重命名。&lt;/f2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;f0&gt;Dependency configurations for Library Projects are now &lt;/f0&gt;&lt;f1&gt;provided&lt;/f1&gt;&lt;f2&gt;, &lt;/f2&gt;&lt;f3&gt;compile&lt;/f3&gt;&lt;f4&gt;, and&lt;/f4&gt;&lt;f5&gt; &lt;/f5&gt;&lt;f6&gt;publish&lt;/f6&gt;&lt;f7&gt;.&lt;/f7&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T145050Z" creationid="Administrator" creationdate="20150126T145050Z">
+        <seg>&lt;f0&gt;现在 Library Projects的依赖配置为 &lt;/f0&gt;&lt;f1&gt;provided&lt;/f1&gt;&lt;f2&gt;， &lt;/f2&gt;&lt;f3&gt;compile&lt;/f3&gt;&lt;f4&gt;， 和&lt;/f4&gt;&lt;f5&gt; &lt;/f5&gt;&lt;f6&gt;publish&lt;/f6&gt;&lt;f7&gt;。&lt;/f7&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1742,6 +1774,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;f0&gt;You can create product flavors using the &lt;/f0&gt;&lt;f1&gt;productFlavors { ... }&lt;/f1&gt;&lt;f2&gt; container.&lt;/f2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T133821Z" creationid="Administrator" creationdate="20150126T133749Z">
+        <seg>&lt;f0&gt;您可以使用&lt;/f0&gt;&lt;f1&gt;productFlavors { ... }&lt;/f1&gt;&lt;f2&gt;容器创建product flavors。&lt;/f2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;f0&gt;You can create product flavors using the &lt;/f0&gt;&lt;f1&gt;productFlavors { ... }&lt;/f1&gt;&lt;f2&gt; container.&lt;/f2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T014926Z" creationid="msdx" creationdate="20150114T014454Z">
@@ -1750,10 +1790,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;f0&gt;You can create signingConfigs using the &lt;/f0&gt;&lt;f1&gt;signingConfigs { ... }&lt;/f1&gt;&lt;f2&gt; container.&lt;/f2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T133834Z" creationid="Administrator" creationdate="20150126T133834Z">
+        <seg>&lt;f0&gt;你可以使用&lt;/f0&gt;&lt;f1&gt;signingConfigs { ... }&lt;/f1&gt;&lt;f2&gt;容器创建 signingConfigs。&lt;/f2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;f0&gt;You can create signingConfigs using the &lt;/f0&gt;&lt;f1&gt;signingConfigs { ... }&lt;/f1&gt;&lt;f2&gt; container.&lt;/f2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T014946Z" creationid="msdx" creationdate="20150114T014806Z">
         <seg>&lt;f0&gt;你可以通过&lt;/f0&gt;&lt;f1&gt;signingConfigs { ... }&lt;/f1&gt;&lt;f2&gt;容器创建 signingConfigs。&lt;/f2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;f0&gt;You can create/configure more build types, in the &lt;/f0&gt;&lt;f1&gt;buildTypes { ... }&lt;/f1&gt;&lt;f2&gt; container.&lt;/f2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T133730Z" creationid="Administrator" creationdate="20150126T133730Z">
+        <seg>&lt;f0&gt;你可以在&lt;/f0&gt;&lt;f1&gt;buildTypes { ... }&lt;/f1&gt;&lt;f2&gt;容器创建或配置更多的构建类型。&lt;/f2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1770,6 +1826,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150123T033912Z" creationid="Administrator" creationdate="20150123T033912Z">
         <seg>&lt;f0&gt;buildConfigLine&lt;/f0&gt;改为&lt;f1&gt;buildConfigField&lt;/f1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;f0&gt;instrumentTest&lt;/f0&gt;&lt;f1&gt; was renamed &lt;/f1&gt;&lt;f2&gt;androidTest&lt;/f2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T133844Z" creationid="Administrator" creationdate="20150126T133844Z">
+        <seg>&lt;f0&gt;instrumentTest&lt;/f0&gt;&lt;f1&gt; 改名为 &lt;/f1&gt;&lt;f2&gt;androidTest&lt;/f2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -2902,6 +2966,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;f1&gt;You can now use &lt;/f1&gt;&lt;f2&gt;resValue &lt;type&gt;,&lt;name&gt;,&lt;value&gt;&lt;/f2&gt;&lt;f3&gt; on build types and product flavors &lt;/f3&gt;&lt;/s0&gt;&lt;s4&gt;the same way you can use &lt;/s4&gt;&lt;s5&gt;&lt;f6&gt;buildConfigField&lt;/f6&gt;&lt;/s5&gt;&lt;s7&gt;.&lt;/s7&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T132336Z" creationid="Administrator" creationdate="20150126T132336Z">
+        <seg>&lt;s0&gt;&lt;f1&gt;现在你可以在build types和product flavors 中使用 &lt;/f1&gt;&lt;f2&gt;resValue &lt;type&gt;,&lt;name&gt;,&lt;value&gt;&lt;/f2&gt;&lt;f3&gt;， &lt;/f3&gt;&lt;/s0&gt;&lt;s4&gt;和你在 &lt;/s4&gt;&lt;s5&gt;&lt;f6&gt;buildConfigField&lt;/f6&gt;&lt;/s5&gt;&lt;s7&gt;中使用一样。&lt;/s7&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;&lt;f1&gt;android {&lt;/f1&gt;&lt;f2&gt;&lt;br3&gt;&lt;/f2&gt;&lt;f4&gt;    sourceSets {&lt;/f4&gt;&lt;f5&gt;&lt;br6&gt;&lt;/f5&gt;&lt;f7&gt;        main {&lt;/f7&gt;&lt;f8&gt;&lt;br9&gt;&lt;/f8&gt;&lt;/s0&gt;&lt;s10&gt;            &lt;/s10&gt;&lt;s11&gt;&lt;f12&gt;manifest.srcFile 'AndroidManifest.xml'&lt;/f12&gt;&lt;f13&gt;&lt;br14&gt;&lt;/f13&gt;&lt;/s11&gt;&lt;s15&gt;        &lt;/s15&gt;&lt;s16&gt;    &lt;/s16&gt;&lt;s17&gt;java.srcDirs = ['src']&lt;/s17&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141205T142126Z" creationid="msdx" creationdate="20141205T142126Z">
@@ -2966,6 +3038,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;Added 'provided' dependency scope for compile only (not packaged) dependencies.&lt;br1&gt;&lt;/s0&gt;&lt;s2&gt;Additional scope per buildtype and flavors are also available (debugProvided, myFlavorProvided,etc...)&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T124928Z" creationid="Administrator" creationdate="20150126T124928Z">
+        <seg>&lt;s0&gt;为仅编译（不打包）的依赖增加“provided”依赖范围。&lt;br1&gt;&lt;/s0&gt;&lt;s2&gt;每个 buildtype 和flavor的额外范围也都可用 （debugProvided，myFlavorProvided，等等）&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;Contribute patches through the standard AOSP workflow, and talk to use on &lt;/s0&gt;&lt;a1&gt;adt-dev&lt;/a1&gt;&lt;s2&gt;.&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T142019Z" creationid="msdx" creationdate="20150114T142019Z">
@@ -2986,6 +3066,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141217T140253Z" creationid="msdx" creationdate="20141217T140253Z">
         <seg>&lt;s0&gt;确保应用程序和测试应用程序都被构建 （依赖于&lt;/s0&gt; &lt;b1&gt; &lt;f2&gt;assembleDebug&lt;/f2&gt; &lt;/b1&gt; &lt;s3&gt;和&lt;/s3&gt; &lt;b4&gt; &lt;f5&gt;assembleTest&lt;/f5&gt;&lt;/b4&gt;&lt;s6&gt;)&lt;/s6&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;Fixed package renaming in &lt;/s0&gt;&lt;f1&gt;activity-alias:targetActivity&lt;/f1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T132433Z" creationid="Administrator" creationdate="20150126T132433Z">
+        <seg>&lt;s0&gt;修复在&lt;/s0&gt;&lt;f1&gt;activity-alias:targetActivity&lt;/f1&gt;中的包重命名的问题</seg>
       </tuv>
     </tu>
     <tu>
@@ -3178,6 +3266,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T115507Z" creationid="msdx" creationdate="20150101T115507Z">
         <seg>&lt;s0&gt;androidTest&lt;/s0&gt;&lt;s1&gt;Flavor1Compile "..."&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;change the default with &lt;/s0&gt;&lt;f1&gt;&lt;s2&gt;android.defaultPublishConfig&lt;/s2&gt;&lt;/f1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T145540Z" creationid="Administrator" creationdate="20150126T145540Z">
+        <seg>&lt;s0&gt;通过 &lt;/s0&gt;&lt;f1&gt;&lt;s2&gt;android.defaultPublishConfig&lt;/s2&gt;&lt;/f1&gt;修改默认的发布配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;createZipAlignTask(String taskName, File inputFile, File outputFile)&lt;br1&gt;&lt;/s0&gt;&lt;s2&gt;This creates and return a new zipalign task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T125950Z" creationid="Administrator" creationdate="20150126T125950Z">
+        <seg>&lt;s0&gt;createZipAlignTask(String taskName, File inputFile, File outputFile)&lt;br1&gt;&lt;/s0&gt;&lt;s2&gt;该方法会创建并返回一个新的zipalign任务。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3802,6 +3906,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T152734Z" creationid="msdx" creationdate="20150114T152424Z">
         <seg>添加了对每个配置中的依赖的支持。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Added the ability to create resource values through the DSL.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T131018Z" creationid="Administrator" creationdate="20150126T131018Z">
+        <seg>增加通过 DSL 创建资源值的功能。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4742,6 +4854,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Can return null.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T132525Z" creationid="Administrator" creationdate="20150126T132525Z">
+        <seg>可能会返回 null。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Category: Correctness</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141128T124701Z" creationid="msdx" creationdate="20141128T124701Z">
@@ -4786,6 +4906,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T032540Z" creationid="msdx" creationdate="20141127T032540Z">
         <seg>命令行用法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Compatible with Gradle 1.10 and 1.11</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T133203Z" creationid="Administrator" creationdate="20150126T133203Z">
+        <seg>兼容 Gradle 1.10 和 1.11 </seg>
       </tuv>
     </tu>
     <tu>
@@ -4922,6 +5050,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T122947Z" creationid="msdx" creationdate="20150101T122729Z">
         <seg>自定义上面的任一路径，将只更改根文件夹，并且仍然会创建每一个flavor的子文件夹和聚合后的结果及报告。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>DSL for Library Projects is now the same as for application projects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T133645Z" creationid="Administrator" creationdate="20150126T133645Z">
+        <seg>用于库项目的DSL现在和应用程序项目的一样。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5646,6 +5782,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Fix Studio integration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T132638Z" creationid="Administrator" creationdate="20150126T132638Z">
+        <seg>修复 Studio 集成的问题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Fix a crashing bug in PrepareDependenciesTask</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T143031Z" creationid="msdx" creationdate="20150115T143031Z">
@@ -5674,6 +5818,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150123T055146Z" creationid="Administrator" creationdate="20150123T055146Z">
         <seg>修复在lint任务中触发变种版本（variants）编译的问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fix incremental compilation issue with BuildConfig fields and generated Res values.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T132622Z" creationid="Administrator" creationdate="20150126T132622Z">
+        <seg>修复增量编译中关于 BuildConfig 字段和生成的 Res 值的问题。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7310,6 +7462,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It does allow you to &lt;i0&gt;manually&lt;/i0&gt; depend on a specific variant of a library.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T145447Z" creationid="Administrator" creationdate="20150126T145447Z">
+        <seg>它允许您&lt;i0&gt;手动&lt;/i0&gt;依赖一个库的指定的varaint。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It includes the actual source code line with the error (and a window of 3 lines around it).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T074126Z" creationid="msdx" creationdate="20141127T074037Z">
@@ -7558,6 +7718,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Lint HTML report now writes links to source files and images as URLs relative to the report location</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T125721Z" creationid="Administrator" creationdate="20150126T125721Z">
+        <seg>Lint HTML 报告现在将会写入指向源代码文件和图片的链接，这些链接以报告所在位置的相对路径作为URL。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Lint Window</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T142105Z" creationid="msdx" creationdate="20141127T142105Z">
@@ -7586,6 +7754,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150123T023822Z" creationid="Administrator" creationdate="20150123T023822Z">
         <seg>Lint的改进</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Lint improvements:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T124942Z" creationid="Administrator" creationdate="20150126T124942Z">
+        <seg>Lint 的改进:</seg>
       </tuv>
     </tu>
     <tu>
@@ -8006,6 +8182,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Misc fixes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T132540Z" creationid="Administrator" creationdate="20150126T132540Z">
+        <seg>Misc 的bug修复</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Missing translations (and unused translations)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T134316Z" creationid="msdx" creationdate="20141126T134316Z">
@@ -8146,6 +8330,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150123T022227Z" creationid="Administrator" creationdate="20150123T022227Z">
         <seg>名字为&lt;f0&gt;src/flavorDebug/...&lt;/f0&gt;或&lt;f1&gt;src/flavor1Flavor2Debug/&lt;/f1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>New "lintVital" task, run automatically as part of assembling release variants, which checks only fatal-severity issues</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T125106Z" creationid="Administrator" creationdate="20150126T125106Z">
+        <seg>新的“lintVital”任务，作为assembling release variants的一部分自动运行，只检查致命的严重问题</seg>
       </tuv>
     </tu>
     <tu>
@@ -9150,6 +9342,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Replace Java parser in lint with ECJ; must faster and fixes bug where lint could hang on certain source constructs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T125350Z" creationid="Administrator" creationdate="20150126T125350Z">
+        <seg>lint 里的Java 语法分析器替换为 ECJ ；检查将会更快，并修复了lint 会在某些源码里的构造方法中卡住的bug</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Replace the lower priority declaration with the annotated one.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150106T170331Z" creationid="msdx" creationdate="20150106T161515Z">
@@ -9406,6 +9606,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See artifactApi sample.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T130532Z" creationid="Administrator" creationdate="20150126T130532Z">
+        <seg>请参阅 artifactApi 示例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See sample 'artifactApi' for the API (sample is not meant to be used, it's for testing).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150123T054800Z" creationid="Administrator" creationdate="20150123T054800Z">
@@ -9434,6 +9642,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T150946Z" creationid="msdx" creationdate="20150114T150946Z">
         <seg>参照例子</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;a1&gt;documentation&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T145451Z" creationid="Administrator" creationdate="20150126T145451Z">
+        <seg>请参阅&lt;a1&gt;文档&lt;/a1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9818,6 +10034,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T152740Z" creationid="msdx" creationdate="20150114T152740Z">
         <seg>系统要求：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TL;DR: this will &lt;b0&gt;NOT&lt;/b0&gt; fix bug &lt;a1&gt;52962&lt;/a1&gt;, where &lt;i2&gt;release&lt;/i2&gt; variant of the libraries are always used.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T145414Z" creationid="Administrator" creationdate="20150126T145414Z">
+        <seg>TL;DR: 这将 &lt;b0&gt;不会&lt;/b0&gt;修复bug &lt;a1&gt;52962&lt;/a1&gt;，这个bug是 库的&lt;i2&gt;release&lt;/i2&gt; variant 总是存在被占用的情况。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11318,6 +11542,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is a work in progress.&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T145247Z" creationid="Administrator" creationdate="20150126T145247Z">
+        <seg>这项工作还在进行中。&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is developed entirely in AOSP.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T141653Z" creationid="msdx" creationdate="20150114T141335Z">
@@ -11362,6 +11594,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T081731Z" creationid="msdx" creationdate="20150111T080401Z">
         <seg>这是独立于build.gradle里的任何包设置的（译者注，关于package和applicationId可以看一下我的系列博客中的另一篇文章的介绍）。例如，你build.gradle 包含以下内容：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is more inline with what the tests are: all type of tests that are run on Android (unit test, instrumentation test, and later uiautomator)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T135836Z" creationid="Administrator" creationdate="20150126T135836Z">
+        <seg>这是本着测试的内容来改名的：运行在 Android 上的所有类型的测试（单元测试、 仪器仪表试验和后来的 uiautomator） 运行的测试</seg>
       </tuv>
     </tu>
     <tu>
@@ -11854,6 +12094,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To migrate you can either rename the folders or &lt;a0&gt;point the sourcesets to the old location(s)&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T144942Z" creationid="Administrator" creationdate="20150126T144942Z">
+        <seg>如果要迁移，你可以选择重命名文件夹，或者是&lt;a0&gt;把 sourcesets指向旧的位置&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To remove all elements of a certain type from any library, declare in the higher priority document</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T085625Z" creationid="msdx" creationdate="20150111T085606Z">
@@ -12038,6 +12286,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Useful if you have a custom plugin providing custom signing of APKs.&lt;br3&gt;&lt;/s2&gt;&lt;s4&gt;This also makes the assemble task depend on the new zipalign task, and wires variant.getOutputFile() to return the result of the zipalign task.&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T130248Z" creationid="Administrator" creationdate="20150126T130248Z">
+        <seg>如果您定义了自定义 APKs 签名的插件，则会非常有用。&lt;br3&gt;&lt;/s2&gt;&lt;s4&gt;这也使得assemble任务依赖于新的 zipalign 任务，并使得 variant.getOutputFile() 返回 zipalign 任务的结果。&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Users can now specify the encoding to use to compile Java code</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150119T002637Z" creationid="msdx" creationdate="20150119T002637Z">
@@ -12050,6 +12306,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141213T074004Z" creationid="msdx" creationdate="20141213T073518Z">
         <seg>使用&lt;i0&gt;getDefaultProguardFile()&lt;/i0&gt;将返回的文件的完整路径。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using Gradle 1.11 requires Android Studio 0.5.0</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T133216Z" creationid="Administrator" creationdate="20150126T133216Z">
+        <seg>使用 Gradle 1.11 需要 Android Studio 0.5.0</seg>
       </tuv>
     </tu>
     <tu>
@@ -12114,6 +12378,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141201T134116Z" creationid="msdx" creationdate="20141201T134116Z">
         <seg>Variant API &amp;Version Code 支持</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Variant API improvements:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T125729Z" creationid="Administrator" creationdate="20150126T125729Z">
+        <seg>Variant API 的改进：</seg>
       </tuv>
     </tu>
     <tu>
@@ -14438,6 +14710,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>getPreBuild() returns the prebuild task for the variant</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T125808Z" creationid="Administrator" creationdate="20150126T125808Z">
+        <seg>getPreBuild() 返回该variant的构建前任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>getProcessManifest</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141201T134410Z" creationid="msdx" creationdate="20141201T134410Z">
@@ -14450,6 +14730,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141201T134410Z" creationid="msdx" creationdate="20141201T134410Z">
         <seg>getProcessResources</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>getSourceSets() returns the sorted sourcesets for the task, from lower to higher priority</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T125851Z" creationid="Administrator" creationdate="20150126T125851Z">
+        <seg>getSourceSets() 返回这个任务的sourcesets，并且是从低优先级到高优先级排序的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17054,6 +17342,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>packageName returns the variant's package name</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T132453Z" creationid="Administrator" creationdate="20150126T132453Z">
+        <seg>packageName 返回 variant 的包名</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>packageNameSuffix ".jnidebug"</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141209T141956Z" creationid="msdx" creationdate="20141209T141956Z">
@@ -17210,6 +17506,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T011730Z" creationid="msdx" creationdate="20150114T011730Z">
         <seg>proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>project.android.registerJavaArtifact() now receives a Configuration object to pass the dependencies to the IDE.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T130514Z" creationid="Administrator" creationdate="20150126T130514Z">
+        <seg>project.android.registerJavaArtifact() 现在会得到一个 Configuration 对象，用于把依赖传给IDE</seg>
       </tuv>
     </tu>
     <tu>
@@ -18294,6 +18598,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>versionCode returns the (app/test) variant's versionCode</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T132514Z" creationid="Administrator" creationdate="20150126T132514Z">
+        <seg>versionCode 返回（app或test）的 variant 的 versionCode</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>versionName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141208T080613Z" creationid="msdx" creationdate="20141208T080613Z">
@@ -18314,6 +18626,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141208T080903Z" creationid="msdx" creationdate="20141208T080903Z">
         <seg>versionName "2.0"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>versionName returns the (app/test/) variant's versionName.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T132522Z" creationid="Administrator" creationdate="20150126T132522Z">
+        <seg>versionName 返回（app或test）的 variant 的 versionName</seg>
       </tuv>
     </tu>
     <tu>
