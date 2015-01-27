@@ -3014,6 +3014,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;f1&gt;flavorGroups&lt;/f1&gt;&lt;/s0&gt;&lt;s2&gt; have been renamed &lt;/s2&gt;&lt;s3&gt;&lt;f4&gt;flavorDimensions&lt;/f4&gt;&lt;/s3&gt;&lt;s5&gt; and the DSL has been updated.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T155922Z" creationid="Administrator" creationdate="20150127T155922Z">
+        <seg>&lt;s0&gt;&lt;f1&gt;flavorGroups&lt;/f1&gt;&lt;/s0&gt;&lt;s2&gt; 已经被重命名为 &lt;/s2&gt;&lt;s3&gt;&lt;f4&gt;flavorDimensions&lt;/f4&gt;&lt;/s3&gt;&lt;s5&gt;，并且 DSL 也已经更新。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;&lt;f1&gt;res.srcDirs = ['res']&lt;/f1&gt;&lt;f2&gt;&lt;br3&gt;&lt;/f2&gt;&lt;/s0&gt;&lt;s4&gt;    &lt;/s4&gt;&lt;s5&gt;    &lt;/s5&gt;&lt;s6&gt;    &lt;/s6&gt;&lt;s7&gt;&lt;f8&gt;assets.srcDirs = ['assets']&lt;/f8&gt;&lt;/s7&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141205T142128Z" creationid="msdx" creationdate="20141205T142128Z">
@@ -3114,6 +3122,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141207T051237Z" creationid="msdx" creationdate="20141205T140833Z">
         <seg>&lt;s0&gt;欲了解更多信息，请参阅 Gradle 文档中关于 Java 插件的内容，&lt;/s0&gt;&lt;a1&gt;见这里&lt;/a1&gt;&lt;s2&gt;。&lt;/s2&gt;&lt;br3&gt;&lt;br4&gt;Android 插件使用类似的语法，但因为它使用它自己的&lt;i5&gt;sourceSets&lt;/i5&gt;，所以在&lt;f6&gt;&lt;b7&gt;android&lt;/b7&gt;&lt;/f6&gt;对象里面来实现。 &lt;br8&gt;&lt;s9&gt;这里有一个例子，使用旧的项目结构的主源码并重新映射&lt;f10&gt;&lt;b11&gt;androidTest&lt;/b11&gt; &lt;/f10&gt; &lt;i12&gt;sourceSet&lt;/i12&gt; 到&lt;/s9&gt;&lt;f13&gt;tests&lt;/f13&gt;&lt;s14&gt;文件夹：&lt;/s14&gt;&lt;br15&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;If you are disabling enforcement of package name, then you should disable packaging of BuildConfig with: &lt;/s0&gt;&lt;s1&gt;&lt;f2&gt;android.packageBuildConfig = false&lt;/f2&gt;&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T155603Z" creationid="Administrator" creationdate="20150127T155603Z">
+        <seg>&lt;s0&gt;如果你对强制包名称唯一的功能进行禁用，那么你应该禁用 BuildConfig 的打包：&lt;/s0&gt;&lt;s1&gt; &lt;f2&gt;android.packageBuildConfig = false&lt;/f2&gt; &lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3226,6 +3242,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141217T135748Z" creationid="msdx" creationdate="20141217T135658Z">
         <seg>&lt;s0&gt;它依赖于任务&lt;/s0&gt;&lt;b1&gt;androidTest&lt;/b1&gt;&lt;s2&gt;，因此将运行 &lt;b1&gt;androidTest&lt;/b1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;To disable this you can use &lt;/s0&gt;&lt;s1&gt;&lt;f2&gt;android.enforceUniquePackageName = false&lt;/f2&gt;&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T155026Z" creationid="Administrator" creationdate="20150127T155026Z">
+        <seg>&lt;s0&gt;如果要禁用这一项，你可以使用 &lt;/s0&gt;&lt;s1&gt;&lt;f2&gt;android.enforceUniquePackageName = false&lt;/f2&gt;&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;To revert to the old cruncher: &lt;/s0&gt;&lt;s1&gt;&lt;f2&gt;android.aaptOptions.useAaptPngCruncher = true&lt;/f2&gt;&lt;br3&gt;&lt;f4&gt;&lt;b5&gt;WARNING: We've seen reports of the new processor generating PNGs that make the app crash on GB&lt;/b5&gt;&lt;/f4&gt;&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T154932Z" creationid="Administrator" creationdate="20150127T154932Z">
+        <seg>&lt;s0&gt;可以恢复使用旧的压缩处理工具： &lt;/s0&gt;&lt;s1&gt;&lt;f2&gt;android.aaptOptions.useAaptPngCruncher = true&lt;/f2&gt;&lt;br3&gt;&lt;f4&gt;&lt;b5&gt;警告：我们已经知道了关于新的处理器生成的PNG图片会使应用程序崩溃的报告。&lt;/b5&gt;&lt;/f4&gt;&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3850,6 +3882,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T154228Z" creationid="msdx" creationdate="20150114T154228Z">
         <seg>用来处理 Build Variants 的API。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Aapt-based PNG processor is now default again while we investigate some issues with the old one.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T155858Z" creationid="Administrator" creationdate="20150127T155858Z">
+        <seg>因为需要调查一些旧的问题，基于 Aapt 的 PNG 处理器现在又是默认的处理器了。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4794,6 +4834,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T151544Z" creationid="msdx" creationdate="20150101T151544Z">
         <seg>构建选项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>BuildConfig is now packaged in libraries.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T155438Z" creationid="Administrator" creationdate="20150127T155430Z">
+        <seg>BuildConfig 现在会打包在库中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>BuildConfig.VERSION_NAME is always generated even if the value is not set in the current variant.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T155413Z" creationid="Administrator" creationdate="20150127T155413Z">
+        <seg>BuildConfig.VERSION_NAME 即使它的值在当前的变种版本（variant）中没有被设置，它也总是会自动生成。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5918,6 +5974,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Fix issue where crunched png are bigger than original file</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T154334Z" creationid="Administrator" creationdate="20150127T154334Z">
+        <seg>解决压缩处理过的 png 比原始文件大很多的问题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Fix issue where variant specific source folders where not used for java compilation.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T013947Z" creationid="Administrator" creationdate="20150127T013947Z">
@@ -6530,6 +6594,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150102T040442Z" creationid="msdx" creationdate="20150102T040442Z">
         <seg>GenerateBuildConfig</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Generated POM files now have the proper dependencies even if the pom object is manipulated in build.gradle</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T155227Z" creationid="Administrator" creationdate="20150127T155227Z">
+        <seg>生成的 POM 文件现在会有正确的依赖，即使 pom 对象在 build.gradle中被操纵</seg>
       </tuv>
     </tu>
     <tu>
@@ -7622,6 +7694,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It's now possible to include a file when there's a conflict during packaging:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T154010Z" creationid="Administrator" creationdate="20150127T154010Z">
+        <seg>现在在打包发生文件冲突时，可以包含一个文件（以前只能把冲突的文件排除出去）：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Its default location is</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141217T145445Z" creationid="msdx" creationdate="20141217T145445Z">
@@ -8450,6 +8530,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T152910Z" creationid="msdx" creationdate="20150114T152910Z">
         <seg>新功能：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>New PNG processor.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T154046Z" creationid="Administrator" creationdate="20150127T154046Z">
+        <seg>新的PNG 处理器。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9814,6 +9902,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Should be much faster when processing many files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T154100Z" creationid="Administrator" creationdate="20150127T154100Z">
+        <seg>在处理多个文件时应该会快很多</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Signing Configurations</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141213T064754Z" creationid="msdx" creationdate="20141213T064754Z">
@@ -10750,6 +10846,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The old DSL is still available until 1.0 at which time it'll be removed.&lt;/s5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T160024Z" creationid="Administrator" creationdate="20150127T160024Z">
+        <seg>旧的DSL在 1.0 版本对它进行移除之前，仍然可用。&lt;/s5&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The onClick attribute value should be the name of a method in this View's</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141128T125644Z" creationid="msdx" creationdate="20141128T125644Z">
@@ -10818,6 +10922,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150106T125400Z" creationid="msdx" creationdate="20150106T125400Z">
         <seg>占位符字符串可以有一个前缀或后缀，以实现只替换部分的内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The plugin now enforces that all library dependencies have a unique package name.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T154958Z" creationid="Administrator" creationdate="20150127T154958Z">
+        <seg>该插件现在强制所有库依赖项都有一个唯一的包名称。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11950,6 +12062,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This requires that all your libraries have a unique package name.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T155459Z" creationid="Administrator" creationdate="20150127T155459Z">
+        <seg>这需要你所有的库都有唯一的包名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This should be applied to the root project, ie in &lt;i0&gt;build.gradle&lt;/i0&gt; next to &lt;i1&gt;settings.gradle&lt;/i1&gt;&lt;br2&gt;&lt;br3&gt;Then from the root folder, the following command line will run all the tests and aggregate the reports:&lt;br4&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141217T151350Z" creationid="msdx" creationdate="20141217T150257Z">
@@ -12522,6 +12642,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141204T141037Z" creationid="msdx" creationdate="20141204T141037Z">
         <seg>非常灵活。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>WARNING: The ability to disable enforcement will disappear in 1.0</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T155707Z" creationid="Administrator" creationdate="20150127T155126Z">
+        <seg>警告： 这个禁用功能会在 1.0 中移除</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>WARNING: the ability to disable packaging will disappear in 1.0</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T155704Z" creationid="Administrator" creationdate="20150127T155704Z">
+        <seg>警告： 这个禁用功能会在 1.0 中移除</seg>
       </tuv>
     </tu>
     <tu>
@@ -14666,6 +14802,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T134446Z" creationid="msdx" creationdate="20150115T134446Z">
         <seg>修复res/和assets/中无资源文件的处理。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>fixed issue where changes to the manifests of libraries didn't trigger a new manifest merge.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T155335Z" creationid="Administrator" creationdate="20150127T155335Z">
+        <seg>修复了库清单的修改不触发新的清单合并的问题。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16866,6 +17010,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141213T070421Z" creationid="msdx" creationdate="20141213T070421Z">
         <seg>keyPassword "android"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>libraryVariant API now gives access to the list of flavors.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T155247Z" creationid="Administrator" creationdate="20150127T155247Z">
+        <seg>libraryVariant API 现在提供了对flavors列表的访问。</seg>
       </tuv>
     </tu>
     <tu>
