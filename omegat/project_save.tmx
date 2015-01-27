@@ -1750,6 +1750,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;f0&gt;DSL is: &lt;/f0&gt;&lt;f1&gt;android.variantFilter { variant -&gt; ... }&lt;/f1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T004819Z" creationid="Administrator" creationdate="20150127T004819Z">
+        <seg>&lt;f0&gt;DSL 是：&lt;/f0&gt;&lt;f1&gt;android.variantFilter { variant -&gt; ... }&lt;/f1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;f0&gt;Dependency configurations for Library Projects are now &lt;/f0&gt;&lt;f1&gt;provided&lt;/f1&gt;&lt;f2&gt;, &lt;/f2&gt;&lt;f3&gt;compile&lt;/f3&gt;&lt;f4&gt;, and&lt;/f4&gt;&lt;f5&gt; &lt;/f5&gt;&lt;f6&gt;publish&lt;/f6&gt;&lt;f7&gt;.&lt;/f7&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T145050Z" creationid="Administrator" creationdate="20150126T145050Z">
@@ -1770,6 +1778,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150123T060406Z" creationid="Administrator" creationdate="20150123T060406Z">
         <seg>&lt;f0&gt;新的示例： &lt;/f0&gt;&lt;s1&gt;ndkJniLib, genFolderApi2&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;f0&gt;The &lt;/f0&gt;&lt;f1&gt;publish&lt;/f1&gt;&lt;f2&gt; and &lt;/f2&gt;&lt;f3&gt;apk&lt;/f3&gt;&lt;f4&gt; configurations don't extend &lt;/f4&gt;&lt;f5&gt;compile&lt;/f5&gt;&lt;f6&gt; anymore but the composite internal configurations are still properly setup (this should not break anything).&lt;/f6&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T013825Z" creationid="Administrator" creationdate="20150127T013825Z">
+        <seg>&lt;f0&gt;&lt;/f0&gt;&lt;f1&gt;发布&lt;/f1&gt;&lt;f2&gt;和&lt;/f2&gt;&lt;f3&gt;apk&lt;/f3&gt;&lt;f4&gt;的配置不会对&lt;/f4&gt;&lt;f5&gt;编译&lt;/f5&gt;&lt;f6&gt;有任何的扩展，综合起来的内部配置仍然会正确地设置（这应该不会产生任何影响）。&lt;/f6&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;f0&gt;This cannot be used in &lt;/f0&gt;&lt;f1&gt;afterEvaluate&lt;/f1&gt;&lt;f2&gt;.&lt;/f2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T005057Z" creationid="Administrator" creationdate="20150127T005057Z">
+        <seg>&lt;f0&gt;不能在 &lt;/f0&gt;&lt;f1&gt;afterEvaluate&lt;/f1&gt;&lt;f2&gt;中使用&lt;/f2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;f0&gt;To skip a variant, call &lt;/f0&gt;&lt;f1&gt;setIgnore(true)&lt;/f1&gt;&lt;f2&gt;.&lt;/f2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T005027Z" creationid="Administrator" creationdate="20150127T005027Z">
+        <seg>&lt;f0&gt;如果需要跳过 variant，可以调用&lt;/f0&gt;&lt;f1&gt;setIgnore(true)&lt;/f1&gt;&lt;f2&gt;。&lt;/f2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3126,6 +3158,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;Reference specific variant with &lt;/s0&gt;&lt;f1&gt;&lt;s2&gt;compile project(path: ':project', configuration: 'flavor1Debug')&lt;/s2&gt;&lt;/f1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T004641Z" creationid="Administrator" creationdate="20150127T004641Z">
+        <seg>&lt;s0&gt;通过 &lt;/s0&gt;&lt;f1&gt;&lt;s2&gt;compile project(path: ':project', configuration: 'flavor1Debug')&lt;/s2&gt;&lt;/f1&gt;&lt;s0&gt; 引用指定的variant&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;Revamped lint integration.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150123T024346Z" creationid="Administrator" creationdate="20150123T024346Z">
@@ -3290,6 +3330,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T130640Z" creationid="msdx" creationdate="20150115T130640Z">
         <seg>&lt;s0&gt;默认的混淆文件可以通过 android.getDefaultProguardFile(name) 进行访问，这个name&lt;/s0&gt;&lt;s1&gt;是“proguard-android.txt”或“proguard-android-optimize.txt”&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;enable publication of other variants with &lt;/s0&gt;&lt;s1&gt;&lt;f2&gt;android.publishNonDefault = true&lt;/f2&gt;&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T004551Z" creationid="Administrator" creationdate="20150127T004551Z">
+        <seg>&lt;s0&gt;通过&lt;/s0&gt;&lt;s1&gt; &lt;f2&gt;android.publishNonDefault = true&lt;/f2&gt; &lt;/s1&gt;&lt;s0&gt;启用其他variants的发布&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3810,6 +3858,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T151932Z" creationid="msdx" creationdate="20141127T100948Z">
         <seg>配置问题检查严重程度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Ability to skip some variants.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T004703Z" creationid="Administrator" creationdate="20150127T004703Z">
+        <seg>跳过一些变种版本（variant）的功能。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5806,6 +5862,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Fix for some Renderscript support mode compatibility issues.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T014016Z" creationid="Administrator" creationdate="20150127T014016Z">
+        <seg>修复一些Renderscript支持模式的兼容性问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Fix generation of R classes in case libraries share same package name as the app project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T154356Z" creationid="msdx" creationdate="20150114T154356Z">
@@ -5850,6 +5914,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T143136Z" creationid="msdx" creationdate="20150115T143136Z">
         <seg>修复一个问题，以防止使用10.8.1版本的构建工具</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fix issue where variant specific source folders where not used for java compilation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T013947Z" creationid="Administrator" creationdate="20150127T013947Z">
+        <seg>修复变种版本所特定的源文件夹不会被用于java编译的问题。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7862,6 +7934,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Lots of misc fixes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T014110Z" creationid="Administrator" creationdate="20150127T014110Z">
+        <seg>其它大量问题修复。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>MERGED from flavorlib:lib2:unspecified:3:5</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150110T164606Z" creationid="msdx" creationdate="20150110T164606Z">
@@ -8184,8 +8264,8 @@
       <tuv lang="EN-US">
         <seg>Misc fixes</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T132540Z" creationid="Administrator" creationdate="20150126T132540Z">
-        <seg>Misc 的bug修复</seg>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T014123Z" creationid="Administrator" creationdate="20150126T132540Z">
+        <seg>其它问题修复</seg>
       </tuv>
     </tu>
     <tu>
@@ -9374,6 +9454,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Requires Build Tools 19.0.3</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T014027Z" creationid="Administrator" creationdate="20150127T014027Z">
+        <seg>需要Build Tools 19.0.3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Requires Build-Tools 19.0.0+</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150123T062403Z" creationid="Administrator" creationdate="20150123T062403Z">
@@ -9594,6 +9682,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T152945Z" creationid="msdx" creationdate="20150114T152945Z">
         <seg>请参见 “multires”示例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;a0&gt;documentation&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T004646Z" creationid="Administrator" creationdate="20150127T004646Z">
+        <seg>请参阅&lt;a0&gt;文档&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10646,6 +10742,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The object passed to the closure implements the following methods:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T004935Z" creationid="Administrator" creationdate="20150127T004935Z">
+        <seg>该对象传入一个实现了以下方法的闭包：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The onClick attribute value should be the name of a method in this View's</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141128T125644Z" creationid="msdx" creationdate="20141128T125644Z">
@@ -11322,6 +11426,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141208T063943Z" creationid="msdx" creationdate="20141208T063943Z">
         <seg>这允许任务正确地相互依赖而无需不必要的构建操作。&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This allows you to not create all possible combinations of build types/flavors.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T004810Z" creationid="Administrator" creationdate="20150127T004810Z">
+        <seg>这允许你不去创建构建类型或flavors的所有可能组合的版本。</seg>
       </tuv>
     </tu>
     <tu>
