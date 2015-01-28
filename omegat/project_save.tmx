@@ -1750,6 +1750,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;f0&gt;Configure version of Jacoco with&lt;/f0&gt;&lt;br1&gt;&lt;f2&gt;android {&lt;br3&gt;  jacoco {&lt;br4&gt;    version = '0.6.2.201302030002'&lt;br5&gt;  }&lt;br6&gt;}&lt;/f2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150128T132434Z" creationid="Administrator" creationdate="20150128T132434Z">
+        <seg>&lt;f0&gt;通过&lt;/f0&gt;&lt;br1&gt;&lt;f2&gt;android {&lt;br3&gt;  jacoco {&lt;br4&gt;    version = '0.6.2.201302030002'&lt;br5&gt;  }&lt;br6&gt;}&lt;/f2&gt;&lt;f0&gt;进行Jacoco版本的配置&lt;/f0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;f0&gt;DSL is: &lt;/f0&gt;&lt;f1&gt;android.variantFilter { variant -&gt; ... }&lt;/f1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T004819Z" creationid="Administrator" creationdate="20150127T004819Z">
@@ -1762,6 +1770,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T145050Z" creationid="Administrator" creationdate="20150126T145050Z">
         <seg>&lt;f0&gt;现在 Library Projects的依赖配置为 &lt;/f0&gt;&lt;f1&gt;provided&lt;/f1&gt;&lt;f2&gt;， &lt;/f2&gt;&lt;f3&gt;compile&lt;/f3&gt;&lt;f4&gt;， 和&lt;/f4&gt;&lt;f5&gt; &lt;/f5&gt;&lt;f6&gt;publish&lt;/f6&gt;&lt;f7&gt;。&lt;/f7&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;f0&gt;Disabled by default.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150128T130833Z" creationid="Administrator" creationdate="20150128T130744Z">
+        <seg>&lt;f0&gt;默认情况下禁用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3098,6 +3114,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141218T140636Z" creationid="msdx" creationdate="20141218T140408Z">
         <seg>&lt;s0&gt;同一应用程序的不同版本 &lt;br1&gt;&lt;/s0&gt;&lt;s2&gt;例如，一个应用的免费/演示版本 和“专业”付费版本。&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;Enable in the tested Build Type with &lt;/s0&gt;&lt;f1&gt;testCoverageEnabled = true&lt;/f1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150128T132317Z" creationid="Administrator" creationdate="20150128T132317Z">
+        <seg>&lt;s0&gt;通过 &lt;/s0&gt;&lt;f1&gt;testCoverageEnabled = true&lt;/f1&gt;&lt;s0&gt;在测试的构建类型中进行启用&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -5598,6 +5622,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Enable with &lt;/f0&gt;&lt;f1&gt;android.useOldManifestMerger = false&lt;/f1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150128T130846Z" creationid="Administrator" creationdate="20150128T130808Z">
+        <seg>可以通过 &lt;/f0&gt;&lt;f1&gt;android.useOldManifestMerger = false&lt;/f1&gt;&lt;f0&gt;进行启用 &lt;/f0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Enforcing an attribute value</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T083243Z" creationid="msdx" creationdate="20150111T083207Z">
@@ -6662,6 +6694,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle 1.12 will require Studio 0.5.8</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150128T130725Z" creationid="Administrator" creationdate="20150128T130725Z">
+        <seg>Gradle 1.12 将需要 Studio 0.5.8</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle 1.3+ (tested on 1.3/1.4).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T152811Z" creationid="msdx" creationdate="20150114T152811Z">
@@ -6794,6 +6834,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T065419Z" creationid="msdx" creationdate="20141127T065419Z">
         <seg>HTML 报表</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>HTML and XML Report generated in build/reports/coverage</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150128T132401Z" creationid="Administrator" creationdate="20150128T132401Z">
+        <seg>HTML 和 XML 报告生成的路径为 build/reports/coverage</seg>
       </tuv>
     </tu>
     <tu>
@@ -8550,6 +8598,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>New manifest merger.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150128T130735Z" creationid="Administrator" creationdate="20150128T130735Z">
+        <seg>新的清单合并工具。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>New option on product Flavor (and defaultConfig) allow filtering of resources through the -c option of aapt</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150123T034523Z" creationid="Administrator" creationdate="20150123T034523Z">
@@ -9798,6 +9854,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See documentation &lt;a0&gt;here&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150128T130902Z" creationid="Administrator" creationdate="20150128T130902Z">
+        <seg>请参阅&lt;a0&gt;在这里&lt;/a0&gt;的文档。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See sample 'artifactApi' for the API (sample is not meant to be used, it's for testing).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150123T054800Z" creationid="Administrator" creationdate="20150123T054800Z">
@@ -10182,6 +10246,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Supports Gradle 1.10, 1.11, 1.12.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150128T130708Z" creationid="Administrator" creationdate="20150128T130708Z">
+        <seg>支持 Gradle 1.10，1.11，1.12。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Suppressing Errors</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T144335Z" creationid="msdx" creationdate="20141127T143938Z">
@@ -10258,6 +10330,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T024336Z" creationid="msdx" creationdate="20141125T024336Z">
         <seg>技术文档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Test code coverage support with Jacoco</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150128T132126Z" creationid="Administrator" creationdate="20150128T132126Z">
+        <seg>通过 Jacoco 实现测试代码覆盖率的支持</seg>
       </tuv>
     </tu>
     <tu>
