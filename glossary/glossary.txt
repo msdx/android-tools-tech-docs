@@ -24,6 +24,6 @@ function properly	正常运行
 as long as 	主要
 in irrespective of	不论
 in question	被谈论着的	考虑之中的，被谈论着的
-Alternatively	或者	Alternatively
-adv.	做为选择，二者择一地;作为一种选择
+Alternatively	或者	adv.
 crunch	压缩
+Exploded	加载的	分解

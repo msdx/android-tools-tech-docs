@@ -134,6 +134,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(Work in Progress)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150128T152252Z" creationid="Administrator" creationdate="20150128T152252Z">
+        <seg>（正在进行中）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(http://tools.android.com/tech-docs/new-build-system/using-the-new-build-system#TOC-Working-with-and-Customizing-SourceSets)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T152354Z" creationid="msdx" creationdate="20150114T152354Z">
@@ -1294,6 +1302,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;b0&gt;&lt;f1&gt;Known issue:&lt;/f1&gt;&lt;/b0&gt;&lt;f2&gt; This is not compatible with using Dagger.&lt;/f2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150128T142559Z" creationid="Administrator" creationdate="20150128T142559Z">
+        <seg>&lt;b0&gt;&lt;f1&gt;已知的问题：&lt;/f1&gt; &lt;/b0&gt;&lt;f2&gt;不兼容使用 Dagger。&lt;/f2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;b0&gt;&lt;f1&gt;NOTE&lt;/f1&gt;: This document was written when lint was first released.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T074736Z" creationid="msdx" creationdate="20141127T074736Z">
@@ -1658,6 +1674,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141208T072459Z" creationid="msdx" creationdate="20141208T072459Z">
         <seg>&lt;f0&gt;&lt;b1&gt;connectedUiAutomatorTest&lt;/b1&gt;&lt;/f0&gt; （暂未实现）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;f0&gt;&lt;f1&gt;Setup the prefix in your library with&lt;/f1&gt;&lt;br2&gt;&lt;f3&gt;android {&lt;br4&gt;&lt;/f3&gt;&lt;/f0&gt;&lt;s5&gt;&lt;f6&gt;  resourcePrefix 'mylib_'&lt;br7&gt;}&lt;/f6&gt;&lt;/s5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150128T145102Z" creationid="Administrator" creationdate="20150128T142635Z">
+        <seg>&lt;f0&gt;&lt;f1&gt;可以通过以下配置在你的库中设置前缀：&lt;/f1&gt;&lt;br2&gt;&lt;f3&gt;android {&lt;br4&gt;&lt;/f3&gt;&lt;/f0&gt;&lt;s5&gt;&lt;f6&gt;  resourcePrefix 'mylib_'&lt;br7&gt;}&lt;/f6&gt;&lt;/s5&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -5702,6 +5726,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Exploded aar are extracted in a single location (under rootProject/build) to share across all modules using it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150128T165146Z" creationid="Administrator" creationdate="20150128T165146Z">
+        <seg>加载的aar会被解压在一个单独的位置中 （在 rootProject/build 下），以便在使用它的所有模块之间共享。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Export an APK.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T101043Z" creationid="msdx" creationdate="20141127T101043Z">
@@ -6094,6 +6126,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Fixed incremental issues with aidl files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150128T165219Z" creationid="Administrator" creationdate="20150128T165219Z">
+        <seg>修复aidl文件的增量编译问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fixed incremental issues.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150128T165206Z" creationid="Administrator" creationdate="20150128T165206Z">
+        <seg>修复增量编译问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Fixed incremental support for resource merging.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T133608Z" creationid="msdx" creationdate="20150115T133608Z">
@@ -6410,6 +6458,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141208T082121Z" creationid="msdx" creationdate="20141208T082121Z">
         <seg>例如 defaultConfig { ...} 实例调用 getVersionName() 时将自动使用 defaultConfig.getVersionName() 的 getter 方法，而不是自定义的方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For instance you can use lint to enforce resource prefix in your library.﻿</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150128T170012Z" creationid="Administrator" creationdate="20150128T170012Z">
+        <seg>例如，你可以在你的库中使用lint 强制让资源有前缀。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8214,6 +8270,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>May speed up builds.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150128T165152Z" creationid="Administrator" creationdate="20150128T165152Z">
+        <seg>可能会加速构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Maybe more than one folder, ie “debug/flavor1”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150102T040134Z" creationid="msdx" creationdate="20150102T040134Z">
@@ -9166,6 +9230,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Please keep sending us feedback.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150128T165704Z" creationid="Administrator" creationdate="20150128T165704Z">
+        <seg>欢迎继续向我们反馈问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Plugins can expose their own DSL and their own API for build files to use.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141205T062002Z" creationid="msdx" creationdate="20141204T141204Z">
@@ -9178,6 +9250,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T041540Z" creationid="msdx" creationdate="20141125T041540Z">
         <seg>可能的值包括：“"standard”，“list”和“tabs”。需要 Studio 0.8.0 或更高版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Pre-dex cache (in rootProject/build).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150128T152320Z" creationid="Administrator" creationdate="20150128T152320Z">
+        <seg>Pre-dex 缓存（位于 rootProject/build）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9646,6 +9726,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Resource Prefix support.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150128T142605Z" creationid="Administrator" creationdate="20150128T142605Z">
+        <seg>资源前缀支持。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Resources/Assets merging mechanism</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T140625Z" creationid="msdx" creationdate="20150114T140625Z">
@@ -9966,10 +10054,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Shared across modules and variants.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150128T162334Z" creationid="Administrator" creationdate="20150128T162334Z">
+        <seg>可以跨模块及变种版本进行共享。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Should be much faster when processing many files</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T154100Z" creationid="Administrator" creationdate="20150127T154100Z">
         <seg>在处理多个文件时应该会快很多</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Should speed up builds.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150128T162345Z" creationid="Administrator" creationdate="20150128T162345Z">
+        <seg>应该会加快构建。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10122,6 +10226,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141208T081245Z" creationid="msdx" creationdate="20141208T081245Z">
         <seg>从 0.11.0开始，你应该在 build.gradle 中使用 applicationId 来配置清单中的“packageName”条目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Starting with Studio 0.5.8 Lint will warn you or resources not using the prefix.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150128T162234Z" creationid="Administrator" creationdate="20150128T144454Z">
+        <seg>从 Studio 0.5.8 启动，Lint 会对你提出警告，或许是因为资源没有使用前缀。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12534,6 +12646,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Upgraded to Proguard 4.11.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150128T165158Z" creationid="Administrator" creationdate="20150128T165158Z">
+        <seg>升级到 Proguard 4.11.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Usability problems (like not specifying an input type on a text field)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T032035Z" creationid="msdx" creationdate="20141127T032035Z">
@@ -14894,6 +15014,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>fixed issue with uninstall task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150128T165721Z" creationid="Administrator" creationdate="20150128T165721Z">
+        <seg>修复卸载任务的问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>fixed some issues with the new manifest merger.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150128T165648Z" creationid="Administrator" creationdate="20150128T165648Z">
+        <seg>修复关于新清单合并工具的几个问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>flavor1</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T043625Z" creationid="msdx" creationdate="20141227T043625Z">
@@ -17158,6 +17294,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>lots of lint fixes and new checks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150128T165802Z" creationid="Administrator" creationdate="20150128T165755Z">
+        <seg>大量的 lint 修复及新的检查。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>main manifest file</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150105T152546Z" creationid="msdx" creationdate="20150104T161949Z">
@@ -18882,6 +19026,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141208T082417Z" creationid="msdx" creationdate="20141208T082417Z">
         <seg>如果在清单中存在，则使用清单中的值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>variant API to access the proguard task is now under the generic name "obfuscation".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150128T165544Z" creationid="Administrator" creationdate="20150128T165544Z">
+        <seg>访问混淆的任务的变种版本 API 现在位于名称为“obfuscation”的一般节点下面。</seg>
       </tuv>
     </tu>
     <tu>
