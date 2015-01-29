@@ -6038,6 +6038,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Fix issue when parsing BOM in UTF8 encoded XML files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150129T024552Z" creationid="Administrator" creationdate="20150129T024552Z">
+        <seg>修复有关 XML 文件解码时解析UTF8的BOM 的问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Fix issue where crunched png are bigger than original file</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T154334Z" creationid="Administrator" creationdate="20150127T154334Z">
@@ -6058,6 +6066,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150123T055247Z" creationid="Administrator" creationdate="20150123T055247Z">
         <seg>修复了混淆相关的问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fix issues where flavors in library with different packages would not generate the right R class.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150129T024357Z" creationid="Administrator" creationdate="20150129T024357Z">
+        <seg>修复在库项目中的产品定制（flavors）如果使用不同的饭锅，将无法正确地生成 R 类的问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fix manifest merger bugs (including proper location of the application node in the generated manifest)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150129T022751Z" creationid="Administrator" creationdate="20150129T022751Z">
+        <seg>修复清单合并的 bug（包括 application 节点在生成的清单中的正确位置）</seg>
       </tuv>
     </tu>
     <tu>
@@ -6122,6 +6146,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T143104Z" creationid="msdx" creationdate="20150115T143104Z">
         <seg>修复declare-styleable 的增量编译问题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fixed incremental dex support (still needs to be enabled)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150129T022431Z" creationid="Administrator" creationdate="20150129T022431Z">
+        <seg>修复增量编译dex 的支持（仍然需要被启用）</seg>
       </tuv>
     </tu>
     <tu>
@@ -7990,6 +8022,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Lint fixes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150129T024603Z" creationid="Administrator" creationdate="20150129T024603Z">
+        <seg>Lint 问题修复。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Lint fixes:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150123T060156Z" creationid="Administrator" creationdate="20150123T060156Z">
@@ -8478,6 +8518,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>More fixes on the Manifest merger, including better handling of minSdkVersion.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150129T022237Z" creationid="Administrator" creationdate="20150129T022237Z">
+        <seg>更多关于清单合并的问题修复，包括更好地处理 minSdkVersion。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>More general information about multi-project setup &lt;a0&gt;here&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141214T123356Z" creationid="msdx" creationdate="20141214T123356Z">
@@ -8498,6 +8546,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141128T124841Z" creationid="msdx" creationdate="20141128T124841Z">
         <seg>更多信息见： http://developer.android.com/reference/android/widget/AdapterView.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>More lint fixes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150129T022308Z" creationid="Administrator" creationdate="20150129T022308Z">
+        <seg>更多的lint 问题修复。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8714,6 +8770,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150106T170335Z" creationid="msdx" creationdate="20150106T162254Z">
         <seg>不论是否可能冲突，低优先级的声明都不会被合并进去。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>No release due to a problem during the push.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150129T022511Z" creationid="Administrator" creationdate="20150129T022511Z">
+        <seg>由于推送期间的一个问题，没有发布该版本。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10232,8 +10296,8 @@
       <tuv lang="EN-US">
         <seg>Starting with Studio 0.5.8 Lint will warn you or resources not using the prefix.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150128T162234Z" creationid="Administrator" creationdate="20150128T144454Z">
-        <seg>从 Studio 0.5.8 启动，Lint 会对你提出警告，或许是因为资源没有使用前缀。</seg>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150129T011256Z" creationid="Administrator" creationdate="20150128T144454Z">
+        <seg>用 Studio 0.5.8 启动，Lint 会警告用户资源没有使用前缀。</seg>
       </tuv>
     </tu>
     <tu>
