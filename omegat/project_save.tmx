@@ -1766,6 +1766,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;f0&gt;Added ability to add custom placeholders for manifest on flavor objects&lt;/f0&gt;&lt;br1&gt;&lt;f2&gt;defaultConfig {&lt;br3&gt;&lt;s4&gt;    manifestPlaceholders = [ activityName:"defaultName"]&lt;br5&gt;}&lt;/s4&gt;&lt;/f2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150203T153022Z" creationid="Administrator" creationdate="20150203T153022Z">
+        <seg>&lt;f0&gt;新增能够在flavor对象上添加用于清单文件的自定义占位符&lt;/f0&gt;&lt;br1&gt;&lt;f2&gt;defaultConfig {&lt;br3&gt;&lt;s4&gt; manifestPlaceholders = [activityName:"defaultName"] &lt;br5&gt;}&lt;/s4&gt; &lt;/f2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;f0&gt;Both the default folder names and the &lt;/f0&gt;&lt;f1&gt;android.sourcesets&lt;/f1&gt;&lt;f2&gt; object have been renamed.&lt;/f2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T144844Z" creationid="Administrator" creationdate="20150126T144844Z">
@@ -1842,6 +1850,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T005027Z" creationid="Administrator" creationdate="20150127T005027Z">
         <seg>&lt;f0&gt;如果需要跳过 variant，可以调用&lt;/f0&gt;&lt;f1&gt;setIgnore(true)&lt;/f1&gt;&lt;f2&gt;。&lt;/f2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;f0&gt;Updated IDE model, &lt;/f0&gt;&lt;b1&gt;&lt;f2&gt;requires Studio 0.6&lt;/f2&gt;&lt;/b1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150202T053937Z" creationid="Administrator" creationdate="20150202T053937Z">
+        <seg>&lt;f0&gt;更新 IDE 模型，&lt;/f0&gt;&lt;b1&gt;&lt;f2&gt;需要Studio 0.6&lt;/f2&gt; &lt;/b1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3170,6 +3186,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141207T051237Z" creationid="msdx" creationdate="20141205T140833Z">
         <seg>&lt;s0&gt;欲了解更多信息，请参阅 Gradle 文档中关于 Java 插件的内容，&lt;/s0&gt;&lt;a1&gt;见这里&lt;/a1&gt;&lt;s2&gt;。&lt;/s2&gt;&lt;br3&gt;&lt;br4&gt;Android 插件使用类似的语法，但因为它使用它自己的&lt;i5&gt;sourceSets&lt;/i5&gt;，所以在&lt;f6&gt;&lt;b7&gt;android&lt;/b7&gt;&lt;/f6&gt;对象里面来实现。 &lt;br8&gt;&lt;s9&gt;这里有一个例子，使用旧的项目结构的主源码并重新映射&lt;f10&gt;&lt;b11&gt;androidTest&lt;/b11&gt; &lt;/f10&gt; &lt;i12&gt;sourceSet&lt;/i12&gt; 到&lt;/s9&gt;&lt;f13&gt;tests&lt;/f13&gt;&lt;s14&gt;文件夹：&lt;/s14&gt;&lt;br15&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;Generated APK can now be published.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150203T153918Z" creationid="Administrator" creationdate="20150203T153918Z">
+        <seg>&lt;s0&gt;现在可以发布生成的 APK。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4778,6 +4802,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141207T054941Z" creationid="msdx" creationdate="20141207T054941Z">
         <seg>Java 插件和 Android 插件都是。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Breaking API/DSL Changes:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150203T160129Z" creationid="Administrator" creationdate="20150203T160129Z">
+        <seg>API及DSL 上的重大更改：</seg>
       </tuv>
     </tu>
     <tu>
@@ -8574,6 +8606,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Moved files and folders around in the buildDir for better IDE integration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150203T153902Z" creationid="Administrator" creationdate="20150203T153902Z">
+        <seg>将文件及文件夹移到构建目录（buildDir）中以便更好地进行IDE集成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Multi project setup</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141214T121724Z" creationid="msdx" creationdate="20141214T121724Z">
@@ -8698,6 +8738,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T152910Z" creationid="msdx" creationdate="20150114T152910Z">
         <seg>新功能：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>New Manifest merger is now the default merger.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150202T053858Z" creationid="Administrator" creationdate="20150202T053858Z">
+        <seg>新的清单合并工具现在作为默认的合并工具。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9890,6 +9938,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150105T145142Z" creationid="msdx" creationdate="20150105T145142Z">
         <seg>同 uses-sdk:minSdkVersion</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Same configuration as libraries with &lt;/s0&gt;&lt;s1&gt;&lt;f2&gt;defaultPublishConfig&lt;/f2&gt;&lt;/s1&gt;&lt;s3&gt; and &lt;/s3&gt;&lt;s4&gt;&lt;f5&gt;publishNonDefault&lt;/f5&gt;&lt;/s4&gt;&lt;s6&gt; flags.&lt;/s6&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150203T160113Z" creationid="Administrator" creationdate="20150203T160113Z">
+        <seg>发布的配置和库一样，使用 &lt;/s0&gt;&lt;s1&gt;&lt;f2&gt;defaultPublishConfig&lt;/f2&gt;&lt;/s1&gt;&lt;s3&gt; 和 &lt;/s3&gt;&lt;s4&gt;&lt;f5&gt;publishNonDefault&lt;/f5&gt;&lt;/s4&gt;&lt;s6&gt; 标志。&lt;/s6&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -17354,6 +17410,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150110T163235Z" creationid="msdx" creationdate="20150110T163235Z">
         <seg>日志记录 = 节点记录 | 消息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>lots of fixes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150202T053906Z" creationid="Administrator" creationdate="20150202T053906Z">
+        <seg>大量的问题修复。</seg>
       </tuv>
     </tu>
     <tu>
