@@ -3054,6 +3054,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;f1&gt;ProductFlavor.packageName&lt;/f1&gt;&lt;/s0&gt;&lt;s2&gt; is now &lt;/s2&gt;&lt;s3&gt;&lt;f4&gt;applicationId&lt;/f4&gt;&lt;/s3&gt;&lt;s5&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150204T132553Z" creationid="Administrator" creationdate="20150204T132404Z">
+        <seg>&lt;s0&gt;&lt;f1&gt;ProductFlavor.packageName&lt;/f1&gt;&lt;/s0&gt;&lt;s2&gt; 现在是 &lt;/s2&gt;&lt;s3&gt;&lt;f4&gt;applicationId&lt;/f4&gt;&lt;/s3&gt;&lt;s5&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;f1&gt;ProductFlavor.testPackageName&lt;/f1&gt;&lt;/s0&gt;&lt;s2&gt; is now &lt;/s2&gt;&lt;s3&gt;&lt;f4&gt;testApplicationId&lt;/f4&gt;&lt;/s3&gt;&lt;s5&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150204T132604Z" creationid="Administrator" creationdate="20150204T132545Z">
+        <seg>&lt;s0&gt;&lt;f1&gt;ProductFlavor.testPackageName&lt;/f1&gt;&lt;/s0&gt;&lt;s2&gt; 现在是 &lt;/s2&gt;&lt;s3&gt;&lt;f4&gt;testApplicationId&lt;/f4&gt;&lt;/s3&gt;&lt;s5&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;&lt;f1&gt;You can now use &lt;/f1&gt;&lt;f2&gt;resValue &lt;type&gt;,&lt;name&gt;,&lt;value&gt;&lt;/f2&gt;&lt;f3&gt; on build types and product flavors &lt;/f3&gt;&lt;/s0&gt;&lt;s4&gt;the same way you can use &lt;/s4&gt;&lt;s5&gt;&lt;f6&gt;buildConfigField&lt;/f6&gt;&lt;/s5&gt;&lt;s7&gt;.&lt;/s7&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T132336Z" creationid="Administrator" creationdate="20150126T132336Z">
@@ -3074,6 +3090,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T155922Z" creationid="Administrator" creationdate="20150127T155922Z">
         <seg>&lt;s0&gt;&lt;f1&gt;flavorGroups&lt;/f1&gt;&lt;/s0&gt;&lt;s2&gt; 已经被重命名为 &lt;/s2&gt;&lt;s3&gt;&lt;f4&gt;flavorDimensions&lt;/f4&gt;&lt;/s3&gt;&lt;s5&gt;，并且 DSL 也已经更新。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;f1&gt;minSdkVersion/targetSdkVersion&lt;/f1&gt;&lt;/s0&gt;&lt;s2&gt; on &lt;/s2&gt;&lt;s3&gt;&lt;f4&gt;ProductFlavor&lt;/f4&gt;&lt;/s3&gt;&lt;s5&gt; is now a &lt;/s5&gt;&lt;s6&gt;&lt;f7&gt;ApiVersion&lt;/f7&gt;&lt;/s6&gt;&lt;s8&gt; instance instead of an integer.&lt;/s8&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150204T132801Z" creationid="Administrator" creationdate="20150204T132801Z">
+        <seg>&lt;s3&gt;&lt;f4&gt;ProductFlavor&lt;/f4&gt;&lt;/s3&gt;&lt;s2&gt; 上的  &lt;/s2&gt;&lt;s0&gt;&lt;f1&gt;minSdkVersion/targetSdkVersion&lt;/f1&gt;&lt;/s0&gt;&lt;s5&gt; 现在是一个&lt;/s5&gt;&lt;s6&gt;&lt;f7&gt;ApiVersion&lt;/f7&gt;&lt;/s6&gt;&lt;s8&gt; 实例，而不再是一个整数。&lt;/s8&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3138,6 +3162,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T124928Z" creationid="Administrator" creationdate="20150126T124928Z">
         <seg>&lt;s0&gt;为仅编译（不打包）的依赖增加“provided”依赖范围。&lt;br1&gt;&lt;/s0&gt;&lt;s2&gt;每个 buildtype 和flavor的额外范围也都可用 （debugProvided，myFlavorProvided，等等）&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;Cannot use setter in DSL, use method instead.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150204T132946Z" creationid="Administrator" creationdate="20150204T132946Z">
+        <seg>&lt;s0&gt;不能在 DSL 中使用setter，请使用方法来代替。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4758,6 +4790,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Basically, do not use '='&lt;br1&gt;&lt;/s0&gt;&lt;s2&gt;&lt;f3&gt;&lt;s4&gt;flavor {minSdkVersion = 9 }&lt;/s4&gt;&lt;/f3&gt;&lt;br5&gt;&lt;f6&gt;replaced with :&lt;/f6&gt;&lt;br7&gt;&lt;f8&gt;flavor { minSdkVersion 9 }&lt;/f8&gt;&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150204T133048Z" creationid="Administrator" creationdate="20150204T133048Z">
+        <seg>基本上，不要使用“=”&lt;br1&gt;&lt;/s0&gt;&lt;s2&gt;&lt;f3&gt;&lt;s4&gt;flavor {minSdkVersion = 9 }&lt;/s4&gt;&lt;/f3&gt;&lt;br5&gt;&lt;f6&gt; 替换为：&lt;/f6&gt;&lt;br7&gt;&lt;f8&gt;flavor { minSdkVersion 9 }&lt;/f8&gt;&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Basics and Configuration</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141215T151228Z" creationid="msdx" creationdate="20141215T151228Z">
@@ -5230,6 +5270,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Custom Java code generation steps now part of the source generation steps (fix IDE integration).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150204T150353Z" creationid="Administrator" creationdate="20150204T150353Z">
+        <seg>自定义 Java 代码生成的步骤现在是源代码生成步骤的一部分 （修复 IDE 集成）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Custom implementation for debugging</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141212T155603Z" creationid="msdx" creationdate="20141212T155459Z">
@@ -5250,6 +5298,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T133645Z" creationid="Administrator" creationdate="20150126T133645Z">
         <seg>用于库项目的DSL现在和应用程序项目的一样。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>DSL impact</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150204T132806Z" creationid="Administrator" creationdate="20150204T132806Z">
+        <seg>DSL 的影响</seg>
       </tuv>
     </tu>
     <tu>
@@ -6094,10 +6150,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Fix issue with ${applicationId} placeholder when build.gradle doesn't customize it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150204T150120Z" creationid="Administrator" creationdate="20150204T150120Z">
+        <seg>修复 build.gradle 中 ${applicationId} 占位符不起作用的问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Fix issue with Proguard.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150123T055247Z" creationid="Administrator" creationdate="20150123T055247Z">
         <seg>修复了混淆相关的问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fix issue with artifact depending on android.jar artifact on MavenCentral.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150204T134814Z" creationid="Administrator" creationdate="20150204T134727Z">
+        <seg>修复当构件（artifact） 依赖于Maven中央仓上的android.jar 构件时的问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fix issue with missing custom namespace declaration in generated manifest.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150204T134749Z" creationid="Administrator" creationdate="20150204T134749Z">
+        <seg>修复在生成的清单中自定义的命名空间声明丢失的问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fix issue with validation of permission group in manifest merger.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150204T134838Z" creationid="Administrator" creationdate="20150204T134809Z">
+        <seg>修复在清单合并工具中权限组验证的问题。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6114,6 +6202,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150129T022751Z" creationid="Administrator" creationdate="20150129T022751Z">
         <seg>修复清单合并的 bug（包括 application 节点在生成的清单中的正确位置）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fix merging of the package attribute in the manifest.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150204T135001Z" creationid="Administrator" creationdate="20150204T135001Z">
+        <seg>修复在清单中合并的package属性的问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fix packaging of wear application</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150204T145040Z" creationid="Administrator" creationdate="20150204T145040Z">
+        <seg>修复穿戴应用程序的打包问题</seg>
       </tuv>
     </tu>
     <tu>
@@ -6306,6 +6410,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T130724Z" creationid="msdx" creationdate="20150115T130724Z">
         <seg>修复BUG及其它更改</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fixes in the manifest mergers.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150204T134925Z" creationid="Administrator" creationdate="20150204T134925Z">
+        <seg>修复清单合并里的问题。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8606,6 +8718,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Move unzipped aar back in each project as a temporary fix for a possible race condition.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150204T150951Z" creationid="Administrator" creationdate="20150204T150951Z">
+        <seg>为解决可能存在资源竞争的情况，把未解压的aar 移回每个项目里面作为临时的解决方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Moved files and folders around in the buildDir for better IDE integration.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150203T153902Z" creationid="Administrator" creationdate="20150203T153902Z">
@@ -8738,6 +8858,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T152910Z" creationid="msdx" creationdate="20150114T152910Z">
         <seg>新功能：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>New IDE Model, requires Studio Beta 0.8</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150204T134908Z" creationid="Administrator" creationdate="20150204T134908Z">
+        <seg>新的 IDE 模型，需要Studio Beta 0.8</seg>
       </tuv>
     </tu>
     <tu>
@@ -9822,6 +9950,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Requires Gradle 2.1</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150204T151014Z" creationid="Administrator" creationdate="20150204T151014Z">
+        <seg>需要 Gradle 2.1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Requires Studio 0.4.0</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150123T021939Z" creationid="Administrator" creationdate="20150123T021939Z">
@@ -10138,6 +10274,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T150256Z" creationid="msdx" creationdate="20150114T142215Z">
         <seg>发送反馈，多多益善。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Setters for &lt;/s5&gt;&lt;s6&gt;&lt;f7&gt;packageName&lt;/f7&gt;&lt;/s6&gt;&lt;s8&gt; are still temporarily present but will &lt;b9&gt;disappear in 1.0&lt;/b9&gt;&lt;/s8&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150204T133321Z" creationid="Administrator" creationdate="20150204T132420Z">
+        <seg>&lt;/s5&gt;&lt;s6&gt;&lt;f7&gt;packageName&lt;/f7&gt;&lt;/s6&gt;&lt;s8&gt; 的setters 暂时仍保留，但会在 &lt;b9&gt;1.0版本时移除&lt;/b9&gt;&lt;/s8&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Setters for &lt;/s5&gt;&lt;s6&gt;&lt;f7&gt;testPackageName&lt;/f7&gt;&lt;/s6&gt;&lt;s8&gt; are still temporarily present but will &lt;b9&gt;disappear in 1.0&lt;/b9&gt;&lt;/s8&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150204T133318Z" creationid="Administrator" creationdate="20150204T132648Z">
+        <seg> &lt;/s5&gt;&lt;s6&gt;&lt;f7&gt;testPackageName&lt;/f7&gt;&lt;/s6&gt;&lt;s8&gt; 的setters暂时仍保留，但会在&lt;b9&gt;1.0版本时移除&lt;/b9&gt;&lt;/s8&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -12114,6 +12266,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141205T070830Z" creationid="msdx" creationdate="20141204T143553Z">
         <seg>它通过&lt;f15&gt;&lt;b16&gt;compileSdkVersion&lt;/b16&gt;&lt;/f15&gt;和&lt;b17&gt;buildtoolsVersion&lt;/b17&gt;&lt;s18&gt;属性来完成。&lt;/s18&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is due to a groovy limitation preventing overloaded setters.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150204T133455Z" creationid="Administrator" creationdate="20150204T133059Z">
+        <seg>这是由于 groovy 的限制，防止过多的setters。</seg>
       </tuv>
     </tu>
     <tu>

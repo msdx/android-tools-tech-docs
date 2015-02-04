@@ -27,3 +27,5 @@ in question	被谈论着的	考虑之中的，被谈论着的
 Alternatively	或者	adv.
 crunch	压缩
 Exploded	加载的	分解
+artifact	构件
+race condition	资源竞争
