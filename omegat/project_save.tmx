@@ -3102,6 +3102,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;f1&gt;multiDexEnabled = true&lt;/f1&gt;&lt;/s0&gt;&lt;s2&gt; on defaultConfig, ProductFlavor, or BuildType&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150205T152856Z" creationid="Administrator" creationdate="20150205T152856Z">
+        <seg>&lt;s2&gt; 在 defaultConfig，ProductFlavor 或 BuildType上&lt;/s2&gt;&lt;s0&gt;&lt;f1&gt;multiDexEnabled = true&lt;/f1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;&lt;f1&gt;res.srcDirs = ['res']&lt;/f1&gt;&lt;f2&gt;&lt;br3&gt;&lt;/f2&gt;&lt;/s0&gt;&lt;s4&gt;    &lt;/s4&gt;&lt;s5&gt;    &lt;/s5&gt;&lt;s6&gt;    &lt;/s6&gt;&lt;s7&gt;&lt;f8&gt;assets.srcDirs = ['assets']&lt;/f8&gt;&lt;/s7&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141205T142128Z" creationid="msdx" creationdate="20141205T142128Z">
@@ -3166,6 +3174,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;Added support for selectively allowing dependencies on libraries with incompatible uses-sdk using &lt;/s0&gt;&lt;s1&gt;&lt;f2&gt;tools:overrideLibrary&lt;/f2&gt;&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150205T151431Z" creationid="Administrator" creationdate="20150205T151431Z">
+        <seg>&lt;s0&gt;通过使用&lt;s1&gt;&lt;f2&gt;tools:overrideLibrary&lt;/f2&gt;&lt;/s1&gt;，支持有选择性地允许一些库的依赖可以有不兼容的uses-sdk。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;AndroidManifest files in Library project can now include placeholders.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150205T135340Z" creationid="Administrator" creationdate="20150205T135340Z">
+        <seg>&lt;s0&gt;Library 项目里的AndroidManifest 文件现在可以包含占位符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;Cannot use setter in DSL, use method instead.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150204T132946Z" creationid="Administrator" creationdate="20150204T132946Z">
@@ -3202,6 +3226,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141217T140253Z" creationid="msdx" creationdate="20141217T140253Z">
         <seg>&lt;s0&gt;确保应用程序和测试应用程序都被构建 （依赖于&lt;/s0&gt; &lt;b1&gt; &lt;f2&gt;assembleDebug&lt;/f2&gt; &lt;/b1&gt; &lt;s3&gt;和&lt;/s3&gt; &lt;b4&gt; &lt;f5&gt;assembleTest&lt;/f5&gt;&lt;/b4&gt;&lt;s6&gt;)&lt;/s6&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;Env var &lt;/s0&gt;&lt;s1&gt;&lt;f2&gt;ANDROID_SERIAL&lt;/f2&gt;&lt;/s1&gt;&lt;s3&gt; (if present) restrict installation/execution of tests to device matching the serial number&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150205T152727Z" creationid="Administrator" creationdate="20150205T152727Z">
+        <seg>&lt;s0&gt;环境变量&lt;/s0&gt;&lt;s1&gt; &lt;f2&gt;ANDROID_SERIAL&lt;/f2&gt; &lt;/s1&gt;&lt;s3&gt;（如果存在） 会限制对序列号匹配的设备的测试的安装或执行&lt;/s3&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -4070,6 +4102,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Added ability to merge Instrumentation element from test</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150205T143603Z" creationid="Administrator" creationdate="20150205T143603Z">
+        <seg>增加从测试中合并 Instrumentation 元素的功能</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Added ability to test proguarded (obfuscated) apps.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150123T034405Z" creationid="Administrator" creationdate="20150123T034405Z">
@@ -4486,6 +4526,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>AndroidManifest placeholder can now be setup on Product Flavors and Build Types.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150205T140637Z" creationid="Administrator" creationdate="20150205T140637Z">
+        <seg>AndroidManifest 占位符现在可以在Product Flavors 和 Build Types上设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>AndroidManifest.xml</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141204T152130Z" creationid="msdx" creationdate="20141204T152130Z">
@@ -4850,6 +4898,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150203T160129Z" creationid="Administrator" creationdate="20150203T160129Z">
         <seg>API及DSL 上的重大更改：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Bug fixes:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150205T140855Z" creationid="Administrator" creationdate="20150205T140855Z">
+        <seg>Bug 修复：</seg>
       </tuv>
     </tu>
     <tu>
@@ -5510,6 +5566,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Documentation &lt;a0&gt;here&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150205T140850Z" creationid="Administrator" creationdate="20150205T140850Z">
+        <seg>文档&lt;a0&gt;见这里&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Domain Specific Language (DSL) to describe and manipulate the build logic</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141205T062218Z" creationid="msdx" creationdate="20141204T135902Z">
@@ -6134,6 +6198,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Fix issue where bad configuration could lead to no outputs on variants which would prevent evaluation of the project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150205T150728Z" creationid="Administrator" creationdate="20150205T150728Z">
+        <seg>修复错误的配置可能会导致变种版本没有输出，并因此影响项目评估的问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fix issue where consumer proguard file (from aars) are ignored on first build</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150205T143440Z" creationid="Administrator" creationdate="20150205T142127Z">
+        <seg>修复被使用的混淆文件（原文为consumer proguard file）（来自 aar 文件）会在第一次构建时被忽略的问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Fix issue where crunched png are bigger than original file</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T154334Z" creationid="Administrator" creationdate="20150127T154334Z">
@@ -6222,6 +6302,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Fix uninstallAll task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150205T143610Z" creationid="Administrator" creationdate="20150205T143610Z">
+        <seg>修复 uninstallAll 任务的问题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fix whitespace issue in resource strings during resource merge.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150205T142715Z" creationid="Administrator" creationdate="20150205T142715Z">
+        <seg>修复在资源合并过程中资源字符串的空格问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Fixed ClassNotFoundException:MergingException introduced in 0.6.2</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150119T005323Z" creationid="msdx" creationdate="20150119T005221Z">
@@ -6250,6 +6346,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T132417Z" creationid="msdx" creationdate="20150115T132417Z">
         <seg>修复 [application|library|test]Variants API （在0.4版本总是返回空）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fixed aar output names so that variants do not overwrite each other</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150205T142454Z" creationid="Administrator" creationdate="20150205T142454Z">
+        <seg>修复 aar 输出名称的问题，现在变种版本（variants）不会再互相改写这个名称</seg>
       </tuv>
     </tu>
     <tu>
@@ -6342,6 +6446,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Fixed issue in manifest merger that could put wrong uses-sdk node in the manifest.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150205T150955Z" creationid="Administrator" creationdate="20150205T150955Z">
+        <seg>修复了清单合并工具的问题，这个问题可能会把错误的uses-sdk 节点放到清单中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Fixed issue where Proguard rules file cannot be applied on flavors.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T142614Z" creationid="msdx" creationdate="20150115T142614Z">
@@ -6362,6 +6474,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150123T054923Z" creationid="Administrator" creationdate="20150123T054923Z">
         <seg>修复了在清单合并工具处理不同的包名称时&lt;i0&gt;parentActivityName&lt;/i0&gt;的问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fixed race condition in lint's resource folder cache which could trigger a build failure</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150205T151620Z" creationid="Administrator" creationdate="20150205T151620Z">
+        <seg>修复lint 资源文件夹缓存的资源竞争可能会导致构建失败的问题</seg>
       </tuv>
     </tu>
     <tu>
@@ -7318,6 +7438,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If they cannot be resolved &lt;/s0&gt;&lt;s1&gt;in the libraries, they'll be resolved in the consuming project.&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150205T143347Z" creationid="Administrator" creationdate="20150205T140549Z">
+        <seg>如果它们不能在库项目中被处理，&lt;/s0&gt;&lt;s1&gt;它们将会在使用这个库的项目（原文为consuming project）中被处理。&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you are trying to load a project that was built with an older version of the Gradle plugin, it may not build correctly with 1.0.0.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T165915Z" creationid="msdx" creationdate="20150113T165915Z">
@@ -7938,6 +8066,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141217T132543Z" creationid="msdx" creationdate="20141217T132408Z">
         <seg>它不是main里的&lt;b2&gt;&lt;f3&gt;assemble&lt;/f3&gt;&lt;/b2&gt;任务的依赖项，当设置测试运行时它不会被自动调用。&lt;br4&gt;&lt;br5&gt;目前只有一种&lt;i6&gt;Build Type&lt;/i6&gt;会进行测试。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is now possible to provide a manifest for test apps (src/androidTest/AndroidManifest.xml)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150205T135300Z" creationid="Administrator" creationdate="20150205T135300Z">
+        <seg>现在可以提供一个清单（src/androidTest/AndroidManifest.xml） 用于测试的应用程序啦 </seg>
       </tuv>
     </tu>
     <tu>
@@ -8742,6 +8878,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Multi-Dex support.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150205T152734Z" creationid="Administrator" creationdate="20150205T152734Z">
+        <seg>Multi-Dex 多持。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Multi-flavor variants</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T122957Z" creationid="msdx" creationdate="20150101T122957Z">
@@ -8882,6 +9026,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T154046Z" creationid="Administrator" creationdate="20150127T154046Z">
         <seg>新的PNG 处理器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>New Split mechanism for Density and ABI driven multi-apk.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150205T140844Z" creationid="Administrator" creationdate="20150205T140844Z">
+        <seg>用于由Density 和 ABI 而产生的多APK的新分割机制。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9614,6 +9766,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Proguard and code coverage can now work together</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150205T151823Z" creationid="Administrator" creationdate="20150205T151823Z">
+        <seg>代码混淆和代码覆盖率现在可以一起使用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Proguard support for libraries. Note the current DSL property 'proguardFiles' for library now sets the proguard rule file used when proguarding the library code. The new property 'consumerProguardFiles' is used to package a rule file inside an aar.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T155507Z" creationid="msdx" creationdate="20150115T155507Z">
@@ -9650,6 +9810,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T043102Z" creationid="msdx" creationdate="20141227T042621Z">
         <seg>即使项目没有定义 flavor，也仍然会有 &lt;i0&gt;Build Variants&lt;/i0&gt;，但是是使用 &lt;f1&gt;&lt;b2&gt;默认的&lt;/b2&gt;&lt;/f1&gt; flavor或配置。它没有名字，所以使 variants和列表看起来和 &lt;i3&gt;Build Types&lt;/i3&gt;的列表一样。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Properly merge declare-styleable to contain all attrs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150205T142605Z" creationid="Administrator" creationdate="20150205T142605Z">
+        <seg>正确合并 declare-styleable，以包含所有的 attrs。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9934,6 +10102,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Requires Build-Tools 21.1.0, and Support repository rev 8.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150205T152830Z" creationid="Administrator" creationdate="20150205T152830Z">
+        <seg>需要Build Tools 21.1.0，并且支持库（Support repository）版本为8。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Requires Gradle 1.10</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150123T062353Z" creationid="Administrator" creationdate="20150123T062353Z">
@@ -9970,6 +10146,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T041354Z" creationid="msdx" creationdate="20141125T041354Z">
         <seg>需要 Studio 0.8.0 或更高版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Requires Studio 0.9</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150205T151753Z" creationid="Administrator" creationdate="20150205T151753Z">
+        <seg>需要 Studio 0.9</seg>
       </tuv>
     </tu>
     <tu>
@@ -10186,6 +10370,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T032234Z" creationid="msdx" creationdate="20141127T032234Z">
         <seg>请参阅&lt;a0&gt;此文档&lt;/a0&gt;以了解当前 lint 检查的问题的完整列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;i0&gt;multiDex&lt;/i0&gt; samples.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150205T153505Z" creationid="Administrator" creationdate="20150205T153505Z">
+        <seg>请参阅&lt;i0&gt;multiDex&lt;/i0&gt;示例。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10606,6 +10798,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Support for automatic removal of unused resources</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150205T153537Z" creationid="Administrator" creationdate="20150205T153537Z">
+        <seg>支持自动删除未使用的资源</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Support for multi asset folders.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T153423Z" creationid="msdx" creationdate="20150114T153423Z">
@@ -10618,6 +10818,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T152933Z" creationid="msdx" creationdate="20150114T152933Z">
         <seg>支持多资源文件夹。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Support for pulling coverage data from Android 5.0 devices</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150205T151855Z" creationid="Administrator" creationdate="20150205T151855Z">
+        <seg>支付从 Android 5.0 的设备中拉取覆盖率数据</seg>
       </tuv>
     </tu>
     <tu>
@@ -13102,6 +13310,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Variant.getMappingFile() API now allow querying for the proguard mapping file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150205T140712Z" creationid="Administrator" creationdate="20150205T140712Z">
+        <seg>Variant.getMappingFile() API 现在允许查询混淆映射文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Variants use all the rules files declared in their build type, and product flavors.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141213T073500Z" creationid="msdx" creationdate="20141213T073500Z">
@@ -13378,6 +13594,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150107T155918Z" creationid="msdx" creationdate="20150107T155918Z">
         <seg>如果没有这样的标志，清单合并就会失败。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Works for minSdkVersion 21+ (native) or &lt;21 (legacy mode, with automatic dependency on com.android.support:multidex:1.0.0)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150205T153501Z" creationid="Administrator" creationdate="20150205T153501Z">
+        <seg>支持 minSdkVersion 21+ （原生） 或 &lt;21 （延伸模式，通过 com.android.support:multidex:1.0.0 上的自动依赖）</seg>
       </tuv>
     </tu>
     <tu>
@@ -14978,6 +15202,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141208T072431Z" creationid="msdx" creationdate="20141208T072431Z">
         <seg>connectedCheck</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>connectedCheck will now fail if no tests are found.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150205T150810Z" creationid="Administrator" creationdate="20150205T150810Z">
+        <seg>connectedCheck 任务现在会在没有发现测试时返回失败的结果。</seg>
       </tuv>
     </tu>
     <tu>

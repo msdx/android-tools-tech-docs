@@ -29,3 +29,5 @@ crunch	压缩
 Exploded	加载的	分解
 artifact	构件
 race condition	资源竞争
+Env var	环境变量
+rev	版本
