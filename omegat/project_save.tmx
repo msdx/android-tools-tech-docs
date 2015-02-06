@@ -1694,6 +1694,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;f0&gt;&lt;s1&gt;&lt;f2&gt;Off by default for now, enable by setting &lt;/f2&gt;&lt;f3&gt;shrinkResources&lt;/f3&gt;&lt;f4&gt; to true in your &lt;/f4&gt;&lt;/s1&gt;&lt;/f0&gt;&lt;s5&gt;release build types.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150206T132023Z" creationid="Administrator" creationdate="20150206T132023Z">
+        <seg>&lt;f0&gt;&lt;s1&gt;&lt;f2&gt;目前默认情况下它是关闭的，可以通过在你的发布构建类型（release build types）中设置&lt;/f2&gt; &lt;f3&gt;shrinkResources&lt;/f3&gt; &lt;f4&gt;为 true&lt;/f4&gt;&lt;/s1&gt;&lt;/f0&gt;&lt;s5&gt;进行启用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;f0&gt;&lt;s1&gt;Better error reporting for cmd line tools, especially &lt;/s1&gt;&lt;/f0&gt;&lt;s2&gt;if run in parallel in spawned threads&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T142825Z" creationid="msdx" creationdate="20150115T142825Z">
@@ -3258,6 +3266,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150203T153918Z" creationid="Administrator" creationdate="20150203T153918Z">
         <seg>&lt;s0&gt;现在可以发布生成的 APK。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;Getting the value of the density or ABI filter is done with&lt;br1&gt;&lt;/s0&gt;&lt;f2&gt;&lt;s3&gt;output.getFilter(com.android.build.OutputFile.DENSITY)&lt;br4&gt;&lt;/s3&gt;&lt;s5&gt;output.getFilter(com.android.build.OutputFile.ABI)&lt;/s5&gt;&lt;/f2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150206T133521Z" creationid="Administrator" creationdate="20150206T133521Z">
+        <seg>&lt;s0&gt;获取密度（density）或 ABI 筛选器的值现在可以通过 &lt;br1&gt;&lt;/s0&gt;&lt;f2&gt;&lt;s3&gt;output.getFilter(com.android.build.OutputFile.DENSITY) &lt;br4&gt;&lt;/s3&gt;&lt;s5&gt;output.getFilter(com.android.build.OutputFile.ABI)&lt;/s5&gt; &lt;/f2&gt;&lt;s0&gt;来实现&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -5046,6 +5062,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>BuildType/ProductFlavor/SigningConfig queried through the variant and variantFilter API are now read-only.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150206T132438Z" creationid="Administrator" creationdate="20150206T132438Z">
+        <seg>通过 variant 和 variantFilter API 所查询到的 BuildType/ProductFlavor/SigningConfig 现在都是只读的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>BuildVariant</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150102T041728Z" creationid="msdx" creationdate="20150102T041728Z">
@@ -5362,6 +5386,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150204T132806Z" creationid="Administrator" creationdate="20150204T132806Z">
         <seg>DSL 的影响</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>DSL/API changes:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150206T132107Z" creationid="Administrator" creationdate="20150206T132107Z">
+        <seg>DSL 和 API 的变化：</seg>
       </tuv>
     </tu>
     <tu>
@@ -5878,6 +5910,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Exclude embedded Wear micro-app from resource shrinking.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150206T133718Z" creationid="Administrator" creationdate="20150206T133718Z">
+        <seg>从资源缩减中排除嵌入的 Wear micro-app。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Exploded aar are extracted in a single location (under rootProject/build) to share across all modules using it.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150128T165146Z" creationid="Administrator" creationdate="20150128T165146Z">
@@ -6134,6 +6174,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Fix coverage support.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150206T133539Z" creationid="Administrator" creationdate="20150206T133539Z">
+        <seg>修复覆盖支持。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Fix for some Renderscript support mode compatibility issues.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T014016Z" creationid="Administrator" creationdate="20150127T014016Z">
@@ -6298,6 +6346,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150204T145040Z" creationid="Administrator" creationdate="20150204T145040Z">
         <seg>修复穿戴应用程序的打包问题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fix resource shrinking for style references</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150206T133617Z" creationid="Administrator" creationdate="20150206T133617Z">
+        <seg>修复样式（style）引用的资源缩减</seg>
       </tuv>
     </tu>
     <tu>
@@ -8638,6 +8694,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Merged flavor is still per-variant and can me modified</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150206T132736Z" creationid="Administrator" creationdate="20150206T132736Z">
+        <seg>合并后的定制版本（flavor）仍然是独立的变种版本（per-variant），且可以被修改</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Merged resource files no longer place their source markers into the R file as comments</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150119T004808Z" creationid="msdx" creationdate="20150119T004808Z">
@@ -10022,6 +10086,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Renamed a few properties to make things more consistent.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150206T132150Z" creationid="Administrator" creationdate="20150206T132150Z">
+        <seg>重命名几个属性，以使这些属性更统一。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Renamed deviceCheck into connectedCheck</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T130800Z" creationid="msdx" creationdate="20150115T130800Z">
@@ -10082,6 +10154,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141204T141306Z" creationid="msdx" creationdate="20141204T141306Z">
         <seg>要求</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Requires &lt;/s5&gt;&lt;s6&gt;&lt;f7&gt;minifyEnabled&lt;/f7&gt;&lt;/s6&gt;&lt;s8&gt; as well.&lt;/s8&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150206T133324Z" creationid="Administrator" creationdate="20150206T132055Z">
+        <seg>它需要&lt;/s5&gt; &lt;s6&gt; &lt;f7&gt;minifyEnabled&lt;/f7&gt; &lt;/s6&gt; &lt;s8&gt; 也设置为true。&lt;/s8&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -10370,6 +10450,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T032234Z" creationid="msdx" creationdate="20141127T032234Z">
         <seg>请参阅&lt;a0&gt;此文档&lt;/a0&gt;以了解当前 lint 检查的问题的完整列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;i0&gt;densitySplit&lt;/i0&gt; sample</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150206T133525Z" creationid="Administrator" creationdate="20150206T133525Z">
+        <seg>请参阅&lt;i0&gt;densitySplit&lt;/i0&gt;示例</seg>
       </tuv>
     </tu>
     <tu>
@@ -12094,6 +12182,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>These objects have always been global and changing them would have side effects in other variants</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150206T132639Z" creationid="Administrator" creationdate="20150206T132639Z">
+        <seg>这些对象一直是全局对象，并且改变它们将会在其它的变种（variants）产生副作用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>They are anchor tasks for the plugins to add actual tasks that do the work.&lt;/s6&gt;&lt;br7&gt;&lt;br8&gt;This allows you to always call the same task(s) no matter what the type of project is, or what plugins are applied.&lt;br9&gt;For instance, applying the &lt;i10&gt;findbugs&lt;/i10&gt; plugin will create a new task and make &lt;b11&gt;check&lt;/b11&gt; depend on it, making it be called whenever the &lt;b12&gt;check&lt;/b12&gt; task is called.&lt;br13&gt;&lt;br14&gt;From the command line you can get the high level task running the following command:&lt;br15&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141208T063346Z" creationid="msdx" creationdate="20141207T060053Z">
@@ -13290,6 +13386,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150110T163427Z" creationid="msdx" creationdate="20150110T163427Z">
         <seg>值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Variant / VariantOutput API change</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150206T132751Z" creationid="Administrator" creationdate="20150206T132751Z">
+        <seg>Variant 及 VariantOutput API 的变化</seg>
       </tuv>
     </tu>
     <tu>
