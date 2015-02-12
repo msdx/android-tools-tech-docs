@@ -126,6 +126,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(OK this is the real RC1)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150212T131327Z" creationid="Administrator" creationdate="20150212T131327Z">
+        <seg>（好吧，这是真正的 RC1版本）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(This is similar to regular jUnit results that are stored under build/test-results)&lt;br0&gt;&lt;br1&gt;This can be configured with&lt;br2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141217T141517Z" creationid="msdx" creationdate="20141217T141517Z">
@@ -3198,6 +3206,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;BuildType/Flavor/Variant configuration for embedding wear app (&lt;/s0&gt;&lt;s1&gt;&lt;f2&gt;&lt;name&gt;WearApp&lt;/f2&gt;&lt;/s1&gt;&lt;s3&gt;)&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150212T130615Z" creationid="Administrator" creationdate="20150212T130615Z">
+        <seg>&lt;s0&gt;用于嵌入穿戴设备app 的 BuildType/Flavor/Variant 配置（&lt;/s0&gt;&lt;s1&gt;&lt;f2&gt;&lt;name&gt;WearApp&lt;/f2&gt;&lt;/s1&gt;&lt;s3&gt;）&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;Cannot use setter in DSL, use method instead.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150204T132946Z" creationid="Administrator" creationdate="20150204T132946Z">
@@ -3410,6 +3426,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T154932Z" creationid="Administrator" creationdate="20150127T154932Z">
         <seg>&lt;s0&gt;可以恢复使用旧的压缩处理工具： &lt;/s0&gt;&lt;s1&gt;&lt;f2&gt;android.aaptOptions.useAaptPngCruncher = true&lt;/f2&gt;&lt;br3&gt;&lt;f4&gt;&lt;b5&gt;警告：我们已经知道了关于新的处理器生成的PNG图片会使应用程序崩溃的报告。&lt;/b5&gt;&lt;/f4&gt;&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;Variant (and multi-flavor) specific dependency configuration&lt;br1&gt;&lt;/s0&gt;&lt;s2&gt;multi-flavor is all the flavors without the build Type.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150212T125341Z" creationid="Administrator" creationdate="20150212T125341Z">
+        <seg>&lt;s0&gt;Variant （和 multi-flavor）特有的依赖配置&lt;br1&gt;&lt;/s0&gt;&lt;s2&gt;multi-flavor 是除了Build Type之外的所有的flavors。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4334,6 +4358,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Almost 1.0: removed deprecated properties/methods</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150212T130719Z" creationid="Administrator" creationdate="20150212T130701Z">
+        <seg>即将到 1.0 版本：移除的过时的属性和方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Also each default merging activity on the node or on a specific attribute can potentially be overridden by including tools specific markers.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150105T133135Z" creationid="msdx" creationdate="20150104T164524Z">
@@ -5038,6 +5070,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>BuildConfig.PACKAGE_NAME (use new field name)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150212T130746Z" creationid="Administrator" creationdate="20150212T130729Z">
+        <seg>BuildConfig.PACKAGE_NAME （使用新的字段名称）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>BuildConfig.VERSION_NAME is always generated even if the value is not set in the current variant.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T155413Z" creationid="Administrator" creationdate="20150127T155413Z">
@@ -5058,6 +5098,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150102T052155Z" creationid="msdx" creationdate="20150102T052123Z">
         <seg>BuildType 和 Product Flavor 的属性参考</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>BuildType.pseudoLocalesEnabled flag to include fake locales in apk.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150212T125034Z" creationid="Administrator" creationdate="20150212T125034Z">
+        <seg>用于在apk中包含假的地域的BuildType.pseudoLocalesEnabled标记。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>BuildType.runProguard/packageNameSuffix/jniDebugBuild/renderscriptDebugBuild/zipAlign (use the new property name)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150212T130758Z" creationid="Administrator" creationdate="20150212T130758Z">
+        <seg>BuildType.runProguard/packageNameSuffix/jniDebugBuild/renderscriptDebugBuild/zipAlign （使用新的属性名称）</seg>
       </tuv>
     </tu>
     <tu>
@@ -5226,6 +5282,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T133203Z" creationid="Administrator" creationdate="20150126T133203Z">
         <seg>兼容 Gradle 1.10 和 1.11 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Compatible with Gradle 2.1, 2.2 and 2.2.1</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150212T131240Z" creationid="Administrator" creationdate="20150212T131240Z">
+        <seg>兼容 Gradle 2.1， 2.2 和 2.2.1 </seg>
       </tuv>
     </tu>
     <tu>
@@ -5514,6 +5578,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141201T135841Z" creationid="msdx" creationdate="20141201T132938Z">
         <seg>按屏幕密度拆分</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Density split using aapt 21+ now use --preferred-density allowing for missing density version of some bitmaps.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150212T134734Z" creationid="Administrator" creationdate="20150212T134734Z">
+        <seg>使用 aapt 21以上版本的密度拆分，现在使用 --preferred-density 将允许一些位图的密度版本缺失。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6150,6 +6222,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Fix BuildType.initWith to copy shrinkResources flag</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150212T124737Z" creationid="Administrator" creationdate="20150212T124737Z">
+        <seg>修复 BuildType.initWith，使它能够复制 shrinkResources 的标志</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Fix Studio integration</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T132638Z" creationid="Administrator" creationdate="20150126T132638Z">
@@ -6350,6 +6430,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Fix potential multi-dex issue where the dex files could be renamed during packaging, leading to the wrong main dex file being used.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150212T124623Z" creationid="Administrator" creationdate="20150212T124623Z">
+        <seg>修复multi-dex 的潜在问题：在打包期间，dex 文件可以被重命名，从而导致正在使用的main dex 文件错误。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Fix resource shrinking for style references</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150206T133617Z" creationid="Administrator" creationdate="20150206T133617Z">
@@ -6362,6 +6450,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150205T143610Z" creationid="Administrator" creationdate="20150205T143610Z">
         <seg>修复 uninstallAll 任务的问题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fix versionNameSuffix support</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150212T124628Z" creationid="Administrator" creationdate="20150212T124628Z">
+        <seg>修复 versionNameSuffix 支持</seg>
       </tuv>
     </tu>
     <tu>
@@ -6426,6 +6522,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T130852Z" creationid="msdx" creationdate="20150115T130852Z">
         <seg>修复在Android 库有本地 Jar 依赖项的情况下的问题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fixed compatibility with Studio 0.9.x</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150212T131225Z" creationid="Administrator" creationdate="20150212T131225Z">
+        <seg>固定Studio 0.9.x 的兼容性问题</seg>
       </tuv>
     </tu>
     <tu>
@@ -6510,10 +6614,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Fixed issue in publishNonDefault</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150212T131359Z" creationid="Administrator" creationdate="20150212T131359Z">
+        <seg>修复在 publishNonDefault 中的问题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fixed issue in resources shrinking</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150212T131349Z" creationid="Administrator" creationdate="20150212T131349Z">
+        <seg>修复资源缩减（resources shrinking）的问题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Fixed issue where Proguard rules file cannot be applied on flavors.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T142614Z" creationid="msdx" creationdate="20150115T142614Z">
         <seg>修复混淆规则文件不能被应用到flavors上面的问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fixed issue where embedding a micro app could add new permissions to the main app manifest.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150212T142805Z" creationid="Administrator" creationdate="20150212T142805Z">
+        <seg>修复在嵌入一个微型的应用程序时可以在其中main app的清单中添加新权限的问题。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6530,6 +6658,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150123T054923Z" creationid="Administrator" creationdate="20150123T054923Z">
         <seg>修复了在清单合并工具处理不同的包名称时&lt;i0&gt;parentActivityName&lt;/i0&gt;的问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fixed proguardFiles DSL issue.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150212T131206Z" creationid="Administrator" creationdate="20150212T131206Z">
+        <seg>修正 proguardFiles DSL 的问题。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7986,6 +8122,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141217T140256Z" creationid="msdx" creationdate="20141217T140256Z">
         <seg>安装这两个应用程序</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Install task on 21+ devices now does a reinstall again.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150212T131615Z" creationid="Administrator" creationdate="20150212T131550Z">
+        <seg>运行在版本为 21以上的设备的安装任务现在重新安装一遍。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9526,6 +9670,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Only exists for 2+ dimensions of Flavors.&lt;br3&gt;&lt;/s2&gt;&lt;s4&gt;&lt;b5&gt;Current limitation&lt;/b5&gt;: Requires defining the configuration manually first (run the &lt;i6&gt;dependencies&lt;/i6&gt; task to see the names)&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150212T130258Z" creationid="Administrator" creationdate="20150212T130258Z">
+        <seg>只在有两个以上的flavor时才存在。&lt;br3&gt;&lt;/s2&gt;&lt;s4&gt;&lt;b5&gt;当前限制&lt;/b5&gt;：需要先手动定义配置（运行 &lt;i6&gt;dependencies&lt;/i6&gt;任务可以看到名称）&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Only for app (not library or test).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150123T022158Z" creationid="Administrator" creationdate="20150123T022158Z">
@@ -9818,6 +9970,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150102T040735Z" creationid="msdx" creationdate="20150102T040735Z">
         <seg>ProductFlavor</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ProductFlavor.packageName/flavorGroup/testPackageName/renderscriptSupportMode (use new property name)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150212T130754Z" creationid="Administrator" creationdate="20150212T130754Z">
+        <seg>ProductFlavor.packageName/flavorGroup/testPackageName/renderscriptSupportMode （使用新属性名称）</seg>
       </tuv>
     </tu>
     <tu>
@@ -10570,6 +10730,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150204T133318Z" creationid="Administrator" creationdate="20150204T132648Z">
         <seg> &lt;/s5&gt;&lt;s6&gt;&lt;f7&gt;testPackageName&lt;/f7&gt;&lt;/s6&gt;&lt;s8&gt; 的setters暂时仍保留，但会在&lt;b9&gt;1.0版本时移除&lt;/b9&gt;&lt;/s8&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Setting applicationId(Suffix) in a Library project will now properly fail.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150212T141908Z" creationid="Administrator" creationdate="20150212T141908Z">
+        <seg>现在在类库项目中设置 applicationId(Suffix) 将会直接报错。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12854,6 +13022,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This should be considered 1.0-RC (sort of, see above)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150212T131315Z" creationid="Administrator" creationdate="20150212T131142Z">
+        <seg>这应该被视为 1.0-RC 版本 （可以这么说，见前文）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This task does the following:&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141217T135759Z" creationid="msdx" creationdate="20141217T135759Z">
@@ -13230,6 +13406,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Upgrade to Proguard 5.1</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150212T130626Z" creationid="Administrator" creationdate="20150212T130626Z">
+        <seg>升级到 Proguard 5.1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Upgraded to Proguard 4.11.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150128T165158Z" creationid="Administrator" creationdate="20150128T165158Z">
@@ -13414,10 +13598,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Variant Specific BuildConfigField/resValue</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150212T125155Z" creationid="Administrator" creationdate="20150212T125155Z">
+        <seg>Variant 特定的 BuildConfigField 或 resValue</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Variant.getMappingFile() API now allow querying for the proguard mapping file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150205T140712Z" creationid="Administrator" creationdate="20150205T140712Z">
         <seg>Variant.getMappingFile() API 现在允许查询混淆映射文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Variant.packageApplication/zipAlign/createZipAlignTask/outputFile/processResources/processManifest (use the variant output)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150212T130910Z" creationid="Administrator" creationdate="20150212T130910Z">
+        <seg>Variant.packageApplication/zipAlign/createZipAlignTask/outputFile/processResources/processManifest （使用 variant output）</seg>
       </tuv>
     </tu>
     <tu>
@@ -14178,6 +14378,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T130838Z" creationid="msdx" creationdate="20150101T130838Z">
         <seg>android.defaultConfig</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>android.flavorGroups (use new property names)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150212T130743Z" creationid="Administrator" creationdate="20150212T130743Z">
+        <seg>android.flavorGroups （使用新属性名称）</seg>
       </tuv>
     </tu>
     <tu>
@@ -15890,6 +16098,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T061117Z" creationid="msdx" creationdate="20150111T061117Z">
         <seg>grant-uri-permission</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>hasProperty() will now work again on read-only wrapper returned by the variant API.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150212T135615Z" creationid="Administrator" creationdate="20150212T135615Z">
+        <seg>hasProperty() 现在在由variant API 返回的只读的wrapper上又能正常使用了。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18922,6 +19138,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141201T134526Z" creationid="msdx" creationdate="20141201T134450Z">
         <seg>set/getVersionOverride // 可选的 versionCode 重写</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>setup default proguard rule file if none are provided (SDK/tools/proguard/proguard-android.txt)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150212T124839Z" creationid="Administrator" creationdate="20150212T124839Z">
+        <seg>如果没有提供混淆规则文件，则设置默认的混淆规则文件（SDK/tools/proguard/proguard-android.txt）</seg>
       </tuv>
     </tu>
     <tu>
