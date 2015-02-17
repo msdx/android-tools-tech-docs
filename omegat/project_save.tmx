@@ -4158,6 +4158,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Added check for conflict between density splits and resConfig property.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150216T140539Z" creationid="Administrator" creationdate="20150216T140539Z">
+        <seg>添加对密度分割（density splits）和resConfig 属性的冲突的检查。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Added flavor names to the TestServer API.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T134238Z" creationid="msdx" creationdate="20150115T134238Z">
@@ -4346,6 +4354,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150123T055013Z" creationid="Administrator" creationdate="20150123T055013Z">
         <seg>允许jar文件中 META-INF 文件夹里的文件可以被打包进 apk 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Allow manifest placeholder to be of any type as long as toString() is implemented.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150216T135338Z" creationid="Administrator" creationdate="20150216T135338Z">
+        <seg>清单占位符可以是任何类型，只要这个类型实现了 tostring() 方法。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4922,6 +4938,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T012333Z" creationid="msdx" creationdate="20141126T012151Z">
         <seg>在ADT 14 之前，所有这样的字段都是final的，所以导致所有的库被使用的时候，主项目必须编译他们的所有资源和相关 Java 代码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Better fix for issue where embedding a micro app could add new permissions to the main app manifest.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150216T141834Z" creationid="Administrator" creationdate="20150216T140437Z">
+        <seg>更好地修正能够在嵌入一个微型应用程序时在main 应用程序清单添加新的权限的问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Better handling of destination paths to unarchive AARs based on groupId/artifactId/version that contain characters not valid in folder names.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150217T003516Z" creationid="Administrator" creationdate="20150217T003516Z">
+        <seg>对于unarchive AAR包的目标路径基于包含了无效字符的 groupId/artifactId/version 的情况，能够更好地处理。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5918,6 +5950,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Enhanced manifest merger logging by specifying library coordinates.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150216T135029Z" creationid="Administrator" creationdate="20150216T134718Z">
+        <seg>通过指定类库的协作，增强清单合并的日志。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Error message shown when using an unsupported version of Gradle now explains how to update the Gradle wrapper</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150119T004709Z" creationid="msdx" creationdate="20150119T004709Z">
@@ -6638,6 +6678,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Fixed issue where a library with a low targetSdk would add permissions due to a declared permission in a different manifest.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150216T140208Z" creationid="Administrator" creationdate="20150216T140208Z">
+        <seg>修正了一个问题：一个 targetSdk 较低的库会由于一个声明的权限，而在不同的清单中都添加权限。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Fixed issue where embedding a micro app could add new permissions to the main app manifest.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150212T142805Z" creationid="Administrator" creationdate="20150212T142805Z">
@@ -6658,6 +6706,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150123T054923Z" creationid="Administrator" creationdate="20150123T054923Z">
         <seg>修复了在清单合并工具处理不同的包名称时&lt;i0&gt;parentActivityName&lt;/i0&gt;的问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fixed lint issues &lt;a0&gt;80872&lt;/a0&gt;, &lt;a1&gt;80834&lt;/a1&gt;, &lt;a2&gt;60416&lt;/a2&gt;, &lt;a3&gt;80837&lt;/a3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150216T140750Z" creationid="Administrator" creationdate="20150216T140750Z">
+        <seg>修复一些 lint 的问题：&lt;a0&gt;80872&lt;/a0&gt;，&lt;a1&gt;80834&lt;/a1&gt;，&lt;a2&gt;60416&lt;/a2&gt;，&lt;a3&gt;80837&lt;/a3&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -19410,6 +19466,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141202T140121Z" creationid="msdx" creationdate="20141202T140121Z">
         <seg>targetSdkVersion 19</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>test applications are now not using multi-dexing, unless they test a library project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150216T140715Z" creationid="Administrator" creationdate="20150216T140715Z">
+        <seg>测试应用程序现在不会使用multi-dexing，除非它们是在测试一个类库项目。</seg>
       </tuv>
     </tu>
     <tu>
