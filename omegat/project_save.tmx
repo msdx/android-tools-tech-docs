@@ -4952,8 +4952,8 @@
       <tuv lang="EN-US">
         <seg>Better handling of destination paths to unarchive AARs based on groupId/artifactId/version that contain characters not valid in folder names.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150217T003516Z" creationid="Administrator" creationdate="20150217T003516Z">
-        <seg>对于unarchive AAR包的目标路径基于包含了无效字符的 groupId/artifactId/version 的情况，能够更好地处理。</seg>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150225T013404Z" creationid="Administrator" creationdate="20150217T003516Z">
+        <seg>对于未解压 AAR包的目标路径基于包含了无效字符的 groupId/artifactId/version 的情况，能够更好地处理。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6270,6 +6270,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Fix Jack/Jill memory setting through dexOptions.javaMaxHeapSize</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150225T013812Z" creationid="Administrator" creationdate="20150225T013812Z">
+        <seg>通过dexOptions.javaMaxHeapSize 修复 Jack和Jill 两个编译器的内存设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Fix Studio integration</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T132638Z" creationid="Administrator" creationdate="20150126T132638Z">
@@ -6466,6 +6474,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150204T145040Z" creationid="Administrator" creationdate="20150204T145040Z">
         <seg>修复穿戴应用程序的打包问题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fix path normalization (for unzipped aars) when path is only 1 char long</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150225T013609Z" creationid="Administrator" creationdate="20150225T013609Z">
+        <seg>修复路径只有一个字长时的路径正常化问题（用于解压缩 aars）</seg>
       </tuv>
     </tu>
     <tu>
@@ -7442,6 +7458,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150128T132401Z" creationid="Administrator" creationdate="20150128T132401Z">
         <seg>HTML 和 XML 报告生成的路径为 build/reports/coverage</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Handle local jars in tests of multidex-enabled library projects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150225T013521Z" creationid="Administrator" creationdate="20150225T013521Z">
+        <seg>处理在对启用了 multidex 的库项目进行测试时本地jar包的问题</seg>
       </tuv>
     </tu>
     <tu>
