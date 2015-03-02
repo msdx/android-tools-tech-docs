@@ -6262,6 +6262,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Fix &lt;a0&gt;81638&lt;/a0&gt; : Fix PermGen issue when running extractAnnotations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150228T035611Z" creationid="Administrator" creationdate="20150228T035611Z">
+        <seg>修复&lt;a0&gt;81638&lt;/a0&gt; ： 修复 PermGen 在运行 extractAnnotations 时的问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fix &lt;a0&gt;82662&lt;/a0&gt; : Disable passing --no-optimize to dx.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150302T054313Z" creationid="Administrator" creationdate="20150302T054313Z">
+        <seg>修复&lt;a0&gt;82662&lt;/a0&gt;：禁用传入参数 --no-optimize 到 dx。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Fix BuildType.initWith to copy shrinkResources flag</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150212T124737Z" creationid="Administrator" creationdate="20150212T124737Z">
@@ -6306,6 +6322,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150206T133539Z" creationid="Administrator" creationdate="20150206T133539Z">
         <seg>修复覆盖支持。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fix density ordering when running with JDK8.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150302T054232Z" creationid="Administrator" creationdate="20150302T054232Z">
+        <seg>修复当运行在JD8时的屏幕密度顺序问题。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6498,6 +6522,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150206T133617Z" creationid="Administrator" creationdate="20150206T133617Z">
         <seg>修复样式（style）引用的资源缩减</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fix small manifest merger issues when importing libraries with targetSdkVersion &lt; 16</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150302T054211Z" creationid="Administrator" creationdate="20150302T054211Z">
+        <seg>修复当导入targetSdkVersion &lt; 16 的库项目时的一个小的清单合并问题</seg>
       </tuv>
     </tu>
     <tu>
