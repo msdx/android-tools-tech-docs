@@ -1,0 +1,237 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0044)http://tools.android.com/tech-docs/ant-tasks -->
+<html xmlns="http://www.w3.org/1999/xhtml" itemscope="" itemtype="http://schema.org/WebPage"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<script async="" src="http://www.google-analytics.com/analytics.js"></script><script type="text/javascript">/* Copyright 2008 Google. */ (function() { var b=window,e="chrome",g="tick",h="wtsrt_",l="tbsd_",m="tbnd_",n="start",p="_wtsrt",q="_tbnd",r="CSI/";(function(){function k(a){this.t={};this.tick=function(a,d,c){this.t[a]=[void 0!=c?c:(new Date).getTime(),d];if(void 0==c)try{b.console.timeStamp(r+a)}catch(f){}};this[g](n,null,a)}var a;b.performance&&(a=b.performance.timing);var t=a?new k(a.responseStart):new k;b.jstiming={Timer:k,load:t};if(a){var d=a.navigationStart,f=a.responseStart;0<d&&f>=d&&(b.jstiming.srt=f-d)}if(a){var c=b.jstiming.load;0<d&&f>=d&&(c[g](p,void 0,d),c[g](h,p,f),c[g](l,h))}try{a=null,b[e]&&b[e].csi&&(a=Math.floor(b[e].csi().pageT),
+c&&0<d&&(c[g](q,void 0,b[e].csi().startE),c[g](m,q,d))),null==a&&b.gtbExternal&&(a=b.gtbExternal.pageT()),null==a&&b.external&&(a=b.external.pageT,c&&0<d&&(c[g](q,void 0,b.external.startE),c[g](m,q,d))),a&&(b.jstiming.pt=a)}catch(u){}})(); })()
+</script>
+<link rel="shortcut icon" type="image/x-icon" href="http://www.google.com/images/icons/product/sites-16.ico">
+<link rel="apple-touch-icon" href="http://www.gstatic.com/sites/p/d46ff3/system/app/images/apple-touch-icon.png" type="image/png">
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var d=window,e="length",h="",k="__duration__",l="function";function m(c){return document.getElementById(c)}d.byId=m;function n(c){return c.replace(/^\s+|\s+$/g,h)}d.trim=n;var p=[],q=0;d.JOT_addListener=function(c,a,b){var f=new String(q++);c={eventName:c,handler:a,compId:b,key:f};p.push(c);return f};d.JOT_removeListenerByKey=function(c){for(var a=0;a<p[e];a++)if(p[a].key==c){p.splice(a,1);break}};d.JOT_removeAllListenersForName=function(c){for(var a=0;a<p[e];a++)p[a].eventName==c&&p.splice(a,1)};
+d.JOT_postEvent=function(c,a,b){var f={eventName:c,eventSrc:a||{},payload:b||{}};if(d.JOT_fullyLoaded)for(a=p[e],b=0;b<a&&b<p[e];b++){var g=p[b];g&&g.eventName==c&&(f.listenerCompId=g.compId||h,(g=typeof g.handler==l?g.handler:d[g.handler])&&g(f))}else d.JOT_delayedEvents.push({eventName:c,eventSrc:a,payload:b})};d.JOT_delayedEvents=[];d.JOT_fullyLoaded=!1;
+d.JOT_formatRelativeToNow=function(c,a){var b=((new Date).getTime()-c)/6E4;if(1440<=b||0>b)return null;var f=0;60<=b&&(b/=60,f=2);2<=b&&f++;return a?d.JOT_siteRelTimeStrs[f].replace(k,Math.floor(b)):d.JOT_userRelTimeStrs[f].replace(k,Math.floor(b))}; })()
+</script>
+<script>
+
+    
+
+    var breadcrumbs = [{"path":"/tech-docs","deleted":false,"title":"Technical docs","dir":"ltr"},{"path":"/tech-docs/ant-tasks","deleted":false,"title":"Ant Tasks","dir":"ltr"}];
+    var JOT_clearDotPath = 'http://www.gstatic.com/sites/p/d46ff3/system/app/images/cleardot.gif';
+
+    
+    var JOT_userRelTimeStrs = ["1 \u5206\u949f\u524d","__duration__ \u5206\u949f\u4e4b\u524d","1 \u5c0f\u65f6\u524d","__duration__ \u5c0f\u65f6\u524d"];
+
+    
+    
+
+    
+
+    var webspace = {"enableAnalytics":true,"pageSharingId":"jotspot_page","enableUniversalAnalytics":false,"sharingPolicy":"OPENED","siteTitle":"Android Tools Project Site","isStartPageEnabled":true,"adsensePublisherId":null,"features":{"languageSelectDefaultTextSetToDefault":true,"copySiteProgressUpdates":true,"siteNoticeUrl":true,"moreMobileStyleImprovements":true,"asyncPermanentDelete":true,"newMyMapsEmbeds":true,"analyticsTrackingForCorp":false,"htmlEmbed":true,"asyncPageKeyFix":true,"driveImageLinkFromOnepick":true,"domainAnalyticsInGAOnly":true,"docosHideNotificationSettings":true,"siteMapBottomPaginationButtonsFix":true,"fileCabinetScreenReaderFix":true,"useGapiIframesForOnePick":true,"updatedTosAndPrivacyLinks":null,"freebirdFormEmbedDocTypeFix":true,"pageDrafts":false,"mobileOrientationFix":true,"plusBadge":false,"pdfEmbedSupport":false,"jsClickFix":true},"isPublic":true,"isConsumer":false,"serverFlags":{"cajaBaseUrl":"//www.gstatic.com/caja","cajaDebugMode":false},"onepickBaseUrl":"https://docs.google.com","domainAnalyticsAccountId":"","plusPageId":"","signInUrl":"https://www.google.com/a/SelectSession?continue\u003dhttp://sites.google.com/a/android.com/tools/tech-docs/ant-tasks\u0026service\u003djotspot","analyticsAccountId":"UA-19996407-1","scottyUrl":"/_/upload","homePath":"/","siteNoticeUrlEnabled":null,"plusPageUrl":"","adsensePromoClickedOrSiteIneligible":true,"csiReportUri":"http://csi.gstatic.com/csi","sharingId":"jotspot","termsUrl":"//www.google.com/intl/zh/policies/terms/","gvizVersion":1,"editorResources":{"sitelayout":["http://www.gstatic.com/sites/p/d46ff3/system/app/css/sitelayouteditor.css"],"text":["http://www.gstatic.com/sites/p/d46ff3/system/js/codemirror.js","http://www.gstatic.com/sites/p/d46ff3/system/app/css/codemirror_css.css","http://www.gstatic.com/sites/p/d46ff3/system/js/trog_edit__zh_cn.js","http://www.gstatic.com/sites/p/d46ff3/system/app/css/trogedit.css","/_/rsrc/1424246338000/system/app/css/editor.css","http://www.gstatic.com/sites/p/d46ff3/system/app/css/codeeditor.css","/_/rsrc/1424246338000/system/app/css/camelot/editor-jfk.css"]},"sharingUrlPrefix":"/_/sharing","isAdsenseEnabled":true,"domain":"android.com","baseUri":"","name":"tools","siteTemplateId":false,"siteNoticeRevision":null,"siteNoticeUrlAddress":null,"siteNoticeMessage":null,"page":{"isRtlLocale":false,"canDeleteWebspace":null,"isPageDraft":null,"parentPath":"/tech-docs","parentWuid":"wuid:gx:68695c8c797f5a75","siteLocale":"en","timeZone":"America/Los_Angeles","type":"text","title":"Ant Tasks","locale":"zh_CN","wuid":"wuid:gx:7455debd71198ab5","revision":13,"path":"/tech-docs/ant-tasks","isSiteRtlLocale":false,"pageInheritsPermissions":null,"name":"ant-tasks","canChangePath":true,"state":"","properties":{},"bidiEnabled":false,"currentTemplate":{"path":"/system/app/pagetemplates/text","title":"\u7f51\u9875"}},"canPublishScriptToAnyone":true,"user":{"keyboardShortcuts":true,"sessionIndex":"","guest_":true,"displayNameOrEmail":"guest","userName":"guest","uid":"","renderMobile":false,"domain":"","namespace":"","hasWriteAccess":false,"namespaceUser":false,"primaryEmail":"guest","dasherUser":false,"hasAdminAccess":false},"gadgets":{"baseUri":"/system/app/pages/gadgets"}};
+    webspace.page.breadcrumbs = breadcrumbs;
+  
+
+
+var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+</script>
+<script type="text/javascript">
+                window.jstiming.load.tick('scl');
+              </script>
+<meta name="title" content="Ant Tasks - Android Tools Project Site">
+<meta itemprop="name" content="Ant Tasks - Android Tools Project Site">
+<meta property="og:title" content="Ant Tasks - Android Tools Project Site">
+<meta name="description" content="Android tools project information site">
+<meta itemprop="description" content="Android tools project information site">
+<meta id="meta-tag-description" property="og:description" content="Android tools project information site">
+<style type="text/css">
+</style>
+<link rel="stylesheet" type="text/css" href="./../source-others/standard-css-iceberg-ltr-ltr.css">
+<link rel="stylesheet" type="text/css" href="./../source-others/overlay.css">
+<link rel="stylesheet" type="text/css" href="./../source-others/allthemes-view.css">
+<!--[if IE]>
+          <link rel="stylesheet" type="text/css" href="/system/app/css/camelot/allthemes%2die.css" />
+        <![endif]-->
+<title>Ant Tasks - Android Tools Project Site</title>
+<meta itemprop="image" content="http://www.google.com/a/cpanel/android.com/images/logo.gif?service=google_default">
+<meta property="og:image" content="http://www.google.com/a/cpanel/android.com/images/logo.gif?service=google_default">
+<script type="text/javascript">
+                window.jstiming.load.tick('cl');
+              </script>
+</head>
+<body xmlns="http://www.google.com/ns/jotspot" id="body" class=" en            " ryt13828="1">
+<div id="sites-page-toolbar" class="sites-header-divider">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-status" class="sites-status" style="display:none;"><div id="sites-notice" class="sites-notice" role="status" aria-live="assertive"> </div></div>
+</div>
+<div id="sites-chrome-everything-scrollbar">
+<div id="sites-chrome-everything" class="">
+<div id="sites-chrome-page-wrapper" style="direction: ltr">
+<div id="sites-chrome-page-wrapper-inside">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-chrome-header-wrapper" style="">
+<table id="sites-chrome-header" class="sites-layout-hbox" cellspacing="0" style="">
+<tbody><tr class="sites-header-primary-row" id="sites-chrome-userheader">
+<td id="sites-header-title" class="" role="banner"><div class="sites-header-cell-buffer-wrapper"><a href="http://tools.android.com/" id="sites-chrome-userheader-logo"><img id="logo-img-id" src="./../source-others/logo.gif" alt="Android Tools Project Site" class="sites-logo  sites-domain-logo"></a><h2><a href="http://tools.android.com/" dir="ltr" id="sites-chrome-userheader-title">Android Tools Project Site</a></h2></div></td><td class="sites-layout-searchbox  "><div class="sites-header-cell-buffer-wrapper"><form id="sites-searchbox-form" action="http://tools.android.com/system/app/pages/search" role="search"><input type="hidden" id="sites-searchbox-scope" name="scope" value="search-site"><input type="text" id="jot-ui-searchInput" name="q" size="20" value="" aria-label="Search this site"><div id="sites-searchbox-button-set" class="goog-inline-block"><div role="button" id="sites-searchbox-search-button" class="goog-inline-block jfk-button jfk-button-standard" tabindex="0" style="-webkit-user-select: none;">Search this site</div></div></form></div></td>
+</tr>
+<tr class="sites-header-secondary-row" id="sites-chrome-horizontal-nav">
+<td colspan="2" id="sites-chrome-header-horizontal-nav-container" role="navigation">
+<div class="sites-header-nav"><ul class="sites-header-nav-container-boxes"></ul><div style="clear: both;"></div></div>
+</td>
+</tr>
+</tbody></table> 
+</div> 
+<div id="sites-chrome-main-wrapper">
+<div id="sites-chrome-main-wrapper-inside">
+<table id="sites-chrome-main" class="sites-layout-hbox" cellspacing="0" cellpadding="{scmCellpadding}" border="0">
+<tbody><tr>
+<td id="sites-chrome-sidebar-left" class="sites-layout-sidebar-left initial" style="width:150px">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_2bd" class="sites-embed" role="navigation"><div class="sites-embed-content sites-sidebar-nav"><ul role="navigation" jotid="navList"><li class="nav-first "><div dir="ltr" style="padding-left: 5px;"><a href="http://tools.android.com/overview" jotid="wuid:gx:44ff8c8722cc5d9b" class="sites-navigation-link">Projects Overview</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://tools.android.com/screenshots" jotid="wuid:gx:6914b706d692f646" class="sites-navigation-link">Screenshots</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://tools.android.com/release" jotid="wuid:gx:7ac5d78c9458ca81" class="sites-navigation-link">Release Status</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://tools.android.com/roadmap" jotid="wuid:gx:60ea3587cace173b" class="sites-navigation-link">Roadmap</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://tools.android.com/download" jotid="wuid:gx:5b9a06a7bd768d08" class="sites-navigation-link">Download</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://tools.android.com/preview-channel" jotid="wuid:gx:65c33e76aa1e249e" class="sites-navigation-link">Preview Channel</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://tools.android.com/recent" jotid="wuid:gx:2d257f949510e1ed" class="sites-navigation-link">Recent Changes</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://tools.android.com/tech-docs" jotid="wuid:gx:68695c8c797f5a75" class="sites-navigation-link">Technical docs</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://tools.android.com/tech-docs/new-build-system" jotid="wuid:gx:7f79556dd5cace7" class="sites-navigation-link">New Build System</a></div></li></ul></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_09830101249604128" class="sites-embed" role="navigation"><div class="sites-embed-content sites-sidebar-nav"><ul role="navigation" jotid="navList"><li class="nav-first "><div dir="ltr" style="padding-left: 5px;"><a href="http://tools.android.com/knownissues" jotid="wuid:gx:2a2ed1d61165c57f" class="sites-navigation-link">Known Issues</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://tools.android.com/tips" jotid="wuid:gx:11629b864408db4c" class="sites-navigation-link">Tips</a></div></li></ul></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_42875732108950615" class="sites-embed" role="navigation"><div class="sites-embed-content sites-sidebar-nav"><ul role="navigation" jotid="navList"><li class="nav-first "><div dir="ltr" style="padding-left: 5px;"><a href="http://tools.android.com/build" jotid="wuid:gx:138a85800bd6b1df" class="sites-navigation-link">Build Overview</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://tools.android.com/contributing" jotid="wuid:gx:1f3267453e2dafcc" class="sites-navigation-link">Contributing</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="http://tools.android.com/feedback" jotid="wuid:gx:5b9bc58701d69f2" class="sites-navigation-link">Feedback</a></div></li></ul></div></div>
+</td>
+<td id="sites-canvas-wrapper">
+<div id="sites-canvas" role="main">
+<div id="goog-ws-editor-toolbar-container"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="">
+<a href="http://tools.android.com/tech-docs" dir="ltr">Technical docs</a>‎ &gt; ‎
+  </div>
+<h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="" align="left">
+<span id="sites-page-title" dir="ltr" tabindex="-1" style="outline: none">Ant Tasks</span>
+</h3>
+<div id="sites-canvas-main" class="sites-canvas-main">
+<div id="sites-canvas-main-content">
+<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><div><div class="sites-embed-align-right-wrapping-on"><div class="sites-embed-border-off sites-embed" style="width:100px;"><div class="sites-embed-content sites-embed-type-plusone"><div class="g-plusone" data-count="true" data-size="standard" data-source="google:sites"></div></div></div></div></div>This feature is being actively worked on. &nbsp;Please comment on <i>adt-dev</i>.<div><br></div><div><br></div><div>Current Custom task list:</div><div><ul><li>AaptExecTask</li><li>AidlExecTask</li><li>ApkBuilderTask</li><li>BuildConfigTask</li><li>DexExecTask</li><li>IfElseTask</li><li>PropertyByReplaceTask</li><li>RenderScriptTask</li><li>SignApkTask</li><li>XPathTask</li><li>ZipAlignTask</li></ul><div>New in r20 (some of this replace NewSetupTask)</div><div><ul><li>CheckEnvTask</li><li>ComputeDependencyTask</li><li>ComputeProjectClasspathTask</li><li>GetEmmaFilterTask</li><li>GetLibraryListTask</li><li>GetTargetTask</li><li>GetTypeTask</li><li>ManifestMergerTask</li></ul></div><div><br></div><div>Base (abstract) task used by the main tasks above:</div><ul><li>BuildTypedTask</li><li>MultiFilesTask</li><li>SingleDependencyTask</li><li>SingleInputOutputTask</li></ul><div><br></div></div><div><br></div><div><h3><a name="TOC-com.android.ant.CheckEnvTask:-checkenv-"></a>com.android.ant.CheckEnvTask:&nbsp;<font face="&#39;courier new&#39;, monospace">&lt;checkenv&gt;</font></h3></div><div>Does a simple check of the environment looking for:</div><div><ul><li>Version of Ant</li><li>Existence of the platform-tools folder inside the SDK.</li></ul></div><div>No attributes option.</div><div><br></div><div><hr><h3><a name="TOC-com.android.ant.GetTypeTask-gettype-"></a>com.android.ant.GetTypeTask <font face="&#39;courier new&#39;, monospace">&lt;gettype&gt;</font></h3></div><div>Queries the project and returns its project type. Possible types are:</div><div><div><ul><li>"app"</li><li>"library"</li><li>"test"</li><li>"test-app"</li></ul><div><table border="1" bordercolor="#888" cellspacing="0" style="border-collapse:collapse;border-top-color:rgb(136,136,136);border-right-color:rgb(136,136,136);border-bottom-color:rgb(136,136,136);border-left-color:rgb(136,136,136);border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px"><tbody><tr><td style="width:255px;height:19px">&nbsp;<b>Attribute</b></td><td style="width:620px;height:19px"><b>Description</b></td><td style="width:55px;height:19px"><b>Required&nbsp;</b></td></tr><tr><td style="width:255px;height:19px">&nbsp;projectTypeOut</td><td style="width:620px;height:19px">the name of the property in which to store the project type</td><td style="width:55px;height:19px">Yes</td></tr></tbody></table><br></div></div><div><hr></div><h3><a name="TOC-com.android.ant.GetTargetTask-gettarget-"></a>com.android.ant.GetTargetTask <font face="&#39;courier new&#39;, monospace">&lt;gettarget&gt;</font></h3><div>Resolves the project targets and returns some target dependent values necessary for building.</div><div><br></div><div><table border="1" bordercolor="#888" cellspacing="0" style="border-collapse:collapse;border-top-color:rgb(136,136,136);border-right-color:rgb(136,136,136);border-bottom-color:rgb(136,136,136);border-left-color:rgb(136,136,136);border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px"><tbody><tr><td style="width:152px;height:19px"><b>Attribute</b></td><td style="width:724px;height:19px"><b>Description</b></td><td style="width:55px;height:19px"><b>Required</b></td></tr><tr><td style="width:152px;height:19px">androidJarFileOut</td><td style="width:724px;height:19px">the name of the property in which to store&nbsp;the location of the project's build target android.jar</td><td style="width:55px;height:19px">Yes</td></tr><tr><td style="width:152px;height:19px">androidAidlFileOut</td><td style="width:724px;height:19px">the name of the property in which to store&nbsp;the location of the project's build target framework.aidl</td><td style="width:55px;height:19px">Yes</td></tr><tr><td style="width:152px;height:35px">bootClassPathOut</td><td style="width:724px;height:35px">the name of the property in which to store a Path object that contains all boot jar files (android.jar + add-on APIs)</td><td style="width:55px;height:35px">Yes</td></tr><tr><td style="width:152px;height:19px">targetApiOut</td><td style="width:724px;height:19px">the name of the property in which to store&nbsp;the API level of the project's build target API level.</td><td style="width:55px;height:19px">Yes</td></tr><tr><td style="width:152px;height:19px">minSdkVersionOut</td><td style="width:724px;height:19px">the name of the property in which to store&nbsp;the app minSdkVersion value.</td><td style="width:55px;height:19px">Yes</td></tr></tbody></table></div><div><br></div><div><hr><h3><a name="TOC-com.android.ant.GetLibraryListTask-getlibs-"></a>com.android.ant.GetLibraryListTask <font face="&#39;courier new&#39;, monospace">&lt;getlibs&gt;</font></h3></div>
+<div>Compute the list of Library Projects the project depends on. This looks at all the direct and undirect dependencies and builds a list in the specific order.</div><div><br></div><div><table border="1" bordercolor="#888" cellspacing="0" style="border-collapse:collapse;border-top-color:rgb(136,136,136);border-right-color:rgb(136,136,136);border-bottom-color:rgb(136,136,136);border-left-color:rgb(136,136,136);border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px"><tbody><tr><td style="width:138px;height:19px"><b>Attribute</b></td><td style="width:749px;height:19px"><b>Description</b></td><td style="width:109px;height:19px"><b>Required</b></td></tr><tr><td style="width:138px;height:39px">libraryFolderPathOut</td><td style="width:749px;height:39px">the name of the property in which to store a Path object that contains all the Library Project folders.<br>This is ordered in compilation order.</td><td style="width:109px;height:39px">Yes</td></tr></tbody></table></div><div><br></div><div><br></div><hr><h3><a name="TOC-com.android.ant.ComputeDependencyTask-dependency-"></a>com.android.ant.ComputeDependencyTask <font face="&#39;courier new&#39;, monospace">&lt;dependency&gt;</font></h3>Computes the project dependencies. This handles details about Library Projects but also gather and sanitize all the jar libraries needed by the main project and its Library Projects.</div><div>This is sanitized using the dependency resolution mentioned <a href="http://tools.android.com/recent/dealingwithdependenciesinandroidprojects" target="_blank">here</a>.<br><br><table border="1" bordercolor="#888" cellspacing="0" style="border-collapse:collapse;border-top-color:rgb(136,136,136);border-right-color:rgb(136,136,136);border-bottom-color:rgb(136,136,136);border-left-color:rgb(136,136,136);border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px"><tbody><tr><td style="width:152px;height:19px"><b>Attribute</b></td><td style="width:724px;height:19px"><b>Description</b></td><td style="width:55px;height:19px"><b>Required</b></td></tr><tr><td style="width:152px;height:19px">libraryFolderPathOut</td><td style="width:724px;height:19px">the name of the property in which to store a Path object that contains all the Library Project folders.<br>This is ordered in compilation order.</td><td style="width:55px;height:19px">Yes</td></tr><tr><td style="width:152px;height:19px">libraryPackagesOut</td><td style="width:724px;height:19px">the name of the property in which to store&nbsp;the package names of all the Library Projects.<br>This is a semicolon separated value.</td><td style="width:55px;height:19px">Yes</td></tr><tr><td>
+
+
+
+
+
+
+
+libraryManifestFilePathOut&nbsp;</td><td>the name of the property in which to store a Path object that contains all the Library Manifest files.</td><td>Yes&nbsp;</td></tr><tr><td style="width:152px;height:35px">libraryResFolderPathOut</td><td style="width:724px;height:35px">the name of the property in which to store a Path object that contains all the Library Project resource folders.<br>This is ordered in aapt order. This is opposite order of libraryFolderPathOut</td><td style="width:55px;height:35px">Yes</td></tr><tr><td style="width:152px;height:19px">libraryNativeFolderPathOut</td><td style="width:724px;height:19px">the name of the property in which to store a Path object that contains all the Library Project native folders.</td><td style="width:55px;height:19px">Yes</td></tr><tr><td style="width:152px;height:19px">jarLibraryPathOut</td><td style="width:724px;height:19px">the name of the property in which to store a Path object that contains all the jar libraries required for build.</td><td style="width:55px;height:19px">Yes</td></tr><tr><td>targetApi</td><td>the project's build target API level.</td><td>Yes</td></tr><tr><td>verbose</td><td>build verbosity level</td><td>No</td></tr></tbody></table><br></div><h3><a name="TOC-Other-Tasks-to-come-later."></a>Other Tasks to come later.</h3><div><br></div></div></td></tr></tbody></table>
+</div> 
+</div> 
+<div id="sites-canvas-bottom-panel">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-subpages"> </div>
+<div id="sites-attachments-container">
+</div>
+</div>
+</div> 
+</td> 
+</tr>
+</tbody></table> 
+</div> 
+</div> 
+<div id="sites-chrome-footer-wrapper">
+<div id="sites-chrome-footer-wrapper-inside">
+<div id="sites-chrome-footer">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-subfooter"><div class="sites-subfooter-content"><br></div></div>
+</div>
+</div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-adminfooter-container">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-adminfooter" role="navigation"><p><a class="sites-system-link" href="https://www.google.com/a/UniversalLogin?service=jotspot&continue=http://sites.google.com/a/android.com/tools/tech-docs/ant-tasks">登录</a><span aria-hidden="true">|</span><a class="sites-system-link" href="http://tools.android.com/system/app/pages/recentChanges">最近的网站活动</a><span aria-hidden="true">|</span><a class="sites-system-link" href="http://tools.android.com/system/app/pages/reportAbuse" target="_blank">举报滥用行为</a><span aria-hidden="true">|</span><a class="sites-system-link" href="javascript:;" onclick="window.open(webspace.printUrl)">打印页面</a><span aria-hidden="true">|</span><span class="sites-system-link">由</span> <b class="powered-by"><a href="http://sites.google.com/">Google 协作平台强力驱动</a></b></p></div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-onebar-footer">
+</div>
+
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('sjl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="./../source-others/jot_min_view__en.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('jl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+    
+        sites.core.Analytics.createTracker();
+        sites.core.Analytics.trackPageview();
+      
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+                    sites.Searchbox.initialize(
+                        'sites-searchbox-search-button',
+                        {"object":[]}['object'],
+                        'search-site',
+                        {"label":"Configure search options...","url":"/system/app/pages/admin/settings"});
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+      gsites.HoverPopupMenu.createSiteDropdownMenus('sites-header-nav-dropdown', false);
+    </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("2bd", "Project Info", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_2bd');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("09830101249604128", "Navigation", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_09830101249604128');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("42875732108950615", "Contrib info", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_42875732108950615');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+                    window.onload = function() {
+                      if (false) {
+                        JOT_setMobilePreview();
+                      }
+                      var loadTimer = window.jstiming.load;
+                      loadTimer.tick("ol");
+                      loadTimer["name"] = "load," + webspace.page.type + ",user_page";
+                      window.jstiming.report(loadTimer, {}, 'http://csi.gstatic.com/csi');
+                    }
+                  </script>
+
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        JOT_insertAnalyticsCode(false,
+            false);
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    var maestroRunner = new gsites.pages.view.SitesMaestroRunner(
+        webspace, "en");
+    maestroRunner.initListeners();
+    maestroRunner.installEditRender();
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+        JOT_insertTranslateCode('zh_CN', 'en');
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+  //<![CDATA[
+    // Decorate any fastUI buttons on the page with a class of 'goog-button'.
+    if (webspace.user.hasWriteAccess) {
+      JOT_decorateButtons();
+    }
+
+    // Fires delayed events.
+    (function() {
+      JOT_fullyLoaded = true;
+      var delayedEvents = JOT_delayedEvents;
+      for (var x = 0; x < delayedEvents.length; x++) {
+        var event = delayedEvents[x];
+        JOT_postEvent(event.eventName, event.eventSrc, event.payload);
+      }
+      JOT_delayedEvents = null;
+      JOT_postEvent('pageLoaded');
+    })();
+ //]]>
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    JOT_postEvent('decorateGvizCharts');
+  </script>
+<script type="text/javascript">
+          JOT_setupPostRenderingManager();
+        </script>
+<script type="text/javascript">
+          JOT_postEvent('renderPlus', null, 'sites-chrome-main');
+        </script>
+<div id="server-timer-div" style="display:none"> </div>
+<script type="text/javascript">
+          window.jstiming.load.tick('render');
+          JOT_postEvent('usercontentrendered', this);
+        </script>
+
+
+</body></html>
