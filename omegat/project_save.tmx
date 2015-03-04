@@ -54,6 +54,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>'provided' and 'package' cannot be used with Android Libraries, and will generate an error</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150304T102724Z" creationid="Administrator" creationdate="20150304T102724Z">
+        <seg>“provided”和“package” 不能用于 Android Libraries项目，否则将生成错误</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(139k)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T153031Z" creationid="msdx" creationdate="20141127T153031Z">
@@ -1758,6 +1766,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;f0&gt;&lt;s1&gt;Unit testing support.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150304T090356Z" creationid="Administrator" creationdate="20150304T090356Z">
+        <seg>&lt;f0&gt;&lt;s1&gt;单元测试的支持。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;f0&gt;&lt;s1&gt;Variants of libraries can now be published, though by&lt;/s1&gt;&lt;/f0&gt;&lt;s2&gt; default only the default variant is published.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T145231Z" creationid="Administrator" creationdate="20150126T145231Z">
@@ -3334,10 +3350,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;New configurations for adding test-only dependencies, e.g.&lt;br1&gt;&lt;/s0&gt;&lt;s2&gt;testCompile 'junit:junit:4.11'&lt;br3&gt;&lt;/s2&gt;&lt;s4&gt;testMyFlavorCompile 'some:library:1.0'&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150304T101112Z" creationid="Administrator" creationdate="20150304T101112Z">
+        <seg>&lt;s0&gt;用于添加 test-only 依赖项的新配置，例如 &lt;br1&gt;&lt;/s0&gt;&lt;s2&gt;testCompile 'junit:junit:4.11' &lt;br3&gt;&lt;/s2&gt;&lt;s4&gt;testMyFlavorCompile ' some:library:1.0'&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;New source folders recognized as unit tests:&lt;br1&gt;&lt;/s0&gt;&lt;s2&gt;src/test/java, src/testDebug/java, src/testMyFlavor/java etc.&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150304T093448Z" creationid="Administrator" creationdate="20150304T093448Z">
+        <seg>&lt;s0&gt;能被识别为单元测试的新源文件夹：&lt;br1&gt;&lt;/s0&gt;&lt;s2&gt;src/test/java，src/testDebug/java， src/testMyFlavor/java 等等。&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;Note that most of the configuration of the &lt;/s0&gt;&lt;i1&gt;Build Type&lt;/i1&gt;&lt;s2&gt; do not apply to library projects.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141215T133256Z" creationid="msdx" creationdate="20141215T133256Z">
         <seg>&lt;s0&gt;需要注意的是，&lt;/s0&gt;&lt;i1&gt;Build Type&lt;/i1&gt;&lt;s2&gt;的大部分配置都不适用库项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;ProGuard configuration files are no longer applied to the test APK.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150304T101920Z" creationid="Administrator" creationdate="20150304T101920Z">
+        <seg>&lt;s0&gt;混淆配置文件不再应用于测试 APK。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3370,6 +3410,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T152810Z" creationid="msdx" creationdate="20141125T152216Z">
         <seg>&lt;s0&gt;查看 &lt;/s0&gt;&lt;a1&gt;https://code.google.com/p/android/issues/detail?id=46186&lt;/a1&gt; 以获取背景资料、额外请求或注释等信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;Task names that used to contain 'Test', e.g. 'assembleDebugTest' now use &lt;/s0&gt;&lt;s1&gt;'AndroidTest', e.g. 'assembleDebugAndroidTest'.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150304T101745Z" creationid="Administrator" creationdate="20150304T101745Z">
+        <seg>&lt;s0&gt;在过去名称中包含了“Test”的任务，现在使用“AndroidTest”，比如“assembleDebugTest”改为“assembleDebugAndroidTest”</seg>
       </tuv>
     </tu>
     <tu>
@@ -4178,6 +4226,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T134212Z" creationid="msdx" creationdate="20150115T134212Z">
         <seg>对于合并清单失败的情况，添加了更多日志打印。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Added support for anyDpi resource qualifier in the resource merger.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150304T103603Z" creationid="Administrator" creationdate="20150304T103603Z">
+        <seg>增加在资源合并工具中对任意Dpi资源的限定符的支持。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6822,6 +6878,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Fixes and changes to the dependency management:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150304T102422Z" creationid="Administrator" creationdate="20150304T102422Z">
+        <seg>依赖管理的问题修复及更改：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Fixes and other changes</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T130724Z" creationid="msdx" creationdate="20150115T130724Z">
@@ -7446,6 +7510,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle provides mechanism to resolve this.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150304T103240Z" creationid="Administrator" creationdate="20150304T103240Z">
+        <seg>Gradle 提供了机制来解决这个问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle supports both remote and local repositories.&lt;br2&gt;&lt;s3&gt;Note: Gradle will follow all dependencies transitively.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141214T121447Z" creationid="msdx" creationdate="20141214T121447Z">
@@ -7874,6 +7946,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T035426Z" creationid="msdx" creationdate="20141126T035426Z">
         <seg>如果你的 switch 语句如下所示：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If &lt;/s0&gt;&lt;s1&gt;minification is enabled, the test APK will be processed by ProGuard only to apply &lt;/s1&gt;&lt;s2&gt;the mapping file generated when minifying the main APK.&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150304T102335Z" creationid="Administrator" creationdate="20150304T102321Z">
+        <seg>如果&lt;/s0&gt;&lt;s1&gt;启用了压缩（译者注：应该是minifyEnable设为true），压缩主APK 时会生成一个映射文件，测试 APK 将只有在应用&lt;/s1&gt;&lt;s2&gt;这个映射文件时才会被混淆器处理。&lt;/s2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -9382,6 +9462,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>New option, android.testOptions.unitTests.returnDefaultValues to control &lt;s0&gt;the behaviour of the "mockable" android.jar.&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150304T101329Z" creationid="Administrator" creationdate="20150304T101329Z">
+        <seg>新的选项，用于控制&lt;s0&gt;“mockable”android.jar 行为的 android.testOptions.unitTests.returnDefaultValues。&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>New plugin 'android-reporting' to aggregate android test results across projects.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T153927Z" creationid="msdx" creationdate="20150114T153927Z">
@@ -9394,6 +9482,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T152541Z" creationid="msdx" creationdate="20150114T152541Z">
         <seg>新的例子“migrated”和“flavorlib”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>New tasks: test, testDebug/testRelease, testMyFlavorDebug (when using flavors).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150304T093344Z" creationid="Administrator" creationdate="20150304T093242Z">
+        <seg>新的任务： test，testDebug/testRelease，testMyFlavorDebug （如果使用了 flavors）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9466,6 +9562,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T012603Z" creationid="msdx" creationdate="20141126T011452Z">
         <seg>Case 标签中的非常量字段——Andorid Tools 项目站点</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Not compatible with Jack at the moment.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150304T101155Z" creationid="Administrator" creationdate="20150304T101132Z">
+        <seg>暂时不兼容 Jack 编译器 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10142,10 +10246,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Projects with large number of Android Modules will see evaluation and IDE sync speed improvements (YMMV)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150304T104747Z" creationid="Administrator" creationdate="20150304T104747Z">
+        <seg>有大量 Android 模块的项目将会发现项目评估与 IDE 同步的速度有了提升（各人的情况可能会有不同）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Projects with no flavors still have &lt;i0&gt;Build Variants&lt;/i0&gt;, but the single &lt;f1&gt;&lt;b2&gt;default&lt;/b2&gt;&lt;/f1&gt; flavor/config is used, nameless, making the list of variants similar to the list of &lt;i3&gt;Build Types&lt;/i3&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T043102Z" creationid="msdx" creationdate="20141227T042621Z">
         <seg>即使项目没有定义 flavor，也仍然会有 &lt;i0&gt;Build Variants&lt;/i0&gt;，但是是使用 &lt;f1&gt;&lt;b2&gt;默认的&lt;/b2&gt;&lt;/f1&gt; flavor或配置。它没有名字，所以使 variants和列表看起来和 &lt;i3&gt;Build Types&lt;/i3&gt;的列表一样。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Properly handle 'provided' and 'package' scopes to do what they should be doing.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150304T102608Z" creationid="Administrator" creationdate="20150304T102608Z">
+        <seg>正确地处理了“provided”和“package” 的作用范围，以做它们应该做的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12958,6 +13078,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is to distinguish them &lt;/s1&gt;&lt;s2&gt;from the unit test tasks, e.g. 'assembleDebugUnitTest'.&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150304T101852Z" creationid="Administrator" creationdate="20150304T101852Z">
+        <seg>这是为了把它们&lt;/s1&gt;&lt;s2&gt;从单元测试任务中区分出来，例如 “assembleDebugUnitTest”。&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is typically in UI code and the performance impact is negligible.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T035056Z" creationid="msdx" creationdate="20141126T035056Z">
@@ -13482,6 +13610,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141217T140300Z" creationid="msdx" creationdate="20141217T140300Z">
         <seg>卸载这两个应用程序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Unit testing code is run on the local JVM, against a &lt;/s1&gt;&lt;/f0&gt;&lt;s2&gt;special version of android.jar that is compatible with popular mocking &lt;/s2&gt;&lt;s3&gt;frameworks (e.g. Mockito).&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150304T101017Z" creationid="Administrator" creationdate="20150304T092114Z">
+        <seg>单元测试代码运行在在本地 JVM 上，&lt;/s1&gt;&lt;/f0&gt;它针对着与常用的&lt;s3&gt; mocking 框架 （如 Mockito）相兼容的&lt;/s3&gt;&lt;s2&gt;的专用版本的 android.jar。&lt;/s2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -17902,6 +18038,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>if the same version of an artifact is present in both, it'll get skipped in the test app.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150304T103422Z" creationid="Administrator" creationdate="20150304T103158Z">
+        <seg>如果同一个版本的构件在测试项目本身及测试项目的依赖树中都有，那么它会在测试应用程序中跳过</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>if the version is different it'll generate a build error.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150304T103221Z" creationid="Administrator" creationdate="20150304T103221Z">
+        <seg>如果这个构件的版本不同，那么将会生成一个构建错误。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>ignore 'TypographyQuotes'</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141218T135940Z" creationid="msdx" creationdate="20141218T135940Z">
@@ -19474,6 +19626,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T035428Z" creationid="msdx" creationdate="20141126T035428Z">
         <seg>switch (view.getId()) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sync tested and test dependency trees:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150304T102811Z" creationid="Administrator" creationdate="20150304T102811Z">
+        <seg>同步测试和测试依赖树：</seg>
       </tuv>
     </tu>
     <tu>
