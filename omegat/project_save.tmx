@@ -5286,6 +5286,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Calling android.getBootClasspath() is now possible again.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150304T133310Z" creationid="Administrator" creationdate="20150304T133310Z">
+        <seg>现在又可以调用 android.getBootClasspath() 方法了。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Can be null if the variant is a library or if the APK cannot be signed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150102T042335Z" creationid="msdx" creationdate="20150102T042335Z">
@@ -5690,6 +5698,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141213T074206Z" creationid="msdx" creationdate="20141213T074206Z">
         <seg>依赖、 Android Library和多项目设置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Dependency related issues now fail at build time rather than at debug time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150304T133130Z" creationid="Administrator" creationdate="20150304T133130Z">
+        <seg>如果有依赖相关的问题现在将会在构建时期就失败而不是等到调试时期才失败。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6650,6 +6666,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150205T142454Z" creationid="Administrator" creationdate="20150205T142454Z">
         <seg>修复 aar 输出名称的问题，现在变种版本（variants）不会再互相改写这个名称</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fixed an issue where "archivesBaseName" setting in build.gradle was ignored.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150304T135232Z" creationid="Administrator" creationdate="20150304T135232Z">
+        <seg>修复了 build.gradle 中的“archivesBaseName”设置被忽略的问题。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9926,6 +9950,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Only variants that package a Wear app will now trigger building them.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150304T133030Z" creationid="Administrator" creationdate="20150304T133030Z">
+        <seg>现在只有包含了一个Wear 应用程序的变种版本才会触发构建它们。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Open the Project settings dialog (right click on the project), where you’ll find a property page for Android Lint.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T152707Z" creationid="msdx" creationdate="20141127T152533Z">
@@ -10034,6 +10066,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150123T065121Z" creationid="Administrator" creationdate="20150123T065121Z">
         <seg>并行化 pre-dexing 的处理以加快清理构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Path is normalized when creating mockable jar for unit testing.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150304T133616Z" creationid="Administrator" creationdate="20150304T133616Z">
+        <seg>当创建用于单元测试的可模拟的（mockable） jar 包时路径会统一化处理。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13078,6 +13118,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is to allow running diagnostic tasks (such as 'dependencies') to help resolve the conflict.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150304T133239Z" creationid="Administrator" creationdate="20150304T133239Z">
+        <seg>这将允许运行诊断性的任务 （比如“dependencies”）来帮助解决冲突。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is to distinguish them &lt;/s1&gt;&lt;s2&gt;from the unit test tasks, e.g. 'assembleDebugUnitTest'.&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150304T101852Z" creationid="Administrator" creationdate="20150304T101852Z">
@@ -13626,6 +13674,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150112T123726Z" creationid="msdx" creationdate="20150111T170726Z">
         <seg>与你在创建一个新项目时由 Android Studio 所创建的默认 Gradle 文件文件，下面的 gradle 文件将把源代码目录指向现有文件夹 （例如&lt;c0&gt;res/&lt;/c0&gt;， &lt;c1&gt;src/&lt;/c1&gt;） 而不是用 Gradle 项目的默认新目录结构 （&lt;c2&gt;src/main/java/&lt;/c2&gt;， &lt;c3&gt;src/main/res/&lt;/c3&gt;等）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Unresolved placeholder failure in manifest merger when building library test application.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150304T140434Z" creationid="Administrator" creationdate="20150304T140434Z">
+        <seg>当构建类库的测试应用程序时清单合并工具会有的未处理占位符失败。</seg>
       </tuv>
     </tu>
     <tu>
