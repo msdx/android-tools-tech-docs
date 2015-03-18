@@ -33,3 +33,4 @@ Env var	环境变量
 rev	版本
 sort of	可以说	adv.
 see above	见前
+semicolon	分号

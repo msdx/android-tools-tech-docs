@@ -4670,6 +4670,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Ant Tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150304T141933Z" creationid="Administrator" creationdate="20150304T141933Z">
+        <seg>Ant 任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Ant Tasks - Android Tools Project Site</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150304T141930Z" creationid="Administrator" creationdate="20150304T141930Z">
+        <seg>Ant 任务 - Android 工具项目站点</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Apk Splits</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141201T135649Z" creationid="msdx" creationdate="20141201T013324Z">
@@ -4822,6 +4838,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Attribute</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150307T091519Z" creationid="Administrator" creationdate="20150307T091519Z">
+        <seg>属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Attribute activity@screenOrientation value=(portrait) from AndroidManifest.xml:3:9</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150110T163925Z" creationid="msdx" creationdate="20150110T163925Z">
@@ -4914,6 +4938,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141128T124520Z" creationid="msdx" creationdate="20141128T124520Z">
         <seg>有效的问题：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Base (abstract) task used by the main tasks above:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150305T090028Z" creationid="Administrator" creationdate="20150305T090028Z">
+        <seg>上面的主要任务所用到的基本（抽象的）任务：</seg>
       </tuv>
     </tu>
     <tu>
@@ -5398,6 +5430,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Compute the list of Library Projects the project depends on.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150307T092836Z" creationid="Administrator" creationdate="20150307T092836Z">
+        <seg>计算项目所依赖的库项目列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Computes the project dependencies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150318T151737Z" creationid="Administrator" creationdate="20150318T151737Z">
+        <seg>计算项目的依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Configures the default &lt;f0&gt;&lt;b1&gt;debug&lt;/b1&gt;&lt;/f0&gt; &lt;i2&gt;Build Type&lt;/i2&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141212T121556Z" creationid="msdx" creationdate="20141212T121556Z">
@@ -5490,6 +5538,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141212T122938Z" creationid="msdx" creationdate="20141212T122835Z">
         <seg>创建新的 &lt;i0&gt;Build Types&lt;/i0&gt; 就是简单地在&lt;f1&gt;&lt;b2&gt;buildTypes&lt;/b2&gt;&lt;/f1&gt;下添加一个新的元素，然后调用 &lt;f3&gt;&lt;b4&gt;initWith()&lt;/b4&gt;&lt;/f3&gt;或者是使用一个闭包来配置。&lt;br5&gt;&lt;br6&gt;以下是可能用到的属性和它们的默认值： &lt;br7&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Current Custom task list:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150305T085801Z" creationid="Administrator" creationdate="20150305T085801Z">
+        <seg>当前的自定义任务列表：</seg>
       </tuv>
     </tu>
     <tu>
@@ -5778,6 +5834,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150205T140850Z" creationid="Administrator" creationdate="20150205T140850Z">
         <seg>文档&lt;a0&gt;见这里&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Does a simple check of the environment looking for:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150305T090348Z" creationid="Administrator" creationdate="20150305T090146Z">
+        <seg>简单地检查当前的环境：</seg>
       </tuv>
     </tu>
     <tu>
@@ -6098,6 +6162,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150206T133718Z" creationid="Administrator" creationdate="20150206T133718Z">
         <seg>从资源缩减中排除嵌入的 Wear micro-app。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Existence of the platform-tools folder inside the SDK.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150305T091016Z" creationid="Administrator" creationdate="20150305T091016Z">
+        <seg>SDK 里面存在着platform-tools文件夹</seg>
       </tuv>
     </tu>
     <tu>
@@ -9470,6 +9542,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>New in r20 (some of this replace NewSetupTask)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150305T085919Z" creationid="Administrator" creationdate="20150305T085919Z">
+        <seg>r20版本新增加的任务（有一部分替换了 NewSetupTask）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>New manifest merger.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150128T130735Z" creationid="Administrator" creationdate="20150128T130735Z">
@@ -9522,6 +9602,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150123T035002Z" creationid="Administrator" creationdate="20150123T035002Z">
         <seg>在defaultConfig和flavors上的新的测试相关的 DSL 的属性：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>No</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150318T155540Z" creationid="Administrator" creationdate="20150318T155540Z">
+        <seg>否</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>No attributes option.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150305T091025Z" creationid="Administrator" creationdate="20150305T091025Z">
+        <seg>没有属性选项。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9998,6 +10094,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Other Tasks to come later.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150318T155558Z" creationid="Administrator" creationdate="20150318T155558Z">
+        <seg>其他任务将在以后引入。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Other elements like “application” do not require a key since there can be only one.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150104T163411Z" creationid="msdx" creationdate="20150104T163411Z">
@@ -10106,6 +10210,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141205T062002Z" creationid="msdx" creationdate="20141204T141204Z">
         <seg>插件可以提供自己的 DSL 和API供构建文件使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Possible types are:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150307T091516Z" creationid="Administrator" creationdate="20150307T091516Z">
+        <seg>可能的类型是：</seg>
       </tuv>
     </tu>
     <tu>
@@ -10358,6 +10470,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Queries the project and returns its project type.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150307T091513Z" creationid="Administrator" creationdate="20150307T091513Z">
+        <seg>查询该项目并返回其项目类型。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Quick Fixes</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T143652Z" creationid="msdx" creationdate="20141127T143652Z">
@@ -10582,6 +10702,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Required</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150307T091543Z" creationid="Administrator" creationdate="20150307T091543Z">
+        <seg>是否必须</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Requirements</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141204T141306Z" creationid="msdx" creationdate="20141204T141306Z">
@@ -10666,6 +10794,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150205T151753Z" creationid="Administrator" creationdate="20150205T151753Z">
         <seg>需要 Studio 0.9</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Resolves the project targets and returns some target dependent values necessary for building.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150307T091818Z" creationid="Administrator" creationdate="20150307T091818Z">
+        <seg>解析项目的目标，并返回构建过程中所必须依赖的一些目标。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12926,6 +13062,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This feature is being actively worked on.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150305T085738Z" creationid="Administrator" creationdate="20150305T085738Z">
+        <seg>此功能正在积极开发中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This handles details about Library Projects but also gather and sanitize all the jar libraries needed by the main project and its Library Projects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150318T152558Z" creationid="Administrator" creationdate="20150318T152251Z">
+        <seg>此任务不但处理库项目的详细信息，还收集及处理主项目及库项目所需要的所有jar库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This has some advantages over the plain lint output:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T065519Z" creationid="msdx" creationdate="20141127T065519Z">
@@ -13054,6 +13206,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is opposite order of libraryFolderPathOut</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150318T155304Z" creationid="Administrator" creationdate="20150318T155304Z">
+        <seg>它的顺序与 libraryFolderPathOut 相反。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is optional.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141201T133631Z" creationid="msdx" creationdate="20141201T133631Z">
@@ -13066,6 +13226,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150123T033828Z" creationid="Administrator" creationdate="20150123T033828Z">
         <seg>它在Studio中读取和使用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is sanitized using the dependency resolution mentioned &lt;a0&gt;here&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150318T152610Z" creationid="Administrator" creationdate="20150318T152554Z">
+        <seg>它会使用 &lt;a0&gt;此处&lt;/a0&gt;所提及的依赖方案进行处理。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13186,6 +13354,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T060442Z" creationid="msdx" creationdate="20141127T060442Z">
         <seg>这让你可以在代码库中查找一个具体的问题，比如： &lt;br4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This looks at all the direct and undirect dependencies and builds a list in the specific order.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150307T092938Z" creationid="Administrator" creationdate="20150307T092938Z">
+        <seg>它会计算所有直接和间接的依赖项，并生成一个特定顺序的列表。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13942,6 +14118,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Version of Ant</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150305T090151Z" creationid="Administrator" creationdate="20150305T090151Z">
+        <seg>Ant 版本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Very flexible.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141204T141037Z" creationid="msdx" creationdate="20141204T141037Z">
@@ -14226,6 +14410,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T142045Z" creationid="msdx" creationdate="20150114T142045Z">
         <seg>Xavier Ducrohet,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Yes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150307T091629Z" creationid="Administrator" creationdate="20150307T091629Z">
+        <seg>是</seg>
       </tuv>
     </tu>
     <tu>
@@ -15498,6 +15690,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T012758Z" creationid="msdx" creationdate="20141126T012758Z">
         <seg>break;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>build verbosity level</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150318T155531Z" creationid="Administrator" creationdate="20150318T155531Z">
+        <seg>构建的详细级别</seg>
       </tuv>
     </tu>
     <tu>
@@ -19878,6 +20078,110 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>the name of the property in which to store a Path object that contains all boot jar files (android.jar + add-on APIs)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150307T092206Z" creationid="Administrator" creationdate="20150307T092012Z">
+        <seg>用于保存一个Path 对象的属性名称，这个Pathc对象包含了所有运行的jar 文件（android.jar + and-on APIS)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>the name of the property in which to store a Path object that contains all the Library Manifest files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150318T153720Z" creationid="Administrator" creationdate="20150318T153720Z">
+        <seg>该属性名称用于保存包含了所有库的清单文件的Path对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>the name of the property in which to store a Path object that contains all the Library Project folders.&lt;br0&gt;This is ordered in compilation order.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150318T155055Z" creationid="Administrator" creationdate="20150318T151719Z">
+        <seg>该属性名称用于保存包含了所有库项目文件夹的一个Path对象。&lt;br0&gt;它使用编译的顺序进行排序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>the name of the property in which to store a Path object that contains all the Library Project native folders.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150318T155345Z" creationid="Administrator" creationdate="20150318T155345Z">
+        <seg>该属性名称用于保存一个包含了所有库项目本地文件夹的Path对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>the name of the property in which to store a Path object that contains all the Library Project resource folders.&lt;br0&gt;This is ordered in aapt order.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150318T155235Z" creationid="Administrator" creationdate="20150318T153813Z">
+        <seg>该属性名称用于保存包含了所有的库项目的资源文件夹的一个Path对象。&lt;br0&gt;它使用aapt的顺序排序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>the name of the property in which to store a Path object that contains all the jar libraries required for build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150318T155443Z" creationid="Administrator" creationdate="20150318T155443Z">
+        <seg>该属性名称用于保存一个Path对象，该对象包含了构建所需要的所有的jar库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>the name of the property in which to store the project type</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150307T091625Z" creationid="Administrator" creationdate="20150307T091625Z">
+        <seg>用于保存项目类型的属性的名称</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>the name of the property in which to store the API level of the project's build target API level.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150307T092359Z" creationid="Administrator" creationdate="20150307T092245Z">
+        <seg>用于保存项目的构建目标API等级的属性名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>the name of the property in which to store the app minSdkVersion value.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150307T092738Z" creationid="Administrator" creationdate="20150307T092507Z">
+        <seg>用于保存应用程序的minSdkVersion值的属性的名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>the name of the property in which to store the location of the project's build target android.jar</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150307T091959Z" creationid="Administrator" creationdate="20150307T091929Z">
+        <seg>用于保存项目的目标及android.jar 的位置的属性名称</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>the name of the property in which to store the location of the project's build target framework.aidl</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150307T092319Z" creationid="Administrator" creationdate="20150307T091955Z">
+        <seg>用于保存项目的构建目标的framework.aidl 的位置的属性名称</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>the name of the property in which to store the package names of all the Library Projects.&lt;br0&gt;This is a semicolon separated value.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150318T153650Z" creationid="Administrator" creationdate="20150318T153650Z">
+        <seg>该属性名称用于保存所有的库项目的包名称，&lt;br0&gt;包名之间使用分号分隔。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>the project's build target API level.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150318T155508Z" creationid="Administrator" creationdate="20150318T155508Z">
+        <seg>项目的构建目标 API 级别。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>the resulting expansion will still be</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T082205Z" creationid="msdx" creationdate="20150111T082205Z">
@@ -20602,6 +20906,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150106T161052Z" creationid="msdx" creationdate="20150106T161052Z">
         <seg>在节点级别，应使用 tools:node 属性，在属性级别，应使用 tools:attr 属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg> Please comment on &lt;i0&gt;adt-dev&lt;/i0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150305T085757Z" creationid="Administrator" creationdate="20150305T085757Z">
+        <seg>请在&lt;i0&gt;adt-dev&lt;/i0&gt;上提出建议。</seg>
       </tuv>
     </tu>
     <tu>
