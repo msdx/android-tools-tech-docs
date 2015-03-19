@@ -20096,8 +20096,8 @@
       <tuv lang="EN-US">
         <seg>the name of the property in which to store a Path object that contains all the Library Project folders.&lt;br0&gt;This is ordered in compilation order.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150318T155055Z" creationid="Administrator" creationdate="20150318T151719Z">
-        <seg>该属性名称用于保存包含了所有库项目文件夹的一个Path对象。&lt;br0&gt;它使用编译的顺序进行排序。</seg>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150319T012933Z" creationid="Administrator" creationdate="20150318T151719Z">
+        <seg>该属性名称用于保存包含了所有库项目文件夹的一个Path对象。&lt;br0&gt;它按编译顺序排序。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20112,8 +20112,8 @@
       <tuv lang="EN-US">
         <seg>the name of the property in which to store a Path object that contains all the Library Project resource folders.&lt;br0&gt;This is ordered in aapt order.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150318T155235Z" creationid="Administrator" creationdate="20150318T153813Z">
-        <seg>该属性名称用于保存包含了所有的库项目的资源文件夹的一个Path对象。&lt;br0&gt;它使用aapt的顺序排序。</seg>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150319T012917Z" creationid="Administrator" creationdate="20150318T153813Z">
+        <seg>该属性名称用于保存包含了所有的库项目的资源文件夹的一个Path对象。&lt;br0&gt;它按 aapt 的顺序排序。</seg>
       </tuv>
     </tu>
     <tu>
