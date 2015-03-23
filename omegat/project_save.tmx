@@ -8190,6 +8190,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In Gradle projects, the actual package used in the final APK can vary; for you can add a .debug package suffix in one version and not the other.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150323T155654Z" creationid="Administrator" creationdate="20150323T155654Z">
+        <seg>在 Gradle 项目中，在最终的 apk 文件使用的实际的包名可以各不相同；你可以在某个版本添加.debug 的包后缀而在别的版本则不添加。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In Gradle you no longer need to add in these libraries as source code projects; you can simply refer to them as dependencies, and the build system will handle the rest; downloading, merging in resources and manifest entries, etc.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150112T124936Z" creationid="msdx" creationdate="20150112T124739Z">
@@ -10310,6 +10318,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Priority: 9 / 10</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150323T155019Z" creationid="Administrator" creationdate="20150323T155019Z">
+        <seg>优先级：9 / 10</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>ProGuard is supported through the Gradle plugin for ProGuard version 4.10.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141213T073016Z" creationid="msdx" creationdate="20141213T072930Z">
@@ -11214,6 +11230,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Severity: Fatal</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150323T155545Z" creationid="Administrator" creationdate="20150323T155524Z">
+        <seg>严重性： 严重错误</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Severity: Warning</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141128T124658Z" creationid="msdx" creationdate="20141128T124658Z">
@@ -11382,6 +11406,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Some methods, such as View#onDetachedFromWindow, require that you also call the super implementation as part of your method.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150323T155219Z" creationid="Administrator" creationdate="20150323T155219Z">
+        <seg>有些方法，比如View#onDetachedFromWindow，需要你在你的方法中调用它的父类实现。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Sourcesets and Dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T045548Z" creationid="msdx" creationdate="20141227T045548Z">
@@ -11470,6 +11502,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Summary: 'import android.R' statement</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150323T160216Z" creationid="Administrator" creationdate="20150323T160216Z">
+        <seg>摘要：“import android.R”声明</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Summary: AdapterViews cannot have children in XML</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150323T153251Z" creationid="Administrator" creationdate="20150323T153251Z">
@@ -11498,6 +11538,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141128T124918Z" creationid="msdx" creationdate="20141128T124918Z">
         <seg>摘要： 确保 onClick 属性值指向真正的方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Summary: Hardcoded Package in Namespace</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150323T155313Z" creationid="Administrator" creationdate="20150323T155313Z">
+        <seg>摘要：在命名空间中有硬编码的包名</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Summary: Missing Super Call</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150323T155007Z" creationid="Administrator" creationdate="20150323T155007Z">
+        <seg>摘要： 缺失对父类方法的调用</seg>
       </tuv>
     </tu>
     <tu>
@@ -12746,6 +12802,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141202T133708Z" creationid="msdx" creationdate="20141202T133708Z">
         <seg>因此，我们&lt;b0&gt;解耦&lt;/b0&gt;了包名称的两种用法：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Therefore, you should not hardcode the application package in the resource; instead, use the special namespace http://schemas.android.com/apk/res-auto which will cause the tools to figure out the right namespace for the resource regardless of the actual package used during the build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150323T160157Z" creationid="Administrator" creationdate="20150323T160157Z">
+        <seg>因此，你不应该在资源中对程序的包名进行硬编码；相反，使用指定的命名空间 http://schemas.android.com/apk/res-auto ，则可以使工具找出资源的正确命名空间，而不管在构建期间实际上使用的包名。</seg>
       </tuv>
     </tu>
     <tu>
