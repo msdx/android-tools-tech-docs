@@ -4182,6 +4182,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>AdapterViews such as ListViews must be configured with data from Java code, such as a ListAdapter.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150323T153404Z" creationid="Administrator" creationdate="20150323T153404Z">
+        <seg>AdapterViews，如 ListViews必须从 Java 代码中配置数据，比如 ListAdapter。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Add support for NDK prebuilts in library projects.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150123T065042Z" creationid="Administrator" creationdate="20150123T065042Z">
@@ -4936,8 +4944,8 @@
       <tuv lang="EN-US">
         <seg>Available issues:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141128T124520Z" creationid="msdx" creationdate="20141128T124520Z">
-        <seg>有效的问题：</seg>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150323T152819Z" creationid="msdx" creationdate="20141128T124520Z">
+        <seg>启用检查的问题：</seg>
       </tuv>
     </tu>
     <tu>
@@ -7686,6 +7694,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here are the current list of checks that &lt;a0&gt;lint&lt;/a0&gt; performs as of Android Studio 1.1 Preview 1:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150323T153445Z" creationid="Administrator" creationdate="20150323T153056Z">
+        <seg>以下是当前 &lt;a0&gt;lint&lt;/a0&gt;在 Android Studio 1.1 Preview 1 中会执行的检查列表：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here we have 3 libraries merging into a main manifest file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T085859Z" creationid="msdx" creationdate="20150111T085847Z">
@@ -9318,6 +9334,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>More information:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150323T153408Z" creationid="Administrator" creationdate="20150323T153408Z">
+        <seg>详细信息：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>More information: http://developer.android.com/reference/android/widget/AdapterView.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141128T124841Z" creationid="msdx" creationdate="20141128T124841Z">
@@ -9406,6 +9430,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Must be a string value, using '\;' to escape characters such as '\n' or '\uxxxx' for a unicode character.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150323T154313Z" creationid="Administrator" creationdate="20150323T154313Z">
+        <seg>它必须是一个字符串，而且使用 “\;”把“\n”或”\uxxxx“的字符转义为一个 unicode 字符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>MyProject/</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141214T122145Z" creationid="msdx" creationdate="20141214T122145Z">
@@ -9442,6 +9474,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141202T141437Z" creationid="msdx" creationdate="20141202T141437Z">
         <seg>注意： 出于兼容性原因，如果您&lt;b0&gt;没有&lt;/b0&gt;在您的 build.gradle 文件中定义 applicationId，这个applicationId 将默认为 AndroidManifest.xml 中所指定的相同的值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>NOTE: This issue is disabled by default!</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150323T154416Z" creationid="Administrator" creationdate="20150323T154416Z">
+        <seg>注： 这个问题默认情况下不进行检查！</seg>
       </tuv>
     </tu>
     <tu>
@@ -11430,6 +11470,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Summary: AdapterViews cannot have children in XML</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150323T153251Z" creationid="Administrator" creationdate="20150323T153251Z">
+        <seg>摘要： 在 XML 中AdapterViews不能有子元素</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Summary: Checks that AdapterViews do not define their children in XML</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141128T124647Z" creationid="msdx" creationdate="20141128T124647Z">
@@ -11438,10 +11486,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Summary: Code contains STOPSHIP marker</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150323T154330Z" creationid="Administrator" creationdate="20150323T154330Z">
+        <seg>摘要： 代码包含 STOPSHIP 标记</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Summary: Ensures that onClick attribute values refer to real methods</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141128T124918Z" creationid="msdx" creationdate="20141128T124918Z">
         <seg>摘要： 确保 onClick 属性值指向真正的方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Summary: onClick method does not exist</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150323T153414Z" creationid="Administrator" creationdate="20150323T153414Z">
+        <seg>内容摘要： onClick 方法不存在</seg>
       </tuv>
     </tu>
     <tu>
@@ -12194,6 +12258,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141128T125644Z" creationid="msdx" creationdate="20141128T125644Z">
         <seg>OnClick 属性值应该为在此视图中的方法的名称</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The onClick attribute value should be the name of a method in this View's context to invoke when the view is clicked.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150323T153756Z" creationid="Administrator" creationdate="20150323T153756Z">
+        <seg>OnClick 属性的值应该为这个View 的上下文的一个方法的名字，当这个view被点击时，这个方法将被调用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12990,6 +13062,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This comment marker can be used to indicate that the code should not be shipped until the issue is addressed, and lint will look for these.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150323T154930Z" creationid="Administrator" creationdate="20150323T154930Z">
+        <seg>这个注释标记可以用来指示某些代码在某个问题解决前不应该被使用，而lint 将会查找这些标记。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This creates a library project that uses API 15 to compile.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141214T133706Z" creationid="msdx" creationdate="20141214T133551Z">
@@ -13442,6 +13522,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141207T054514Z" creationid="msdx" creationdate="20141207T054039Z">
         <seg>这将移动&lt;f7&gt;&lt;b8&gt;src/&lt;/b8&gt;&lt;/f7&gt;&lt;b9&gt;androidTest&lt;/b9&gt;&lt;f10&gt;&lt;b11&gt;/*&lt;/b11&gt;&lt;/f10&gt;到&lt;f12&gt;&lt;b13&gt;tests/*&lt;/b13&gt;&lt;/f12&gt;&lt;br14&gt;下。这是 Android 专用的，不适用于 Java &lt;i15&gt;sourceSets&lt;/i15&gt;。 &lt;br16&gt;&lt;br17&gt;这也是一个“迁移”的例子。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This name must correspond to a public method that takes exactly one parameter of type View.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150323T153904Z" creationid="Administrator" creationdate="20150323T153904Z">
+        <seg>这个名称必须对应于一个public的方法，且只有一个View类型的参数。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14006,6 +14094,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Using the comment // STOPSHIP can be used to flag code that is incomplete but checked in.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150323T154633Z" creationid="Administrator" creationdate="20150323T154633Z">
+        <seg>使用注释 // STOPSHIP 可以用来标记不完整但是留给其他人看的代码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Using the new Split mechanism, building a hdpi, and an mdpi version of the same app will share a lot of the tasks (like javac, dx, proguard).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141201T044452Z" creationid="msdx" creationdate="20141201T014058Z">
@@ -14498,6 +14594,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T151514Z" creationid="msdx" creationdate="20150114T151447Z">
         <seg>你可以下载一个小的捆绑包，它包含了几个不同的 （大部分是空的） 项目，那些项目演示了一些构建特性：&lt;a0&gt;见这里&lt;/a0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can enable it by adding --enable StopShip</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150323T154444Z" creationid="Administrator" creationdate="20150323T154444Z">
+        <seg>您可以通过添加 --enable StopShip 来启用对这个问题的检查</seg>
       </tuv>
     </tu>
     <tu>
