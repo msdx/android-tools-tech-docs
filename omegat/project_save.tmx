@@ -3974,6 +3974,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A typical path to a debug manifest override file in a Gradle project is src/debug/AndroidManifest.xml.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T134953Z" creationid="Administrator" creationdate="20150324T134953Z">
+        <seg>在一个Gradle 项目中，调试版本的清单覆盖文件的典型路径是 src/debug/AndroidManifest.xml。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A wizard will open and guide you through the rest of the import process.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T142310Z" creationid="msdx" creationdate="20150111T141254Z">
@@ -4146,6 +4154,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T031940Z" creationid="msdx" creationdate="20141127T031940Z">
         <seg>可访问性和国际化问题（硬编码字符串，缺少contentDescription等）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Accidental misspellings in namespace declarations can lead to some very obscure error messages.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T141824Z" creationid="Administrator" creationdate="20150324T141824Z">
+        <seg>在命名空间声明中的意外拼写错误可能会导致一些很难理解的错误消息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5368,8 +5384,8 @@
       <tuv lang="EN-US">
         <seg>Category: Correctness</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141128T124701Z" creationid="msdx" creationdate="20141128T124701Z">
-        <seg>类别： 正确性</seg>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T132210Z" creationid="msdx" creationdate="20141128T124701Z">
+        <seg>类别：正确性</seg>
       </tuv>
     </tu>
     <tu>
@@ -5726,6 +5742,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Defining a style which sets android:id to a dynamically generated id can cause many versions of aapt, the resource packaging tool, to crash.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T132733Z" creationid="Administrator" creationdate="20150324T132733Z">
+        <seg>定义一个样式且将 android:id 设置为一个动态生成的 id，可能会导致很多版本的 aapt 的资源打包工具出现崩溃。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Density</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150104T133327Z" creationid="msdx" creationdate="20141201T014048Z">
@@ -5994,6 +6018,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141203T013621Z" creationid="msdx" creationdate="20141203T013621Z">
         <seg>在 1.0 之前，我们所介绍的早期版本可能由于不兼容问题会有所不同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Earlier versions of ADT used to create proguard.cfg files with the wrong format.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T142335Z" creationid="Administrator" creationdate="20150324T142335Z">
+        <seg>早期版本的 ADT 创建过具有错误格式的 proguard.cfg 文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7390,6 +7422,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For the versionCode attribute, you have to specify an actual integer literal; you cannot use an indirection with a @dimen/name resource.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T133535Z" creationid="Administrator" creationdate="20150324T133535Z">
+        <seg>对于VersionCode 属性，您必须指定一个实际的整数值，而不能使用 @dimen/name 资源来间接地指定这个值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Fortunately, this is very easy in Eclipse.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T013011Z" creationid="msdx" creationdate="20141126T013011Z">
@@ -7830,6 +7870,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, this means that if you have a typo in your reference, or if the referred view no longer exists, you do not get a warning since the id will be created on demand.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T150556Z" creationid="Administrator" creationdate="20150324T150556Z">
+        <seg>然而，这意味着如果你在引用时输错了，或者如果被引用的视图已不存在了，将不会对你警告，因为它将按你的要求创建该id。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However, you can not use a number as a string (e.g. "19" instead of 19); that will result in a platform not found error message at build/sync time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T150145Z" creationid="Administrator" creationdate="20150324T150047Z">
+        <seg>但是，你不能把一个数字当作字符串使用 （例如用"19"代替 19） ；这将导致在生成或同步时期，出现找不到对应平台的错误消息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>However, you may still want that attribute set at runtime.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T144811Z" creationid="msdx" creationdate="20141125T144811Z">
@@ -7874,6 +7930,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150112T123801Z" creationid="msdx" creationdate="20150112T123801Z">
         <seg>确定您正在使用哪一个库项目（如 ActionBarSherlock）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If a class is referenced in the manifest, it must also exist in the project (or in one of the libraries included by the project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T133734Z" creationid="Administrator" creationdate="20150324T133734Z">
+        <seg>如果在清单中，引用了一个类，那么这个类也必须存在于项目中（或在该项目所包含的某个类库中）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8014,6 +8078,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you update your tools, or if you are trying to open a project that was built with an old version of the tools, you may need to update your plugin version number.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T133008Z" creationid="Administrator" creationdate="20150324T133008Z">
+        <seg>如果您更新了您的工具，或者如果你试图打开一个由旧版的工具生成的项目，您可能需要更新您的插件版本号。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you want more children, wrap them in a container layout.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T145444Z" creationid="Administrator" creationdate="20150324T145444Z">
+        <seg>如果你想要有更多的子项，可以把它们封装在一个容器布局（layout）中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you want to also do another type of multi-APKs (defined here: http://developer.android.com/google/play/publishing/multiple-apks.html) you can also create Flavors (for instance for API level-based multi-apks), and each variants will have its own multi-outputs.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141201T132912Z" creationid="msdx" creationdate="20141201T132912Z">
@@ -8150,6 +8230,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Importing android.R is usually not intentional; it sometimes happens when you use an IDE and ask it to automatically add imports at a time when your project's R class it not present.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T131803Z" creationid="Administrator" creationdate="20150324T131803Z">
+        <seg>通常都不会有意去导入 android.R。有时候当你使用IDE，并且你的项目的R类不存在时，它询问你是否要自动添加导入语句时，才会导入android.R。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Importing projects with missing dependencies was broken</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150119T003136Z" creationid="msdx" creationdate="20150119T003136Z">
@@ -8186,6 +8274,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141202T141608Z" creationid="msdx" creationdate="20141202T141608Z">
         <seg>在 Android Studio 中，新建的项目始终会指定这两个值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In Gradle projects you can specify a resource prefix that all resources in the project must conform to.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T144830Z" creationid="Administrator" creationdate="20150324T144830Z">
+        <seg>在Gradle 项目中，您可以指定一个资源前缀，让项目中的所有资源必须都遵循这个资源前缀。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In Gradle projects, that means you should only request this permission in a debug source set specific manifest file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T134240Z" creationid="Administrator" creationdate="20150324T134240Z">
+        <seg>在 Gradle 项目中，这意味着你应该只在调试源码集的指定的清单文件中请求该权限。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8442,6 +8546,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150212T131615Z" creationid="Administrator" creationdate="20150212T131550Z">
         <seg>运行在版本为 21以上的设备的安装任务现在重新安装一遍。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Instead of -keepclasseswithmembernames use -keepclasseswithmembers, since the old flags also implies "allow shrinking" which means symbols only referred to from XML and not Java (such as possibly CustomViews) can get deleted.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T144204Z" creationid="Administrator" creationdate="20150324T143024Z">
+        <seg>使用-keepclasseswithmembers 来替代-keepclasseswithmembernames，因为旧的标记也意味着“允许压缩”，这意味着仅从XML并且没有在Java 中（比如可能是自定义控件）引用的符号将会被删除。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8714,6 +8826,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141212T155224Z" creationid="msdx" creationdate="20141212T122030Z">
         <seg>通过启用 JNI 组件的debug构建，并添加不同的包后缀，继续配置&lt;b0&gt;jnidebug&lt;/b0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Keeps track of the view types associated with ids and if it finds a usage of the id in the Java code it ensures that it is treated as the same type.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T132537Z" creationid="Administrator" creationdate="20150324T132537Z">
+        <seg>跟踪与id相关联的视图的类型，如果在Java代码中找到了使用这个id的地方，它会确保它们的类型是相同的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9734,6 +9854,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Not all versions of the Android Gradle plugin are compatible with all versions of the SDK.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T132931Z" creationid="Administrator" creationdate="20150324T132931Z">
+        <seg>并非所有版本的 Android Gradle 插件都可兼容所有版本的 SDK。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Not compatible with Jack at the moment.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150304T101155Z" creationid="Administrator" creationdate="20150304T101132Z">
@@ -10022,6 +10150,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Once the import is there you might get a lot of "confusing" error messages because of course the fields available on android.R are not the ones you'd expect from just looking at your own R class.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T132055Z" creationid="Administrator" creationdate="20150324T132055Z">
+        <seg>一旦导入它，你可能会遇到大量让你“困惑”的错误消息，因为在android.R上的可用字段，并不是你期望的你自己的R类里的那些字段。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>One from the abi dimension</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T130937Z" creationid="msdx" creationdate="20150101T130839Z">
@@ -10042,6 +10178,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141218T140405Z" creationid="msdx" creationdate="20141218T140011Z">
         <seg>新的构建系统的目标之一是可以创建同一个程序的不同版本。&lt;br0&gt;&lt;br1&gt;这里有两个主要的使用场景：&lt;br2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>One such incompatibility is compiling with a version of the Android support libraries that is not the latest version (or in particular, a version lower than your targetSdkVersion.)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T133314Z" creationid="Administrator" creationdate="20150324T133314Z">
+        <seg>有一种这样的不兼容情况是，使用一个不是最新版本的 Android 支持库进行编译（特别是低于你的targetSdkVersion的版本。）</seg>
       </tuv>
     </tu>
     <tu>
@@ -10314,6 +10458,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141128T124654Z" creationid="msdx" creationdate="20141128T124654Z">
         <seg>优先级： 10 / 10</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Priority: 8 / 10</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T132907Z" creationid="Administrator" creationdate="20150324T132907Z">
+        <seg>优先级: 8 / 10</seg>
       </tuv>
     </tu>
     <tu>
@@ -11006,6 +11158,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>ScrollViews can only have one child widget.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T145359Z" creationid="Administrator" creationdate="20150324T145359Z">
+        <seg>ScrollViews 只能有一个子项小部件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Search this site</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T024142Z" creationid="msdx" creationdate="20141125T024142Z">
@@ -11232,8 +11392,8 @@
       <tuv lang="EN-US">
         <seg>Severity: Fatal</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150323T155545Z" creationid="Administrator" creationdate="20150323T155524Z">
-        <seg>严重性： 严重错误</seg>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T132143Z" creationid="Administrator" creationdate="20150323T155524Z">
+        <seg>严重性：严重错误</seg>
       </tuv>
     </tu>
     <tu>
@@ -11314,6 +11474,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T122351Z" creationid="msdx" creationdate="20150101T122155Z">
         <seg>同样，每一个variant也都有对应的测试 APK 构建任务和install/uninstall的任务：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Similarly, the versionName attribute should be an actual string, not a string resource url.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T133615Z" creationid="Administrator" creationdate="20150324T133615Z">
+        <seg>同样，versionName 属性应该是实际的字符串，而不能是string资源的 url。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11534,6 +11702,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Summary: Cycle in resource definitions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T144638Z" creationid="Administrator" creationdate="20150324T144638Z">
+        <seg>摘要：循环的资源定义</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Summary: Ensures that onClick attribute values refer to real methods</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141128T124918Z" creationid="msdx" creationdate="20141128T124918Z">
@@ -11550,10 +11726,138 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Summary: Incompatible Android Gradle Plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T132856Z" creationid="Administrator" creationdate="20150324T132856Z">
+        <seg>摘要： 不兼容的 Android Gradle 插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Summary: Incompatible Gradle Versions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T133020Z" creationid="Administrator" creationdate="20150324T133020Z">
+        <seg>摘要： 不兼容的 Gradle 版本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Summary: Incorrect reference types</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T144210Z" creationid="Administrator" creationdate="20150324T144210Z">
+        <seg>摘要： 不正确的引用类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Summary: Minimum SDK and target SDK attributes not defined</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T132116Z" creationid="Administrator" creationdate="20150324T132116Z">
+        <seg>摘要： 未定义最低 SDK 和目标 SDK 属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Summary: Mismatched view type</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T132136Z" creationid="Administrator" creationdate="20150324T132136Z">
+        <seg>摘要：不匹配的视图类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Summary: Missing Super Call</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150323T155007Z" creationid="Administrator" creationdate="20150323T155007Z">
         <seg>摘要： 缺失对父类方法的调用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Summary: Missing registered class</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T133624Z" creationid="Administrator" creationdate="20150324T133624Z">
+        <seg>摘要： 缺少注册的类</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Summary: Misspelled namespace declaration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T135007Z" creationid="Administrator" creationdate="20150324T135007Z">
+        <seg>摘要：拼写错误的命名空间声明</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Summary: Name and version must be integer or string, not resource</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T133431Z" creationid="Administrator" creationdate="20150324T133431Z">
+        <seg>摘要： 名称和版本必须是整型或字符串，而不能是资源</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Summary: Potential AAPT crash</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T132556Z" creationid="Administrator" creationdate="20150324T132556Z">
+        <seg>摘要： 可能存在 AAPT 崩溃</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Summary: Reference to an unknown id</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T150154Z" creationid="Administrator" creationdate="20150324T150154Z">
+        <seg>摘要： 引用一个未知的 id</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Summary: Resource file in the wrong res folder</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T150816Z" creationid="Administrator" creationdate="20150324T150816Z">
+        <seg>摘要： 资源文件在错误的res文件夹中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Summary: Resource with Wrong Prefix</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T144735Z" creationid="Administrator" creationdate="20150324T144735Z">
+        <seg>摘要： 资源名称包含了错误的前缀</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Summary: ScrollViews can have only one child</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T145324Z" creationid="Administrator" creationdate="20150324T145324Z">
+        <seg>摘要： ScrollViews 只能有一个子项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Summary: String should be int</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T145528Z" creationid="Administrator" creationdate="20150324T145528Z">
+        <seg>内容摘要： 字符串的内容应该是整型的值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Summary: Using mock location provider in production</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T134124Z" creationid="Administrator" creationdate="20150324T134017Z">
+        <seg>摘要： 在生产环境中使用了模拟位置提供程序</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Summary: Using obsolete ProGuard configuration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T141933Z" creationid="Administrator" creationdate="20150324T141933Z">
+        <seg>摘要： 使用过时的ProGuard配置</seg>
       </tuv>
     </tu>
     <tu>
@@ -11842,6 +12146,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150102T042646Z" creationid="msdx" creationdate="20150102T042646Z">
         <seg>&lt;f0&gt;TestVariant&lt;/f0&gt; 类增加了以下属性：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The @+id/ syntax refers to an existing id, or creates a new one if it has not already been defined elsewhere.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T150334Z" creationid="Administrator" creationdate="20150324T150334Z">
+        <seg>@+id/ 语法指向一个现有的 id，如果它还没有在其它地方定义则会创建一个新id。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12222,6 +12534,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The manifest should contain a &lt;uses-sdk&gt; element which defines the minimum API Level required for the application to run, as well as the target version (the highest API level you have tested the version for.)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T134610Z" creationid="Administrator" creationdate="20150324T134610Z">
+        <seg>清单文件应包含一个定义了程序运行的最低API级别的&lt;uses-sdk&gt; 元素，以及一个目标版本（表示你已经测试过的最高的API级别）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The marker will allow users to select which libraries can be imported ignoring the minimum SDK version.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150107T160501Z" creationid="msdx" creationdate="20150107T160022Z">
@@ -12418,6 +12738,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141205T070010Z" creationid="msdx" creationdate="20141204T143228Z">
         <seg>项目本身需要定义它自己的仓库和依赖关系。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The properties compileSdkVersion, minSdkVersion and targetSdkVersion are usually numbers, but can be strings when you are using an add-on (in the case of compileSdkVersion) or a preview platform (for the other two properties).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T150119Z" creationid="Administrator" creationdate="20150324T145806Z">
+        <seg>compileSdkVersion、 minSdkVersion 和 targetSdkVersion 属性通常都是数字，但当您使用一个add-on （如 compileSdkVersion） 或预览平台 （对于其他两个属性）时，它们的值也可以是字符串。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12758,6 +13086,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There are some combinations of libraries, or tools and libraries, that are incompatible, or can lead to bugs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T133120Z" creationid="Administrator" creationdate="20150324T133120Z">
+        <seg>有一些组合的库或工具和库是不兼容的，可能会导致一些 bug。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There can be be many attribute related markers on any particular element to resolve all attributes in conflict.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150106T162701Z" creationid="msdx" creationdate="20150106T162413Z">
@@ -12786,6 +13122,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141215T151220Z" creationid="msdx" creationdate="20141215T151220Z">
         <seg>所以已经没有必要再去创建一个单独的测试项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There should be no cycles in resource definitions as this can lead to runtime exceptions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T144703Z" creationid="Administrator" creationdate="20150324T144703Z">
+        <seg>在资源定义中不应该有循环，因为这会导致运行时异常。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13122,6 +13466,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141215T143728Z" creationid="msdx" creationdate="20141215T143728Z">
         <seg>这个文件将会在发布到一个maven仓库中，或者另一个项目创建对这个项目依赖时用到。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This check catches errors where you have renamed an id without updating all of the references to it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T150758Z" creationid="Administrator" creationdate="20150324T150758Z">
+        <seg>当你重命名了一个id而所有对它的引用没有跟着更新，这种错误会被这个检查捕获到。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This check helps uncover typos in registration names, or attempts to rename or move classes without updating the manifest file properly.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T133859Z" creationid="Administrator" creationdate="20150324T133859Z">
+        <seg>这种检查有助于发现注册名称的拼写错误，以及重命名或移动类之后清单文件没有正确更新的问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This check looks for potential misspellings to help track these down.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T141916Z" creationid="Administrator" creationdate="20150324T141916Z">
+        <seg>这个检查将会查找出潜在的拼写错误，以便帮助排查这些问题。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13510,6 +13878,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This makes it easier to ensure that you don't accidentally combine resources from different libraries, since they all end up in the same shared app namespace.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T145200Z" creationid="Administrator" creationdate="20150324T145200Z">
+        <seg>这样一来就容易确保在整合不同的库的资源时，不会因为它们最终都在同一个共享的应用程序命名空间中而出现意外。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This means it’s not possible to manually create new tasks of these types.&lt;br0&gt; &lt;br1&gt;This API is subject to change.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150102T051714Z" creationid="msdx" creationdate="20150102T051555Z">
@@ -13854,6 +14230,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To fix this, create a new manifest file in the debug folder and move the</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T134359Z" creationid="Administrator" creationdate="20150324T134359Z">
+        <seg>若要解决此问题，在 debug 文件夹中创建一个新的清单文件并移动</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To fix this, create a new manifest file in the debug folder and move the &lt;uses-permission&gt; element there.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T134849Z" creationid="Administrator" creationdate="20150324T134849Z">
+        <seg>要解决此问题，需要在 debug 文件夹中创建一个新的清单文件，并把 &lt;uses-permission&gt; 元素移到此清单文件中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To generate an HTML report, just add &lt;c0&gt;--html &lt;i1&gt;filename&lt;/i1&gt;&lt;/c0&gt; as an argument:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T074438Z" creationid="msdx" creationdate="20141127T074345Z">
@@ -13954,6 +14346,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T143358Z" creationid="msdx" creationdate="20150115T143358Z">
         <seg>若要使用它，请使用 &lt;/f7&gt;&lt;f8&gt;.all&lt;/f8&gt;&lt;f9&gt; 而不是 &lt;/f9&gt;&lt;f10&gt;.each&lt;/f10&gt;&lt;/s6&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To work around this, declare the id explicitly with &lt;item type="id" name="..." /&gt; instead.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T132845Z" creationid="Administrator" creationdate="20150324T132845Z">
+        <seg>若要解决此问题，需要通过 &lt;item type="id" name="..."/&gt; 显式声明此 id。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14134,6 +14534,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Using -keepclasseswithmembernames in a proguard config file is not correct; it can cause some symbols to be renamed which should not be.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T142236Z" creationid="Administrator" creationdate="20150324T142236Z">
+        <seg>在混淆配置文件中使用-keepclasseswithmembernames 是不正确的 ；它可能导致一些不应该被重命名的符号被重命名了。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Using &lt;i0&gt;getDefaultProguardFile()&lt;/i0&gt; will return the full path to the files.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141213T074004Z" creationid="msdx" creationdate="20141213T073518Z">
@@ -14146,6 +14554,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T133216Z" creationid="Administrator" creationdate="20150126T133216Z">
         <seg>使用 Gradle 1.11 需要 Android Studio 0.5.0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using a mock location provider (by requiring the permission android.permission.ACCESS_MOCK_LOCATION) should only be done in debug builds.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T134112Z" creationid="Administrator" creationdate="20150324T134112Z">
+        <seg>应该只在调试的构建中使用模拟位置提供程序 （需要 android.permission.ACCESS_MOCK_LOCATION 权限）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14474,6 +14890,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T142839Z" creationid="msdx" creationdate="20150111T142839Z">
         <seg>当你完成后时，您可以将 build.gradle 文件导入到 Android Studio中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When you generate a resource alias, the resource you are pointing to must be of the same type as the alias</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T144307Z" creationid="Administrator" creationdate="20150324T144307Z">
+        <seg>当您生成一个资源别名时，你指向的资源必须是类型相同的别名</seg>
       </tuv>
     </tu>
     <tu>
@@ -16914,6 +17338,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T141828Z" creationid="msdx" creationdate="20150114T141828Z">
         <seg>http://groups.google.com/group/adt-dev</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://http://code.google.com/p/android/issues/detail?id=16384</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T143448Z" creationid="Administrator" creationdate="20150324T143448Z">
+        <seg>http://code.google.com/p/android/issues/detail?id=16384</seg>
       </tuv>
     </tu>
     <tu>
