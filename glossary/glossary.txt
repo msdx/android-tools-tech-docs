@@ -34,3 +34,5 @@ rev	版本
 sort of	可以说	adv.
 see above	见前
 semicolon	分号
+treat	处理	对待，处理
+in the form of	用...的形式

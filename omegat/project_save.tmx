@@ -3950,6 +3950,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A scrolling widget such as a ScrollView should not contain any nested scrolling widgets since this has various usability issues</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T131614Z" creationid="Administrator" creationdate="20150325T131614Z">
+        <seg>一个滚动的小部件，如ScrollView，不应该包含任何嵌套的滚动部件，因为这样会有各种可用性的问题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A single project can have different flavors which change the generated application.&lt;br0&gt;&lt;br1&gt;This new concept is designed to help when the differences are very minimum.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141218T142620Z" creationid="msdx" creationdate="20141218T142620Z">
@@ -4330,6 +4338,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T151524Z" creationid="msdx" creationdate="20150101T151524Z">
         <seg>高级构建定制</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>After creating a FragmentTransaction, you typically need to commit it as well</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T063743Z" creationid="Administrator" creationdate="20150325T063743Z">
+        <seg>在创建 FragmentTransaction 之后, 你通常还需要将它提交</seg>
       </tuv>
     </tu>
     <tu>
@@ -8014,6 +8030,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you did not intend the override, consider making the method private, or changing its name or signature.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T081957Z" creationid="Administrator" creationdate="20150325T065703Z">
+        <seg>如果你不想重写，请考虑把方法改为private，或者改方法名或参数表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you have instrumentation tests (or other types of tests) in your project, note that we changed the name and folder from instrumentation tests to android tests to reflect the fact that this facility is not just for instrumentation tests but for plain JUnit tests (running on a device) and eventually also UI automator tests.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T013816Z" creationid="msdx" creationdate="20150114T012644Z">
@@ -8050,6 +8074,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T082252Z" creationid="msdx" creationdate="20150111T082252Z">
         <seg>如果你需要让注入的值作为扩充的属性值，可以使用 ${applicationId} 占位符，例如：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you really did intend for this method to override the other, make the method protected instead.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T064816Z" creationid="Administrator" creationdate="20150325T064816Z">
+        <seg>如果你真的想让这个方法重写为别的方法，就要把这个方法改为protected。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you register a broadcast receiver which acts as a device admin, you must also register an &lt;intent-filter&gt; for the action android.app.action.DEVICE_ADMIN_ENABLED, without any &lt;data&gt;, such that the device admin can be activated/deactivated.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T082232Z" creationid="Administrator" creationdate="20150325T082232Z">
+        <seg>如果您注册了一个广播的接收器作为设备管理，您还必须注册一个&lt;intent-filter&gt;，它的action为 android.app.actionDEVICE_ADMIN_ENABLED，&lt;data&gt;元素为空，这样就可以激活或停用设备管理员。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9878,6 +9918,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note however that there may be cases where you really want to declare a different number of array items in each configuration (for example where the array represents available options, and those options differ for different layout orientations and so on), so use your own judgement to decide if this is really an error.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T131304Z" creationid="Administrator" creationdate="20150325T131304Z">
+        <seg>注意，不管怎样，可能在某些情况下你真的希望在各自的配置中声明不同数量元素的数组（例如用数组表示可用的选项，而这些选项对于不同的布局方向会有不同，等等），所以，你要自己判断决定它是否真的错了。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note that IntelliJ projects for Android generally follow the same structure as Eclipse ADT projects, so the instructions in the &lt;a0&gt;Eclipse migration guide&lt;/a0&gt; might be helpful.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T024058Z" creationid="msdx" creationdate="20150113T024058Z">
@@ -10462,6 +10510,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Priority: 7 / 10</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T064302Z" creationid="Administrator" creationdate="20150325T064302Z">
+        <seg>优先级：7 / 10</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Priority: 8 / 10</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T132907Z" creationid="Administrator" creationdate="20150324T132907Z">
@@ -11018,6 +11074,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150128T142605Z" creationid="Administrator" creationdate="20150128T142605Z">
         <seg>资源前缀支持。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Resource files are sometimes placed in the wrong folder, and it can lead to subtle bugs that are hard to understand.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T063504Z" creationid="Administrator" creationdate="20150325T063504Z">
+        <seg>资源文件有时候会被放错文件夹，从而导致很难理解的细微错误。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11710,6 +11774,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Summary: Duplicate ids within a single layout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T082340Z" creationid="Administrator" creationdate="20150325T082340Z">
+        <seg>摘要： 在同一个布局中 id 重复</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Summary: Ensures that onClick attribute values refer to real methods</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141128T124918Z" creationid="msdx" creationdate="20141128T124918Z">
@@ -11742,10 +11814,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Summary: Inconsistencies in array element counts</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T082628Z" creationid="Administrator" creationdate="20150325T082628Z">
+        <seg>摘要： 数组元素总数不一致</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Summary: Incorrect reference types</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T144210Z" creationid="Administrator" creationdate="20150324T144210Z">
         <seg>摘要： 不正确的引用类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Summary: Malformed Device Admin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T082108Z" creationid="Administrator" creationdate="20150325T082108Z">
+        <seg>摘要: 格式不正确的设备管理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Summary: Method considered overridden by Dalvik</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T065448Z" creationid="Administrator" creationdate="20150325T064251Z">
+        <seg>摘要： 方法将会被 Dalvik 当成为重写</seg>
       </tuv>
     </tu>
     <tu>
@@ -11774,6 +11870,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Summary: Missing commit() calls</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T063723Z" creationid="Administrator" creationdate="20150325T063723Z">
+        <seg>内容摘要： 缺少 commit() 调用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Summary: Missing registered class</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T133624Z" creationid="Administrator" creationdate="20150324T133624Z">
@@ -11794,6 +11898,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T133431Z" creationid="Administrator" creationdate="20150324T133431Z">
         <seg>摘要： 名称和版本必须是整型或字符串，而不能是资源</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Summary: Nested scrolling widgets</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T131503Z" creationid="Administrator" creationdate="20150325T131503Z">
+        <seg>摘要： 嵌套滚动小部件（widget）</seg>
       </tuv>
     </tu>
     <tu>
@@ -11834,6 +11946,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T145324Z" creationid="Administrator" creationdate="20150324T145324Z">
         <seg>摘要： ScrollViews 只能有一个子项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Summary: Should pass resolved color instead of resource id</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T131651Z" creationid="Administrator" creationdate="20150325T131651Z">
+        <seg>摘要： 应该传入解析后的颜色而不是资源id</seg>
       </tuv>
     </tu>
     <tu>
@@ -12194,6 +12314,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141208T070645Z" creationid="msdx" creationdate="20141208T065438Z">
         <seg>Android 的插件使用相同的约定配置以兼容其他插件，并添加了另外的锚记任务：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Android virtual machine will treat a package private method in one class as overriding a package private method in its super class, even if they are in separate packages.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T065613Z" creationid="Administrator" creationdate="20150325T064609Z">
+        <seg>Android 的虚拟机会把一个包中类的私有方法处理为重写它父类里的私有方法，即使它们是在不同的包。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13494,6 +13622,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This check looks for problems in this area, such as attempting to place a layout "alias" file in a layout/ folder rather than the values/ folder where it belongs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T063649Z" creationid="Administrator" creationdate="20150325T063649Z">
+        <seg>这个检查可以查找这一方面的问题，比如试图把一个布局"别名"放到layout/ 文件夹中，而不是把它放在它所属的 values/ 文件夹中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This comment marker can be used to indicate that the code should not be shipped until the issue is addressed, and lint will look for these.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150323T154930Z" creationid="Administrator" creationdate="20150323T154930Z">
@@ -13886,6 +14022,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This may be surprising, but for compatibility reasons the behavior has not been changed (yet).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T064655Z" creationid="Administrator" creationdate="20150325T064655Z">
+        <seg>这听起来让人惊讶，但出于兼容性的原因，这种行为（还）没有改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This means it’s not possible to manually create new tasks of these types.&lt;br0&gt; &lt;br1&gt;This API is subject to change.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150102T051714Z" creationid="msdx" creationdate="20150102T051555Z">
@@ -14186,6 +14330,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141215T144206Z" creationid="msdx" creationdate="20141215T144206Z">
         <seg>若要创建对一个项目的另一个已发布的文件的依赖，您需要指定使用哪一个：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To do this, add</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T082256Z" creationid="Administrator" creationdate="20150325T082256Z">
+        <seg>要使用设备管理，添加</seg>
       </tuv>
     </tu>
     <tu>
@@ -14822,6 +14974,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When adding or removing elements to an array, it is easy to forget to update all the locales, and this lint warning finds inconsistencies like these.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T082911Z" creationid="Administrator" creationdate="20150325T082911Z">
+        <seg>当你添加或移除一个数组里的元素时，很容易忘记更新所有语言的内容，而这个lint 警告会找到这种不一致的问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When an array is translated in a different locale, it should normally have the same number of elements as the original array.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T082659Z" creationid="Administrator" creationdate="20150325T082659Z">
+        <seg>当一个数组翻译成不同地区的语言时，它通常应该有相同数量的元素作为原始数组。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When an attribute value contains a placeholder (see format below), the manifest merger will swap this placeholder value with an injected value.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150105T152743Z" creationid="msdx" creationdate="20150105T150220Z">
@@ -14954,6 +15122,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141202T133309Z" creationid="msdx" creationdate="20141202T133150Z">
         <seg>使用新的 Android Gradle 构建系统，你可以轻松构建多个不同&lt;b0&gt;版本&lt;/b0&gt;的应用程序；例如，您可以构建一个“free”版本和“pro”版本的应用程序 （通过使用flavors），并且这些不同版本的程序在 Google Play 商店上应该有不同的包，这样他们可以被单独安装和购买，或者是同时安装两个，等等。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Within a layout, id's should be unique since otherwise findViewById() can return an unexpected view.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T082603Z" creationid="Administrator" creationdate="20150325T082603Z">
+        <seg>在一个布局内， id 应该是唯一的，否则 findViewById() 可能会返回一个不正确的view。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15122,6 +15298,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141202T140114Z" creationid="msdx" creationdate="20141202T140114Z">
         <seg>你可以在你 gradle 文件中，指定application id，如下所示：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can suppress this error type if it finds false errors in your project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T131357Z" creationid="Administrator" creationdate="20150325T131357Z">
+        <seg>如果它在你的项目中发现了假错，你可以抵制这一个错误类型。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20810,6 +20994,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141208T065651Z" creationid="msdx" creationdate="20141208T065616Z">
         <seg>它们将在所有已连接的设备上并行运行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>to your &lt;receiver&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T082306Z" creationid="Administrator" creationdate="20150325T082306Z">
+        <seg>到你的 &lt;receiver&gt;中。</seg>
       </tuv>
     </tu>
     <tu>
