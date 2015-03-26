@@ -134,10 +134,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(Note: This lint check does not flag assertions purely asserting nullness or non-nullness; these are typically more intended for tools usage than runtime checks.)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T133902Z" creationid="Administrator" creationdate="20150326T133902Z">
+        <seg>（注： 此lint 检查不会把断言单纯地标记为空或非空的断言；相比于运行时检查，它们通常更多地用于工具的使用。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(OK this is the real RC1)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150212T131327Z" creationid="Administrator" creationdate="20150212T131327Z">
         <seg>（好吧，这是真正的 RC1版本）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(Similarly, layout parameter classes should use the suffix _Layout.)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T135018Z" creationid="Administrator" creationdate="20150326T135018Z">
+        <seg>（同样，布局参数类应使用 _Layout 后缀。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4342,6 +4358,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>After calling edit() on a SharedPreference, you must call commit() or apply() on the editor to save the results.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T134439Z" creationid="Administrator" creationdate="20150326T134439Z">
+        <seg>在 SharedPreference 上调用 edit() 后，您必须对editor 对象调用 commit () 或 apply() 方法以保存结果。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>After creating a FragmentTransaction, you typically need to commit it as well</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T063743Z" creationid="Administrator" creationdate="20150325T063743Z">
@@ -4790,6 +4814,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>As long as the code accessing the layout resource is careful to handle this properly, it is valid.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T145238Z" creationid="Administrator" creationdate="20150326T145238Z">
+        <seg>只要在代码访问布局资源时能小心正确地进行处理，也是可以的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>As mentioned previously, checks requiring a connected device are launched with the anchor task called &lt;b0&gt;&lt;f1&gt;connectedCheck&lt;/f1&gt;&lt;/b0&gt;&lt;s2&gt;.&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141217T135703Z" creationid="msdx" creationdate="20141217T132618Z">
@@ -4858,6 +4890,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T012739Z" creationid="msdx" creationdate="20141126T012530Z">
         <seg>以及允许分发库项目的二进制版本（将在 r15出现），&lt;b0&gt;这使得构建更快&lt;/b0&gt;。&lt;br1&gt;&lt;br2&gt;然而，它对库的源码也有一个影响。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Assertions are not checked at runtime.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T140018Z" creationid="Administrator" creationdate="20150325T140018Z">
+        <seg>断言不会在运行时检查。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5358,6 +5398,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Calling String#toLowerCase() or #toUpperCase() without specifying an explicit locale is a common source of bugs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T140310Z" creationid="Administrator" creationdate="20150326T140057Z">
+        <seg>调用 String#toLowerCase() 或 #toUpperCase() 却没有指定一个明确的区域，是许多bug 的常见根源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Calling android.getBootClasspath() is now possible again.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150304T133310Z" creationid="Administrator" creationdate="20150304T133310Z">
@@ -5498,6 +5546,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141204T152221Z" creationid="msdx" creationdate="20141204T152221Z">
         <seg>配置项目结构</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Consider using compute as a prefix instead of get.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T144626Z" creationid="Administrator" creationdate="20150326T144626Z">
+        <seg>请考虑使用compute 作为这样的方法名前缀，而不是用get。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7182,6 +7238,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, in the Turkish locale, the uppercase replacement for i is not I.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T140450Z" creationid="Administrator" creationdate="20150326T140450Z">
+        <seg>例如，在土耳其的语言环境，i 转换为大写不是 I。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, it may note files that were not migrated, it may note missing components in your SDK install, and so on.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T142526Z" creationid="msdx" creationdate="20150111T142526Z">
@@ -7210,6 +7274,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T063818Z" creationid="msdx" creationdate="20141125T041648Z">
         <seg>例如，这可以让您设置仅设计时的替换文字，用于工具中而不是运行时。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, you can replace assert speed &gt; 0 with if (BuildConfig.DEBUG &amp;&amp; !(speed &gt; 0)) { throw new AssertionError() }.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T133014Z" creationid="Administrator" creationdate="20150326T133014Z">
+        <seg>例如，你可以把 assert speed &gt; 0 替换为 if (BuildConfig.DEBUG &amp;&amp; !(speed &gt; 0)) { throw new AssertionError() }.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, you may have a dedicated large tablet layout which adds some extra widgets that are not present in the phone version of the layout.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T145143Z" creationid="Administrator" creationdate="20150326T145143Z">
+        <seg>例如，您可能有一个专用大型平板电脑布局，在里面添加了一些额外的小部件，而在手机版本的布局中不存在。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7694,6 +7774,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle will let you replace specific constants in your build scripts with method calls, so you can for example dynamically compute a version string based on your current version control revision number, rather than hardcoding a number.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T143744Z" creationid="Administrator" creationdate="20150326T143744Z">
+        <seg>Gradle 会让你把你构建脚本中的指定常量替换为方法调用，所以，你可以基于你当前的版本控制修订号来计算一个版本字符串，而不是写死版本号。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle will reference them with the following name:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141214T122236Z" creationid="msdx" creationdate="20141214T122236Z">
@@ -7830,6 +7918,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, defining the same resource more than once in the same resource folder is likely an error, for example attempting to add a new resource without realizing that the name is already used, and so on.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T141056Z" creationid="Administrator" creationdate="20150326T141056Z">
+        <seg>然而，在同一个资源文件夹中不止一定地定义相同的资源很明显是错的，例如试图添加一个新的资源，但却没有意识到这个名称已经被用了，等等。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>However, for each assembly run, there can only be one flavor from each group, in the order the flavor group were declared in the original build.gradle leading to an ordered list of higher priority to lower priority potential manifest files to merge.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150105T152425Z" creationid="msdx" creationdate="20150104T134149Z">
@@ -7842,6 +7938,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150105T152419Z" creationid="msdx" creationdate="20150104T133141Z">
         <seg>然而，对于每一个组装的步骤，每一个flavor group和构建类型的值都只能选择一个，导致出现了潜伏的覆盖主清单文件的清单文件的排序列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However, if layouts are combined with include tags, then the id's need to be unique within any chain of included layouts, or Activity#findViewById() can return an unexpected view.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T141707Z" creationid="Administrator" creationdate="20150326T141355Z">
+        <seg>然而，如果布局通过include 标签联合起来，那么这个id 就必须是唯 一的，包含被包含进来的布局在内，否则 Activity#findViewById() 就可能会返回一个不是你所想要的view。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7890,6 +7994,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T150556Z" creationid="Administrator" creationdate="20150324T150556Z">
         <seg>然而，这意味着如果你在引用时输错了，或者如果被引用的视图已不存在了，将不会对你警告，因为它将按你的要求创建该id。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However, using a TextView along with input attributes is usually a cut &amp; paste error.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T133622Z" creationid="Administrator" creationdate="20150325T133622Z">
+        <seg>然而，把 TextView 连同输入属性一起使用，通常是一种剪切 &amp; 粘贴的错误。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However, when you put that method call inside the defaultConfig block, you will actually be calling the Groovy getter for the versionName property instead.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T144502Z" creationid="Administrator" creationdate="20150326T144502Z">
+        <seg>然而，当你把该方法调用放在 defaultConfig 块内部时，实际上你将要调用的是 Groovy 的 versionName 属性的getter 方法。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8086,6 +8206,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you really want to use the current locale, call String#toUpperCase(Locale.getDefault()) instead.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T140621Z" creationid="Administrator" creationdate="20150326T140621Z">
+        <seg>如果你真的想要使用当前的区域设置，则是调用 String#toUpperCase(Locale.getDefault())。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you register a broadcast receiver which acts as a device admin, you must also register an &lt;intent-filter&gt; for the action android.app.action.DEVICE_ADMIN_ENABLED, without any &lt;data&gt;, such that the device admin can be activated/deactivated.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T082232Z" creationid="Administrator" creationdate="20150325T082232Z">
@@ -8130,6 +8258,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T145444Z" creationid="Administrator" creationdate="20150324T145444Z">
         <seg>如果你想要有更多的子项，可以把它们封装在一个容器布局（layout）中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you want the methods to just perform ASCII replacement, for example to convert an enum name, call String#toUpperCase(Locale.US) instead.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T140625Z" creationid="Administrator" creationdate="20150326T140607Z">
+        <seg>如果你想要这些方法仅执行 ASCII 码的替换，例如要转换一个枚举名称，请调用 String#toUpperCase(Locale.US) 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8438,6 +8574,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In that case, you can suppress this lint check for the given extra or missing views, or the whole layout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T145333Z" creationid="Administrator" creationdate="20150326T145333Z">
+        <seg>在这种情况下，您可以对指定的多余或漏掉的view，或者整个布局（layout）取消此 lint 检查</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In the above example, the generated R class will be &lt;c0&gt;com.example.my.app.R&lt;/c0&gt;, so if you have code in other packages that need to reference resources, it needs to import &lt;s1&gt;com.example.my.app.R&lt;/s1&gt;&lt;s2&gt;.&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141202T142012Z" creationid="msdx" creationdate="20141202T132839Z">
@@ -8594,6 +8738,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T144204Z" creationid="Administrator" creationdate="20150324T143024Z">
         <seg>使用-keepclasseswithmembers 来替代-keepclasseswithmembernames，因为旧的标记也意味着“允许压缩”，这意味着仅从XML并且没有在Java 中（比如可能是自定义控件）引用的符号将会被删除。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Instead, perform conditional checking inside if (BuildConfig.DEBUG) { } blocks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T152547Z" creationid="Administrator" creationdate="20150325T141632Z">
+        <seg>相反，在 if (BuildConfig.DEBUG) {} 代码块里的检查则会被执行。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8778,6 +8930,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150127T154010Z" creationid="Administrator" creationdate="20150127T154010Z">
         <seg>现在在打包发生文件冲突时，可以包含一个文件（以前只能把冲突的文件排除出去）：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It's okay for two independent layouts to use the same ids.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T141337Z" creationid="Administrator" creationdate="20150326T141337Z">
+        <seg>对于两个独立的布局，允许使用相同的id。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It's possible that your code is simply (redundantly) looking up the field repeatedly, but lint cannot distinguish that from a case where you for example want to initialize fields prev and next and you cut &amp; pasted findViewById(R.id.prev) and forgot to update the second initialization to R.id.next.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T135826Z" creationid="Administrator" creationdate="20150326T135826Z">
+        <seg>很可能您的代码只是（冗余地）查找字段多次，但是 lint 并不能把它从下面这样一个例子中区分出来。比如你想要初始化上一页和下一页这两个字段，你对 findViewById(R.id.prev) 进行了剪切粘贴（译者注：其实这里是不是在说复制粘贴？不过原文为cut &amp; pasted），但是却忘了把第二个初始化改为R.id.next。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9362,6 +9530,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150110T163254Z" creationid="msdx" creationdate="20150110T163254Z">
         <seg>消息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Methods that take a color in the form of an integer should be passed an RGB triple, not the actual color resource id.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T132553Z" creationid="Administrator" creationdate="20150325T132553Z">
+        <seg>如果一个方法需要一个整数形式的颜色值，那么应该传入一个RGB量，而不是实际上的颜色的资源id。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10510,6 +10686,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Priority: 6 / 10</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T134536Z" creationid="Administrator" creationdate="20150325T135910Z">
+        <seg>优先级：6 / 10</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Priority: 7 / 10</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T064302Z" creationid="Administrator" creationdate="20150325T064302Z">
@@ -11222,6 +11406,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>ScrollView children must set their layout_width or layout_height attributes to wrap_content rather than fill_parent or match_parent in the scrolling dimension</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T133018Z" creationid="Administrator" creationdate="20150325T133018Z">
+        <seg>在滚动维度中，ScrollView 的子项必须将它们的 layout_width 或 layout_height 属性设置为 wrap_content，而不是fill_parent 或 match_parent</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>ScrollViews can only have one child widget.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T145359Z" creationid="Administrator" creationdate="20150324T145359Z">
@@ -11750,6 +11942,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Summary: Assertions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T135955Z" creationid="Administrator" creationdate="20150325T135955Z">
+        <seg>摘要： 断言</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Summary: Checks that AdapterViews do not define their children in XML</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141128T124647Z" creationid="msdx" creationdate="20141128T124647Z">
@@ -11774,6 +11974,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Summary: Deprecated Gradle Construct</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T141807Z" creationid="Administrator" creationdate="20150326T141807Z">
+        <seg>摘要： 过时的 Gradle 构造方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Summary: Duplicate definitions of resources</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T140649Z" creationid="Administrator" creationdate="20150326T140649Z">
+        <seg>摘要： 重复的资源定义</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Summary: Duplicate ids across layouts combined with include tags</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T141412Z" creationid="Administrator" creationdate="20150326T141317Z">
+        <seg>摘要： 通过 include 标签联合起来的布局中有重复的id</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Summary: Duplicate ids within a single layout</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T082340Z" creationid="Administrator" creationdate="20150325T082340Z">
@@ -11790,10 +12014,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Summary: Gradle Implicit Getter Call</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T141929Z" creationid="Administrator" creationdate="20150326T141929Z">
+        <seg>摘要： Gradle Getter 的隐式调用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Summary: Hardcoded Package in Namespace</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150323T155313Z" creationid="Administrator" creationdate="20150323T155313Z">
         <seg>摘要：在命名空间中有硬编码的包名</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Summary: Implied default locale in case conversion</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T140202Z" creationid="Administrator" creationdate="20150326T140026Z">
+        <seg>摘要： 在大小写转换时暗含了默认的区域设置</seg>
       </tuv>
     </tu>
     <tu>
@@ -11822,10 +12062,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Summary: Inconsistent Layouts</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T144702Z" creationid="Administrator" creationdate="20150326T144702Z">
+        <seg>摘要： 不一致的布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Summary: Incorrect reference types</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T144210Z" creationid="Administrator" creationdate="20150324T144210Z">
         <seg>摘要： 不正确的引用类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Summary: Likely cut &amp; paste mistakes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T135041Z" creationid="Administrator" creationdate="20150326T135041Z">
+        <seg>摘要： 可能是剪切粘贴的错误</seg>
       </tuv>
     </tu>
     <tu>
@@ -11854,6 +12110,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Summary: Mismatched Styleable/Custom View Name</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T134503Z" creationid="Administrator" creationdate="20150326T134503Z">
+        <seg>摘要： 不匹配的 Styleable 或自定义 View 名称</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Summary: Mismatched view type</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T132136Z" creationid="Administrator" creationdate="20150324T132136Z">
@@ -11872,8 +12136,16 @@
       <tuv lang="EN-US">
         <seg>Summary: Missing commit() calls</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T063723Z" creationid="Administrator" creationdate="20150325T063723Z">
-        <seg>内容摘要： 缺少 commit() 调用</seg>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T134044Z" creationid="Administrator" creationdate="20150325T063723Z">
+        <seg>摘要： 缺少 commit() 方法的调用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Summary: Missing commit() on SharedPreference editor</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T134027Z" creationid="Administrator" creationdate="20150326T133942Z">
+        <seg>摘要： 缺少 对 SharedPreference editor 的 commit() 方法的调用</seg>
       </tuv>
     </tu>
     <tu>
@@ -11942,6 +12214,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Summary: ScrollView size validation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T132715Z" creationid="Administrator" creationdate="20150325T132715Z">
+        <seg>摘要： ScrollView 的大小验证</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Summary: ScrollViews can have only one child</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T145324Z" creationid="Administrator" creationdate="20150324T145324Z">
@@ -11960,8 +12240,32 @@
       <tuv lang="EN-US">
         <seg>Summary: String should be int</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T145528Z" creationid="Administrator" creationdate="20150324T145528Z">
-        <seg>内容摘要： 字符串的内容应该是整型的值</seg>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T134037Z" creationid="Administrator" creationdate="20150324T145528Z">
+        <seg>摘要： 字符串的内容应该是整型的值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Summary: TextView should probably be an EditText instead</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T133106Z" creationid="Administrator" creationdate="20150325T133106Z">
+        <seg>摘要： TextView 可能应该换成 EditText </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Summary: Using Wrong AppCompat Method</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T135517Z" creationid="Administrator" creationdate="20150325T135517Z">
+        <seg>摘要： 使用错误的 AppCompat 方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Summary: Using inlined constants on older versions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T145414Z" creationid="Administrator" creationdate="20150326T145414Z">
+        <seg>摘要： 使用较早版本的内联常量</seg>
       </tuv>
     </tu>
     <tu>
@@ -11982,10 +12286,18 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Summary: WebViews in wrap_content parents</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T135310Z" creationid="Administrator" creationdate="20150325T135310Z">
+        <seg>摘要： WebViews 的父控件为 wrap_content</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Summary: onClick method does not exist</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150323T153414Z" creationid="Administrator" creationdate="20150323T153414Z">
-        <seg>内容摘要： onClick 方法不存在</seg>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T134031Z" creationid="Administrator" creationdate="20150323T153414Z">
+        <seg>摘要： onClick 方法不存在</seg>
       </tuv>
     </tu>
     <tu>
@@ -12206,6 +12518,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>That constant is a static final boolean which is true in debug builds and false in release builds, and the Java compiler completely removes all code inside the if-body from the app.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T132922Z" creationid="Administrator" creationdate="20150326T132922Z">
+        <seg>这个常量是一个static final boolean值，它在debug构建时为true， 而在release构建时为false，这时Java 编译器就会从这个应用程序里移除这个if 块里的所有代码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>That's because the &lt;c0&gt;switch&lt;/c0&gt; statement requires all the case labels, such as &lt;c1&gt;R.id.button1&lt;/c1&gt;, to be constant at compile time (such that the values can be directly &lt;i2&gt;copied&lt;/i2&gt; into the .class files).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T012937Z" creationid="msdx" creationdate="20141126T012937Z">
@@ -12374,6 +12694,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The IDE relies on this convention such that for example code completion can be offered for attributes in a custom view in layout XML resource files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T134922Z" creationid="Administrator" creationdate="20150326T134922Z">
+        <seg>IDE 遵循此约定，这样的话，例如在布局XML资源文件里，就可以为一个自定义view的属性提供代码完成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Java plugin creates mainly two tasks, that are dependencies of the main anchor tasks:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141208T070639Z" creationid="msdx" creationdate="20141208T064102Z">
@@ -12426,6 +12754,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150102T041813Z" creationid="msdx" creationdate="20150102T041813Z">
         <seg>将会测试该variant的TestVariant</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The WebView implementation has certain performance optimizations which will not work correctly if the parent view is using wrap_content rather than match_parent.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T135449Z" creationid="Administrator" creationdate="20150325T135449Z">
+        <seg>WebView 的实现有某些性能优化，如果它的父视图使用了wrap_content 而不是 match_parent 的话，这些性能优化可能无法正常表现。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12530,6 +12866,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141214T123003Z" creationid="msdx" creationdate="20141214T123003Z">
         <seg>settings.gradle的内容很简单：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The convention for custom views is to use a declare-styleable whose name matches the custom view class name.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T134652Z" creationid="Administrator" creationdate="20150326T134652Z">
+        <seg>对自定义View的一个约定是，使用一个名字与这个自定义View的类名相匹配的declare-styleable。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12878,6 +13222,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The reason for that is that those methods will use the current locale on the user's device, and even though the code appears to work correctly when you are developing the app, it will fail in some locales.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T140414Z" creationid="Administrator" creationdate="20150326T140414Z">
+        <seg>理由是这些方法将会使用用户的设备上的当前区域设置，即使代码在你开发程序时看起来似乎很正常，但是它会在某些区域中失败。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The reason for this is simple: When multiple library projects are combined, the actual values of the fields (which must be unique) could collide.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T012359Z" creationid="msdx" creationdate="20141126T012004Z">
@@ -13206,6 +13558,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There are cases where this is intentional.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T145054Z" creationid="Administrator" creationdate="20150326T145054Z">
+        <seg>也有一些故意让它们不一致的情况。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There are some additional other properties that were renamed as well, in both build types and product flavors.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T011843Z" creationid="msdx" creationdate="20150114T011843Z">
@@ -13218,6 +13578,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T133120Z" creationid="Administrator" creationdate="20150324T133120Z">
         <seg>有一些组合的库或工具和库是不兼容的，可能会导致一些 bug。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are ways to request that they be used by Dalvik (adb shell setprop debug.assert 1), but the property is ignored in many places and can not be relied upon.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T140949Z" creationid="Administrator" creationdate="20150325T140937Z">
+        <seg>有一些方法可以用来让 Dalvik 使用断言（adb shell setprop debug.assert 1），但该属性在很多地方都会被忽略并且是不可靠的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13274,6 +13642,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141202T133708Z" creationid="msdx" creationdate="20141202T133708Z">
         <seg>因此，我们&lt;b0&gt;解耦&lt;/b0&gt;了包名称的两种用法：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Therefore, you need to name your method something which does not conflict with the existing implicit getters.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T144600Z" creationid="Administrator" creationdate="20150326T144600Z">
+        <seg>因此，你需要把你的方法命名为与现有的隐式 getter 方法不冲突的名字。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13590,6 +13966,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This can lead to subtle UI bugs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T135502Z" creationid="Administrator" creationdate="20150325T135502Z">
+        <seg>这可能导致 UI 上的 bug。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This can then be used either when publishing to a maven repository, or when another project creates a dependency on the library project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141215T143728Z" creationid="msdx" creationdate="20141215T143728Z">
@@ -13598,10 +13982,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This check also checks subclasses of TextView, such as Button and CheckBox, since these have the same issue: they should not be used with editable attributes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T135225Z" creationid="Administrator" creationdate="20150325T135225Z">
+        <seg>这个检查还会检查 TextView 的子类，如Button 和 CheckBox，因为它们有同样的问题： 他们不应该使用可编辑的属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This check catches errors where you have renamed an id without updating all of the references to it.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T150758Z" creationid="Administrator" creationdate="20150324T150758Z">
         <seg>当你重命名了一个id而所有对它的引用没有跟着更新，这种错误会被这个检查捕获到。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This check ensures that a layout resource which is defined in multiple resource folders, specifies the same set of widgets.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T144907Z" creationid="Administrator" creationdate="20150326T144809Z">
+        <seg>此检查可确保在多个资源文件夹里定义的一个布局资源，指定了相同的部件（widget）集。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13678,6 +14078,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This detector looks for deprecated Gradle constructs which currently work but will likely stop working in a future update.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T141914Z" creationid="Administrator" creationdate="20150326T141914Z">
+        <seg>这种检测器会查找已经过时的 Gradle 构造方法，这些方法在当前可能还能正常使用，但是很可能在以后的更新中就不能用了。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This document describes the most common changes to help you migrate to 1.0.0.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T165949Z" creationid="msdx" creationdate="20150113T165931Z">
@@ -13714,6 +14122,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150305T085738Z" creationid="Administrator" creationdate="20150305T085738Z">
         <seg>此功能正在积极开发中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This finds cases where you have accidentally forgotten to add a widget to all variations of the layout, which could result in a runtime crash for some resource configurations when a findViewById() fails.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T145034Z" creationid="Administrator" creationdate="20150326T144854Z">
+        <seg>这可以发现一些情况。比如你不小心忘记将一个部件添加到所有变体的布局中，这可能会导致对于一些资源配置，当某个findViewById() 失败会出现运行时崩溃。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14002,6 +14418,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T060442Z" creationid="msdx" creationdate="20141127T060442Z">
         <seg>这让你可以在代码库中查找一个具体的问题，比如： &lt;br4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This lint check looks for calls to the wrong method.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T135902Z" creationid="Administrator" creationdate="20150325T135902Z">
+        <seg>此 lint 检查会查找对错误的方法的调用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This lint check looks for cases where you have cut &amp; pasted calls to findViewById but have forgotten to update the R.id field.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T135233Z" creationid="Administrator" creationdate="20150326T135233Z">
+        <seg>此 lint 检查查找的问题为，例如你对调用findViewById的代码进行了剪切粘贴，但是却忘记了修改R.id.字段。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14422,6 +14854,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To input text you should be using &lt;EditText&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T135053Z" creationid="Administrator" creationdate="20150325T135053Z">
+        <seg>如果要输入文本，您应该使用 &lt;EditText&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To keep build files simple to read and understand, the goal is to let developers modify the build by tweak these objects through the DSL, rather than diving deep in the inputs and options of the tasks and changing them.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150102T051505Z" creationid="msdx" creationdate="20150102T051505Z">
@@ -14706,6 +15146,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150126T133216Z" creationid="Administrator" creationdate="20150126T133216Z">
         <seg>使用 Gradle 1.11 需要 Android Studio 0.5.0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using a &lt;TextView&gt; to input text is generally an error, you should be using &lt;EditText&gt; instead.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T133303Z" creationid="Administrator" creationdate="20150325T133303Z">
+        <seg>通常使用 &lt;TextView&gt; 来输入文本都是错的，您应该使用 &lt;EditText&gt; 代替。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14998,6 +15446,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When computing a version name, it's tempting to for example call the method to do that getVersionName.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T144424Z" creationid="Administrator" creationdate="20150326T144424Z">
+        <seg>当计算一个版本名称，你很可能会比如把计算版本名称写在一个叫getVersionName的方法里，并且去调用它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When conflicts arise between elements to be merged, some markers must be explicitly added to guide the Manifest Merger.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150106T161025Z" creationid="msdx" creationdate="20150106T160943Z">
@@ -15050,6 +15506,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T142438Z" creationid="msdx" creationdate="20150111T142438Z">
         <seg>当项目导入已完成时，它会打开一个名字为“import-summary.txt”的文件，里面列出了在导入的过程中采取的所有步骤，并且有下一步的建议。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When using the appcompat library, there are some methods you should be calling instead of the normal ones; for example, getSupportActionBar() instead of getActionBar().</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T135718Z" creationid="Administrator" creationdate="20150325T135718Z">
+        <seg>当使用 appcompat 库时，里面有一些你应该会调用的方法，会用来代替正常的那些方法；例如，用 getSupportActionBar() 代替 getActionBar()。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15246,6 +15710,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can define a resource multiple times in different resource folders; that's how string translations are done, for example.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T140955Z" creationid="Administrator" creationdate="20150326T140955Z">
+        <seg>您可以在不同的资源文件夹里对一个资源定义多次；举个例子，string 翻译就是这么来做的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can do that by editing the file &lt;c0&gt;gradle/wrapper/gradle-wrapper.properties&lt;/c0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T170701Z" creationid="msdx" creationdate="20150113T170701Z">
@@ -15354,6 +15826,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T150324Z" creationid="msdx" creationdate="20141125T150324Z">
         <seg>此时你必须手动编辑您的设计时属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You must call getResources().getColor(resource) to resolve the actual color value first.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T132640Z" creationid="Administrator" creationdate="20150325T132640Z">
+        <seg>您必须首先调用 getResources().getColor(resource) 来解析这个实际的颜色值。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21698,6 +22178,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150106T161052Z" creationid="msdx" creationdate="20150106T161052Z">
         <seg>在节点级别，应使用 tools:node 属性，在属性级别，应使用 tools:attr 属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg> EditText is a subclass of TextView, and some of the editing support is provided by TextView, so it's possible to set some input-related properties on a TextView.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T133410Z" creationid="Administrator" creationdate="20150325T133410Z">
+        <seg>EditText 是 TextView 的一个子类，并且一些编辑支持是由 TextView 提供的，所以可以在 TextView 上设置一些与输入相关的属性。</seg>
       </tuv>
     </tu>
     <tu>
