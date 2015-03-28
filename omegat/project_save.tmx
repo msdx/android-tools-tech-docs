@@ -6,6 +6,14 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="EN-US">
+        <seg>"Note that Java uses several deprecated two-letter codes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150328T084128Z" creationid="Administrator" creationdate="20150328T084128Z">
+        <seg>"注意， Java 使用了几个已弃用的双字母代码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#1 allows directly building a single variant.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141228T125036Z" creationid="msdx" creationdate="20141228T124808Z">
@@ -5118,6 +5126,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Because of this, if you add your localized resources in for example values-he they will not be used, since the system will look for values-iw instead.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150328T084938Z" creationid="Administrator" creationdate="20150328T084653Z">
+        <seg>正因为如此，如果比如你添加了本地化资源到 values-he 文件夹，它们都不会被使用，因为系统查找的是 values-iw 文件夹。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Before ADT 14, all fields were final, so as a result, all libraries had to have all their resources and associated Java code recompiled along with the main project whenever they were used.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T012333Z" creationid="msdx" creationdate="20141126T012151Z">
@@ -7558,6 +7574,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>From the java.util.Locale documentation:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150328T084105Z" creationid="Administrator" creationdate="20150328T084105Z">
+        <seg>根据 java.util.Locale 的注释文档：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>From the layout editor warning summary, click the Fix button to fix.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T143835Z" creationid="msdx" creationdate="20141127T143835Z">
@@ -9766,6 +9790,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Most Android views have attributes in the Android namespace.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150328T085330Z" creationid="Administrator" creationdate="20150328T085330Z">
+        <seg>大多数的 Android 视图都有 Android 的命名空间中的属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Most attributes with default values will be ignored by the manifest merger if a lower priority attribute defines a value; it will be merged since there is no conflict between a default value and an attribute set to any value.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150105T144554Z" creationid="msdx" creationdate="20150105T144303Z">
@@ -11790,6 +11822,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Similarly, in manifest files, nearly all attributes should be in the android: namespace.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150328T085712Z" creationid="Administrator" creationdate="20150328T085712Z">
+        <seg>同样，在清单文件中，几乎所有的属性应为在 android: 命名空间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Similarly, test APK building tasks and install/uninstall tasks are per variant:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150101T122351Z" creationid="msdx" creationdate="20150101T122155Z">
@@ -12014,6 +12054,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Summary: Calling new methods on older versions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150328T090008Z" creationid="Administrator" creationdate="20150328T090008Z">
+        <seg>摘要： 在较低的版本上调用较高版本的方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Summary: Checks that AdapterViews do not define their children in XML</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141128T124647Z" creationid="msdx" creationdate="20141128T124647Z">
@@ -12206,6 +12254,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Summary: Missing Android XML namespace</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150328T085300Z" creationid="Administrator" creationdate="20150328T085300Z">
+        <seg>摘要： 缺少 Android 的 XML 命名空间</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Summary: Missing Super Call</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150323T155007Z" creationid="Administrator" creationdate="20150323T155007Z">
@@ -12242,6 +12298,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T135007Z" creationid="Administrator" creationdate="20150324T135007Z">
         <seg>摘要：拼写错误的命名空间声明</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Summary: Multiple &lt;uses-sdk&gt; elements in the manifest</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150328T085724Z" creationid="Administrator" creationdate="20150328T085724Z">
+        <seg>摘要： 在清单中出现了多个 &lt;uses-sdk&gt; 元素</seg>
       </tuv>
     </tu>
     <tu>
@@ -12694,6 +12758,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;uses-sdk&gt; element should appear just once; the tools will not merge the contents of all the elements so if you split up the attributes across multiple elements, only one of them will take effect.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150328T085907Z" creationid="Administrator" creationdate="20150328T085907Z">
+        <seg>&lt;uses-sdk&gt; 元素应该只出现一次；tools 不会合并所有的元素内容，所以如果你把属性拆分为多个元素，只有其中之一才会生效。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The @+id/ syntax refers to an existing id, or creates a new one if it has not already been defined elsewhere.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T150334Z" creationid="Administrator" creationdate="20150324T150334Z">
@@ -12794,6 +12866,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150114T012041Z" creationid="msdx" creationdate="20150114T012041Z">
         <seg>在早些时候，Gradle 插件并不强制这个约束条件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Hebrew ("he") language code is rewritten as "iw", Indonesian ("id") as "in", and Yiddish ("yi") as "ji".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150328T085234Z" creationid="Administrator" creationdate="20150328T084332Z">
+        <seg>希伯来语（“he”）语言代码被改写为“iw”，印尼语（“id”）被改写为“in”，以及意第绪语（“yi”）被改写为“ji”。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14734,6 +14814,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This rewriting happens even if you construct your own Locale object, not just for instances returned by the various lookup methods.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150328T084516Z" creationid="Administrator" creationdate="20150328T084516Z">
+        <seg>不只是由各种查找方法返回的实例，即使你构建你自己的 Locale 对象，此重写也会发生。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This should be applied to the root project, ie in &lt;i0&gt;build.gradle&lt;/i0&gt; next to &lt;i1&gt;settings.gradle&lt;/i1&gt;&lt;br2&gt;&lt;br3&gt;Then from the root folder, the following command line will run all the tests and aggregate the reports:&lt;br4&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141217T151350Z" creationid="msdx" creationdate="20141217T150257Z">
@@ -14990,6 +15078,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To fix this, just merge all the attributes from the various elements into a single &lt;uses-sdk&gt; element.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150328T085933Z" creationid="Administrator" creationdate="20150328T085933Z">
+        <seg>要解决此问题，只需要将各元素的所有属性都合并到单个 &lt;uses-sdk&gt; 元素中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To generate an HTML report, just add &lt;c0&gt;--html &lt;i1&gt;filename&lt;/i1&gt;&lt;/c0&gt; as an argument:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T074438Z" creationid="msdx" creationdate="20141127T074345Z">
@@ -15106,6 +15202,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T132845Z" creationid="Administrator" creationdate="20150324T132845Z">
         <seg>若要解决此问题，需要通过 &lt;item type="id" name="..."/&gt; 显式声明此 id。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To work around this, place your resources in a values folder using the deprecated language code instead.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150328T084910Z" creationid="Administrator" creationdate="20150328T084910Z">
+        <seg>要想解决此问题，你要把你的资源放在一个使用了弃用的语言代码的values 文件夹中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15626,6 +15730,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150105T145545Z" creationid="msdx" creationdate="20150105T145150Z">
         <seg>当导入一个target SDK 版本比项目低的库时，它可能需要显式声明地授予权限 （可能还需要进行其他更改），以使得类库在以后运行时能正常运行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When referencing these attributes you must include the namespace prefix, or your attribute will be interpreted by aapt as just a custom attribute.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150328T085503Z" creationid="Administrator" creationdate="20150328T085503Z">
+        <seg>当引用这些属性时你必须包含命名空间前缀，否则您的属性将会被 aapt 当成只是一个自定义的属性。</seg>
       </tuv>
     </tu>
     <tu>
