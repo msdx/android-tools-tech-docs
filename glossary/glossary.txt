@@ -45,3 +45,5 @@ deliberately	故意地	故意地；深思熟虑地
 instantiatable	可实例化的
 guarantee	保证	保证，担保
 interpreted	理解	解释；理解；作解释；作口译
+gradually	逐渐地
+corresponding	对应的	相当的；对应的
