@@ -41,3 +41,6 @@ relied	信赖	信赖，依赖
 relied upon	可靠
 distinguish	区分	区分，辨别
 Inconsistent	不一致的
+deliberately	故意地	故意地；深思熟虑地
+instantiatable	可实例化的
+guarantee	保证	保证，担保

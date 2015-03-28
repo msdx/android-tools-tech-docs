@@ -4206,6 +4206,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Activities, services, broadcast receivers etc. registered in the manifest file must be "instantiatable" by the system, which means that the class must be public, it must have an empty public constructor, and if it's an inner class, it must be a static inner class.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150328T053648Z" creationid="Administrator" creationdate="20150328T053648Z">
+        <seg>在清单文件中注册的活动（activity），服务（service），广播接收器（broadcast receiver）都必须是可以由系统来实例化的，这意味着注册的类必须是public的，且有一个public的无参构造方法，并且如果它是一个内部类的话，它必须是静态的内部类。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>AdapterViewChildren</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141128T124552Z" creationid="msdx" creationdate="20141128T124552Z">
@@ -4546,6 +4554,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150102T040727Z" creationid="msdx" creationdate="20150102T040727Z">
         <seg>总是不为null，但可以是空集合。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An id definition must be of the form @+id/yourname.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150328T054101Z" creationid="Administrator" creationdate="20150328T053723Z">
+        <seg>一个id 的定义必须是 @+id/你的名字 的形式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7950,6 +7966,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, if you add other projects to your libs/ folder, there is no guarantee that those .jar files were built with an Android specific classpath, and in particular, they could be accessing unsupported APIs such as java.applet.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150328T055253Z" creationid="Administrator" creationdate="20150328T055253Z">
+        <seg>然而，如果您将其他项目添加到您的 libs/ 文件夹，就无法保证那些.jar 文件均通过 Android 的指定类路径来构建，尤其是它们可以是访问不受支持的 API，如 java.applet。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>However, if you want to share code that accesses Android APIs or uses Android-style resources, these libraries cannot be regular Java project, they have to be Android Library Projects.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141214T133418Z" creationid="msdx" creationdate="20141214T133210Z">
@@ -8206,10 +8230,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you really want to have different "scopes" for your id's, use prefixes instead, such as login_button1 and login_button2.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150328T054209Z" creationid="Administrator" creationdate="20150328T054209Z">
+        <seg>如果你真的让你的id 有不同的“范围”，你可以使用前缀来代替，例如 login_button1 和 login_button2 等。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you really want to use the current locale, call String#toUpperCase(Locale.getDefault()) instead.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T140621Z" creationid="Administrator" creationdate="20150326T140621Z">
         <seg>如果你真的想要使用当前的区域设置，则是调用 String#toUpperCase(Locale.getDefault())。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you really want to use this API and don't need to support older devices just set the minSdkVersion in your build.gradle or AndroidManifest.xml files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150328T051322Z" creationid="Administrator" creationdate="20150328T051322Z">
+        <seg>如果你真的想要使用这个 API，而不需要支持较老的设备，只需要在的 build.gradle 或 AndroidManifest.xml 文件中设置 minSdkVersion。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8298,6 +8338,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T032539Z" creationid="msdx" creationdate="20141127T032539Z">
         <seg>如果你对编写自定义的lint 检查有兴趣，可以参阅&lt;a0&gt;编写新的 Lint 检查&lt;/a0&gt;和&lt;a1&gt;编写自定义 Lint 规则&lt;/a1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If your code is deliberately accessing newer APIs, and you have ensured (e.g. with conditional execution) that this code will only ever be called on a supported platform, then you can annotate your class or method with the @TargetApi annotation specifying the local minimum SDK to apply, such as @TargetApi(11), such that this check considers 11 rather than your manifest file's minimum SDK as the required API level.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150328T051843Z" creationid="Administrator" creationdate="20150328T051458Z">
+        <seg>如果您的代码是有意访问较新的 Api，并且您已确保 （比如，使用条件执行）永远只会在支持的平台上调用此代码，那么你可以对你的类或方法添加 @TargetApi 注解，来指定适用于本地最低 SDK 版本，例如 @TargetApi(11)，这样此检查就会认为所需要的 API 级别是 11，而不是你的清单文件里的最小 SDK 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8566,6 +8614,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In some cases that's fine, and in other cases it can result in a runtime crash or incorrect behavior.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150328T051005Z" creationid="Administrator" creationdate="20150328T051005Z">
+        <seg>在某些情况下，这并没有什么影响。但是在其他的情况下，它可以导致运行时崩溃，或者是不正确的行为。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In that case, the two are obviously not decoupled, and attempting to refactor your code can accidentally change the id of your application as well!</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141202T141542Z" creationid="msdx" creationdate="20141202T141439Z">
@@ -8826,6 +8882,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T074143Z" creationid="msdx" creationdate="20141127T074143Z">
         <seg>它可以包含关联到该源代码文件的链接</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It depends on the context, so consider the code carefully and device whether it's safe and can be suppressed or whether the code needs tbe guarded.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150328T051504Z" creationid="Administrator" creationdate="20150328T051252Z">
+        <seg>它依赖于上下文，所以要仔细考虑代码和设备的情况，考虑这个警告是安全的可以被抑制（suppressed），还是需要谨慎地使用此代码。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11966,6 +12030,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Summary: Custom views in libraries should use res-auto-namespace</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150328T060031Z" creationid="Administrator" creationdate="20150328T055855Z">
+        <seg>摘要： 类库里的自定义视图 应该使用res-auto的命名空间</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Summary: Cycle in resource definitions</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T144638Z" creationid="Administrator" creationdate="20150324T144638Z">
@@ -12078,6 +12150,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Summary: Invalid ID declaration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150328T053728Z" creationid="Administrator" creationdate="20150328T053656Z">
+        <seg>摘要： 无效的 ID 定义</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Summary: Likely cut &amp; paste mistakes</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T135041Z" creationid="Administrator" creationdate="20150326T135041Z">
@@ -12182,6 +12262,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Summary: Package not included in Android</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150328T054242Z" creationid="Administrator" creationdate="20150328T054242Z">
+        <seg>摘要： 使用的包不被包含在 Android 系统中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Summary: Potential AAPT crash</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T132556Z" creationid="Administrator" creationdate="20150324T132556Z">
@@ -12194,6 +12282,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T150154Z" creationid="Administrator" creationdate="20150324T150154Z">
         <seg>摘要： 引用一个未知的 id</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Summary: Registered class is not instantiatable</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150328T053138Z" creationid="Administrator" creationdate="20150328T053138Z">
+        <seg>摘要： 注册的类不是可实例化的</seg>
       </tuv>
     </tu>
     <tu>
@@ -12290,6 +12386,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T135310Z" creationid="Administrator" creationdate="20150325T135310Z">
         <seg>摘要： WebViews 的父控件为 wrap_content</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Summary: Wrong locale name</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150328T060346Z" creationid="Administrator" creationdate="20150328T060346Z">
+        <seg>摘要： 错误的区域名称</seg>
       </tuv>
     </tu>
     <tu>
@@ -13454,6 +13558,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The tools have not rejected strings of the form @+foo/bar in the past, but that was an error, and could lead to tricky errors because of the way the id integers are assigned.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150328T054126Z" creationid="Administrator" creationdate="20150328T054046Z">
+        <seg>这些工具在以前不会排斥 @+foo/bar 的这种字符串的形式，但那是错的，并可能导致棘手的错误，因为分配给id的是整数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The tools namespace is a specially recognized namespace by the Android tools, so all the attributes you define on view elements in the tools-namespace will be automatically stripped when the application is packaged and there is no runtime overhead.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T133353Z" creationid="msdx" creationdate="20141125T130229Z">
@@ -13750,6 +13862,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>These will actually be copied into the class files rather than being referenced, which means that the value is available even when running on older devices.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150328T050913Z" creationid="Administrator" creationdate="20150328T050913Z">
+        <seg>这些常量实际上会被复制到类文件中，而不是被引用。这意味着即使运行在较早的设置中，这些值也是有效的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>They are anchor tasks for the plugins to add actual tasks that do the work.&lt;/s6&gt;&lt;br7&gt;&lt;br8&gt;This allows you to always call the same task(s) no matter what the type of project is, or what plugins are applied.&lt;br9&gt;For instance, applying the &lt;i10&gt;findbugs&lt;/i10&gt; plugin will create a new task and make &lt;b11&gt;check&lt;/b11&gt; depend on it, making it be called whenever the &lt;b12&gt;check&lt;/b12&gt; task is called.&lt;br13&gt;&lt;br14&gt;From the command line you can get the high level task running the following command:&lt;br15&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141208T063346Z" creationid="msdx" creationdate="20141207T060053Z">
@@ -14030,6 +14150,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This check scans through all the Android API field references in the application and flags certain constants, such as static final integers and Strings, which were introduced in later versions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150328T050832Z" creationid="Administrator" creationdate="20150328T050832Z">
+        <seg>这项检查通过在应用程序中的所有 Android API 字段引用进行扫描，并标志一些常数，例如在以后版本引进的static final的integer和String类型的常量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This check scans through libraries looking for calls to APIs that are not included in Android.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150328T054625Z" creationid="Administrator" creationdate="20150328T054625Z">
+        <seg>这项检查会扫描类库，以查找对未被包含在 Android 里的 API 的调用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This check scans through library jars and looks for references to API packages that are not included in Android and flags these.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150328T055417Z" creationid="Administrator" creationdate="20150328T055417Z">
+        <seg>这项检查会扫描类库里的jar包，查找对不被包含在 Android 系统里的API 包的引用，并标记它们</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This comment marker can be used to indicate that the code should not be shipped until the issue is addressed, and lint will look for these.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150323T154930Z" creationid="Administrator" creationdate="20150323T154930Z">
@@ -14266,6 +14410,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141217T131519Z" creationid="msdx" creationdate="20141216T151455Z">
         <seg>这是manifest 自动生成的原因之一。&lt;br4&gt;&lt;br5&gt;此外，&lt;i6&gt;sourceSet&lt;/i6&gt;可以配置自己的依赖。&lt;br7&gt;默认情况下，应用程序和它自己的依赖都会被添加到测试应用程序的classpath中，但是也可以通过以下来扩展&lt;br8&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is only an error if your code calls one of the library classes which wind up referencing the unsupported package.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150328T055847Z" creationid="Administrator" creationdate="20150328T055847Z">
+        <seg>如果你的代码调用了这里面某一个库里的类，而它最后引用了不支持的包，那么就只有出错。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14650,6 +14802,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150105T152651Z" creationid="msdx" creationdate="20150105T145649Z">
         <seg>这将由清单合并工具自动进行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This will be used to automatically adjust the namespace of the attributes when the library resources are merged into the application project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150328T060327Z" creationid="Administrator" creationdate="20150328T060327Z">
+        <seg>这将用于在该类库的资源被合并到应用项目中时，属性的命名空间能够自动调整。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15510,6 +15670,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When using a custom view with custom attributes in a library project, the layout must use the special namespace http://schemas.android.com/apk/res-auto instead of a URI which includes the library project's own package.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150328T060130Z" creationid="Administrator" creationdate="20150328T060025Z">
+        <seg>当在一个库项目中使用一个带有自定义属性的自定义视图时，布局必须使用一个指定的命名空间 http://schemas.android.com/apk/res-auto，而不是包含了这个类库项目自己的包名的一个 URI。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When using the appcompat library, there are some methods you should be calling instead of the normal ones; for example, getSupportActionBar() instead of getActionBar().</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T135718Z" creationid="Administrator" creationdate="20150325T135718Z">
@@ -15522,6 +15690,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T142839Z" creationid="msdx" creationdate="20150111T142839Z">
         <seg>当你完成后时，您可以将 build.gradle 文件导入到 Android Studio中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When you create Android projects, the classpath is set up such that you can only access classes in the API packages that are included in Android.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150328T054847Z" creationid="Administrator" creationdate="20150328T054847Z">
+        <seg>当您创建 Android 项目时，classpath 被设置为你只能在Android 系统所包含的 API 包里访问的类。</seg>
       </tuv>
     </tu>
     <tu>
