@@ -47,3 +47,5 @@ guarantee	保证	保证，担保
 interpreted	理解	解释；理解；作解释；作口译
 gradually	逐渐地
 corresponding	对应的	相当的；对应的
+run into	碰上	偶然碰见；巧遇；碰上
+Constraint	约束	n.

@@ -8486,6 +8486,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you are deliberately setting android: attributes in style definitions, make sure you place this in a values-vNN folder in order to avoid running into runtime conflicts on certain devices where manufacturers have added custom attributes whose ids conflict with the new ones on later platforms.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150401T151542Z" creationid="Administrator" creationdate="20150401T151542Z">
+        <seg>如果你有意在style定义中故意设置android:属性，确保你把它放在了values-vXX 的文件夹中，以避免对于某些设备，由于生产商已经添加了他们自己的自定义属性，但是属性的id与后面的平台有冲突时，碰上运行冲突。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you are trying to load a project that was built with an older version of the Gradle plugin, it may not build correctly with 1.0.0.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150113T165915Z" creationid="msdx" creationdate="20150113T165915Z">
@@ -9466,6 +9474,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T024407Z" creationid="msdx" creationdate="20141125T024407Z">
         <seg>已知问题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Layout constraints in a given RelativeLayout should reference other views within the same relative layout.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150401T152047Z" creationid="Administrator" creationdate="20150401T152047Z">
+        <seg>在给定的相对布局里的布局约束，应引用其他视图内相同的相对布局。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12198,6 +12214,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Similarly, you can use tools:targetApi="11" in an XML file to indicate that the element will only be inflated in an adequate context.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150401T151717Z" creationid="Administrator" creationdate="20150401T151717Z">
+        <seg>同样，您可以在 XML 文件里使用 tools:targetApi="11" ，以指示元素在适当的上下文中时，才会被 inflated。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Similarly, you may also build both "debug" and "alpha" and "beta" versions of your app (using build types) and these can also similarly contribute to unique package names.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141202T133447Z" creationid="msdx" creationdate="20141202T133300Z">
@@ -12710,6 +12734,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Summary: RelativeLayout Invalid Constraints</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150401T151758Z" creationid="Administrator" creationdate="20150401T151758Z">
+        <seg>摘要： 相对布局的无效约束</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Summary: Resource file in the wrong res folder</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T150816Z" creationid="Administrator" creationdate="20150324T150816Z">
@@ -12754,6 +12786,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T134037Z" creationid="Administrator" creationdate="20150324T145528Z">
         <seg>摘要： 字符串的内容应该是整型的值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Summary: Target SDK attribute is not targeting latest version</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150401T152115Z" creationid="Administrator" creationdate="20150401T152115Z">
+        <seg>摘要： 目标 SDK 属性不是最新的版本</seg>
       </tuv>
     </tu>
     <tu>
@@ -14658,6 +14698,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T063649Z" creationid="Administrator" creationdate="20150325T063649Z">
         <seg>这个检查可以查找这一方面的问题，比如试图把一个布局"别名"放到layout/ 文件夹中，而不是把它放在它所属的 values/ 文件夹中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This check scans through all the Android API calls in the application and warns about any calls that are not available on all versions targeted by this application (according to its minimum SDK attribute in the manifest).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150401T150547Z" creationid="Administrator" creationdate="20150401T150547Z">
+        <seg>这项检查通过扫描应用程序里所有的 Android API 调用，并对任何不适用于这个程序所针对的所有版本的调用（根据在清单文件里的最低SDK属性）进行警告。</seg>
       </tuv>
     </tu>
     <tu>
