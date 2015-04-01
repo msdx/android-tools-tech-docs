@@ -5352,8 +5352,8 @@
       <tuv lang="EN-US">
         <seg>Build Overview</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141125T024433Z" creationid="msdx" creationdate="20141125T024433Z">
-        <seg>构建概况</seg>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150330T011336Z" creationid="msdx" creationdate="20141125T024433Z">
+        <seg>构建概述</seg>
       </tuv>
     </tu>
     <tu>
@@ -5728,8 +5728,8 @@
       <tuv lang="EN-US">
         <seg>Coming soon.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150328T110143Z" creationid="Administrator" creationdate="20150328T110143Z">
-        <seg>新的指令即将推出。</seg>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150330T011755Z" creationid="Administrator" creationdate="20150328T110143Z">
+        <seg>新的说明即将推出。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14352,8 +14352,8 @@
       <tuv lang="EN-US">
         <seg>These instructions are currently obsolete.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150328T110123Z" creationid="Administrator" creationdate="20150328T110123Z">
-        <seg>这些说明目前已经过时了。</seg>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150330T011937Z" creationid="Administrator" creationdate="20150328T110123Z">
+        <seg>这些操作指南目前已经过时了。</seg>
       </tuv>
     </tu>
     <tu>
