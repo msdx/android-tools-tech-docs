@@ -5070,6 +5070,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>At some later point, a method of the same name and signature is added to Android.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150402T145427Z" creationid="Administrator" creationdate="20150402T145101Z">
+        <seg>在以后的某个时刻，一个有同样名字和参数列表的方法被添加到 Android 中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>At the node level, the default merging policy is to merge attributes and sub-elements as long as there is no conflict.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150106T135818Z" creationid="msdx" creationdate="20150106T135636Z">
@@ -7526,6 +7534,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, if the targetSdkVersion is less than 14, your app may get an option button in the UI.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150402T143933Z" creationid="Administrator" creationdate="20150402T143933Z">
+        <seg>比如，如果 targetSdkVersion 低于14， 你的程序可能会在UI中有一个选项按钮。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, in the Turkish locale, the uppercase replacement for i is not I.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150326T140450Z" creationid="Administrator" creationdate="20150326T140450Z">
@@ -9050,6 +9066,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141227T053851Z" creationid="msdx" creationdate="20141227T053851Z">
         <seg>在这种特殊的情况下，&lt;f0&gt;src/flavor1/AndroidManifest.xml&lt;/f0&gt;文件可能需要包含访问网络的权限。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In your subclass you add a new method called isDestroyed().</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150402T145020Z" creationid="Administrator" creationdate="20150402T145020Z">
+        <seg>在你的子类中，你添加了一个新的方法叫 isDestroyed()。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12598,6 +12622,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Summary: Method conflicts with new inherited method</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150402T144901Z" creationid="Administrator" creationdate="20150402T144901Z">
+        <seg>摘要： 方法与新的继承方法有冲突</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Summary: Method considered overridden by Dalvik</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T065448Z" creationid="Administrator" creationdate="20150325T064251Z">
@@ -12922,6 +12954,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150128T130708Z" creationid="Administrator" creationdate="20150128T130708Z">
         <seg>支持 Gradle 1.10，1.11，1.12。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Suppose you are building against Android API 8, and you've subclassed Activity.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150402T145003Z" creationid="Administrator" creationdate="20150402T145003Z">
+        <seg>假设你正在构建 Android API 8 的项目，并且你已经继承了一个Activity。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13350,10 +13390,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The above example is real, since isDestroyed() was added in API 17, but it will be true for any method you have added to a subclass of an Android class where your build target is lower than the version the method was introduced in.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150402T151158Z" creationid="Administrator" creationdate="20150402T151158Z">
+        <seg>上面的例子中是真实的，因为在 API 17 中添加了 isDestroyed()，但对于你已经添加进来的一个Android类的子类的任何方法，在比你添加时的构建目标更新的版本中，引入了同样名字和参数列表的方法的情况也同样存在。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The above projects generate jar files that are then referenced by their corresponding plugins.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150328T111735Z" creationid="Administrator" creationdate="20150328T111735Z">
         <seg>上述项目会生成jar文件，然后由它们相应的插件引用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The above scenario is what this lint detector looks for.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150402T145920Z" creationid="Administrator" creationdate="20150402T145920Z">
+        <seg>上面就是lint 检测器所查找的场景。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14158,6 +14214,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Then test your app to make sure everything works correctly.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150402T144024Z" creationid="Administrator" creationdate="20150402T144024Z">
+        <seg>然后测试你的应用程序，以确保一切都运行正常。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Then you can check out the source code using the following commands in a shell:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150328T103420Z" creationid="Administrator" creationdate="20150328T103420Z">
@@ -14818,6 +14882,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141203T013411Z" creationid="msdx" creationdate="20141203T013411Z">
         <seg>本文档是 Gradle 插件 0.9 版本的文档。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This ensures that your application continues to work, but it may look out of place.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150402T142505Z" creationid="Administrator" creationdate="20150402T142505Z">
+        <seg>这将确保你的程序可以继续运行，但它看起来可能会不大协调。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15630,6 +15702,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To fix this issue, set the targetSdkVersion to the highest available value.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150402T144009Z" creationid="Administrator" creationdate="20150402T144009Z">
+        <seg>如果要修复此问题，请将 targetSdkVersion 设置为最大的可用值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To fix this, create a new manifest file in the debug folder and move the</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T134359Z" creationid="Administrator" creationdate="20150324T134359Z">
@@ -15642,6 +15722,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T134849Z" creationid="Administrator" creationdate="20150324T134849Z">
         <seg>要解决此问题，需要在 debug 文件夹中创建一个新的清单文件，并把 &lt;uses-permission&gt; 元素移到此清单文件中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To fix this, either rename your method, or if you are really trying to augment the builtin method if available, switch to a higher build target where you can deliberately add @Override on your overriding method, and call super if appropriate etc.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150402T152912Z" creationid="Administrator" creationdate="20150402T152912Z">
+        <seg>要解决此问题，你可以重命名你的方法，或者如果你真的想在可能的情况下增加这个内置方法，切换到一个更高的构建目标，你可以故意在你的重写方法中添加 @Override ，并且如果适当的话调用super方法，等等。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16446,6 +16534,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When your application runs on a version of Android that is more recent than your targetSdkVersion specifies that it has been tested with, various compatibility modes kick in.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150402T140526Z" creationid="Administrator" creationdate="20150402T140526Z">
+        <seg>当你的应用程序所运行的Android设备，它的版本比你测试过的targetSdkVersion 版本还要新时，各种兼容性模式就会表现出来。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When&lt;/c16&gt;&lt;br17&gt;&lt;c18&gt;referencing these attributes you *must* include the namespace prefix,&lt;/c18&gt;&lt;br19&gt;&lt;c20&gt;or your attribute will be interpreted by aapt as just a custom&lt;/c20&gt;&lt;br21&gt;&lt;c22&gt;attribute.&lt;/c22&gt;&lt;br23&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T065345Z" creationid="msdx" creationdate="20141127T065345Z">
@@ -16742,6 +16838,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You may want to consult the compatibility notes to see what changes apply to each version you are adding support for:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150402T144838Z" creationid="Administrator" creationdate="20150402T144838Z">
+        <seg>你可能会想翻阅兼容性说明，以查看你所添加支持的每个版本中都有哪些改变：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You must call getResources().getColor(resource) to resolve the actual color value first.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T132640Z" creationid="Administrator" creationdate="20150325T132640Z">
@@ -16786,6 +16890,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150115T133524Z" creationid="msdx" creationdate="20150115T133524Z">
         <seg>YouTube 视频播放器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Your method is not calling super.isDestroyed(), since your compilation target doesn't know about the method.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150402T145752Z" creationid="Administrator" creationdate="20150402T145752Z">
+        <seg>您的方法不会调用 super.isDestroyed()，因为你的编译目标并不了解那个方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Your method will now override the Android method, and possibly break its contract.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150402T145702Z" creationid="Administrator" creationdate="20150402T145415Z">
+        <seg>现在你的方法将会覆盖那个 Android 方法，并可能打破它的协定。</seg>
       </tuv>
     </tu>
     <tu>
