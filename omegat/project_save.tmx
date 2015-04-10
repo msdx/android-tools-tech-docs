@@ -4582,6 +4582,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>All backslashes and colons in .property files must be escaped with a backslash (\).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150410T150357Z" creationid="Administrator" creationdate="20150410T150357Z">
+        <seg>在.property 文件中的所有反斜杠和冒号，都必须使用反斜杠 (\) 进行转义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>All markers belong to the Android tools namespace, therefore you must declare the namespace in any AndroidManifest.xml containing at least one marker :</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150106T160935Z" creationid="msdx" creationdate="20150106T160935Z">
@@ -8314,6 +8322,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141214T133418Z" creationid="msdx" creationdate="20141214T133210Z">
         <seg>但是，如果你想共享访问了 Andr​​oid API或使用了 Android-style的资源的代码，这些库项目就不能是普通的Java项目，而应该是 Andr​​oid Library 项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However, if your code is also targeting older versions of the platform where these methods were still abstract, the code will crash.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150410T150036Z" creationid="Administrator" creationdate="20150410T150036Z">
+        <seg>然而，如果你的代码也针对旧版本的平台，这些方法在旧平台中还是抽象的话，这些代码将会崩溃。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12590,6 +12606,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Summary: Incorrect property escapes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150410T150317Z" creationid="Administrator" creationdate="20150410T150317Z">
+        <seg>摘要： 不正确的属性的转义符</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Summary: Incorrect reference types</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150324T144210Z" creationid="Administrator" creationdate="20150324T144210Z">
@@ -12730,6 +12754,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T131503Z" creationid="Administrator" creationdate="20150325T131503Z">
         <seg>摘要： 嵌套滚动小部件（widget）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Summary: Not overriding abstract methods on older platforms</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150410T145322Z" creationid="Administrator" creationdate="20150410T145322Z">
+        <seg>摘要： 没有重写旧的平台的抽象方法</seg>
       </tuv>
     </tu>
     <tu>
@@ -15334,6 +15366,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This means that when compiling with new versions of the SDK, your code does not have to override these methods.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150410T145947Z" creationid="Administrator" creationdate="20150410T145947Z">
+        <seg>这意味着在使用新版本的SDK进行编译时，你的代码不需要重写这些方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This means that when writing a Windows path, you must escape the file separators, so the path \My\Files should be written as key=\\My\\Files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150410T150452Z" creationid="Administrator" creationdate="20150410T150452Z">
+        <seg>这意味着当编写一个 Windows 路径时，你必须使用转义后的文件分隔符，因此路径 \My\Files 应该写为 key=\\My\\Files。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This means that when you hover over the error it offers more help:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141128T063042Z" creationid="msdx" creationdate="20141128T063042Z">
@@ -15762,6 +15810,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150111T141120Z" creationid="msdx" creationdate="20150111T140817Z">
         <seg>要导入到Android Studio中，请选择 文件 &gt; 导入，然后选择包含您的Eclipse ADT项目的目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To improve the usability of some APIs, some methods that used to be abstract have been made concrete by adding default implementations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150410T145919Z" creationid="Administrator" creationdate="20150410T145919Z">
+        <seg>为了提高一些 API 的可用性，一些曾经是抽象的方法已经通过加入默认的实现让它具体化了。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16850,6 +16906,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150325T132640Z" creationid="Administrator" creationdate="20150325T132640Z">
         <seg>您必须首先调用 getResources().getColor(resource) 来解析这个实际的颜色值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You must override all methods that used to be abstract in any versions targeted by your application's minSdkVersion.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150410T150257Z" creationid="Administrator" creationdate="20150410T150257Z">
+        <seg>对于在你的应用的minSdkVersion所对应的任何版本中，所有曾经抽象的方法，你必须进行重写。</seg>
       </tuv>
     </tu>
     <tu>
